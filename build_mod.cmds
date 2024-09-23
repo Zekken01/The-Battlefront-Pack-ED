@@ -1,7 +1,7 @@
 "C:\Users\zekken\Desktop\ElDewrito 0.7 Official\maps\tags.dat"
 
 echo ==Set Variables...==
-setvariable workingdir "C:\Users\zekken\Desktop\The Battlefront Pack Source"
+setvariable workingdir "C:\Users\zekken\Desktop\The-Battlefront-Pack-ED"
 setvariable modsfolder "C:\Users\zekken\Desktop\ElDewrito 0.7 Official\mods"
 
 echo ==Set Caches...==
