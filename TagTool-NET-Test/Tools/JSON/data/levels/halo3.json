@@ -1,0 +1,199 @@
+{
+  "FileName": "halo3",
+  "FileType": "campaign",
+  "Blf": {
+    "Version": "HaloOnlineED",
+    "CachePlatform": "Original",
+    "Format": "BigEndian",
+    "ContentFlags": "StartOfFile, EndOfFile, Campaign",
+    "AuthenticationType": "RSA",
+    "StartOfFile": {
+      "Signature": "_blf",
+      "Length": 48,
+      "MajorVersion": 1,
+      "MinorVersion": 2,
+      "ByteOrderMarker": -2,
+      "InternalName": ""
+    },
+    "EndOfFileCRC": null,
+    "EndOfFileRSA": {
+      "Signature": "_eof",
+      "Length": 273,
+      "MajorVersion": 1,
+      "MinorVersion": 1,
+      "AuthenticationDataSize": 4936,
+      "AuthenticationType": "RSA",
+      "RSASignature": {
+        "Data": "5qTGlqPtBQNN5sSybpw53vlX1MyhPY7JuR1/5ifz00M5aP1tQVeO6YZl1gTZhLkCO7ZevH9rDjt/j8mii+z9ldzVWzz/Lo6/Yl92JRex0bpHK+YD9beeeIzcIHTHzwcjT4jlikjcj7bkGD4BMYu7xepdeKPNSmSj2vbiKOgUKQsVUcDcDSVT1QLj+XHvuz+0hS61XRqO4Xf6ybLgJ9hYFyOJbU9NvxxNN4W6k6ssz4cUjc5mgx1bIrd+ir138e3rxSCSrvXRve/RD8OFDrESr2gXTWnVt/0t6/Z+nqsliXcUlmK/kqzFYNd6Z9J6EVan3nN0Vca99AvPIetB+a05YA=="
+      }
+    },
+    "EndOfFileSHA1": null,
+    "EndOfFile": {
+      "Signature": "_eof",
+      "Length": 273,
+      "MajorVersion": 1,
+      "MinorVersion": 1,
+      "AuthenticationDataSize": 4936,
+      "AuthenticationType": "RSA"
+    },
+    "Author": null,
+    "Campaign": {
+      "Signature": "cmpn",
+      "Length": 4888,
+      "MajorVersion": 1,
+      "MinorVersion": 1,
+      "CampaignId": 1,
+      "TypeFlags": 0,
+      "Names": [
+        {
+          "Name": "Halo 3"
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        }
+      ],
+      "Descriptions": [
+        {
+          "Name": "Finish the Fight!"
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        },
+        {
+          "Name": ""
+        }
+      ],
+      "MapIds": [
+        3005,
+        3010,
+        3020,
+        3030,
+        3040,
+        3050,
+        3070,
+        3100,
+        3110,
+        3120,
+        3130,
+        4100,
+        4200,
+        6100,
+        6110,
+        6120,
+        6130,
+        6140,
+        6150,
+        5200,
+        5300,
+        5000,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Scenario": null,
+    "ModReference": null,
+    "MapVariantTagNames": null,
+    "MapVariant": null,
+    "GameVariant": null,
+    "ContentHeader": null,
+    "MapImage": null,
+    "Buffer": null
+  }
+}

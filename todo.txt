@@ -1,0 +1,46 @@
+```
+Crashes on non battlefront maps
+
+Rocket Launcher has crazy drop on the projectile on some maps (on scarif)
+
+Original animated battlefront loading screens???? apng
+
+Podium Camera for all maps
+
+Dual weild strings for object\weapons\dc-17\dc-17.weapon
+
+Air Speeder has flasing reload animation (Go through all vehicles and remove)
+https://s.zekken.rocks/jG4YPtBu.jpg
+
+Infantry turret (passenger) on the T-47 air speeder shows weapon icon on HUD
+https://s.zekken.rocks/TR9tDOg0.jpg
+
+Elites cant use the turret on geonosis
+object\vehicles\geo_turret\geo_turret.vehicle
+https://s.zekken.rocks/2CWZnPFT.jpg
+
+DC-15x Sniper hid icon is broken
+
+Forge Pallet (Including brute plasma rifle)
+
+Star Wars Announcer Sounds (For more modes?)
+
+Add Ambient Music
+
+Fix Change Weapon Animation
+https://s.zekken.rocks/52gHEpdX.jpg
+
+Clone Customization (TwistedFlog is on it)
+
+Weapon String (z) to (e)
+
+Light Sabers Mod
+
+Effects on crashed pelican don't render unless really close
+https://s.zekken.rocks/RnS0Ry1g.jpg Smoke
+https://s.zekken.rocks/6R1leDoA.jpg Smoke
+https://s.zekken.rocks/4ThMCdiF.jpg Fire
+
+
+
+```

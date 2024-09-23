@@ -1,0 +1,96 @@
+edittag object\scenery\command_post\command_post.model_animation_graph
+addanimation "workingdir\anims\command_post\any idle.jma"
+setfield Animations[1].AnimationData.AnimationType Overlay
+setfield Animations[1].AnimationData.FrameInfoType None
+addblockelements ObjectOverlays
+setfield ObjectOverlays[0].GraphIndex -1
+setfield ObjectOverlays[0].Animation 1
+setfield ObjectOverlays[0].Function one
+savetagchanges
+exit
+
+duplicatetag object\scenery\command_post\command_post.render_model object\scenery\command_post\command_post_base
+edittag object\scenery\command_post\command_post_base.render_model
+setfield Materials[0].RenderMethod objects\multi\shaders\invisible.shader
+savetagchanges
+exit
+
+duplicatetag ms30\objects\eldewrito\reforge\shaders\glass.shader_halogram object\scenery\command_post\command_post_hologram
+edittag object\scenery\command_post\command_post_hologram.shader_halogram
+setargument self_illum_intensity 10
+savetagchanges
+exit
+
+nametag object\scenery\command_post\command_post.render_model object\scenery\command_post\command_post_hologram
+edittag object\scenery\command_post\command_post_hologram.render_model
+setfield Materials[0].RenderMethod object\scenery\command_post\command_post_hologram.shader_halogram
+setfield Materials[1].RenderMethod objects\multi\shaders\invisible.shader
+savetagchanges
+exit
+
+edittag object\scenery\command_post\command_post.physics_model
+setfield RigidBodies[0].MotionType Keyframed
+savetagchanges
+exit
+
+duplicatetag object\scenery\command_post\command_post.model object\scenery\command_post\command_post_base
+edittag object\scenery\command_post\command_post_base.model 
+setfield RenderModel object\scenery\command_post\command_post_base.render_model
+setfield Animation null
+savetagchanges
+exit
+
+nametag object\scenery\command_post\command_post.model object\scenery\command_post\command_post_hologram
+
+createtag effe effects\eldewrito\forge\misc\keep_object_active
+edittag effects\eldewrito\forge\misc\keep_object_active.effect
+SetField Flags 262656
+SetField LoopStartEvent -1
+AddBlockElements Locations 1
+SetField Locations[0].MarkerName root
+AddBlockElements Events 1
+SetField Events[0].DurationBounds 100000 100000
+AddBlockElements Events[0].Accelerations 1
+SetField BindScaleToEvent -1
+savetagchanges
+exit
+
+edittag objects\weapons\multiplayer\flag\flag.weapon
+setfield Model object\scenery\command_post\command_post_hologram.model
+addblockelements Attachments 1
+setfield Attachments[0].Type effects\eldewrito\forge\misc\keep_object_active.effect
+setfield Attachments[0].Marker spawn
+removeblockelements Widgets 0 *
+savetagchanges
+exit
+
+edittag objects\multi\territories\territory_static.crate
+setfield Model object\scenery\command_post\command_post_base.model
+savetagchanges
+exit 
+
+duplicatetag object\scenery\command_post\command_post_base.render_model object\scenery\command_post\command_post_base_invis
+edittag object\scenery\command_post\command_post_base_invis.render_model
+setfield Materials[1].RenderMethod objects\multi\shaders\invisible.shader
+savetagchanges
+exit
+
+duplicatetag object\scenery\command_post\command_post_base.model object\scenery\command_post\command_post_invis
+edittag object\scenery\command_post\command_post_invis.model
+setfield RenderModel object\scenery\command_post\command_post_base_invis.render_model
+savetagchanges
+exit
+
+duplicatetag objects\multi\territories\territory_static.crate objects\multi\territories\territory_static_invis
+edittag objects\multi\territories\territory_static_invis.crate
+setfield Model object\scenery\command_post\command_post_invis.model
+savetagchanges
+exit 
+
+edittag multiplayer\forge_globals.forge_globals_definition
+copyblockelements Palette 333 1
+pasteblockelements Palette
+setfield Palette[*].Name "TERRITORY MARKER INVISIBLE"
+setfield Palette[*].Object objects\multi\territories\territory_static_invis.crate
+savetagchanges
+exit

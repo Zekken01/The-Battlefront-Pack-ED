@@ -1,0 +1,16 @@
+{
+  "TagName": "ui\\halox\\dialog\\strings",
+  "TagType": "multilingual_unicode_string_list",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": [
+    {
+      "StringIdName": "confirm_boot_betrayer",
+      "StringIdContent": "This will remove the player from the game. Are you sure you wish to do this?"
+    }
+  ],
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

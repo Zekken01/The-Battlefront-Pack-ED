@@ -1,0 +1,36 @@
+{
+  "TagName": "ui\\halox\\pregame_lobby\\selection\\strings",
+  "TagType": "multilingual_unicode_string_list",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": [
+    {
+      "StringIdName": "network_mode_offline",
+      "StringIdContent": "Offline"
+    },
+    {
+      "StringIdName": "network_mode_offline_description",
+      "StringIdContent": "Play only on this PC."
+    },
+    {
+      "StringIdName": "network_mode_system_link",
+      "StringIdContent": "Online"
+    },
+    {
+      "StringIdName": "network_mode_system_link_advertise_description",
+      "StringIdContent": "Host a INTERNET/LAN game. This can be joined from the Server Browser or the Local Games menu."
+    },
+    {
+      "StringIdName": "network_mode_system_link_browse_description",
+      "StringIdContent": "Find games that are being hosted on your local area network or VPN."
+    },
+    {
+      "StringIdName": "network_mode_system_link_description",
+      "StringIdContent": "Play with others over your local area network or VPN."
+    }
+  ],
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

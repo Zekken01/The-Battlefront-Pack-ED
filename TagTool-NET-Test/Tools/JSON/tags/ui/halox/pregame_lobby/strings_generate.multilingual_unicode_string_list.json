@@ -1,0 +1,104 @@
+{
+  "TagName": "ui\\halox\\pregame_lobby\\strings",
+  "TagType": "multilingual_unicode_string_list",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": [
+    {
+      "StringIdName": "advanced_options",
+      "StringIdContent": "\\UE102 Edit Game Options"
+    },
+    {
+      "StringIdName": "campaign_difficulty",
+      "StringIdContent": "<lobby-campaign-level/> on <lobby-campaign-difficulty/>"
+    },
+    {
+      "StringIdName": "game_setup",
+      "StringIdContent": "GAME SETUP"
+    },
+    {
+      "StringIdName": "header_survival",
+      "StringIdContent": "FIREFIGHT LOBBY"
+    },
+    {
+      "StringIdName": "mapeditor_map_name",
+      "StringIdContent": "Edit Objects on <lobby-mapeditor-map/>"
+    },
+    {
+      "StringIdName": "metagame_off_description",
+      "StringIdContent": "Scoring Off"
+    },
+    {
+      "StringIdName": "metagame_on_description",
+      "StringIdContent": "Free for All Scoring"
+    },
+    {
+      "StringIdName": "metagame_on_group_description",
+      "StringIdContent": "Team Scoring"
+    },
+    {
+      "StringIdName": "metagame_scoring",
+      "StringIdContent": "SCORING: <metagame-scoring/>"
+    },
+    {
+      "StringIdName": "multiplayer_game_name",
+      "StringIdContent": "<lobby-multiplayer-game/> on <lobby-multiplayer-map/>"
+    },
+    {
+      "StringIdName": "privacy_offline",
+      "StringIdContent": "\r\nThis party is local to your PC. To play with others, select HOST SETTINGS and then choose Online."
+    },
+    {
+      "StringIdName": "privacy_system_link",
+      "StringIdContent": "\r\nThis party is open for others to join."
+    },
+    {
+      "StringIdName": "scoring_title",
+      "StringIdContent": "SCORING:"
+    },
+    {
+      "StringIdName": "select_network_mode",
+      "StringIdContent": "HOST SETTINGS: <lobby-network/>"
+    },
+    {
+      "StringIdName": "select_scoring",
+      "StringIdContent": "Scoring: <metagame-scoring/>"
+    },
+    {
+      "StringIdName": "select_skulls",
+      "StringIdContent": "Skulls: <primary-skull-count/> Primary, <secondary-skull-count/> Secondary"
+    },
+    {
+      "StringIdName": "select_skulls_survival",
+      "StringIdContent": "Skulls: <secondary-skull-count/> Secondary"
+    },
+    {
+      "StringIdName": "start_campaign_resume",
+      "StringIdContent": "RESUME GAME"
+    },
+    {
+      "StringIdName": "start_survival_coop",
+      "StringIdContent": "START FIREFIGHT"
+    },
+    {
+      "StringIdName": "start_survival_solo",
+      "StringIdContent": "START FIREFIGHT"
+    },
+    {
+      "StringIdName": "status_ready_leader",
+      "StringIdContent": "Ready |n<lobby-privacy/>"
+    },
+    {
+      "StringIdName": "survival_difficulty",
+      "StringIdContent": "<lobby-campaign-level/> on <lobby-campaign-difficulty/>"
+    },
+    {
+      "StringIdName": "switch_selected_mod",
+      "StringIdContent": "MOD: <eldewrito-mod/>"
+    }
+  ],
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

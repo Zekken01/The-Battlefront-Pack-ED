@@ -1,0 +1,286 @@
+"C:\Users\zekken\Desktop\ElDewrito 0.7 Official\maps\tags.dat"
+
+echo ==Set Variables...==
+setvariable workingdir "C:\Users\zekken\Desktop\The Battlefront Pack Source"
+setvariable modsfolder "C:\Users\zekken\Desktop\ElDewrito 0.7 Official\mods"
+
+echo ==Set Caches...==
+useaudiocache workingdir\caches\audiocache
+useshadercache workingdir\caches\shadercache
+
+echo ==Creating Mod Package...==
+createmodpackage 10 large
+The Battlefront Pack
+The Battlefront Pack including Coruscant, Geonosis, Hoth, Deathstar, Mustafar, Scarif, and Utapau. Credit goes to the original mod creators abyssquick , and stevierothy. Thanks to Newbie, Mtndewit, Dirkkane, and TwistedFlog for help porting to Eldewrito.
+Zekken
+0.8
+MainMenu Multiplayer Character
+mainmenu
+coruscant
+geonosis
+hoth
+imp_deathstar
+kashyyyk
+mos_eisley
+mustafar
+scarif
+utapau
+
+addmodfiles "workingdir\maps\ui"
+
+
+echo ==Port Coruscant...==
+switchtagcache 1
+
+runcommands workingdir\preportcommands.cmds
+
+opencachefile "workingdir\maps\coruscant.map"
+porttag *.scnr
+exit
+
+opencachefile "workingdir\maps\coruscant.map"
+porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+exit
+
+edittag levels\multi\coruscant\coruscant.scenario
+setfield CutsceneCameraPoints[0].Position 1.7622 -35.7706 9.5615
+setfield CutsceneCameraPoints[0].Orientation 89.623 -0.0379 -5.7434
+savetagchanges
+exit
+
+runcommands workingdir\commandpostimprovement.cmds
+runcommands workingdir\fixups.cmds
+runcommands workingdir\sprintfixups.cmds
+runcommands workingdir\weaponoffsets.cmds
+runcommands workingdir\odstweapons.cmds
+
+echo ==Port Geonosis...==
+switchtagcache 2
+
+runcommands workingdir\preportcommands.cmds
+
+opencachefile "workingdir\maps\geonosis.map"
+porttag *.scnr
+exit
+
+opencachefile "workingdir\maps\geonosis.map"
+porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+exit
+
+edittag levels\multi\geonosis\geonosis.scenario
+setfield CutsceneCameraPoints[0].Position -18.2027 25.2249 7.6221
+setfield CutsceneCameraPoints[0].Orientation -78.076 -0.5027 2.3793
+savetagchanges
+exit
+
+runcommands workingdir\commandpostimprovement.cmds
+runcommands workingdir\fixups.cmds
+runcommands workingdir\sprintfixups.cmds
+runcommands workingdir\weaponoffsets.cmds
+runcommands workingdir\odstweapons.cmds
+
+echo ==Port Hoth...==
+switchtagcache 3
+
+runcommands workingdir\preportcommands.cmds
+
+opencachefile "workingdir\maps\hoth.map"
+porttag *.scnr
+exit
+
+opencachefile "workingdir\maps\hoth.map"
+porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+exit
+
+edittag levels\multi\hoth\hoth.scenario
+setfield CutsceneCameraPoints[0].Position 133.3836 -56.744 191.3433
+setfield CutsceneCameraPoints[0].Orientation 54.6615 -5.5422 -7.756499
+savetagchanges
+exit
+
+edittag objects\vehicles\ion_cannon\ion_cannon.render_model
+copyblockelements materials 0 *
+replacerendergeometry workingdir\models\ion_cannon.dae
+removeblockelements materials 0 *
+pasteblockelements materials
+savetagchanges
+exit
+
+edittag objects\vehicles\ion_cannon\ion_cannon.model
+setfield DisappearDistance -1
+setfield BeginFadeDistance -1
+savetagchanges
+exit
+
+edittag levels\multi\hoth\shaders\hoth_terrain.shader_terrain
+setargument global_albedo_tint 2.5
+savetagchanges
+exit
+
+runcommands workingdir\commandpostimprovementrebels.cmds
+runcommands workingdir\fixups.cmds
+runcommands workingdir\sprintfixups.cmds
+runcommands workingdir\weaponoffsets.cmds
+runcommands workingdir\odstweapons.cmds
+
+echo ==Port Deathstar...==
+switchtagcache 4
+
+runcommands workingdir\preportcommands.cmds
+
+opencachefile "workingdir\maps\imp_deathstar.map"
+porttag *.scnr
+exit
+
+opencachefile "workingdir\maps\imp_deathstar.map"
+porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+exit
+
+edittag levels\multi\imp_deathstar\imp_deathstar.scenario
+setfield CutsceneCameraPoints[0].Position -30.2844 14.2575 -5.1671
+setfield CutsceneCameraPoints[0].Orientation -0.2111 -2.6294 0.0097
+savetagchanges
+exit
+
+runcommands workingdir\commandpostimprovementrebels.cmds
+runcommands workingdir\fixups.cmds
+runcommands workingdir\sprintfixups.cmds
+runcommands workingdir\weaponoffsets.cmds
+runcommands workingdir\odstweapons.cmds
+
+echo ==Port Kashyyyk...==
+switchtagcache 5
+
+runcommands workingdir\preportcommands.cmds
+
+opencachefile "workingdir\maps\kashyyyk.map"
+porttag *.scnr
+exit
+
+opencachefile "workingdir\maps\kashyyyk.map"
+porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+exit
+
+edittag levels\multi\kashyyyk\kashyyyk.scenario
+setfield CutsceneCameraPoints[0].Position 45.8226 32.7205 12.8865
+setfield CutsceneCameraPoints[0].Orientation -151.293 4.1923 2.2926
+savetagchanges
+exit
+
+runcommands workingdir\commandpostimprovement.cmds
+runcommands workingdir\fixups.cmds
+runcommands workingdir\sprintfixups.cmds
+runcommands workingdir\weaponoffsets.cmds
+runcommands workingdir\odstweapons.cmds
+
+echo ==Port Mos Eisley...==
+switchtagcache 6
+
+runcommands workingdir\preportcommands.cmds
+
+opencachefile "workingdir\maps\mos_eisley.map"
+porttag *.scnr
+exit
+
+opencachefile "workingdir\maps\mos_eisley.map"
+porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+exit
+
+edittag levels\multi\mos_eisley\mos_eisley.scenario
+setfield CutsceneCameraPoints[0].Position -12.8328 24.8494 1.2108
+setfield CutsceneCameraPoints[0].Orientation -36.06 -0.6029 0.439
+savetagchanges
+exit
+
+runcommands workingdir\commandpostimprovementrebels.cmds
+runcommands workingdir\fixups.cmds
+runcommands workingdir\sprintfixups.cmds
+runcommands workingdir\weaponoffsets.cmds
+runcommands workingdir\odstweapons.cmds
+
+echo ==Port Mustafar...==
+switchtagcache 7
+
+runcommands workingdir\preportcommands.cmds
+
+opencachefile "workingdir\maps\mustafar.map"
+porttag *.scnr
+exit
+
+opencachefile "workingdir\maps\mustafar.map"
+porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+exit
+
+edittag levels\multi\mustafar\mustafar.scenario
+setfield CutsceneCameraPoints[0].Position -0.1681 16.4922 3.2789
+setfield CutsceneCameraPoints[0].Orientation -119.0447 0.9556999 1.7204
+exit
+
+runcommands workingdir\commandpostimprovement.cmds
+runcommands workingdir\fixups.cmds
+runcommands workingdir\sprintfixups.cmds
+runcommands workingdir\weaponoffsets.cmds
+runcommands workingdir\odstweapons.cmds
+
+echo ==Port Scarif...==
+switchtagcache 8
+
+runcommands workingdir\preportcommands.cmds
+
+opencachefile "workingdir\maps\scarif.map"
+porttag *.scnr
+exit
+
+opencachefile "workingdir\maps\scarif.map"
+porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+exit
+
+edittag levels\multi\scarif\scarif.scenario
+setfield CutsceneCameraPoints[0].Position -159.3146 228.1855 29.3568
+setfield CutsceneCameraPoints[0].Orientation 16.4431 -2.1289 -0.6281
+savetagchanges
+exit
+
+runcommands workingdir\commandpostimprovementrebels.cmds
+runcommands workingdir\fixups.cmds
+runcommands workingdir\sprintfixups.cmds
+runcommands workingdir\weaponoffsets.cmds
+runcommands workingdir\odstweapons.cmds
+
+echo ==Port Utapau...==
+switchtagcache 9
+
+runcommands workingdir\preportcommands.cmds
+
+opencachefile "workingdir\maps\utapau.map"
+porttag *.scnr
+exit
+
+opencachefile "workingdir\maps\utapau.map"
+porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+exit
+
+edittag levels\multi\utapau\utapau.scenario
+setfield CutsceneCameraPoints[0].Position 6.5217 -11.7312 6.8666
+setfield CutsceneCameraPoints[0].Orientation 94.4683 0.4531 -5.7787
+savetagchanges
+exit
+
+edittag levels\multi\utapau\objects\wind_machine\wind_machine.device_machine
+removeblockelements MultiplayerObject 0 *
+savetagchanges
+exitto tags
+
+runcommands workingdir\commandpostimprovement.cmds
+runcommands workingdir\fixups.cmds
+runcommands workingdir\sprintfixups.cmds
+runcommands workingdir\weaponoffsets.cmds
+runcommands workingdir\odstweapons.cmds
+
+echo ==Post Port Commands...==
+
+runcommands workingdir\mapdescriptions.cmds
+
+savemodpackage "modsfolder\The Battlefront Pack.pak"
+
+DumpLog

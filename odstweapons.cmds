@@ -1,0 +1,118 @@
+echo ==Pickup Strings==
+importfonts workingdir\font_package.bin
+
+importtag ui\chud\smg_silenced.chdt workingdir\tags\smg_silenced.chud_definition
+importtag ui\chud\automag.chdt workingdir\tags\automag.chud_definition
+edittag ui\hud\hud_messages.multilingual_unicode_string_list
+
+stringid add ssmg_dual
+stringid add ssmg_dual_swap
+stringid add amag_pickup
+stringid add amag_picked_up
+stringid add amag_swap
+stringid add amag_swap_ai
+stringid add amag_switch_to
+stringid add amag_dual
+stringid add amag_dual_swap
+
+setstring english ssmg_pickup "\uE461\uE45F to pick up|n|r\uFB03"
+setstring english ssmg_swap "\uE461\uE45F to swap for|n|r\uFB03"
+setstring english ssmg_swap_ai "\uE461\uE45F to take ally's|n|r\uFB03"
+setstring english ssmg_switch_to  "Out of ammo|nPress \uE446 to switch to |r\uFB03"
+setstring english ssmg_dual "\uE461 \uE45E to dual-wield|r|n\uFB05"
+setstring english ssmg_dual_swap "\uE461 \uE45E to swap for|r|n\uFB05"
+
+setstring english amag_pickup "\uE461\uE45F to pick up|n|r\uFB04"
+setstring english amag_picked_up "Picked up an Automag"
+setstring english amag_swap "\uE461\uE45F to swap for|n|r\uFB04"
+setstring english amag_swap_ai "\uE461\uE45F to take ally's|n|r\uFB04"
+setstring english amag_switch_to  "Out of ammo|nPress \uE446 to switch to |r\uFB04"
+setstring english amag_dual "\uE461 \uE45E to dual-wield|r|n\uFB06"
+setstring english amag_dual_swap "\uE461 \uE45E to swap for|r|n\uFB06"
+SaveTagChanges
+exitto tags
+
+echo ==Brute Plasma Rifle==
+edittag objects\weapons\rifle\plasma_rifle_red\plasma_rifle_red.weapon
+setfield FirstPerson[0].FirstPersonAnimations objects\characters\masterchief\fp\weapons\rifle\fp_plasma_rifle\fp_plasma_rifle.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations objects\characters\dervish\fp\weapons\rifle\fp_plasma_rifle\fp_plasma_rifle.model_animation_graph
+setfield WeaponTypeName offset_plasma_rife
+setfield CenteredFirstPersonWeaponOffset 0.075 0 -0.025
+setfield WeaponFlags.NewFlags CannotFireAtMaximumAge,LoopFPFiringAnimation,CanBeDualWielded
+savetagchanges
+exitto tags
+
+edittag objects\weapons\rifle\plasma_rifle_red\fp_plasma_rifle_red\fp_plasma_rifle_red.render_model
+setfield MarkerGroups[4].Markers[0].Translation 0.02655599 0.004300643 -0.0528338
+setfield MarkerGroups[4].Markers[0].Rotation -0.6164592 0.195706 -0.4600866 0.6082742
+savetagchanges
+exitto tags
+
+echo ==Silenced SMG==
+edittag objects\weapons\rifle\smg_silenced\smg_silenced.weapon
+setfield FirstPerson[0].FirstPersonAnimations objects\characters\masterchief\fp\weapons\rifle\fp_smg\fp_smg.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations objects\characters\dervish\fp\weapons\rifle\fp_smg\fp_smg.model_animation_graph
+setfield WeaponTypeName offset_smg
+setfield CenteredFirstPersonWeaponOffset 0 0 -0.01
+setfield Barrels[0].DualWeaponError.DualWieldDamageScale 0.8
+setfield PickupMessage ssmg_pickup
+setfield SwapMessage ssmg_swap
+setfield PickedUpMessage ssmg_picked_up
+setfield SwitchToMessage ssmg_switch_to
+setfield SwitchToFromAiMessage ssmg_swap_ai
+setfield PickupOrDualWieldMessage ssmg_dual
+setfield SwapOrDualWieldMessage ssmg_dual_swap
+setfield WeaponFlags.NewFlags LoopFPFiringAnimation,CanBeDualWielded
+
+savetagchanges
+exitto tags
+
+edittag ui\chud\smg_silenced.chud_definition
+setfield HudWidgets[2].BitmapWidgets[0].BitmapSequenceIndex 5
+savetagchanges
+Exitto tags
+
+echo ==Automag==
+edittag objects\weapons\pistol\automag\automag.weapon
+setfield CenteredFirstPersonWeaponOffset 0 0 -0.005
+setfield WeaponTypeName offset_magnum
+setfield PickupMessage amag_pickup
+setfield SwapMessage amag_swap
+setfield PickedUpMessage amag_picked_up
+setfield SwitchToMessage amag_switch_to
+setfield SwitchToFromAiMessage amag_swap_ai
+setfield PickupOrDualWieldMessage amag_dual
+setfield SwapOrDualWieldMessage amag_dual_swap
+savetagchanges
+exitto tags
+
+edittag objects\weapons\pistol\automag\fp_automag\fp_automag.render_model
+setfield MarkerGroups[1].Markers[0].Translation 0.003 -0.00477 -0.032
+setfield MarkerGroups[1].Markers[0].Rotation -0.475 -0.028 -0.33 0.818
+savetagchanges
+exitto tags
+
+edittag objects\characters\masterchief\fp\weapons\pistol\fp_automag\fp_automag.model_animation_graph
+addanimation workingdir\anims\automag
+addblockelements Modes[0].WeaponClass[0].WeaponIk
+setfield Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand
+setfield Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker left_hand
+sortmodes
+echo first_person:melee_strike_1
+setfield Animations[4].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+echo first_person:posing:var2
+setfield Animations[8].PlaybackFlags DisableWeaponIk
+echo first_person:ready
+setfield Animations[10].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+echo first_person:reload_empty
+setfield Animations[11].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+echo first_person:reload_full
+setfield Animations[12].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+echo first_person:throw_equipment
+addblockelements animations[13].animationdata.FrameEvents 1
+setfield animations[13].animationdata.Frameevents[0].Frame 12
+setfield Animations[13].PlaybackFlags DisableWeaponIk
+echo first_person:sprint_loop_airborne
+setfield Animations[22].PlaybackFlags DisableWeaponIk
+savetagchanges
+exitto tags

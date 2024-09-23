@@ -1,0 +1,52 @@
+{
+  "TagName": "ui\\halox\\start_menu\\panes\\settings_appearance_colors\\strings",
+  "TagType": "multilingual_unicode_string_list",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": [
+    {
+      "StringIdName": "cef_color_detail",
+      "StringIdContent": "Detail Color"
+    },
+    {
+      "StringIdName": "cef_color_detail_desc",
+      "StringIdContent": "The armor detail color preserves your individual identity in all multiplayer scenarios."
+    },
+    {
+      "StringIdName": "cef_color_light",
+      "StringIdContent": "Light Color"
+    },
+    {
+      "StringIdName": "cef_color_light_desc",
+      "StringIdContent": "Like Christmas, but more subtle."
+    },
+    {
+      "StringIdName": "cef_color_primary",
+      "StringIdContent": "Primary Color"
+    },
+    {
+      "StringIdName": "cef_color_primary_desc",
+      "StringIdContent": "The primary armor color will serve you in individual combat but will be overwritten in team scenarios."
+    },
+    {
+      "StringIdName": "cef_color_secondary",
+      "StringIdContent": "Secondary Color"
+    },
+    {
+      "StringIdName": "cef_color_secondary_desc",
+      "StringIdContent": "The secondary armor color accents your primary color and will be overwritten in team scenarios."
+    },
+    {
+      "StringIdName": "cef_color_visor",
+      "StringIdContent": "Visor Color"
+    },
+    {
+      "StringIdName": "cef_color_visor_desc",
+      "StringIdContent": "Adjust the tint of your Spartan's visor."
+    }
+  ],
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

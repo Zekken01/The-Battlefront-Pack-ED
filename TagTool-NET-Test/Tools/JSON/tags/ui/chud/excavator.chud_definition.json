@@ -1,0 +1,2570 @@
+{
+  "TagName": "ui\\chud\\excavator",
+  "TagType": "chud_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "HudWidgets": [
+      {
+        "Name": "warning_flashes_spartan",
+        "ScriptingClass": "WeaponStats",
+        "BaseFlags": "None",
+        "SortLayer": "Flashes",
+        "StateData": [
+          {
+            "GameState": "None",
+            "SkinState": "Spartan",
+            "GameTeam": "None",
+            "WindowState": "WideFull, NativeFull, StandardFull",
+            "MultiplayerEvents": "None",
+            "UnitBaseFlags": "None",
+            "EditorFlags": "None",
+            "HindsightState": "None",
+            "SkullFlags": "None",
+            "SurvivalRoundFlags": "None",
+            "SurvivalWaveFlags": "None",
+            "SurvivalLivesFlags": "None",
+            "SurvivalDifficultyFlags": "None",
+            "GeneralKudosFlags": "None",
+            "UnitZoomFlags": "None",
+            "UnitInventoryFlags": "0",
+            "UnitGeneralFlags": "None",
+            "WeaponKudosFlags": "None",
+            "WeaponStatusFlags": "None",
+            "WeaponTargetFlags": "None",
+            "WeaponTargetBFlags": "None",
+            "Player_SpecialFlags": "None",
+            "Weapon_SpecialFlags": "None",
+            "InverseFlags": "None",
+            "ConsumableFlags": "None",
+            "EnergyMeterFlags": "None"
+          }
+        ],
+        "PlacementData": [],
+        "AnimationData": [],
+        "RenderData": [],
+        "ParallaxData": {
+          "Type": "chud_widget_parallax_data",
+          "Name": "ui\\chud\\parallax_data\\angle_large",
+          "Generate": false
+        },
+        "BitmapWidgets": [
+          {
+            "Name": "meter_right",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [
+              {
+                "GameState": "None",
+                "SkinState": "None",
+                "GameTeam": "None",
+                "WindowState": "None",
+                "MultiplayerEvents": "None",
+                "UnitBaseFlags": "None",
+                "EditorFlags": "None",
+                "HindsightState": "None",
+                "SkullFlags": "None",
+                "SurvivalRoundFlags": "None",
+                "SurvivalWaveFlags": "None",
+                "SurvivalLivesFlags": "None",
+                "SurvivalDifficultyFlags": "None",
+                "GeneralKudosFlags": "None",
+                "UnitZoomFlags": "BinocularsEnabled",
+                "UnitInventoryFlags": "0",
+                "UnitGeneralFlags": "None",
+                "WeaponKudosFlags": "None",
+                "WeaponStatusFlags": "SourceIsPrimaryWeapon",
+                "WeaponTargetFlags": "None",
+                "WeaponTargetBFlags": "None",
+                "Player_SpecialFlags": "None",
+                "Weapon_SpecialFlags": "ClipBelowCutoff, ClipEmpty",
+                "InverseFlags": "None",
+                "ConsumableFlags": "None",
+                "EnergyMeterFlags": "None"
+              }
+            ],
+            "PlacementData": [
+              {
+                "Anchor": "TopRight",
+                "AnchorFlags": "0",
+                "Origin": "X: 0, Y: 0",
+                "Offset": "X: -158, Y: 64",
+                "Scale": "X: 1.15, Y: 1.15"
+              }
+            ],
+            "AnimationData": [
+              {
+                "Initializing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Active": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\invisible",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Flashing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\warning_flash",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Readying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Unreadying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Impulse": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                }
+              }
+            ],
+            "RenderData": [
+              {
+                "ShaderType": "Meter",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "WeaponAmmoLoaded",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 1.0,
+                "LocalScalarB": 0.1,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "LocalA",
+                "OutputColorB": "LocalA",
+                "OutputColorC": "CrosshairEnemy",
+                "OutputColorD": "CrosshairEnemy",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "FlashAnimation",
+                "OutputScalarC": "LocalA",
+                "OutputScalarD": "LocalB",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "RuntimeWidgetIndex": 0,
+            "Flags": "None",
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "ui\\chud\\bitmaps\\red_flash",
+              "Generate": false
+            },
+            "BitmapSequenceIndex": 0
+          },
+          {
+            "Name": "meter_left",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [
+              {
+                "GameState": "None",
+                "SkinState": "None",
+                "GameTeam": "None",
+                "WindowState": "None",
+                "MultiplayerEvents": "None",
+                "UnitBaseFlags": "None",
+                "EditorFlags": "None",
+                "HindsightState": "None",
+                "SkullFlags": "None",
+                "SurvivalRoundFlags": "None",
+                "SurvivalWaveFlags": "None",
+                "SurvivalLivesFlags": "None",
+                "SurvivalDifficultyFlags": "None",
+                "GeneralKudosFlags": "None",
+                "UnitZoomFlags": "BinocularsEnabled",
+                "UnitInventoryFlags": "0",
+                "UnitGeneralFlags": "None",
+                "WeaponKudosFlags": "None",
+                "WeaponStatusFlags": "SourceIsDualWeapon",
+                "WeaponTargetFlags": "None",
+                "WeaponTargetBFlags": "None",
+                "Player_SpecialFlags": "None",
+                "Weapon_SpecialFlags": "ClipBelowCutoff, ClipEmpty",
+                "InverseFlags": "None",
+                "ConsumableFlags": "None",
+                "EnergyMeterFlags": "None"
+              }
+            ],
+            "PlacementData": [
+              {
+                "Anchor": "TopLeft",
+                "AnchorFlags": "0",
+                "Origin": "X: 0, Y: 0",
+                "Offset": "X: 173, Y: 65",
+                "Scale": "X: -1.15, Y: 1.15"
+              }
+            ],
+            "AnimationData": [
+              {
+                "Initializing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Active": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\invisible",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Flashing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\warning_flash",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Readying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Unreadying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Impulse": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                }
+              }
+            ],
+            "RenderData": [
+              {
+                "ShaderType": "Meter",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "WeaponAmmoLoaded",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 1.0,
+                "LocalScalarB": 0.1,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "LocalA",
+                "OutputColorB": "LocalA",
+                "OutputColorC": "CrosshairEnemy",
+                "OutputColorD": "CrosshairEnemy",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "FlashAnimation",
+                "OutputScalarC": "LocalA",
+                "OutputScalarD": "LocalB",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "RuntimeWidgetIndex": 1,
+            "Flags": "None",
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "ui\\chud\\bitmaps\\red_flash",
+              "Generate": false
+            },
+            "BitmapSequenceIndex": 0
+          }
+        ],
+        "TextWidgets": []
+      },
+      {
+        "Name": "warning_flashes_elite",
+        "ScriptingClass": "WeaponStats",
+        "BaseFlags": "None",
+        "SortLayer": "Flashes",
+        "StateData": [
+          {
+            "GameState": "None",
+            "SkinState": "Elite",
+            "GameTeam": "None",
+            "WindowState": "WideFull, NativeFull, StandardFull",
+            "MultiplayerEvents": "None",
+            "UnitBaseFlags": "None",
+            "EditorFlags": "None",
+            "HindsightState": "None",
+            "SkullFlags": "None",
+            "SurvivalRoundFlags": "None",
+            "SurvivalWaveFlags": "None",
+            "SurvivalLivesFlags": "None",
+            "SurvivalDifficultyFlags": "None",
+            "GeneralKudosFlags": "None",
+            "UnitZoomFlags": "None",
+            "UnitInventoryFlags": "0",
+            "UnitGeneralFlags": "None",
+            "WeaponKudosFlags": "None",
+            "WeaponStatusFlags": "None",
+            "WeaponTargetFlags": "None",
+            "WeaponTargetBFlags": "None",
+            "Player_SpecialFlags": "None",
+            "Weapon_SpecialFlags": "None",
+            "InverseFlags": "None",
+            "ConsumableFlags": "None",
+            "EnergyMeterFlags": "None"
+          }
+        ],
+        "PlacementData": [],
+        "AnimationData": [],
+        "RenderData": [],
+        "ParallaxData": {
+          "Type": "chud_widget_parallax_data",
+          "Name": "ui\\chud\\parallax_data\\angle_large",
+          "Generate": false
+        },
+        "BitmapWidgets": [
+          {
+            "Name": "meter_right",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [
+              {
+                "GameState": "None",
+                "SkinState": "None",
+                "GameTeam": "None",
+                "WindowState": "None",
+                "MultiplayerEvents": "None",
+                "UnitBaseFlags": "None",
+                "EditorFlags": "None",
+                "HindsightState": "None",
+                "SkullFlags": "None",
+                "SurvivalRoundFlags": "None",
+                "SurvivalWaveFlags": "None",
+                "SurvivalLivesFlags": "None",
+                "SurvivalDifficultyFlags": "None",
+                "GeneralKudosFlags": "None",
+                "UnitZoomFlags": "BinocularsEnabled",
+                "UnitInventoryFlags": "0",
+                "UnitGeneralFlags": "None",
+                "WeaponKudosFlags": "None",
+                "WeaponStatusFlags": "SourceIsPrimaryWeapon",
+                "WeaponTargetFlags": "None",
+                "WeaponTargetBFlags": "None",
+                "Player_SpecialFlags": "None",
+                "Weapon_SpecialFlags": "ClipBelowCutoff, ClipEmpty",
+                "InverseFlags": "None",
+                "ConsumableFlags": "None",
+                "EnergyMeterFlags": "None"
+              }
+            ],
+            "PlacementData": [
+              {
+                "Anchor": "TopRight",
+                "AnchorFlags": "0",
+                "Origin": "X: 0, Y: 0",
+                "Offset": "X: -15, Y: -19",
+                "Scale": "X: 2.4, Y: 2.5"
+              }
+            ],
+            "AnimationData": [
+              {
+                "Initializing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Active": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\invisible",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Flashing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\warning_flash",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Readying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Unreadying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Impulse": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                }
+              }
+            ],
+            "RenderData": [
+              {
+                "ShaderType": "Meter",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "WeaponAmmoLoaded",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 1.0,
+                "LocalScalarB": 0.1,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "LocalA",
+                "OutputColorB": "LocalA",
+                "OutputColorC": "CrosshairEnemy",
+                "OutputColorD": "CrosshairEnemy",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "FlashAnimation",
+                "OutputScalarC": "LocalA",
+                "OutputScalarD": "LocalB",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "RuntimeWidgetIndex": 2,
+            "Flags": "None",
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "ui\\chud\\bitmaps\\elite_corner_flash",
+              "Generate": false
+            },
+            "BitmapSequenceIndex": 0
+          },
+          {
+            "Name": "meter_left",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [
+              {
+                "GameState": "None",
+                "SkinState": "None",
+                "GameTeam": "None",
+                "WindowState": "None",
+                "MultiplayerEvents": "None",
+                "UnitBaseFlags": "None",
+                "EditorFlags": "None",
+                "HindsightState": "None",
+                "SkullFlags": "None",
+                "SurvivalRoundFlags": "None",
+                "SurvivalWaveFlags": "None",
+                "SurvivalLivesFlags": "None",
+                "SurvivalDifficultyFlags": "None",
+                "GeneralKudosFlags": "None",
+                "UnitZoomFlags": "BinocularsEnabled",
+                "UnitInventoryFlags": "0",
+                "UnitGeneralFlags": "None",
+                "WeaponKudosFlags": "None",
+                "WeaponStatusFlags": "SourceIsDualWeapon",
+                "WeaponTargetFlags": "None",
+                "WeaponTargetBFlags": "None",
+                "Player_SpecialFlags": "None",
+                "Weapon_SpecialFlags": "ClipBelowCutoff, ClipEmpty",
+                "InverseFlags": "None",
+                "ConsumableFlags": "None",
+                "EnergyMeterFlags": "None"
+              }
+            ],
+            "PlacementData": [
+              {
+                "Anchor": "TopLeft",
+                "AnchorFlags": "0",
+                "Origin": "X: 0, Y: 0",
+                "Offset": "X: 28, Y: -17",
+                "Scale": "X: -2.3, Y: 2.5"
+              }
+            ],
+            "AnimationData": [
+              {
+                "Initializing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Active": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\invisible",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Flashing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\warning_flash",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Readying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Unreadying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Impulse": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                }
+              }
+            ],
+            "RenderData": [
+              {
+                "ShaderType": "Meter",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "WeaponAmmoLoaded",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 1.0,
+                "LocalScalarB": 0.1,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "LocalA",
+                "OutputColorB": "LocalA",
+                "OutputColorC": "CrosshairEnemy",
+                "OutputColorD": "CrosshairEnemy",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "FlashAnimation",
+                "OutputScalarC": "LocalA",
+                "OutputScalarD": "LocalB",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "RuntimeWidgetIndex": 3,
+            "Flags": "None",
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "ui\\chud\\bitmaps\\elite_corner_flash",
+              "Generate": false
+            },
+            "BitmapSequenceIndex": 0
+          }
+        ],
+        "TextWidgets": []
+      },
+      {
+        "Name": "crosshair_fullscreen",
+        "ScriptingClass": "Crosshair",
+        "BaseFlags": "None",
+        "SortLayer": "Child",
+        "StateData": [],
+        "PlacementData": [],
+        "AnimationData": [],
+        "RenderData": [],
+        "ParallaxData": {
+          "Type": "chud_widget_parallax_data",
+          "Name": "ui\\chud\\parallax_data\\angle_zero",
+          "Generate": false
+        },
+        "BitmapWidgets": [
+          {
+            "Name": "excavator_crosshair",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [
+              {
+                "GameState": "None",
+                "SkinState": "None",
+                "GameTeam": "None",
+                "WindowState": "WideFull, NativeFull, StandardFull",
+                "MultiplayerEvents": "None",
+                "UnitBaseFlags": "None",
+                "EditorFlags": "None",
+                "HindsightState": "None",
+                "SkullFlags": "None",
+                "SurvivalRoundFlags": "None",
+                "SurvivalWaveFlags": "None",
+                "SurvivalLivesFlags": "None",
+                "SurvivalDifficultyFlags": "None",
+                "GeneralKudosFlags": "None",
+                "UnitZoomFlags": "BinocularsEnabled",
+                "UnitInventoryFlags": "0",
+                "UnitGeneralFlags": "None",
+                "WeaponKudosFlags": "None",
+                "WeaponStatusFlags": "SourceIsPrimaryWeapon, SourceIsDualWeapon",
+                "WeaponTargetFlags": "None",
+                "WeaponTargetBFlags": "None",
+                "Player_SpecialFlags": "None",
+                "Weapon_SpecialFlags": "None",
+                "InverseFlags": "None",
+                "ConsumableFlags": "None",
+                "EnergyMeterFlags": "None"
+              }
+            ],
+            "PlacementData": [
+              {
+                "Anchor": "Crosshair",
+                "AnchorFlags": "0",
+                "Origin": "X: 0, Y: 0",
+                "Offset": "X: 0, Y: 0",
+                "Scale": "X: 1.18, Y: 1.18"
+              }
+            ],
+            "AnimationData": [],
+            "RenderData": [
+              {
+                "ShaderType": "Crosshair",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "Autoaim",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "CrosshairNormal",
+                "OutputColorB": "CrosshairEnemy",
+                "OutputColorC": "CrosshairFriendly",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "Input",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "RuntimeWidgetIndex": 4,
+            "Flags": "None",
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "ui\\chud\\bitmaps\\hud_reticles_h3",
+              "Generate": false
+            },
+            "BitmapSequenceIndex": 12
+          }
+        ],
+        "TextWidgets": []
+      },
+      {
+        "Name": "ammo_area_left",
+        "ScriptingClass": "WeaponStats",
+        "BaseFlags": "None",
+        "SortLayer": "Child",
+        "StateData": [
+          {
+            "GameState": "None",
+            "SkinState": "None",
+            "GameTeam": "None",
+            "WindowState": "None",
+            "MultiplayerEvents": "None",
+            "UnitBaseFlags": "None",
+            "EditorFlags": "None",
+            "HindsightState": "None",
+            "SkullFlags": "None",
+            "SurvivalRoundFlags": "None",
+            "SurvivalWaveFlags": "None",
+            "SurvivalLivesFlags": "None",
+            "SurvivalDifficultyFlags": "None",
+            "GeneralKudosFlags": "None",
+            "UnitZoomFlags": "BinocularsEnabled",
+            "UnitInventoryFlags": "0",
+            "UnitGeneralFlags": "None",
+            "WeaponKudosFlags": "None",
+            "WeaponStatusFlags": "SourceIsDualWeapon",
+            "WeaponTargetFlags": "None",
+            "WeaponTargetBFlags": "None",
+            "Player_SpecialFlags": "None",
+            "Weapon_SpecialFlags": "None",
+            "InverseFlags": "None",
+            "ConsumableFlags": "None",
+            "EnergyMeterFlags": "None"
+          }
+        ],
+        "PlacementData": [
+          {
+            "Anchor": "TopLeft",
+            "AnchorFlags": "0",
+            "Origin": "X: 0, Y: 0",
+            "Offset": "X: 30, Y: 40",
+            "Scale": "X: 1.4, Y: 1.4"
+          }
+        ],
+        "AnimationData": [],
+        "RenderData": [],
+        "ParallaxData": {
+          "Type": "chud_widget_parallax_data",
+          "Name": "ui\\chud\\parallax_data\\angle_small",
+          "Generate": false
+        },
+        "BitmapWidgets": [
+          {
+            "Name": "scematic",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "WeaponSwapHack",
+            "SortLayer": "Inherited",
+            "StateData": [],
+            "PlacementData": [
+              {
+                "Anchor": "Parent",
+                "AnchorFlags": "0",
+                "Origin": "X: 1, Y: -1",
+                "Offset": "X: 5, Y: -1",
+                "Scale": "X: -0.9, Y: 0.9"
+              }
+            ],
+            "AnimationData": [
+              {
+                "Initializing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Active": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Flashing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Readying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\fade_in",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Unreadying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Impulse": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                }
+              }
+            ],
+            "RenderData": [
+              {
+                "ShaderType": "Simple",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "WeaponVersionNumber",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "HighlightForeground",
+                "OutputColorB": "LocalA",
+                "OutputColorC": "LocalA",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "RangeInput",
+                "OutputScalarB": "Input",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "RuntimeWidgetIndex": 16,
+            "Flags": "SpriteFromWeapon",
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "ui\\chud\\bitmaps\\weapon_scematics\\excavator_scematics",
+              "Generate": false
+            },
+            "BitmapSequenceIndex": 0
+          },
+          {
+            "Name": "divider",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [],
+            "PlacementData": [
+              {
+                "Anchor": "Parent",
+                "AnchorFlags": "0",
+                "Origin": "X: 0, Y: -1",
+                "Offset": "X: 105, Y: 2",
+                "Scale": "X: 1.25, Y: 1.25"
+              }
+            ],
+            "AnimationData": [],
+            "RenderData": [
+              {
+                "ShaderType": "Simple",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "Zero",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "HighlightForeground",
+                "OutputColorB": "LocalA",
+                "OutputColorC": "LocalA",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "Input",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "RuntimeWidgetIndex": 17,
+            "Flags": "None",
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "ui\\chud\\bitmaps\\divider",
+              "Generate": false
+            },
+            "BitmapSequenceIndex": 0
+          },
+          {
+            "Name": "ammo_icon",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [],
+            "PlacementData": [
+              {
+                "Anchor": "Parent",
+                "AnchorFlags": "0",
+                "Origin": "X: -1, Y: -1",
+                "Offset": "X: 120, Y: 38",
+                "Scale": "X: -0.6, Y: 0.6"
+              }
+            ],
+            "AnimationData": [
+              {
+                "Initializing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Active": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\ammo_dimming",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Flashing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Readying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Unreadying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Impulse": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                }
+              }
+            ],
+            "RenderData": [
+              {
+                "ShaderType": "Simple",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "Zero",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "HighlightForeground",
+                "OutputColorB": "PrimaryBackground",
+                "OutputColorC": "LocalA",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "Input",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "RuntimeWidgetIndex": 18,
+            "Flags": "None",
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "ui\\chud\\bitmaps\\ammo_icon",
+              "Generate": false
+            },
+            "BitmapSequenceIndex": 0
+          }
+        ],
+        "TextWidgets": [
+          {
+            "Name": "ammo_count",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [],
+            "PlacementData": [
+              {
+                "Anchor": "Parent",
+                "AnchorFlags": "0",
+                "Origin": "X: 0, Y: 0",
+                "Offset": "X: 143, Y: 50",
+                "Scale": "X: 0.5, Y: 0.5"
+              }
+            ],
+            "AnimationData": [
+              {
+                "Initializing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Active": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\ammo_dimming",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Flashing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Readying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Unreadying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Impulse": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                }
+              }
+            ],
+            "RenderData": [
+              {
+                "ShaderType": "Crosshair",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "WeaponAmmoReserve",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "HighlightForeground",
+                "OutputColorB": "HighlightForeground",
+                "OutputColorC": "LocalA",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "Input",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "WidgetIndex": 19,
+            "TextFlags": "StringIsANumber",
+            "Font": "HudNumberText",
+            "InputString": "chud_out_a"
+          },
+          {
+            "Name": "ammo_count_kudos",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [
+              {
+                "GameState": "None",
+                "SkinState": "None",
+                "GameTeam": "None",
+                "WindowState": "None",
+                "MultiplayerEvents": "None",
+                "UnitBaseFlags": "None",
+                "EditorFlags": "None",
+                "HindsightState": "None",
+                "SkullFlags": "None",
+                "SurvivalRoundFlags": "None",
+                "SurvivalWaveFlags": "None",
+                "SurvivalLivesFlags": "None",
+                "SurvivalDifficultyFlags": "None",
+                "GeneralKudosFlags": "None",
+                "UnitZoomFlags": "None",
+                "UnitInventoryFlags": "0",
+                "UnitGeneralFlags": "None",
+                "WeaponKudosFlags": "AmmoPickup",
+                "WeaponStatusFlags": "None",
+                "WeaponTargetFlags": "None",
+                "WeaponTargetBFlags": "None",
+                "Player_SpecialFlags": "None",
+                "Weapon_SpecialFlags": "None",
+                "InverseFlags": "None",
+                "ConsumableFlags": "None",
+                "EnergyMeterFlags": "None"
+              }
+            ],
+            "PlacementData": [
+              {
+                "Anchor": "Parent",
+                "AnchorFlags": "0",
+                "Origin": "X: 0, Y: 0",
+                "Offset": "X: 80, Y: 50",
+                "Scale": "X: 0.5, Y: 0.5"
+              }
+            ],
+            "AnimationData": [
+              {
+                "Initializing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Active": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Flashing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Readying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Unreadying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Impulse": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\kudos",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                }
+              }
+            ],
+            "RenderData": [
+              {
+                "ShaderType": "TextSimple",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "ImpulseValue",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 219, Green: 219, Blue: 219",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "LocalA",
+                "OutputColorB": "LocalA",
+                "OutputColorC": "LocalA",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "Input",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "WidgetIndex": 20,
+            "TextFlags": "StringIsANumber, SuffixWithPlus",
+            "Font": "HudNumberText",
+            "InputString": "chud_out_a"
+          },
+          {
+            "Name": "ammo_count_loaded",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [
+              {
+                "GameState": "None",
+                "SkinState": "None",
+                "GameTeam": "None",
+                "WindowState": "None",
+                "MultiplayerEvents": "None",
+                "UnitBaseFlags": "None",
+                "EditorFlags": "None",
+                "HindsightState": "None",
+                "SkullFlags": "None",
+                "SurvivalRoundFlags": "None",
+                "SurvivalWaveFlags": "None",
+                "SurvivalLivesFlags": "None",
+                "SurvivalDifficultyFlags": "None",
+                "GeneralKudosFlags": "None",
+                "UnitZoomFlags": "None",
+                "UnitInventoryFlags": "0",
+                "UnitGeneralFlags": "None",
+                "WeaponKudosFlags": "None",
+                "WeaponStatusFlags": "None",
+                "WeaponTargetFlags": "None",
+                "WeaponTargetBFlags": "None",
+                "Player_SpecialFlags": "None",
+                "Weapon_SpecialFlags": "ClipBelowCutoff",
+                "InverseFlags": "None",
+                "ConsumableFlags": "None",
+                "EnergyMeterFlags": "None"
+              }
+            ],
+            "PlacementData": [
+              {
+                "Anchor": "Parent",
+                "AnchorFlags": "0",
+                "Origin": "X: 0, Y: 0",
+                "Offset": "X: 134, Y: 16",
+                "Scale": "X: 0.465, Y: 0.465"
+              }
+            ],
+            "AnimationData": [
+              {
+                "Initializing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Active": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Flashing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\flash_test",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Readying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Unreadying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Impulse": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                }
+              }
+            ],
+            "RenderData": [
+              {
+                "ShaderType": "TextSimple",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "WeaponAmmoLoaded",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "HighlightForeground",
+                "OutputColorB": "WarningFlash",
+                "OutputColorC": "LocalA",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "FlashAnimation",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "WidgetIndex": 21,
+            "TextFlags": "StringIsANumber",
+            "Font": "FullscreenHudMessage",
+            "InputString": "chud_out_a"
+          }
+        ]
+      },
+      {
+        "Name": "backpack",
+        "ScriptingClass": "WeaponStats",
+        "BaseFlags": "None",
+        "SortLayer": "Child",
+        "StateData": [
+          {
+            "GameState": "None",
+            "SkinState": "None",
+            "GameTeam": "None",
+            "WindowState": "None",
+            "MultiplayerEvents": "None",
+            "UnitBaseFlags": "None",
+            "EditorFlags": "None",
+            "HindsightState": "None",
+            "SkullFlags": "None",
+            "SurvivalRoundFlags": "None",
+            "SurvivalWaveFlags": "None",
+            "SurvivalLivesFlags": "None",
+            "SurvivalDifficultyFlags": "None",
+            "GeneralKudosFlags": "None",
+            "UnitZoomFlags": "BinocularsEnabled",
+            "UnitInventoryFlags": "0",
+            "UnitGeneralFlags": "None",
+            "WeaponKudosFlags": "None",
+            "WeaponStatusFlags": "SourceIsBackpacked",
+            "WeaponTargetFlags": "None",
+            "WeaponTargetBFlags": "None",
+            "Player_SpecialFlags": "None",
+            "Weapon_SpecialFlags": "None",
+            "InverseFlags": "None",
+            "ConsumableFlags": "None",
+            "EnergyMeterFlags": "None"
+          }
+        ],
+        "PlacementData": [
+          {
+            "Anchor": "TopRight",
+            "AnchorFlags": "0",
+            "Origin": "X: 0, Y: 0",
+            "Offset": "X: 0, Y: 0",
+            "Scale": "X: 1, Y: 1"
+          }
+        ],
+        "AnimationData": [],
+        "RenderData": [],
+        "ParallaxData": {
+          "Type": "chud_widget_parallax_data",
+          "Name": "ui\\chud\\parallax_data\\angle_small",
+          "Generate": false
+        },
+        "BitmapWidgets": [
+          {
+            "Name": "scematic",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "WeaponSwapHack",
+            "SortLayer": "Inherited",
+            "StateData": [
+              {
+                "GameState": "None",
+                "SkinState": "None",
+                "GameTeam": "None",
+                "WindowState": "None",
+                "MultiplayerEvents": "None",
+                "UnitBaseFlags": "None",
+                "EditorFlags": "None",
+                "HindsightState": "None",
+                "SkullFlags": "None",
+                "SurvivalRoundFlags": "None",
+                "SurvivalWaveFlags": "None",
+                "SurvivalLivesFlags": "None",
+                "SurvivalDifficultyFlags": "None",
+                "GeneralKudosFlags": "None",
+                "UnitZoomFlags": "BinocularsEnabled",
+                "UnitInventoryFlags": "0",
+                "UnitGeneralFlags": "None",
+                "WeaponKudosFlags": "None",
+                "WeaponStatusFlags": "SourceIsBackpacked",
+                "WeaponTargetFlags": "None",
+                "WeaponTargetBFlags": "None",
+                "Player_SpecialFlags": "None",
+                "Weapon_SpecialFlags": "ClipBelowCutoff",
+                "InverseFlags": "None",
+                "ConsumableFlags": "None",
+                "EnergyMeterFlags": "None"
+              }
+            ],
+            "PlacementData": [
+              {
+                "Anchor": "Parent",
+                "AnchorFlags": "0",
+                "Origin": "X: 1, Y: -1",
+                "Offset": "X: 0, Y: 120",
+                "Scale": "X: 1, Y: 1"
+              }
+            ],
+            "AnimationData": [
+              {
+                "Initializing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Active": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Flashing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\backpack_warning_flash",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Readying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\backpack_test",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Unreadying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\backpack_unready",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Impulse": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                }
+              }
+            ],
+            "RenderData": [
+              {
+                "ShaderType": "Simple",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "WeaponVersionNumber",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "HighlightForeground",
+                "OutputColorB": "LocalA",
+                "OutputColorC": "LocalA",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "RangeInput",
+                "OutputScalarB": "Input",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "RuntimeWidgetIndex": 10,
+            "Flags": "SpriteFromWeapon",
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "ui\\chud\\bitmaps\\weapon_scematics\\excavator_scematics",
+              "Generate": false
+            },
+            "BitmapSequenceIndex": 0
+          }
+        ],
+        "TextWidgets": []
+      },
+      {
+        "Name": "crosshair_halfscreen",
+        "ScriptingClass": "Crosshair",
+        "BaseFlags": "None",
+        "SortLayer": "Child",
+        "StateData": [],
+        "PlacementData": [],
+        "AnimationData": [],
+        "RenderData": [],
+        "ParallaxData": {
+          "Type": "chud_widget_parallax_data",
+          "Name": "ui\\chud\\parallax_data\\angle_zero",
+          "Generate": false
+        },
+        "BitmapWidgets": [
+          {
+            "Name": "excavator_crosshair",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [
+              {
+                "GameState": "None",
+                "SkinState": "None",
+                "GameTeam": "None",
+                "WindowState": "WideHalf, WideQuarter, StandardHalf, NativeQuarter, StandardQuarter",
+                "MultiplayerEvents": "None",
+                "UnitBaseFlags": "None",
+                "EditorFlags": "None",
+                "HindsightState": "None",
+                "SkullFlags": "None",
+                "SurvivalRoundFlags": "None",
+                "SurvivalWaveFlags": "None",
+                "SurvivalLivesFlags": "None",
+                "SurvivalDifficultyFlags": "None",
+                "GeneralKudosFlags": "None",
+                "UnitZoomFlags": "BinocularsEnabled",
+                "UnitInventoryFlags": "0",
+                "UnitGeneralFlags": "None",
+                "WeaponKudosFlags": "None",
+                "WeaponStatusFlags": "SourceIsPrimaryWeapon, SourceIsDualWeapon",
+                "WeaponTargetFlags": "None",
+                "WeaponTargetBFlags": "None",
+                "Player_SpecialFlags": "None",
+                "Weapon_SpecialFlags": "None",
+                "InverseFlags": "None",
+                "ConsumableFlags": "None",
+                "EnergyMeterFlags": "None"
+              }
+            ],
+            "PlacementData": [
+              {
+                "Anchor": "Crosshair",
+                "AnchorFlags": "0",
+                "Origin": "X: 0, Y: 0",
+                "Offset": "X: 0, Y: 0",
+                "Scale": "X: 1.5, Y: 1.5"
+              }
+            ],
+            "AnimationData": [],
+            "RenderData": [
+              {
+                "ShaderType": "Crosshair",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "Autoaim",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "CrosshairNormal",
+                "OutputColorB": "CrosshairEnemy",
+                "OutputColorC": "CrosshairFriendly",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "Input",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "RuntimeWidgetIndex": 11,
+            "Flags": "None",
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "ui\\chud\\bitmaps\\hud_reticles_h3",
+              "Generate": false
+            },
+            "BitmapSequenceIndex": 12
+          }
+        ],
+        "TextWidgets": []
+      },
+      {
+        "Name": "pickup_message",
+        "ScriptingClass": "WeaponStats",
+        "BaseFlags": "None",
+        "SortLayer": "Child",
+        "StateData": [
+          {
+            "GameState": "None",
+            "SkinState": "None",
+            "GameTeam": "None",
+            "WindowState": "None",
+            "MultiplayerEvents": "None",
+            "UnitBaseFlags": "None",
+            "EditorFlags": "None",
+            "HindsightState": "None",
+            "SkullFlags": "None",
+            "SurvivalRoundFlags": "None",
+            "SurvivalWaveFlags": "None",
+            "SurvivalLivesFlags": "None",
+            "SurvivalDifficultyFlags": "None",
+            "GeneralKudosFlags": "None",
+            "UnitZoomFlags": "None",
+            "UnitInventoryFlags": "0",
+            "UnitGeneralFlags": "None",
+            "WeaponKudosFlags": "None",
+            "WeaponStatusFlags": "PickupMessage",
+            "WeaponTargetFlags": "None",
+            "WeaponTargetBFlags": "None",
+            "Player_SpecialFlags": "None",
+            "Weapon_SpecialFlags": "None",
+            "InverseFlags": "None",
+            "ConsumableFlags": "None",
+            "EnergyMeterFlags": "None"
+          }
+        ],
+        "PlacementData": [
+          {
+            "Anchor": "TopRight",
+            "AnchorFlags": "0",
+            "Origin": "X: 0, Y: 0",
+            "Offset": "X: 0, Y: 300",
+            "Scale": "X: 1, Y: 1"
+          }
+        ],
+        "AnimationData": [],
+        "RenderData": [],
+        "ParallaxData": {
+          "Type": "chud_widget_parallax_data",
+          "Name": "ui\\chud\\parallax_data\\angle_small",
+          "Generate": false
+        },
+        "BitmapWidgets": [
+          {
+            "Name": "scematic",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [],
+            "PlacementData": [
+              {
+                "Anchor": "Parent",
+                "AnchorFlags": "0",
+                "Origin": "X: 1, Y: 0",
+                "Offset": "X: 36, Y: 15",
+                "Scale": "X: 1.4, Y: 1.4"
+              }
+            ],
+            "AnimationData": [],
+            "RenderData": [
+              {
+                "ShaderType": "Simple",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "WeaponVersionNumber",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "WeaponVersion",
+                "OutputColorB": "LocalA",
+                "OutputColorC": "LocalA",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "RangeInput",
+                "OutputScalarB": "Input",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "RuntimeWidgetIndex": 12,
+            "Flags": "SpriteFromWeapon",
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "ui\\chud\\bitmaps\\weapon_scematics\\excavator_scematics",
+              "Generate": false
+            },
+            "BitmapSequenceIndex": 0
+          },
+          {
+            "Name": "bar",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [],
+            "PlacementData": [
+              {
+                "Anchor": "Parent",
+                "AnchorFlags": "0",
+                "Origin": "X: -1, Y: 0",
+                "Offset": "X: -70, Y: -40",
+                "Scale": "X: 0.5, Y: 0.5"
+              }
+            ],
+            "AnimationData": [],
+            "RenderData": [
+              {
+                "ShaderType": "Simple",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "Zero",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "WeaponVersion",
+                "OutputColorB": "WeaponVersion",
+                "OutputColorC": "LocalA",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "RangeInput",
+                "OutputScalarB": "Input",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "RuntimeWidgetIndex": 13,
+            "Flags": "None",
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "ui\\chud\\bitmaps\\scoreboard_meter_border",
+              "Generate": false
+            },
+            "BitmapSequenceIndex": 1
+          }
+        ],
+        "TextWidgets": [
+          {
+            "Name": "pickup_message_up",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [],
+            "PlacementData": [
+              {
+                "Anchor": "Parent",
+                "AnchorFlags": "0",
+                "Origin": "X: 1, Y: 0",
+                "Offset": "X: 25, Y: -75",
+                "Scale": "X: 1, Y: 1"
+              }
+            ],
+            "AnimationData": [],
+            "RenderData": [
+              {
+                "ShaderType": "Simple",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "Zero",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "HighlightForeground",
+                "OutputColorB": "LocalA",
+                "OutputColorC": "LocalA",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "Input",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "WidgetIndex": 14,
+            "TextFlags": "None",
+            "Font": "FullscreenHudMessage",
+            "InputString": "wp_pickup"
+          },
+          {
+            "Name": "attribute",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [],
+            "PlacementData": [
+              {
+                "Anchor": "Parent",
+                "AnchorFlags": "0",
+                "Origin": "X: 1, Y: 0",
+                "Offset": "X: -80, Y: -38",
+                "Scale": "X: 0.8, Y: 0.8"
+              }
+            ],
+            "AnimationData": [],
+            "RenderData": [
+              {
+                "ShaderType": "Simple",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "Zero",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "WeaponVersion",
+                "OutputColorB": "LocalA",
+                "OutputColorC": "LocalA",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "Input",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "WidgetIndex": 15,
+            "TextFlags": "None",
+            "Font": "FullscreenHudMessage",
+            "InputString": "chud_primary_attribute_string"
+          }
+        ]
+      },
+      {
+        "Name": "ammo_area_right",
+        "ScriptingClass": "WeaponStats",
+        "BaseFlags": "None",
+        "SortLayer": "Child",
+        "StateData": [
+          {
+            "GameState": "None",
+            "SkinState": "None",
+            "GameTeam": "None",
+            "WindowState": "None",
+            "MultiplayerEvents": "None",
+            "UnitBaseFlags": "None",
+            "EditorFlags": "None",
+            "HindsightState": "None",
+            "SkullFlags": "None",
+            "SurvivalRoundFlags": "None",
+            "SurvivalWaveFlags": "None",
+            "SurvivalLivesFlags": "None",
+            "SurvivalDifficultyFlags": "None",
+            "GeneralKudosFlags": "None",
+            "UnitZoomFlags": "None",
+            "UnitInventoryFlags": "0",
+            "UnitGeneralFlags": "None",
+            "WeaponKudosFlags": "None",
+            "WeaponStatusFlags": "SourceIsPrimaryWeapon",
+            "WeaponTargetFlags": "None",
+            "WeaponTargetBFlags": "None",
+            "Player_SpecialFlags": "None",
+            "Weapon_SpecialFlags": "None",
+            "InverseFlags": "None",
+            "ConsumableFlags": "None",
+            "EnergyMeterFlags": "None"
+          }
+        ],
+        "PlacementData": [
+          {
+            "Anchor": "TopRight",
+            "AnchorFlags": "0",
+            "Origin": "X: 0, Y: 0",
+            "Offset": "X: 0, Y: 40",
+            "Scale": "X: 1.4, Y: 1.4"
+          }
+        ],
+        "AnimationData": [],
+        "RenderData": [],
+        "ParallaxData": {
+          "Type": "chud_widget_parallax_data",
+          "Name": "ui\\chud\\parallax_data\\angle_small",
+          "Generate": false
+        },
+        "BitmapWidgets": [
+          {
+            "Name": "scematic",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "WeaponSwapHack",
+            "SortLayer": "Inherited",
+            "StateData": [],
+            "PlacementData": [
+              {
+                "Anchor": "Parent",
+                "AnchorFlags": "0",
+                "Origin": "X: 1, Y: -1",
+                "Offset": "X: -40, Y: -1",
+                "Scale": "X: 0.9, Y: 0.9"
+              }
+            ],
+            "AnimationData": [
+              {
+                "Initializing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Active": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Flashing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Readying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\fade_in",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Unreadying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Impulse": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                }
+              }
+            ],
+            "RenderData": [
+              {
+                "ShaderType": "Simple",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "WeaponVersionNumber",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "HighlightForeground",
+                "OutputColorB": "LocalA",
+                "OutputColorC": "LocalA",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "RangeInput",
+                "OutputScalarB": "Input",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "RuntimeWidgetIndex": 16,
+            "Flags": "SpriteFromWeapon",
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "ui\\chud\\bitmaps\\weapon_scematics\\excavator_scematics",
+              "Generate": false
+            },
+            "BitmapSequenceIndex": 0
+          },
+          {
+            "Name": "divider",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [],
+            "PlacementData": [
+              {
+                "Anchor": "Parent",
+                "AnchorFlags": "0",
+                "Origin": "X: 0, Y: -1",
+                "Offset": "X: -126, Y: 2",
+                "Scale": "X: 1.25, Y: 1.25"
+              }
+            ],
+            "AnimationData": [],
+            "RenderData": [
+              {
+                "ShaderType": "Simple",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "Zero",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "HighlightForeground",
+                "OutputColorB": "LocalA",
+                "OutputColorC": "LocalA",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "Input",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "RuntimeWidgetIndex": 17,
+            "Flags": "None",
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "ui\\chud\\bitmaps\\divider",
+              "Generate": false
+            },
+            "BitmapSequenceIndex": 0
+          },
+          {
+            "Name": "ammo_icon",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [],
+            "PlacementData": [
+              {
+                "Anchor": "Parent",
+                "AnchorFlags": "0",
+                "Origin": "X: -1, Y: -1",
+                "Offset": "X: -143, Y: 38",
+                "Scale": "X: 0.6, Y: 0.6"
+              }
+            ],
+            "AnimationData": [
+              {
+                "Initializing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Active": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\ammo_dimming",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Flashing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Readying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Unreadying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Impulse": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                }
+              }
+            ],
+            "RenderData": [
+              {
+                "ShaderType": "Simple",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "Zero",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "HighlightForeground",
+                "OutputColorB": "PrimaryBackground",
+                "OutputColorC": "LocalA",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "Input",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "RuntimeWidgetIndex": 18,
+            "Flags": "None",
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "ui\\chud\\bitmaps\\ammo_icon",
+              "Generate": false
+            },
+            "BitmapSequenceIndex": 0
+          }
+        ],
+        "TextWidgets": [
+          {
+            "Name": "ammo_count",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [],
+            "PlacementData": [
+              {
+                "Anchor": "Parent",
+                "AnchorFlags": "0",
+                "Origin": "X: 1, Y: 0",
+                "Offset": "X: -148, Y: 50",
+                "Scale": "X: 0.5, Y: 0.5"
+              }
+            ],
+            "AnimationData": [
+              {
+                "Initializing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Active": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\ammo_dimming",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Flashing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Readying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Unreadying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Impulse": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                }
+              }
+            ],
+            "RenderData": [
+              {
+                "ShaderType": "Crosshair",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "WeaponAmmoReserve",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "HighlightForeground",
+                "OutputColorB": "HighlightForeground",
+                "OutputColorC": "LocalA",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "Input",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "WidgetIndex": 19,
+            "TextFlags": "StringIsANumber",
+            "Font": "HudNumberText",
+            "InputString": "chud_out_a"
+          },
+          {
+            "Name": "ammo_count_kudos",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [
+              {
+                "GameState": "None",
+                "SkinState": "None",
+                "GameTeam": "None",
+                "WindowState": "None",
+                "MultiplayerEvents": "None",
+                "UnitBaseFlags": "None",
+                "EditorFlags": "None",
+                "HindsightState": "None",
+                "SkullFlags": "None",
+                "SurvivalRoundFlags": "None",
+                "SurvivalWaveFlags": "None",
+                "SurvivalLivesFlags": "None",
+                "SurvivalDifficultyFlags": "None",
+                "GeneralKudosFlags": "None",
+                "UnitZoomFlags": "None",
+                "UnitInventoryFlags": "0",
+                "UnitGeneralFlags": "None",
+                "WeaponKudosFlags": "AmmoPickup",
+                "WeaponStatusFlags": "None",
+                "WeaponTargetFlags": "None",
+                "WeaponTargetBFlags": "None",
+                "Player_SpecialFlags": "None",
+                "Weapon_SpecialFlags": "None",
+                "InverseFlags": "None",
+                "ConsumableFlags": "None",
+                "EnergyMeterFlags": "None"
+              }
+            ],
+            "PlacementData": [
+              {
+                "Anchor": "Parent",
+                "AnchorFlags": "0",
+                "Origin": "X: 1, Y: 0",
+                "Offset": "X: -100, Y: 50",
+                "Scale": "X: 0.5, Y: 0.5"
+              }
+            ],
+            "AnimationData": [
+              {
+                "Initializing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Active": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Flashing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Readying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Unreadying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Impulse": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\kudos",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                }
+              }
+            ],
+            "RenderData": [
+              {
+                "ShaderType": "TextSimple",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "ImpulseValue",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 219, Green: 219, Blue: 219",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "LocalA",
+                "OutputColorB": "LocalA",
+                "OutputColorC": "LocalA",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "Input",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "WidgetIndex": 20,
+            "TextFlags": "StringIsANumber, SuffixWithPlus",
+            "Font": "HudNumberText",
+            "InputString": "chud_out_a"
+          },
+          {
+            "Name": "ammo_count_loaded",
+            "ScriptingClass": "UseParent",
+            "BaseFlags": "None",
+            "SortLayer": "Inherited",
+            "StateData": [
+              {
+                "GameState": "None",
+                "SkinState": "None",
+                "GameTeam": "None",
+                "WindowState": "None",
+                "MultiplayerEvents": "None",
+                "UnitBaseFlags": "None",
+                "EditorFlags": "None",
+                "HindsightState": "None",
+                "SkullFlags": "None",
+                "SurvivalRoundFlags": "None",
+                "SurvivalWaveFlags": "None",
+                "SurvivalLivesFlags": "None",
+                "SurvivalDifficultyFlags": "None",
+                "GeneralKudosFlags": "None",
+                "UnitZoomFlags": "None",
+                "UnitInventoryFlags": "0",
+                "UnitGeneralFlags": "None",
+                "WeaponKudosFlags": "None",
+                "WeaponStatusFlags": "None",
+                "WeaponTargetFlags": "None",
+                "WeaponTargetBFlags": "None",
+                "Player_SpecialFlags": "None",
+                "Weapon_SpecialFlags": "ClipBelowCutoff",
+                "InverseFlags": "None",
+                "ConsumableFlags": "None",
+                "EnergyMeterFlags": "None"
+              }
+            ],
+            "PlacementData": [
+              {
+                "Anchor": "Parent",
+                "AnchorFlags": "0",
+                "Origin": "X: 1, Y: 0",
+                "Offset": "X: -134, Y: 16",
+                "Scale": "X: 0.465, Y: 0.465"
+              }
+            ],
+            "AnimationData": [
+              {
+                "Initializing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Active": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Flashing": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": {
+                    "Type": "chud_animation_definition",
+                    "Name": "ui\\chud\\animations\\flash_test",
+                    "Generate": false
+                  },
+                  "StateUnknown": 0.0
+                },
+                "Readying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Unreadying": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                },
+                "Impulse": {
+                  "Flags": "0",
+                  "InputType": "Time",
+                  "Animation": null,
+                  "StateUnknown": 0.0
+                }
+              }
+            ],
+            "RenderData": [
+              {
+                "ShaderType": "TextSimple",
+                "BlendModeHO": "AlphaBlend",
+                "ExternalInput": "WeaponAmmoLoaded",
+                "RangeInput": "Zero",
+                "LocalColorA": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorB": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorC": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalColorD": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+                "LocalScalarA": 0.0,
+                "LocalScalarB": 0.0,
+                "LocalScalarC": 0.0,
+                "LocalScalarD": 0.0,
+                "OutputColorA": "HighlightForeground",
+                "OutputColorB": "WarningFlash",
+                "OutputColorC": "LocalA",
+                "OutputColorD": "LocalA",
+                "OutputColorE": "LocalA",
+                "OutputColorF": "LocalA",
+                "OutputScalarA": "Input",
+                "OutputScalarB": "FlashAnimation",
+                "OutputScalarC": "Input",
+                "OutputScalarD": "Input",
+                "OutputScalarE": "Input",
+                "OutputScalarF": "Input",
+                "ScissorRect": "Top: 0, Left: 0, Bottom: 0, Right: 0"
+              }
+            ],
+            "WidgetIndex": 21,
+            "TextFlags": "StringIsANumber",
+            "Font": "FullscreenHudMessage",
+            "InputString": "chud_out_a"
+          }
+        ]
+      }
+    ],
+    "HudAmmunitionInfo": {
+      "LowAmmoLoadedThreshold": 2,
+      "LowAmmoReserveThreshold": 0,
+      "LowBatteryThreshold": 0
+    }
+  }
+}

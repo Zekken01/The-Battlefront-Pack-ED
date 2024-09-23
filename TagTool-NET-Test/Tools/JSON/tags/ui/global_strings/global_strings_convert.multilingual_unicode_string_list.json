@@ -1,0 +1,32 @@
+{
+  "TagName": "ui\\global_strings\\global_strings",
+  "TagType": "multilingual_unicode_string_list",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": [
+    {
+      "StringIdName": "network_mode_offline",
+      "StringIdContent": "Offline"
+    },
+    {
+      "StringIdName": "network_mode_system_link_advertise",
+      "StringIdContent": "Online"
+    },
+    {
+      "StringIdName": "metagame_off",
+      "StringIdContent": "Off"
+    },
+    {
+      "StringIdName": "metagame_on",
+      "StringIdContent": "Free for All"
+    },
+    {
+      "StringIdName": "metagame_on_group",
+      "StringIdContent": "Team"
+    }
+  ],
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

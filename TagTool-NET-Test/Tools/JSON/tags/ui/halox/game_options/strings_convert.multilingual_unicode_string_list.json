@@ -1,0 +1,384 @@
+{
+  "TagName": "ui\\halox\\game_options\\strings",
+  "TagType": "multilingual_unicode_string_list",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": [
+    {
+      "StringIdName": "assault_rifle_v2",
+      "StringIdContent": "Assault Rifle (Damage)"
+    },
+    {
+      "StringIdName": "assault_rifle_v3",
+      "StringIdContent": "Assault Rifle (Accuracy)"
+    },
+    {
+      "StringIdName": "assault_rifle_v4",
+      "StringIdContent": "Assault Rifle (Rate of Fire)"
+    },
+    {
+      "StringIdName": "assault_rifle_v5",
+      "StringIdContent": "Assault Rifle (Accuracy)"
+    },
+    {
+      "StringIdName": "assault_rifle_v6",
+      "StringIdContent": "Assault Rifle (Power)"
+    },
+    {
+      "StringIdName": "balanced",
+      "StringIdContent": "Balancing Only"
+    },
+    {
+      "StringIdName": "base",
+      "StringIdContent": "No Upgrades"
+    },
+    {
+      "StringIdName": "battle_rifle_v1",
+      "StringIdContent": "Battle Rifle (Ammo)"
+    },
+    {
+      "StringIdName": "battle_rifle_v2",
+      "StringIdContent": "Battle Rifle (Damage)"
+    },
+    {
+      "StringIdName": "battle_rifle_v3",
+      "StringIdContent": "Battle Rifle (Accuracy)"
+    },
+    {
+      "StringIdName": "battle_rifle_v4",
+      "StringIdContent": "Battle Rifle (Rate of Fire)"
+    },
+    {
+      "StringIdName": "battle_rifle_v5",
+      "StringIdContent": "Battle Rifle (Range)"
+    },
+    {
+      "StringIdName": "battle_rifle_v6",
+      "StringIdContent": "Battle Rifle (Power)"
+    },
+    {
+      "StringIdName": "bottomless_clip",
+      "StringIdContent": "bottomless clip"
+    },
+    {
+      "StringIdName": "carbine",
+      "StringIdContent": "Covenant Carbine"
+    },
+    {
+      "StringIdName": "covenant_carbine_v1",
+      "StringIdContent": "Covenant Carbine (Ammo)"
+    },
+    {
+      "StringIdName": "covenant_carbine_v2",
+      "StringIdContent": "Covenant Carbine (Damage)"
+    },
+    {
+      "StringIdName": "covenant_carbine_v3",
+      "StringIdContent": "Covenant Carbine (Accuracy)"
+    },
+    {
+      "StringIdName": "covenant_carbine_v4",
+      "StringIdContent": "Covenant Carbine (Rate of Fire)"
+    },
+    {
+      "StringIdName": "covenant_carbine_v5",
+      "StringIdContent": "Covenant Carbine (Range)"
+    },
+    {
+      "StringIdName": "covenant_carbine_v6",
+      "StringIdContent": "Covenant Carbine (Power)"
+    },
+    {
+      "StringIdName": "dmr",
+      "StringIdContent": "DMR"
+    },
+    {
+      "StringIdName": "dmr_v1",
+      "StringIdContent": "DMR (Ammo)"
+    },
+    {
+      "StringIdName": "dmr_v2",
+      "StringIdContent": "DMR (Damage)"
+    },
+    {
+      "StringIdName": "dmr_v3",
+      "StringIdContent": "DMR (Accuracy)"
+    },
+    {
+      "StringIdName": "dmr_v4",
+      "StringIdContent": "DMR (Rate of Fire)"
+    },
+    {
+      "StringIdName": "dmr_v5",
+      "StringIdContent": "DMR (Range)"
+    },
+    {
+      "StringIdName": "dmr_v6",
+      "StringIdContent": "DMR (Power)"
+    },
+    {
+      "StringIdName": "excavator",
+      "StringIdContent": "Mauler"
+    },
+    {
+      "StringIdName": "excavator_v3",
+      "StringIdContent": "Mauler (Power)"
+    },
+    {
+      "StringIdName": "flamethrower",
+      "StringIdContent": "Flamethrower"
+    },
+    {
+      "StringIdName": "fuel_rod_gun",
+      "StringIdContent": "Fuel Rod Gun"
+    },
+    {
+      "StringIdName": "info",
+      "StringIdContent": "All weapons are their base versions."
+    },
+    {
+      "StringIdName": "machinegun_turret",
+      "StringIdContent": "Machine Gun Turret"
+    },
+    {
+      "StringIdName": "magnum_v2",
+      "StringIdContent": "Magnum (Damage)"
+    },
+    {
+      "StringIdName": "magnum_v3",
+      "StringIdContent": "Magnum (Power)"
+    },
+    {
+      "StringIdName": "missile_pod",
+      "StringIdContent": "Missile Pod"
+    },
+    {
+      "StringIdName": "percent_15",
+      "StringIdContent": "15%"
+    },
+    {
+      "StringIdName": "percent_1500",
+      "StringIdContent": "1500%"
+    },
+    {
+      "StringIdName": "percent_3000",
+      "StringIdContent": "3000%"
+    },
+    {
+      "StringIdName": "percent_35",
+      "StringIdContent": "35%"
+    },
+    {
+      "StringIdName": "percent_750",
+      "StringIdContent": "750%"
+    },
+    {
+      "StringIdName": "plasma_cannon",
+      "StringIdContent": "Plasma Cannon"
+    },
+    {
+      "StringIdName": "plasma_pistol_v3",
+      "StringIdContent": "Plasma Pistol (Power)"
+    },
+    {
+      "StringIdName": "plasma_rifle_v6",
+      "StringIdContent": "Plasma Rifle (Power)"
+    },
+    {
+      "StringIdName": "respawn_spectating",
+      "StringIdContent": "Spectating"
+    },
+    {
+      "StringIdName": "respawn_spectating_desc",
+      "StringIdContent": "This determines whether a player can spectate other players upon death."
+    },
+    {
+      "StringIdName": "sentinel_beam",
+      "StringIdContent": "Sentinel Beam"
+    },
+    {
+      "StringIdName": "smg_v1",
+      "StringIdContent": "SMG (Ammo)"
+    },
+    {
+      "StringIdName": "smg_v2",
+      "StringIdContent": "SMG (Damage)"
+    },
+    {
+      "StringIdName": "smg_v3",
+      "StringIdContent": "SMG (Accuracy)"
+    },
+    {
+      "StringIdName": "smg_v4",
+      "StringIdContent": "SMG (Rate of Fire)"
+    },
+    {
+      "StringIdName": "smg_v6",
+      "StringIdContent": "SMG (Power)"
+    },
+    {
+      "StringIdName": "social_team_changing_balanced_desc",
+      "StringIdContent": "Players may only change teams if doing so will not unbalance the teams."
+    },
+    {
+      "StringIdName": "support_weapon_desc",
+      "StringIdContent": "Support weapon, primary only."
+    },
+    {
+      "StringIdName": "time_seconds_11",
+      "StringIdContent": "11 Seconds"
+    },
+    {
+      "StringIdName": "time_seconds_12",
+      "StringIdContent": "12 Seconds"
+    },
+    {
+      "StringIdName": "time_seconds_13",
+      "StringIdContent": "13 Seconds"
+    },
+    {
+      "StringIdName": "time_seconds_14",
+      "StringIdContent": "14 Seconds"
+    },
+    {
+      "StringIdName": "time_seconds_16",
+      "StringIdContent": "16 Seconds"
+    },
+    {
+      "StringIdName": "time_seconds_17",
+      "StringIdContent": "17 Seconds"
+    },
+    {
+      "StringIdName": "time_seconds_18",
+      "StringIdContent": "18 Seconds"
+    },
+    {
+      "StringIdName": "time_seconds_19",
+      "StringIdContent": "19 Seconds"
+    },
+    {
+      "StringIdName": "time_seconds_21",
+      "StringIdContent": "21 Seconds"
+    },
+    {
+      "StringIdName": "time_seconds_22",
+      "StringIdContent": "22 Seconds"
+    },
+    {
+      "StringIdName": "time_seconds_23",
+      "StringIdContent": "23 Seconds"
+    },
+    {
+      "StringIdName": "time_seconds_24",
+      "StringIdContent": "24 Seconds"
+    },
+    {
+      "StringIdName": "time_seconds_6",
+      "StringIdContent": "6 Seconds"
+    },
+    {
+      "StringIdName": "time_seconds_7",
+      "StringIdContent": "7 Seconds"
+    },
+    {
+      "StringIdName": "time_seconds_8",
+      "StringIdContent": "8 Seconds"
+    },
+    {
+      "StringIdName": "time_seconds_9",
+      "StringIdContent": "9 Seconds"
+    },
+    {
+      "StringIdName": "traits_appearance_active_camo_bad",
+      "StringIdContent": "Bad Camo"
+    },
+    {
+      "StringIdName": "traits_appearance_active_camo_bad_desc",
+      "StringIdContent": "I can still see you"
+    },
+    {
+      "StringIdName": "traits_appearance_player_model",
+      "StringIdContent": "Player Character"
+    },
+    {
+      "StringIdName": "traits_appearance_player_model_desc",
+      "StringIdContent": "This determines the current player character model"
+    },
+    {
+      "StringIdName": "traits_appearance_player_model_set",
+      "StringIdContent": "Player Character Set"
+    },
+    {
+      "StringIdName": "traits_appearance_player_model_set_desc",
+      "StringIdContent": "This determines the current player character set"
+    },
+    {
+      "StringIdName": "traits_appearance_player_size",
+      "StringIdContent": "player size"
+    },
+    {
+      "StringIdName": "traits_appearance_player_size_desc",
+      "StringIdContent": "This determines the size of the player"
+    },
+    {
+      "StringIdName": "traits_appearance_waypoints_nametag_allies",
+      "StringIdContent": "No Nametag (team only)"
+    },
+    {
+      "StringIdName": "traits_appearance_waypoints_nametag_allies_desc",
+      "StringIdContent": "Nametag and wapoint visible for teammates only"
+    },
+    {
+      "StringIdName": "traits_appearance_waypoints_nametag_none",
+      "StringIdContent": "No Nametag"
+    },
+    {
+      "StringIdName": "traits_appearance_waypoints_nametag_none_desc",
+      "StringIdContent": "Nametag and wapoint not visible to anyone"
+    },
+    {
+      "StringIdName": "traits_appearance_waypoints_none_nametag",
+      "StringIdContent": "No Nametag"
+    },
+    {
+      "StringIdName": "traits_health_damage_resistance_invincible",
+      "StringIdContent": "Invincible"
+    },
+    {
+      "StringIdName": "traits_health_damage_resistance_invincible_desc",
+      "StringIdContent": "The player is invulnerable to most forms of damage including assassinations"
+    },
+    {
+      "StringIdName": "traits_movement_sprint",
+      "StringIdContent": "Sprint"
+    },
+    {
+      "StringIdName": "traits_movement_sprint_desc",
+      "StringIdContent": "This determines the current sprint state"
+    },
+    {
+      "StringIdName": "traits_weapons_carbine",
+      "StringIdContent": "Covenant Carbine"
+    },
+    {
+      "StringIdName": "traits_weapons_excavator",
+      "StringIdContent": "Mauler"
+    },
+    {
+      "StringIdName": "traits_weapons_third_person_camera",
+      "StringIdContent": "Third Person"
+    },
+    {
+      "StringIdName": "traits_weapons_third_person_camera_desc",
+      "StringIdContent": "This determines the current camera mode"
+    },
+    {
+      "StringIdName": "unarmed",
+      "StringIdContent": "None (Melee)"
+    }
+  ],
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

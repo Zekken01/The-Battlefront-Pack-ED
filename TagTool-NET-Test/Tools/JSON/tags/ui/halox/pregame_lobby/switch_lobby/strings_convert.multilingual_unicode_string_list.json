@@ -1,0 +1,20 @@
+{
+  "TagName": "ui\\halox\\pregame_lobby\\switch_lobby\\strings",
+  "TagType": "multilingual_unicode_string_list",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": [
+    {
+      "StringIdName": "survival",
+      "StringIdContent": "FIREFIGHT"
+    },
+    {
+      "StringIdName": "survival_help",
+      "StringIdContent": "Take your party to Firefight missions that gradually increase in difficulty as you rack up the points."
+    }
+  ],
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

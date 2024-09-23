@@ -1,0 +1,663 @@
+{
+  "TagName": "objects\\weapons\\support_high\\spartan_laser\\spartan_laser",
+  "TagType": "weapon",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "ObjectType": {
+      "Halo3ODST": "Weapon"
+    },
+    "ObjectFlags": {
+      "Flags": "None"
+    },
+    "BoundingRadius": 0.215,
+    "BoundingOffset": "X: 0.075, Y: 0, Z: 0",
+    "AccelerationScale": 0.8,
+    "LightmapShadowMode": "Default",
+    "SweetenerSize": "Default",
+    "WaterDensity": "Neutral",
+    "RuntimeFlags": 0,
+    "DynamicLightSphereRadius": 0.0,
+    "DynamicLightSphereOffset": "X: 0, Y: 0, Z: 0",
+    "DefaultModelVariant": "invalid",
+    "Model": {
+      "Type": "model",
+      "Name": "objects\\weapons\\support_high\\spartan_laser\\spartan_laser",
+      "Generate": false
+    },
+    "CrateObject": null,
+    "CollisionDamage": null,
+    "EarlyMoverProperties": [],
+    "CreationEffect": null,
+    "MaterialEffects": {
+      "Type": "material_effects",
+      "Name": "fx\\material_effects\\objects\\weapons\\rocket_launcher",
+      "Generate": false
+    },
+    "ArmorSounds": null,
+    "MeleeImpactSound": null,
+    "AiProperties": [],
+    "Functions": [
+      {
+        "Flags": "None",
+        "ImportName": "primary_charged",
+        "ExportName": "charging_lens_flare",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAACwAAAACAAAABAAAzSlcTz4AAAAAAAAAAAcAAAD//39/0x0UP3hoQj+r6cG+pegmPQ=="
+        },
+        "ScaleBy": "invalid"
+      }
+    ],
+    "HudTextMessageIndex": 0,
+    "SecondaryFlags": "None",
+    "Attachments": [
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\weapons\\spartan_laser\\charging\\charging",
+          "Generate": false
+        },
+        "Marker": "primary_trigger",
+        "ChangeColor": "None",
+        "PrimaryScale": "primary_charged",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "light",
+          "Name": "objects\\weapons\\support_high\\spartan_laser\\fx\\charging",
+          "Generate": false
+        },
+        "Marker": "primary_trigger",
+        "ChangeColor": "None",
+        "PrimaryScale": "charging_lens_flare",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "effect",
+          "Name": "objects\\weapons\\support_high\\spartan_laser\\fx\\charging",
+          "Generate": false
+        },
+        "Marker": "primary_trigger",
+        "ChangeColor": "None",
+        "PrimaryScale": "primary_charged",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "lens_flare",
+          "Name": "objects\\weapons\\support_high\\spartan_laser\\fx\\charging",
+          "Generate": false
+        },
+        "Marker": "primary_trigger",
+        "ChangeColor": "None",
+        "PrimaryScale": "charging_lens_flare",
+        "SecondaryScale": "invalid"
+      }
+    ],
+    "Widgets": [],
+    "ChangeColors": [],
+    "NodeMaps": [],
+    "MultiplayerObject": [
+      {
+        "EngineFlags": "None",
+        "Type": "Weapon",
+        "TeleporterPassability": "None",
+        "Flags": "None",
+        "BoundaryShape": "None",
+        "SpawnTimerType": "StartsOnDisturbance",
+        "DefaultSpawnTime": 30,
+        "DefaultAbandonTime": 60,
+        "BoundaryWidthRadius": 0.0,
+        "BoundaryBoxLength": 0.0,
+        "BoundaryPositiveHeight": 0.0,
+        "BoundaryNegativeHeight": 0.0,
+        "StandardRespawnZoneWeight": 0.0,
+        "FlagAwayRespawnZoneWeight": 0.0,
+        "FlagAtHomeRespawnZoneWeight": 0.0,
+        "BoundaryCenterMarker": "invalid",
+        "SpawnedObjectMarkerName": "invalid",
+        "SpawnedObject": null,
+        "NyiBoundaryMaterial": "invalid",
+        "BoundaryShaders": [
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          }
+        ]
+      }
+    ],
+    "RevivingEquipment": [],
+    "PathfindingSpheres": [],
+    "ItemFlags": {
+      "Flags": "None"
+    },
+    "ObsoleteItemFields": {
+      "OldMessageIndex": 24,
+      "SortOrder": 0,
+      "OldMultiplayerOnGroundScale": 0.0,
+      "OldCampaignOnGroundScale": 0.0
+    },
+    "PickupMessage": "laz_pickup",
+    "SwapMessage": "laz_swap",
+    "PickupOrDualWieldMessage": "invalid",
+    "SwapOrDualWieldMessage": "invalid",
+    "PickedUpMessage": "laz_picked_up",
+    "SwitchToMessage": "laz_switch_to",
+    "SwitchToFromAiMessage": "laz_swap_ai",
+    "AllWeaponsEmptyMessage": "invalid",
+    "CollisionSound": null,
+    "PredictedBitmaps": [],
+    "DetonationDamageEffect": null,
+    "DetonationDelay": "Lower: 0, Upper: 0",
+    "DetonatingEffect": null,
+    "DetonationEffect": null,
+    "CampaignOnGroundScale": 1.5,
+    "MultiplayerOnGroundScale": 1.5,
+    "ItemUnitScales": {
+      "SmallUnit": {
+        "Armed": 0.9,
+        "Stowed": 0.9
+      },
+      "MediumUnit": {
+        "Armed": 1.1,
+        "Stowed": 1.1
+      },
+      "LargeUnit": {
+        "Armed": 0.0,
+        "Stowed": 0.0
+      },
+      "HugeUnit": {
+        "Armed": 1.3,
+        "Stowed": 1.3
+      }
+    },
+    "GroundedDamping": {
+      "Angular": 5.0,
+      "Linear": 2.0
+    },
+    "WeaponFlags": {
+      "NewFlags": "CannotFireAtMaximumAge, StrictDeviationAngle"
+    },
+    "SecondaryWeaponFlags": "MagnitizesOnlyWhenZoomed",
+    "SecondaryTriggerMode": "Normal",
+    "MaximumAlternateShotsLoaded": 0,
+    "TurnOnTime": 0.0,
+    "ReadyTime": 0.0,
+    "ReadyEffect": null,
+    "ReadyDamageEffect": null,
+    "HeatRecoveryThreshold": 0.1,
+    "OverheatedThreshold": 1.0,
+    "HeatDetonationThreshold": 0.0,
+    "HeatDetonationFraction": 0.0,
+    "HeatLossPerSecond": 1.0,
+    "HeatIllumination": 1.0,
+    "OverheatedHeatLossPerSecond": 0.4,
+    "Overheated": null,
+    "OverheatedDamageEffect": {
+      "Type": "damage_response_definition",
+      "Name": "globals\\damage_responses\\trigger_overheat",
+      "Generate": false
+    },
+    "Detonation": null,
+    "DetonationDamageEffect": null,
+    "PlayerMeleeDamage": null,
+    "PlayerMeleeResponse": null,
+    "MeleeDamageParameters": {
+      "DamagePyramidAngles": "Yaw: 12.512375, Pitch: 6.061675",
+      "DamagePyramidDepth": 0.6,
+      "FirstHitMeleeDamage": {
+        "Type": "damage_effect",
+        "Name": "objects\\weapons\\damage_effects\\smash_melee",
+        "Generate": false
+      },
+      "FirstHitMeleeResponse": {
+        "Type": "damage_effect",
+        "Name": "globals\\trigger_melee",
+        "Generate": false
+      },
+      "SecondHitMeleeDamage": null,
+      "SecondHitMeleeResponse": null,
+      "ThirdHitMeleeDamage": null,
+      "ThirdHitMeleeResponse": null,
+      "LungeMeleeDamage": null,
+      "LungeMeleeResponse": null,
+      "EmptyMeleeDamage": null,
+      "EmptyMeleeResponse": null,
+      "ClangMeleeDamage": null,
+      "ClangMeleeResponse": null
+    },
+    "ClangEffect": null,
+    "MeleeDamageReportingType": {
+      "HaloOnline": "GenericMelee"
+    },
+    "MagnificationLevels": 1,
+    "MagnificationRange": "Lower: 2.5, Upper: 2.5",
+    "MagnificationFlags": "Bit0",
+    "WeaponSwitchReadySpeed": 0.0,
+    "WeaponAimAssist": {
+      "AutoaimAngle": "Degrees: 1",
+      "AutoaimRange": 25.0,
+      "AutoaimFalloffRange": 12.5,
+      "AutoaimNearFalloffRange": 0.0,
+      "MagnetismAngle": "Degrees: 5",
+      "MagnetismRange": 25.0,
+      "MagnetismFalloffRange": 12.5,
+      "MagnetismNearFalloffRange": 0.0,
+      "DeviationAngle": "Degrees: 0"
+    },
+    "Unknown15": 0,
+    "TargetTracking": [],
+    "Unknown16": 0,
+    "Unknown17": 0,
+    "Unknown18": 0,
+    "Unknown19": 0,
+    "MovementPenalized": "Always",
+    "ForwardsMovementPenalty": 0.0,
+    "SidewaysMovementPenalty": 0.0,
+    "AiScariness": 12.0,
+    "WeaponPowerOnTime": 0.0,
+    "WeaponPowerOffTime": 0.0,
+    "WeaponPowerOnEffect": null,
+    "WeaponPowerOffEffect": null,
+    "AgeHeatRecoveryPenalty": 0.0,
+    "AgeRateOfFirePenalty": 0.0,
+    "AgeMisfireStart": 0.0,
+    "AgeMisfireChance": 0.0,
+    "PickupSound": {
+      "Type": "sound",
+      "Name": "sound\\weapons\\rocket_launcher\\rocket_ammo",
+      "Generate": false
+    },
+    "ZoomInSound": {
+      "Type": "sound",
+      "Name": "sound\\weapons\\spartan_laser\\spartan_laser_zoom_in",
+      "Generate": false
+    },
+    "ZoomOutSound": {
+      "Type": "sound",
+      "Name": "sound\\weapons\\spartan_laser\\spartan_laser_zoom_out",
+      "Generate": false
+    },
+    "ActiveCamoDing": 0.12,
+    "ActiveCamoRegrowthRate": 0.0,
+    "Unknown22": 0,
+    "Unknown23": 0.0,
+    "WeaponClass": "missile",
+    "WeaponName": "sl",
+    "MultiplayerWeaponType": "None",
+    "WeaponType": "SpartanLaser",
+    "Tracking": "HumanTracking",
+    "SpecialHudVersion": "Default30",
+    "SpecialHudIcon": 0,
+    "FirstPerson": [
+      {
+        "FirstPersonModel": {
+          "Type": "render_model",
+          "Name": "objects\\weapons\\support_high\\spartan_laser\\fp_spartan_laser\\fp_spartan_laser",
+          "Generate": false
+        },
+        "FirstPersonAnimations": {
+          "Type": "model_animation_graph",
+          "Name": "objects\\characters\\masterchief\\fp\\weapons\\support_high\\fp_spartan_laser\\fp_spartan_laser",
+          "Generate": false
+        }
+      },
+      {
+        "FirstPersonModel": {
+          "Type": "render_model",
+          "Name": "objects\\weapons\\support_high\\spartan_laser\\fp_spartan_laser\\fp_spartan_laser",
+          "Generate": false
+        },
+        "FirstPersonAnimations": {
+          "Type": "model_animation_graph",
+          "Name": "objects\\characters\\dervish\\fp\\weapons\\support_high\\fp_spartan_laser\\fp_spartan_laser",
+          "Generate": false
+        }
+      }
+    ],
+    "HudInterface": {
+      "Type": "chud_definition",
+      "Name": "ui\\chud\\spartan_laser",
+      "Generate": false
+    },
+    "PredictedWeaponResources": [],
+    "Magazines": [],
+    "Triggers": [
+      {
+        "Flags": "None",
+        "Input": "RightTrigger",
+        "Behavior": "SpewCharge",
+        "PrimaryBarrel": 0,
+        "SecondaryBarrel": 1,
+        "Prediction": "Charge",
+        "Autofire": {
+          "AutofireTime": 0.0,
+          "AutofireThrow": 0.0,
+          "SecondaryAction": "Charge",
+          "PrimaryAction": "Fire"
+        },
+        "Charging": {
+          "ChargingTime": 2.5,
+          "ChargedTime": 0.0,
+          "OverchargedAction": "Discharge",
+          "CancelledTriggerThrow": 0,
+          "ChargedIllumination": 1.0,
+          "SpewTime": 0.0,
+          "ChargingEffect": null,
+          "ChargingDamageEffect": null,
+          "ChargingContinuousDamageResponse": {
+            "Type": "damage_response_definition",
+            "Name": "globals\\damage_responses\\charging_rumble",
+            "Generate": false
+          },
+          "ChargedDrainRate": 0.0,
+          "DischargeEffect": null,
+          "DischargeDamageEffect": null
+        },
+        "LockonHoldTime": 0.0,
+        "LockonAcquireTime": 0.0,
+        "LockonGraceTime": 0.0
+      }
+    ],
+    "Barrels": [
+      {
+        "Flags": {
+          "HaloOnline": "ProjectileFiresInMarkerDirection"
+        },
+        "Firing": {
+          "RoundsPerSecond": "Lower: 20, Upper: 20",
+          "AccelerationTime": 0.0,
+          "DecelerationTime": 0.0,
+          "BarrelSpinScale": 0.0,
+          "BlurredRateOfFire": 0.0,
+          "ShotsPerFire": "Lower: 1, Upper: 1",
+          "FireRecoveryTime": 0.0,
+          "SoftRecoveryFraction": 0.0
+        },
+        "MagazineIndex": -1,
+        "RoundsPerShot": 0,
+        "MinimumRoundsLoaded": 0,
+        "RoundsBetweenTracers": 0,
+        "OptionalBarrelMarkerName": "invalid",
+        "PredictionType": "Continuous",
+        "FiringNoise": "Shout",
+        "FiringError": {
+          "AccelerationTime": 0.0,
+          "DecelerationTime": 0.0,
+          "DamageError": "Lower: 0, Upper: 0",
+          "MinErrorLookPitchRate": "Degrees: 0",
+          "FullErrorLookPitchRate": "Degrees: 0",
+          "LookPitchErrorPower": 0.0
+        },
+        "DualWeaponError": {
+          "AccelerationTime": 0.0,
+          "DecelerationTime": 0.0,
+          "RuntimeAccelerationRate": 1000.0,
+          "RuntimeDecelerationRate": 1000.0,
+          "MinimumError": "Degrees: 0",
+          "ErrorAngle": "Lower: Degrees: 0, Upper: Degrees: 0",
+          "DualWieldDamageScale": 0.0
+        },
+        "ProjectileDistributionFunction": "Point",
+        "ProjectilesPerShot": 1,
+        "ProjectileDistributionAngle": "Degrees: 0",
+        "ProjectileMinimumError": "Degrees: 0",
+        "ProjectileErrorAngle": "Lower: Degrees: 0, Upper: Degrees: 0",
+        "AccuracyPenalties": {
+          "ReloadPenalty": 0.0,
+          "SwitchPenalty": 0.0,
+          "ZoomPenalty": 0.0,
+          "JumpPenalty": 0.0,
+          "SingleWieldPenalties": {
+            "FiringPenaltyFunction": [],
+            "FiringCrouchedPenaltyFunction": [],
+            "MovingPenaltyFunction": [],
+            "TurningPenaltyFunction": [],
+            "ErrorAngleMaxRotation": 0.0
+          },
+          "DualWieldPenalties": {
+            "FiringPenaltyFunction": [],
+            "FiringCrouchedPenaltyFunction": [],
+            "MovingPenaltyFunction": [],
+            "TurningPenaltyFunction": [],
+            "ErrorAngleMaxRotation": 0.0
+          }
+        },
+        "FirstPersonOffsets": [
+          {
+            "Offset": "I: 0, J: -0.05, K: 0"
+          }
+        ],
+        "DamageReportingType": {
+          "HaloOnline": "SpartanLaser"
+        },
+        "Projectile": {
+          "Type": "projectile",
+          "Name": "objects\\weapons\\support_high\\spartan_laser\\projectiles\\spartan_laser_tracer",
+          "Generate": false
+        },
+        "SecondaryProjectile": null,
+        "DamageEffect": null,
+        "CrateProjectile": null,
+        "CrateProjectileSpeed": 0.0,
+        "EjectionPortRecoveryTime": 0.0,
+        "IlluminationRecoveryTime": 0.2,
+        "HeatGeneratedPerRound": 0.0,
+        "AgeGeneratedPerRoundMp": 0.0,
+        "AgeGeneratedPerRoundSp": 0.0,
+        "OverloadTime": 0.0,
+        "VerticalRecoil": {
+          "AngleChangePerShot": "Lower: Degrees: 0, Upper: Degrees: 0",
+          "AngleChangeAccelerationTime": 0.0,
+          "AngleChangeDecelerationTime": 0.0,
+          "AngleChangeFunction": "Linear",
+          "AngleChangeAccelerationRate": 1000.0,
+          "AngleChangeDecelerationRate": 1000.0
+        },
+        "IlluminationRecoveryRate": 5.0,
+        "EjectionPortRecoveryRate": 1000.0,
+        "RateOfFireAccelerationTime": 1000.0,
+        "RateOfFireDecelerationTime": 1000.0,
+        "ErrorAccelerationRate": 1000.0,
+        "ErrorDecelerationRate": 1000.0,
+        "FiringEffects": [
+          {
+            "ShotCount": "Lower: 0, Upper: 0",
+            "FiringEffect": {
+              "Type": "effect",
+              "Name": "objects\\weapons\\support_high\\spartan_laser\\fx\\firing_tracer",
+              "Generate": false
+            },
+            "MisfireEffect": null,
+            "EmptyEffect": null,
+            "SecondaryFiringEffect": null,
+            "FiringDamage": null,
+            "MisfireDamage": null,
+            "EmptyDamage": null,
+            "OptionalSecondaryFiringDamage": null,
+            "FiringRiderDamage": null,
+            "MisfireRiderDamage": null,
+            "EmptyRiderDamage": null,
+            "OptionalSecondaryFiringRiderDamage": null
+          }
+        ]
+      },
+      {
+        "Flags": {
+          "HaloOnline": "Use1FiringEffectPerBurst, ProjectileFiresInMarkerDirection"
+        },
+        "Firing": {
+          "RoundsPerSecond": "Lower: 30, Upper: 30",
+          "AccelerationTime": 0.0,
+          "DecelerationTime": 0.0,
+          "BarrelSpinScale": 0.0,
+          "BlurredRateOfFire": 0.0,
+          "ShotsPerFire": "Lower: 5, Upper: 5",
+          "FireRecoveryTime": 0.0,
+          "SoftRecoveryFraction": 0.0
+        },
+        "MagazineIndex": -1,
+        "RoundsPerShot": 0,
+        "MinimumRoundsLoaded": 0,
+        "RoundsBetweenTracers": 0,
+        "OptionalBarrelMarkerName": "invalid",
+        "PredictionType": "Instant",
+        "FiringNoise": "Loud",
+        "FiringError": {
+          "AccelerationTime": 0.0,
+          "DecelerationTime": 0.0,
+          "DamageError": "Lower: 0, Upper: 0",
+          "MinErrorLookPitchRate": "Degrees: 0",
+          "FullErrorLookPitchRate": "Degrees: 10",
+          "LookPitchErrorPower": 0.0
+        },
+        "DualWeaponError": {
+          "AccelerationTime": 0.0,
+          "DecelerationTime": 0.0,
+          "RuntimeAccelerationRate": 1000.0,
+          "RuntimeDecelerationRate": 1000.0,
+          "MinimumError": "Degrees: 0",
+          "ErrorAngle": "Lower: Degrees: 0, Upper: Degrees: 0",
+          "DualWieldDamageScale": 0.0
+        },
+        "ProjectileDistributionFunction": "Point",
+        "ProjectilesPerShot": 1,
+        "ProjectileDistributionAngle": "Degrees: 0",
+        "ProjectileMinimumError": "Degrees: 0",
+        "ProjectileErrorAngle": "Lower: Degrees: 0, Upper: Degrees: 0",
+        "AccuracyPenalties": {
+          "ReloadPenalty": 0.0,
+          "SwitchPenalty": 0.0,
+          "ZoomPenalty": 0.0,
+          "JumpPenalty": 0.0,
+          "SingleWieldPenalties": {
+            "FiringPenaltyFunction": [],
+            "FiringCrouchedPenaltyFunction": [],
+            "MovingPenaltyFunction": [],
+            "TurningPenaltyFunction": [],
+            "ErrorAngleMaxRotation": 0.0
+          },
+          "DualWieldPenalties": {
+            "FiringPenaltyFunction": [],
+            "FiringCrouchedPenaltyFunction": [],
+            "MovingPenaltyFunction": [],
+            "TurningPenaltyFunction": [],
+            "ErrorAngleMaxRotation": 0.0
+          }
+        },
+        "FirstPersonOffsets": [
+          {
+            "Offset": "I: 0, J: -0.05, K: 0"
+          }
+        ],
+        "DamageReportingType": {
+          "HaloOnline": "SpartanLaser"
+        },
+        "Projectile": {
+          "Type": "projectile",
+          "Name": "objects\\weapons\\support_high\\spartan_laser\\projectiles\\spartan_laser_beam",
+          "Generate": false
+        },
+        "SecondaryProjectile": null,
+        "DamageEffect": null,
+        "CrateProjectile": null,
+        "CrateProjectileSpeed": 0.0,
+        "EjectionPortRecoveryTime": 0.0,
+        "IlluminationRecoveryTime": 0.0,
+        "HeatGeneratedPerRound": 1.0,
+        "AgeGeneratedPerRoundMp": 0.04,
+        "AgeGeneratedPerRoundSp": 0.04,
+        "OverloadTime": 0.0,
+        "VerticalRecoil": {
+          "AngleChangePerShot": "Lower: Degrees: 0, Upper: Degrees: 0",
+          "AngleChangeAccelerationTime": 0.0,
+          "AngleChangeDecelerationTime": 0.0,
+          "AngleChangeFunction": "Linear",
+          "AngleChangeAccelerationRate": 1000.0,
+          "AngleChangeDecelerationRate": 1000.0
+        },
+        "IlluminationRecoveryRate": 1000.0,
+        "EjectionPortRecoveryRate": 1000.0,
+        "RateOfFireAccelerationTime": 1000.0,
+        "RateOfFireDecelerationTime": 1000.0,
+        "ErrorAccelerationRate": 1000.0,
+        "ErrorDecelerationRate": 1000.0,
+        "FiringEffects": [
+          {
+            "ShotCount": "Lower: 1, Upper: 1",
+            "FiringEffect": {
+              "Type": "effect",
+              "Name": "objects\\weapons\\support_high\\spartan_laser\\fx\\firing",
+              "Generate": false
+            },
+            "MisfireEffect": null,
+            "EmptyEffect": {
+              "Type": "sound",
+              "Name": "sound\\weapons\\battle_rifle\\dryfire",
+              "Generate": false
+            },
+            "SecondaryFiringEffect": null,
+            "FiringDamage": {
+              "Type": "damage_response_definition",
+              "Name": "globals\\damage_responses\\trigger_launcher",
+              "Generate": false
+            },
+            "MisfireDamage": null,
+            "EmptyDamage": null,
+            "OptionalSecondaryFiringDamage": null,
+            "FiringRiderDamage": null,
+            "MisfireRiderDamage": null,
+            "EmptyRiderDamage": null,
+            "OptionalSecondaryFiringRiderDamage": null
+          }
+        ]
+      }
+    ],
+    "WeaponPowerOnVelocity": 1.0,
+    "WeaponPowerOffVelocity": 1.0,
+    "MaxMovementAcceleration": 20.0,
+    "MaximumMovementVelocity": 20.0,
+    "MaximumTurningAcceleration": 20.0,
+    "MaximumTurningVelocity": 20.0,
+    "DeployedVehicle": null,
+    "DeployedWeapon": null,
+    "AgeEffect": null,
+    "AgedWeapon": null,
+    "AgedMaterialEffects": null,
+    "ExternalAgingAmount": 0.0,
+    "CampaignExternalAgingAmount": 0,
+    "FirstPersonWeaponOffset": "I: 0, J: 0, K: 0",
+    "FirstPersonScopeSize": "I: 0, J: 0",
+    "SupportThirdPersonCameraRange": "Lower: 0, Upper: 0",
+    "WeaponZoomTime": 0.2,
+    "WeaponReadyForUseTime": 0.0,
+    "WeaponReadyFirstPersonAnimationPlaybackScale": 0.0,
+    "UnitStowAnchorName": "weapon_back",
+    "CenteredFirstPersonWeaponOffset": "X: 0, Y: 0, Z: 0",
+    "WeaponTypeName": "invalid"
+  }
+}

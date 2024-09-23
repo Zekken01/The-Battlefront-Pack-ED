@@ -1,0 +1,245 @@
+{
+  "TagName": "objects\\equipment\\concussiveblast_equipment\\concussiveblast_equipment",
+  "TagType": "equipment",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "ObjectType": {
+      "Halo3ODST": "Equipment"
+    },
+    "ObjectFlags": {
+      "Flags": "None"
+    },
+    "BoundingRadius": 0.5,
+    "BoundingOffset": "X: 0, Y: 0, Z: 0.4",
+    "AccelerationScale": 0.0,
+    "LightmapShadowMode": "Default",
+    "SweetenerSize": "Default",
+    "WaterDensity": "Neutral",
+    "RuntimeFlags": 0,
+    "DynamicLightSphereRadius": 0.0,
+    "DynamicLightSphereOffset": "X: 0, Y: 0, Z: 0",
+    "DefaultModelVariant": "invalid",
+    "Model": {
+      "Type": "model",
+      "Name": "objects\\equipment\\equipment_pack\\equipment_pack",
+      "Generate": false
+    },
+    "CrateObject": null,
+    "CollisionDamage": null,
+    "EarlyMoverProperties": [],
+    "CreationEffect": null,
+    "MaterialEffects": null,
+    "ArmorSounds": null,
+    "MeleeImpactSound": null,
+    "AiProperties": [],
+    "Functions": [],
+    "HudTextMessageIndex": 0,
+    "SecondaryFlags": "None",
+    "Attachments": [
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "lens_flare",
+          "Name": "objects\\equipment\\concussiveblast_equipment\\fx\\equipment_icon",
+          "Generate": false
+        },
+        "Marker": "core",
+        "ChangeColor": "None",
+        "PrimaryScale": "invalid",
+        "SecondaryScale": "invalid"
+      }
+    ],
+    "Widgets": [],
+    "ChangeColors": [
+      {
+        "InitialPermutations": [
+          {
+            "Weight": 1.0,
+            "ColorLowerBound": "Red: 0.0352941, Green: 0, Blue: 0.701961",
+            "ColorUpperBound": "Red: 0.00784314, Green: 0.0313726, Blue: 0.705882",
+            "VariantName": "invalid"
+          }
+        ],
+        "Functions": []
+      }
+    ],
+    "NodeMaps": [],
+    "MultiplayerObject": [
+      {
+        "EngineFlags": "None",
+        "Type": "Ordinary",
+        "TeleporterPassability": "None",
+        "Flags": "None",
+        "BoundaryShape": "None",
+        "SpawnTimerType": "StartsOnDeath",
+        "DefaultSpawnTime": 60,
+        "DefaultAbandonTime": 60,
+        "BoundaryWidthRadius": 0.0,
+        "BoundaryBoxLength": 0.0,
+        "BoundaryPositiveHeight": 0.0,
+        "BoundaryNegativeHeight": 0.0,
+        "StandardRespawnZoneWeight": 0.0,
+        "FlagAwayRespawnZoneWeight": 0.0,
+        "FlagAtHomeRespawnZoneWeight": 0.0,
+        "BoundaryCenterMarker": "invalid",
+        "SpawnedObjectMarkerName": "invalid",
+        "SpawnedObject": null,
+        "NyiBoundaryMaterial": "invalid",
+        "BoundaryShaders": [
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          }
+        ]
+      }
+    ],
+    "RevivingEquipment": [],
+    "PathfindingSpheres": [],
+    "ItemFlags": {
+      "Flags": "AlwaysMaintainsZUp"
+    },
+    "ObsoleteItemFields": {
+      "OldMessageIndex": 0,
+      "SortOrder": 0,
+      "OldMultiplayerOnGroundScale": 0.0,
+      "OldCampaignOnGroundScale": 0.0
+    },
+    "PickupMessage": "invalid",
+    "SwapMessage": "concussiveblast_swap",
+    "PickupOrDualWieldMessage": "invalid",
+    "SwapOrDualWieldMessage": "invalid",
+    "PickedUpMessage": "concussiveblast_picked_up",
+    "SwitchToMessage": "invalid",
+    "SwitchToFromAiMessage": "invalid",
+    "AllWeaponsEmptyMessage": "invalid",
+    "CollisionSound": null,
+    "PredictedBitmaps": [],
+    "DetonationDamageEffect": null,
+    "DetonationDelay": "Lower: 0, Upper: 0",
+    "DetonatingEffect": null,
+    "DetonationEffect": null,
+    "CampaignOnGroundScale": 0.0,
+    "MultiplayerOnGroundScale": 0.0,
+    "ItemUnitScales": {
+      "SmallUnit": {
+        "Armed": 0.0,
+        "Stowed": 0.0
+      },
+      "MediumUnit": {
+        "Armed": 0.0,
+        "Stowed": 0.0
+      },
+      "LargeUnit": {
+        "Armed": 0.0,
+        "Stowed": 0.0
+      },
+      "HugeUnit": {
+        "Armed": 0.0,
+        "Stowed": 0.0
+      }
+    },
+    "GroundedDamping": {
+      "Angular": 5.0,
+      "Linear": 2.0
+    },
+    "UseDuration": 1.0,
+    "PhantomVolumeActivationTime": 0.0,
+    "NumberOfUses": 1,
+    "EquipmentFlags": "ThirdPersonCameraAlways, UseForcedPrimaryChangeColor, UseForcedSecondaryChangeColor",
+    "AiDangerRadius": 0.0,
+    "AiMinDeployDistance": 0.0,
+    "AiAwarenessDelay": 0.5,
+    "OverrideCamera": [
+      {
+        "CameraFlags": "0",
+        "CameraMarkerName": "invalid",
+        "CameraSubmergedMarker": "invalid",
+        "PitchAutoLevel": "Degrees: 0",
+        "PitchRange": "Lower: Degrees: -85, Upper: Degrees: 10",
+        "CameraTracks": [
+          {
+            "Track": {
+              "Type": "camera_track",
+              "Name": "camera\\biped_concussive_blast_camera",
+              "Generate": false
+            }
+          }
+        ],
+        "PitchSpringBounds": "Lower: 0, Upper: 0",
+        "SpringVelocity": "Degrees: 0",
+        "CameraAcceleration": []
+      }
+    ],
+    "SuperShield": [],
+    "MultiplayerPowerup": [],
+    "Spawner": [],
+    "ProximityMine": [],
+    "MotionTrackerNoise": [],
+    "Showme": [],
+    "Invisibility": [],
+    "Invincibility": [],
+    "Regenerator": [],
+    "HealthPack": [],
+    "ForcedReload": [],
+    "ConcussiveBlast": [
+      {
+        "SecondaryActivationEffect": null,
+        "SecondaryDamageEffect": null
+      }
+    ],
+    "TankMode": [],
+    "MagPulse": [],
+    "Hologram": [],
+    "ReactiveArmor": [],
+    "BombRun": [],
+    "ArmorLock": [],
+    "Adrenaline": [],
+    "LightningStrike": [],
+    "Scrambler": [],
+    "WeaponJammer": [],
+    "AmmoPack": [],
+    "Vision": [],
+    "HudInterface": {
+      "Type": "chud_definition",
+      "Name": "ui\\chud\\e_invisibility",
+      "Generate": false
+    },
+    "PickupSound": {
+      "Type": "sound",
+      "Name": "sound\\weapons\\equipment\\equipment_pickup",
+      "Generate": false
+    },
+    "EmptySound": {
+      "Type": "sound",
+      "Name": "sound\\weapons\\equipment\\concussiveblast_equipment\\concussiveblast_activate",
+      "Generate": false
+    },
+    "ActivationEffect": {
+      "Type": "effect",
+      "Name": "objects\\equipment\\concussiveblast_equipment\\fx\\activate",
+      "Generate": false
+    },
+    "ActiveEffect": null,
+    "DeactivationEffect": null,
+    "EnterAnimation": "con_blast_enter",
+    "IdleAnimation": "invalid",
+    "ExitAnimation": "con_blast_exit"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "TagName": "objects\\eldewrito\\reforge\\block_01x20x20_black_mainmenu",
+  "TagType": "crate",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "ObjectType": {
+      "Halo3ODST": "Crate"
+    },
+    "ObjectFlags": {
+      "Flags": "DoesNotCastShadow"
+    },
+    "BoundingRadius": 14.14,
+    "BoundingOffset": "X: 0, Y: 0, Z: 0",
+    "AccelerationScale": 0.0,
+    "LightmapShadowMode": "Always",
+    "SweetenerSize": "Medium",
+    "WaterDensity": "Default",
+    "RuntimeFlags": 2,
+    "DynamicLightSphereRadius": 0.0,
+    "DynamicLightSphereOffset": "X: 0, Y: 0, Z: 0",
+    "DefaultModelVariant": "invalid",
+    "Model": {
+      "Type": "model",
+      "Name": "objects\\eldewrito\\reforge\\block_01x20x20_black_mainmenu",
+      "Generate": false
+    },
+    "CrateObject": null,
+    "CollisionDamage": null,
+    "EarlyMoverProperties": [],
+    "CreationEffect": null,
+    "MaterialEffects": null,
+    "ArmorSounds": null,
+    "MeleeImpactSound": null,
+    "AiProperties": [
+      {
+        "AiFlags": "None",
+        "AiTypeName": "invalid",
+        "AiSize": "Large",
+        "LeapJumpSpeed": "None"
+      }
+    ],
+    "Functions": [],
+    "HudTextMessageIndex": 0,
+    "SecondaryFlags": "None",
+    "Attachments": [],
+    "Widgets": [],
+    "ChangeColors": [
+      {
+        "InitialPermutations": [
+          {
+            "Weight": 1.0,
+            "ColorLowerBound": "Red: 1, Green: 1, Blue: 1",
+            "ColorUpperBound": "Red: 1, Green: 1, Blue: 1",
+            "VariantName": "invalid"
+          }
+        ],
+        "Functions": []
+      }
+    ],
+    "NodeMaps": [],
+    "MultiplayerObject": [
+      {
+        "EngineFlags": "None",
+        "Type": "Ordinary",
+        "TeleporterPassability": "None",
+        "Flags": "None",
+        "BoundaryShape": "None",
+        "SpawnTimerType": "StartsOnDeath",
+        "DefaultSpawnTime": 30,
+        "DefaultAbandonTime": 30,
+        "BoundaryWidthRadius": 0.0,
+        "BoundaryBoxLength": 0.0,
+        "BoundaryPositiveHeight": 0.0,
+        "BoundaryNegativeHeight": 0.0,
+        "StandardRespawnZoneWeight": 0.0,
+        "FlagAwayRespawnZoneWeight": 0.0,
+        "FlagAtHomeRespawnZoneWeight": 0.0,
+        "BoundaryCenterMarker": "invalid",
+        "SpawnedObjectMarkerName": "invalid",
+        "SpawnedObject": null,
+        "NyiBoundaryMaterial": "invalid",
+        "BoundaryShaders": [
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          }
+        ]
+      }
+    ],
+    "RevivingEquipment": [],
+    "PathfindingSpheres": [
+      {
+        "Node": 0,
+        "Flags": "None",
+        "Center": "X: 0, Y: 0, Z: 0.45",
+        "Radius": 0.7
+      }
+    ],
+    "CrateFlags": "None",
+    "MetagameProperties": [],
+    "SelfDestructionTimer": 0
+  }
+}

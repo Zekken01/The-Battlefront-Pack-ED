@@ -1,0 +1,40 @@
+{
+  "TagName": "ui\\halox\\main_menu\\strings",
+  "TagType": "multilingual_unicode_string_list",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": [
+    {
+      "StringIdName": "customization",
+      "StringIdContent": "CUSTOMIZATION"
+    },
+    {
+      "StringIdName": "eldewrito_settings",
+      "StringIdContent": "SETTINGS"
+    },
+    {
+      "StringIdName": "eldewrito_version",
+      "StringIdContent": "<eldewrito-version/>"
+    },
+    {
+      "StringIdName": "exit",
+      "StringIdContent": "EXIT"
+    },
+    {
+      "StringIdName": "game_browser",
+      "StringIdContent": "LOCAL GAMES"
+    },
+    {
+      "StringIdName": "server_browser",
+      "StringIdContent": "SERVER BROWSER"
+    },
+    {
+      "StringIdName": "survival",
+      "StringIdContent": "FIREFIGHT"
+    }
+  ],
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

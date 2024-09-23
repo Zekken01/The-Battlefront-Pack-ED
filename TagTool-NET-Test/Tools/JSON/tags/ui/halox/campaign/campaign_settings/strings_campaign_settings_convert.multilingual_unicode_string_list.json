@@ -1,0 +1,28 @@
+{
+  "TagName": "ui\\halox\\campaign\\campaign_settings\\strings_campaign_settings",
+  "TagType": "multilingual_unicode_string_list",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": [
+    {
+      "StringIdName": "skulls_help",
+      "StringIdContent": "This setting allows you to turn skulls on or off."
+    },
+    {
+      "StringIdName": "skull_15_title",
+      "StringIdContent": "Third Person"
+    },
+    {
+      "StringIdName": "skull_15_hint",
+      "StringIdContent": "Interred somewhere, anywhere, nowhere?"
+    },
+    {
+      "StringIdName": "skull_15",
+      "StringIdContent": "Got a good view of my ass from here"
+    }
+  ],
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

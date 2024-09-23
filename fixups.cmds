@@ -1,0 +1,72 @@
+edittag object\vehicles\aat\weapons\siege.weapon
+setfield Triggers[0].Input RightTrigger
+setfield Triggers[0].Behavior Latch
+setfield Triggers[0].PrimaryBarrel 0
+setfield Triggers[0].SecondaryBarrel -1
+savetagchanges
+exitto tags
+
+edittag object\vehicles\aat\weapons\aat.weapon
+setfield Triggers[0].Input LeftTrigger
+savetagchanges
+exitto tags
+
+edittag object\vehicles\speed_bike\speed_bike.vehicle
+setfield Seats[0].MarkerName turret
+savetagchanges
+exitto tags
+
+edittag object\vehicles\speed_bike_snow\speed_bike_snow.vehicle
+setfield Seats[0].MarkerName turret
+savetagchanges
+exitto tags
+
+edittag object\vehicles\speed_bike_scarif\speed_bike_scarif.vehicle
+setfield Seats[0].MarkerName turret
+savetagchanges
+exitto tags
+
+edittag objects\levels\multi\imp_deathstar\turret\turret.vehicle
+setfield Seats[0].MarkerName warthog_g_enter
+setfield Seats[0].Label ghost_d
+savetagchanges
+exitto tags
+
+edittag object\weapons\e-5\bitmaps\sche.bitmap
+importbitmap 0 "workingdir\bitmaps\e-5.dds"
+savetagchanges
+exitto tags
+
+edittag object\weapons\dh-17\bitmaps\shce.bitmap
+importbitmap 0 "workingdir\bitmaps\dh-17.dds"
+savetagchanges
+exitto tags
+
+edittag object\weapons\a280\bitmaps\sche.bitmap
+importbitmap 0 "workingdir\bitmaps\a280.dds"
+savetagchanges
+exitto tags
+
+edittag object\weapons\dc-17\bitmaps\shce.bitmap
+importbitmap 0 "workingdir\bitmaps\dc17_righthand.dds"
+savetagchanges
+exitto tags
+
+edittag object\weapons\dc-17\bitmaps\shce2.bitmap
+importbitmap 0 "workingdir\bitmaps\dc17_lefthand.dds"
+savetagchanges
+exitto tags
+
+## attempt to give starwars sniper a hud icon
+duplicatetag rasterizer\invalid.bitmap object\weapons\starwarssniper\bitmaps\shce.bitmap
+EditTag ui\chud\starwarssiper.chud_definition
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap object\weapons\starwarssniper\bitmaps\shce.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap object\weapons\starwarssniper\bitmaps\shce.bitmap
+
+SaveTagChanges
+ExitTo tags
+
+edittag object\weapons\starwarssniper\bitmaps\shce.bitmap
+importbitmap 0 "workingdir\bitmaps\dc-15x.dds"
+SaveTagChanges
+ExitTo tags

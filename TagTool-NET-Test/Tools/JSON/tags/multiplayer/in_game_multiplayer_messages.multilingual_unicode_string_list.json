@@ -1,0 +1,240 @@
+{
+  "TagName": "multiplayer\\in_game_multiplayer_messages",
+  "TagType": "multilingual_unicode_string_list",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": [
+    {
+      "StringIdName": "assault_kill_carrier_all",
+      "StringIdContent": "#cause_player stopped #effect_player"
+    },
+    {
+      "StringIdName": "assault_last_player_on_team",
+      "StringIdContent": "You are the last player on the team"
+    },
+    {
+      "StringIdName": "ctf_kill_carrier_all",
+      "StringIdContent": "#cause_player stopped #effect_player"
+    },
+    {
+      "StringIdName": "flavor_nemesis",
+      "StringIdContent": "Nemesis"
+    },
+    {
+      "StringIdName": "flavor_revenge",
+      "StringIdContent": "Revenge"
+    },
+    {
+      "StringIdName": "gen_kill_all",
+      "StringIdContent": "#cause_player killed #effect_player"
+    },
+    {
+      "StringIdName": "gen_kill_col_all",
+      "StringIdContent": "#cause_player splattered #effect_player"
+    },
+    {
+      "StringIdName": "gen_kill_deadplayer_all",
+      "StringIdContent": "#cause_player killed #effect_player from the grave"
+    },
+    {
+      "StringIdName": "gen_kill_flame_all",
+      "StringIdContent": "#cause_player incinerated #effect_player"
+    },
+    {
+      "StringIdName": "gen_kill_melee_all",
+      "StringIdContent": "#cause_player beat down #effect_player"
+    },
+    {
+      "StringIdName": "gen_kill_sneak_all",
+      "StringIdContent": "#cause_player assassinated #effect_player"
+    },
+    {
+      "StringIdName": "gen_kill_sniper_all",
+      "StringIdContent": "#cause_player sniped #effect_player"
+    },
+    {
+      "StringIdName": "gen_kill_spartanlaser_all",
+      "StringIdContent": "#cause_player lasered #effect_player"
+    },
+    {
+      "StringIdName": "gen_kill_sticky_all",
+      "StringIdContent": "#cause_player stuck #effect_player"
+    },
+    {
+      "StringIdName": "gen_kill_teammate_all",
+      "StringIdContent": "#cause_player betrayed #effect_player"
+    },
+    {
+      "StringIdName": "wp_10_in_a_row",
+      "StringIdContent": "KILLING FRENZY"
+    },
+    {
+      "StringIdName": "wp_15_in_a_row",
+      "StringIdContent": "RUNNING RIOT"
+    },
+    {
+      "StringIdName": "wp_20_in_a_row",
+      "StringIdContent": "RAMPAGE"
+    },
+    {
+      "StringIdName": "wp_25_in_a_row",
+      "StringIdContent": "UNTOUCHABLE"
+    },
+    {
+      "StringIdName": "wp_30_in_a_row",
+      "StringIdContent": "INVINCIBLE"
+    },
+    {
+      "StringIdName": "wp_5_in_a_row",
+      "StringIdContent": "KILLING SPREE"
+    },
+    {
+      "StringIdName": "wp_assist",
+      "StringIdContent": "ASSIST"
+    },
+    {
+      "StringIdName": "wp_assist_to_driver",
+      "StringIdContent": "WHEELMAN"
+    },
+    {
+      "StringIdName": "wp_broke_killing_spree",
+      "StringIdContent": "KILLJOY"
+    },
+    {
+      "StringIdName": "wp_bulltrue",
+      "StringIdContent": "BULLTRUE"
+    },
+    {
+      "StringIdName": "wp_extermination",
+      "StringIdContent": "EXTERMINATION"
+    },
+    {
+      "StringIdName": "wp_flag_capture",
+      "StringIdContent": "FLAG SCORE"
+    },
+    {
+      "StringIdName": "wp_flag_grabbed_from_stand",
+      "StringIdContent": "FLAG RUNNER"
+    },
+    {
+      "StringIdName": "wp_flag_returned_by_player",
+      "StringIdContent": "FLAG RETURN"
+    },
+    {
+      "StringIdName": "wp_from_the_grave",
+      "StringIdContent": "DEATH FROM THE GRAVE"
+    },
+    {
+      "StringIdName": "wp_headshot",
+      "StringIdContent": "HEADSHOT"
+    },
+    {
+      "StringIdName": "wp_hijack",
+      "StringIdContent": "HIJACKER"
+    },
+    {
+      "StringIdName": "wp_hill_kill_5x",
+      "StringIdContent": "HAIL TO THE KING"
+    },
+    {
+      "StringIdName": "wp_kill",
+      "StringIdContent": "KILL"
+    },
+    {
+      "StringIdName": "wp_kill_bash",
+      "StringIdContent": "BEAT DOWN"
+    },
+    {
+      "StringIdName": "wp_kill_bash_behind",
+      "StringIdContent": "ASSASSIN"
+    },
+    {
+      "StringIdName": "wp_kill_flag",
+      "StringIdContent": "FLAG KILL"
+    },
+    {
+      "StringIdName": "wp_kill_flag_carrier",
+      "StringIdContent": "KILLED FLAG CARRIER"
+    },
+    {
+      "StringIdName": "wp_kill_flame",
+      "StringIdContent": "INCINERATION"
+    },
+    {
+      "StringIdName": "wp_kill_laser",
+      "StringIdContent": "LASER KILL"
+    },
+    {
+      "StringIdName": "wp_kill_oddball",
+      "StringIdContent": "ODDBALL KILL"
+    },
+    {
+      "StringIdName": "wp_kill_sniper",
+      "StringIdContent": "SNIPER KILL"
+    },
+    {
+      "StringIdName": "wp_kill_sticky_grenade",
+      "StringIdContent": "GRENADE STICK"
+    },
+    {
+      "StringIdName": "wp_multikill_x10",
+      "StringIdContent": "KILLIONAIRE"
+    },
+    {
+      "StringIdName": "wp_multikill_x2",
+      "StringIdContent": "DOUBLE KILL"
+    },
+    {
+      "StringIdName": "wp_multikill_x3",
+      "StringIdContent": "TRIPLE KILL"
+    },
+    {
+      "StringIdName": "wp_multikill_x4",
+      "StringIdContent": "OVERKILL"
+    },
+    {
+      "StringIdName": "wp_multikill_x5",
+      "StringIdContent": "KILLTACULAR"
+    },
+    {
+      "StringIdName": "wp_multikill_x6",
+      "StringIdContent": "KILLTROCITY"
+    },
+    {
+      "StringIdName": "wp_multikill_x7",
+      "StringIdContent": "KILLIMANJARO"
+    },
+    {
+      "StringIdName": "wp_multikill_x8",
+      "StringIdContent": "KILLTASTROPHE"
+    },
+    {
+      "StringIdName": "wp_multikill_x9",
+      "StringIdContent": "KILLAPOCALYPSE"
+    },
+    {
+      "StringIdName": "wp_perfection",
+      "StringIdContent": "PERFECTION"
+    },
+    {
+      "StringIdName": "wp_revenge",
+      "StringIdContent": "REVENGE"
+    },
+    {
+      "StringIdName": "wp_skyjack",
+      "StringIdContent": "SKYJACKER"
+    },
+    {
+      "StringIdName": "wp_splatter",
+      "StringIdContent": "SPLATTER"
+    },
+    {
+      "StringIdName": "wp_splatter_5x",
+      "StringIdContent": "SPLATTER SPREE"
+    }
+  ],
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

@@ -1,0 +1,113 @@
+{
+  "TagName": "objects\\multi\\spawning\\initial_spawn_point",
+  "TagType": "scenery",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "ObjectType": {
+      "Halo3ODST": "Scenery"
+    },
+    "ObjectFlags": {
+      "Flags": "None"
+    },
+    "BoundingRadius": 0.57425827,
+    "BoundingOffset": "X: 0.02589915, Y: 0, Z: -0.016141742",
+    "AccelerationScale": 0.0,
+    "LightmapShadowMode": "Always",
+    "SweetenerSize": "Default",
+    "WaterDensity": "None",
+    "RuntimeFlags": 0,
+    "DynamicLightSphereRadius": 0.0,
+    "DynamicLightSphereOffset": "X: 0, Y: 0, Z: 0",
+    "DefaultModelVariant": "initial",
+    "Model": {
+      "Type": "model",
+      "Name": "objects\\multi\\models\\mp_spawn_point\\mp_spawn_point",
+      "Generate": false
+    },
+    "CrateObject": null,
+    "CollisionDamage": null,
+    "EarlyMoverProperties": [],
+    "CreationEffect": null,
+    "MaterialEffects": null,
+    "ArmorSounds": null,
+    "MeleeImpactSound": null,
+    "AiProperties": [],
+    "Functions": [],
+    "HudTextMessageIndex": 0,
+    "SecondaryFlags": "None",
+    "Attachments": [],
+    "Widgets": [],
+    "ChangeColors": [
+      {
+        "InitialPermutations": [
+          {
+            "Weight": 1.0,
+            "ColorLowerBound": "Red: 1, Green: 1, Blue: 1",
+            "ColorUpperBound": "Red: 1, Green: 1, Blue: 1",
+            "VariantName": "invalid"
+          }
+        ],
+        "Functions": []
+      }
+    ],
+    "NodeMaps": [],
+    "MultiplayerObject": [
+      {
+        "EngineFlags": "All",
+        "Type": "PlayerSpawnLocation",
+        "TeleporterPassability": "None",
+        "Flags": "OnlyVisibleInEditor, ValidInitialPlayerSpawn, CandyMonitorShouldIgnore",
+        "BoundaryShape": "None",
+        "SpawnTimerType": "StartsOnDeath",
+        "DefaultSpawnTime": 0,
+        "DefaultAbandonTime": 0,
+        "BoundaryWidthRadius": 0.0,
+        "BoundaryBoxLength": 0.0,
+        "BoundaryPositiveHeight": 0.0,
+        "BoundaryNegativeHeight": 0.0,
+        "StandardRespawnZoneWeight": 100000.0,
+        "FlagAwayRespawnZoneWeight": 0.0,
+        "FlagAtHomeRespawnZoneWeight": 0.0,
+        "BoundaryCenterMarker": "invalid",
+        "SpawnedObjectMarkerName": "invalid",
+        "SpawnedObject": null,
+        "NyiBoundaryMaterial": "invalid",
+        "BoundaryShaders": [
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          }
+        ]
+      }
+    ],
+    "RevivingEquipment": [],
+    "PathfindingSpheres": [
+      {
+        "Node": 0,
+        "Flags": "None",
+        "Center": "X: 0.02589915, Y: 0, Z: -0.016141742",
+        "Radius": 0.57425827
+      }
+    ],
+    "PathfindingPolicy": "CutOut",
+    "SceneryFlags": "PhysicallySimulates",
+    "LightmappingPolicy": "PerVertex"
+  }
+}

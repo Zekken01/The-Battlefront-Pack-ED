@@ -1,0 +1,579 @@
+{
+  "TagName": "objects\\weapons\\rifle\\assault_rifle\\assault_rifle_power\\assault_rifle_power",
+  "TagType": "weapon",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "ObjectType": {
+      "Halo3ODST": "Weapon"
+    },
+    "ObjectFlags": {
+      "Flags": "None"
+    },
+    "BoundingRadius": 0.175,
+    "BoundingOffset": "X: 0.075, Y: 0, Z: 0.05",
+    "AccelerationScale": 1.0,
+    "LightmapShadowMode": "Default",
+    "SweetenerSize": "Default",
+    "WaterDensity": "Neutral",
+    "RuntimeFlags": 0,
+    "DynamicLightSphereRadius": 0.0,
+    "DynamicLightSphereOffset": "X: 0, Y: 0, Z: 0",
+    "DefaultModelVariant": "invalid",
+    "Model": {
+      "Type": "model",
+      "Name": "objects\\weapons\\rifle\\assault_rifle\\assault_rifle_power\\assault_rifle_power",
+      "Generate": false
+    },
+    "CrateObject": null,
+    "CollisionDamage": null,
+    "EarlyMoverProperties": [],
+    "CreationEffect": null,
+    "MaterialEffects": {
+      "Type": "material_effects",
+      "Name": "fx\\material_effects\\objects\\weapons\\battle_rifle",
+      "Generate": false
+    },
+    "ArmorSounds": null,
+    "MeleeImpactSound": null,
+    "AiProperties": [],
+    "Functions": [
+      {
+        "Flags": "None",
+        "ImportName": "invalid",
+        "ExportName": "flashlight_intensity",
+        "TurnOffWith": "stowed",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "AjQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAgD8="
+        },
+        "ScaleBy": "invalid"
+      }
+    ],
+    "HudTextMessageIndex": 0,
+    "SecondaryFlags": "None",
+    "Attachments": [
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "light",
+          "Name": "objects\\weapons\\rifle\\assault_rifle\\fx\\firing",
+          "Generate": false
+        },
+        "Marker": "primary_trigger",
+        "ChangeColor": "None",
+        "PrimaryScale": "illumination",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "light",
+          "Name": "objects\\weapons\\rifle\\assault_rifle\\flashlight_ar",
+          "Generate": false
+        },
+        "Marker": "flashlight",
+        "ChangeColor": "None",
+        "PrimaryScale": "flashlight_intensity",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "effect",
+          "Name": "objects\\weapons\\rifle\\assault_rifle\\fx\\flashlight",
+          "Generate": false
+        },
+        "Marker": "flashlight",
+        "ChangeColor": "None",
+        "PrimaryScale": "flashlight_intensity",
+        "SecondaryScale": "invalid"
+      }
+    ],
+    "Widgets": [],
+    "ChangeColors": [],
+    "NodeMaps": [],
+    "MultiplayerObject": [
+      {
+        "EngineFlags": "None",
+        "Type": "Weapon",
+        "TeleporterPassability": "None",
+        "Flags": "None",
+        "BoundaryShape": "None",
+        "SpawnTimerType": "StartsOnDisturbance",
+        "DefaultSpawnTime": 30,
+        "DefaultAbandonTime": 60,
+        "BoundaryWidthRadius": 0.0,
+        "BoundaryBoxLength": 0.0,
+        "BoundaryPositiveHeight": 0.0,
+        "BoundaryNegativeHeight": 0.0,
+        "StandardRespawnZoneWeight": 0.0,
+        "FlagAwayRespawnZoneWeight": 0.0,
+        "FlagAtHomeRespawnZoneWeight": 0.0,
+        "BoundaryCenterMarker": "invalid",
+        "SpawnedObjectMarkerName": "invalid",
+        "SpawnedObject": null,
+        "NyiBoundaryMaterial": "invalid",
+        "BoundaryShaders": [
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          }
+        ]
+      }
+    ],
+    "RevivingEquipment": [],
+    "PathfindingSpheres": [],
+    "ItemFlags": {
+      "Flags": "None"
+    },
+    "ObsoleteItemFields": {
+      "OldMessageIndex": 4,
+      "SortOrder": 0,
+      "OldMultiplayerOnGroundScale": 0.0,
+      "OldCampaignOnGroundScale": 0.0
+    },
+    "PickupMessage": "ar_pwr_pickup",
+    "SwapMessage": "ar_pwr_swap",
+    "PickupOrDualWieldMessage": "invalid",
+    "SwapOrDualWieldMessage": "invalid",
+    "PickedUpMessage": "ar_pwr_picked_up",
+    "SwitchToMessage": "ar_pwr_switch_to",
+    "SwitchToFromAiMessage": "ar_pwr_swap_ai",
+    "AllWeaponsEmptyMessage": "invalid",
+    "CollisionSound": null,
+    "PredictedBitmaps": [],
+    "DetonationDamageEffect": null,
+    "DetonationDelay": "Lower: 0, Upper: 0",
+    "DetonatingEffect": null,
+    "DetonationEffect": null,
+    "CampaignOnGroundScale": 1.3,
+    "MultiplayerOnGroundScale": 1.3,
+    "ItemUnitScales": {
+      "SmallUnit": {
+        "Armed": 0.9,
+        "Stowed": 0.9
+      },
+      "MediumUnit": {
+        "Armed": 1.1,
+        "Stowed": 1.1
+      },
+      "LargeUnit": {
+        "Armed": 0.0,
+        "Stowed": 0.0
+      },
+      "HugeUnit": {
+        "Armed": 1.3,
+        "Stowed": 1.3
+      }
+    },
+    "GroundedDamping": {
+      "Angular": 5.0,
+      "Linear": 2.0
+    },
+    "WeaponFlags": {
+      "NewFlags": "None"
+    },
+    "SecondaryWeaponFlags": "None",
+    "SecondaryTriggerMode": "Normal",
+    "MaximumAlternateShotsLoaded": 0,
+    "TurnOnTime": 0.0,
+    "ReadyTime": 0.0,
+    "ReadyEffect": null,
+    "ReadyDamageEffect": null,
+    "HeatRecoveryThreshold": 0.0,
+    "OverheatedThreshold": 0.0,
+    "HeatDetonationThreshold": 0.0,
+    "HeatDetonationFraction": 0.0,
+    "HeatLossPerSecond": 0.0,
+    "HeatIllumination": 0.0,
+    "OverheatedHeatLossPerSecond": 0.0,
+    "Overheated": null,
+    "OverheatedDamageEffect": null,
+    "Detonation": null,
+    "DetonationDamageEffect": null,
+    "PlayerMeleeDamage": null,
+    "PlayerMeleeResponse": null,
+    "MeleeDamageParameters": {
+      "DamagePyramidAngles": "Yaw: 12.512375, Pitch: 6.061675",
+      "DamagePyramidDepth": 0.6,
+      "FirstHitMeleeDamage": {
+        "Type": "damage_effect",
+        "Name": "objects\\weapons\\damage_effects\\strike_melee",
+        "Generate": false
+      },
+      "FirstHitMeleeResponse": {
+        "Type": "damage_effect",
+        "Name": "globals\\trigger_melee",
+        "Generate": false
+      },
+      "SecondHitMeleeDamage": {
+        "Type": "damage_effect",
+        "Name": "objects\\weapons\\damage_effects\\strike_melee",
+        "Generate": false
+      },
+      "SecondHitMeleeResponse": {
+        "Type": "damage_effect",
+        "Name": "globals\\trigger_melee",
+        "Generate": false
+      },
+      "ThirdHitMeleeDamage": {
+        "Type": "damage_effect",
+        "Name": "objects\\weapons\\damage_effects\\smash_melee",
+        "Generate": false
+      },
+      "ThirdHitMeleeResponse": {
+        "Type": "damage_effect",
+        "Name": "globals\\trigger_melee",
+        "Generate": false
+      },
+      "LungeMeleeDamage": null,
+      "LungeMeleeResponse": null,
+      "EmptyMeleeDamage": null,
+      "EmptyMeleeResponse": null,
+      "ClangMeleeDamage": null,
+      "ClangMeleeResponse": null
+    },
+    "ClangEffect": null,
+    "MeleeDamageReportingType": {
+      "HaloOnline": "GenericMelee"
+    },
+    "MagnificationLevels": 0,
+    "MagnificationRange": "Lower: 0, Upper: 0",
+    "MagnificationFlags": "None",
+    "WeaponSwitchReadySpeed": 0.0,
+    "WeaponAimAssist": {
+      "AutoaimAngle": "Degrees: 5",
+      "AutoaimRange": 16.0,
+      "AutoaimFalloffRange": 8.0,
+      "AutoaimNearFalloffRange": 0.0,
+      "MagnetismAngle": "Degrees: 10",
+      "MagnetismRange": 20.0,
+      "MagnetismFalloffRange": 10.0,
+      "MagnetismNearFalloffRange": 0.0,
+      "DeviationAngle": "Degrees: 0"
+    },
+    "Unknown15": 0,
+    "TargetTracking": [],
+    "Unknown16": 0,
+    "Unknown17": 0,
+    "Unknown18": 0,
+    "Unknown19": 0,
+    "MovementPenalized": "Always",
+    "ForwardsMovementPenalty": 0.0,
+    "SidewaysMovementPenalty": 0.0,
+    "AiScariness": 4.0,
+    "WeaponPowerOnTime": 0.0,
+    "WeaponPowerOffTime": 0.0,
+    "WeaponPowerOnEffect": null,
+    "WeaponPowerOffEffect": null,
+    "AgeHeatRecoveryPenalty": 0.0,
+    "AgeRateOfFirePenalty": 0.0,
+    "AgeMisfireStart": 0.0,
+    "AgeMisfireChance": 0.0,
+    "PickupSound": {
+      "Type": "sound",
+      "Name": "sound\\weapons\\battle_rifle\\battle_rifle_ammo",
+      "Generate": false
+    },
+    "ZoomInSound": {
+      "Type": "sound",
+      "Name": "sound\\weapons\\sniper_rifle\\zoom_in",
+      "Generate": false
+    },
+    "ZoomOutSound": {
+      "Type": "sound",
+      "Name": "sound\\weapons\\sniper_rifle\\zoom_out",
+      "Generate": false
+    },
+    "ActiveCamoDing": 0.2,
+    "ActiveCamoRegrowthRate": 0.0,
+    "Unknown22": 0,
+    "Unknown23": 0.0,
+    "WeaponClass": "rifle",
+    "WeaponName": "ar",
+    "MultiplayerWeaponType": "None",
+    "WeaponType": "AssaultRifle",
+    "Tracking": "NoTracking",
+    "SpecialHudVersion": "Power36",
+    "SpecialHudIcon": 6,
+    "FirstPerson": [
+      {
+        "FirstPersonModel": {
+          "Type": "render_model",
+          "Name": "objects\\weapons\\rifle\\assault_rifle\\assault_rifle_power\\fp_assault_rifle\\fp_assault_rifle_power",
+          "Generate": false
+        },
+        "FirstPersonAnimations": {
+          "Type": "model_animation_graph",
+          "Name": "objects\\characters\\masterchief\\fp\\weapons\\rifle\\fp_assault_rifle\\fp_assault_rifle",
+          "Generate": false
+        }
+      },
+      {
+        "FirstPersonModel": {
+          "Type": "render_model",
+          "Name": "objects\\weapons\\rifle\\assault_rifle\\assault_rifle_power\\fp_assault_rifle\\fp_assault_rifle_power",
+          "Generate": false
+        },
+        "FirstPersonAnimations": {
+          "Type": "model_animation_graph",
+          "Name": "objects\\characters\\dervish\\fp\\weapons\\rifle\\fp_assault_rifle\\fp_assault_rifle",
+          "Generate": false
+        }
+      }
+    ],
+    "HudInterface": {
+      "Type": "chud_definition",
+      "Name": "ui\\chud\\assault_rifle_power",
+      "Generate": false
+    },
+    "PredictedWeaponResources": [],
+    "Magazines": [
+      {
+        "Flags": "None",
+        "RoundsRecharged": 0,
+        "RoundsTotalInitial": 120,
+        "RoundsTotalMaximum": 240,
+        "RoundsLoadedMaximum": 40,
+        "RoundsInventoryMaximum": 200,
+        "ReloadTime": 0.0,
+        "RoundsReloaded": 40,
+        "ChamberTime": 0.0,
+        "ReloadingEffect": null,
+        "ReloadingDamageEffect": null,
+        "ChamberingEffect": null,
+        "ChamberingDamageEffect": null,
+        "MagazineEquipment": [
+          {
+            "Rounds": 120,
+            "Equipment": {
+              "Type": "equipment",
+              "Name": "objects\\powerups\\ammo_packs\\ammo_large\\ammo_large",
+              "Generate": false
+            }
+          },
+          {
+            "Rounds": 60,
+            "Equipment": {
+              "Type": "equipment",
+              "Name": "objects\\powerups\\ammo_packs\\ammo_small\\ammo_small",
+              "Generate": false
+            }
+          }
+        ]
+      }
+    ],
+    "Triggers": [
+      {
+        "Flags": "None",
+        "Input": "RightTrigger",
+        "Behavior": "Spew",
+        "PrimaryBarrel": 0,
+        "SecondaryBarrel": -1,
+        "Prediction": "Spew",
+        "Autofire": {
+          "AutofireTime": 0.0,
+          "AutofireThrow": 0.0,
+          "SecondaryAction": "Fire",
+          "PrimaryAction": "Fire"
+        },
+        "Charging": {
+          "ChargingTime": 0.0,
+          "ChargedTime": 0.0,
+          "OverchargedAction": "None",
+          "CancelledTriggerThrow": 0,
+          "ChargedIllumination": 0.0,
+          "SpewTime": 0.0,
+          "ChargingEffect": null,
+          "ChargingDamageEffect": null,
+          "ChargingContinuousDamageResponse": null,
+          "ChargedDrainRate": 0.0,
+          "DischargeEffect": null,
+          "DischargeDamageEffect": null
+        },
+        "LockonHoldTime": 0.0,
+        "LockonAcquireTime": 0.0,
+        "LockonGraceTime": 0.0
+      }
+    ],
+    "Barrels": [
+      {
+        "Flags": {
+          "HaloOnline": "None"
+        },
+        "Firing": {
+          "RoundsPerSecond": "Lower: 11.5, Upper: 11.5",
+          "AccelerationTime": 0.0,
+          "DecelerationTime": 0.0,
+          "BarrelSpinScale": 0.0,
+          "BlurredRateOfFire": 0.0,
+          "ShotsPerFire": "Lower: 0, Upper: 0",
+          "FireRecoveryTime": 0.06,
+          "SoftRecoveryFraction": 0.0
+        },
+        "MagazineIndex": 0,
+        "RoundsPerShot": 1,
+        "MinimumRoundsLoaded": 0,
+        "RoundsBetweenTracers": 0,
+        "OptionalBarrelMarkerName": "invalid",
+        "PredictionType": "Continuous",
+        "FiringNoise": "Loud",
+        "FiringError": {
+          "AccelerationTime": 0.5,
+          "DecelerationTime": 0.5,
+          "DamageError": "Lower: 0, Upper: 0",
+          "MinErrorLookPitchRate": "Degrees: 0",
+          "FullErrorLookPitchRate": "Degrees: 0",
+          "LookPitchErrorPower": 0.0
+        },
+        "DualWeaponError": {
+          "AccelerationTime": 0.0,
+          "DecelerationTime": 0.0,
+          "RuntimeAccelerationRate": 1000.0,
+          "RuntimeDecelerationRate": 1000.0,
+          "MinimumError": "Degrees: 0",
+          "ErrorAngle": "Lower: Degrees: 0, Upper: Degrees: 0",
+          "DualWieldDamageScale": 0.0
+        },
+        "ProjectileDistributionFunction": "Point",
+        "ProjectilesPerShot": 1,
+        "ProjectileDistributionAngle": "Degrees: 0",
+        "ProjectileMinimumError": "Degrees: 0.1",
+        "ProjectileErrorAngle": "Lower: Degrees: 0.1, Upper: Degrees: 2.1",
+        "AccuracyPenalties": {
+          "ReloadPenalty": 2.5,
+          "SwitchPenalty": 1.0,
+          "ZoomPenalty": 0.0,
+          "JumpPenalty": 0.0,
+          "SingleWieldPenalties": {
+            "FiringPenaltyFunction": [
+              {
+                "Function": {
+                  "Data": "CDQAAArXoz0AAIA/AAAAAAAAAAAAAAAAAAAAACQAAAACAAAABAAAP3E9ij3NtoxAi9scPgQAAAD//39/XurDvtGf8z4="
+                }
+              }
+            ],
+            "FiringCrouchedPenaltyFunction": [
+              {
+                "Function": {
+                  "Data": "CDQAAClcjz0AAIA/AAAAAAAAAAAAAAAAAAAAACQAAAACAAAABAAAP5qZmT17Ce0/mpkZPgQAAAD//39/V6dYvh8JnD4="
+                }
+              }
+            ],
+            "MovingPenaltyFunction": [],
+            "TurningPenaltyFunction": [],
+            "ErrorAngleMaxRotation": 0.0
+          },
+          "DualWieldPenalties": {
+            "FiringPenaltyFunction": [],
+            "FiringCrouchedPenaltyFunction": [],
+            "MovingPenaltyFunction": [],
+            "TurningPenaltyFunction": [],
+            "ErrorAngleMaxRotation": 0.0
+          }
+        },
+        "FirstPersonOffsets": [],
+        "DamageReportingType": {
+          "HaloOnline": "AssaultRifle"
+        },
+        "Projectile": {
+          "Type": "projectile",
+          "Name": "objects\\weapons\\rifle\\assault_rifle\\assault_rifle_power\\projectiles\\assault_rifle_power_bullet",
+          "Generate": false
+        },
+        "SecondaryProjectile": null,
+        "DamageEffect": null,
+        "CrateProjectile": null,
+        "CrateProjectileSpeed": 0.0,
+        "EjectionPortRecoveryTime": 0.0,
+        "IlluminationRecoveryTime": 0.05,
+        "HeatGeneratedPerRound": 0.0,
+        "AgeGeneratedPerRoundMp": 0.0,
+        "AgeGeneratedPerRoundSp": 0.0,
+        "OverloadTime": 0.0,
+        "VerticalRecoil": {
+          "AngleChangePerShot": "Lower: Degrees: 0, Upper: Degrees: 0",
+          "AngleChangeAccelerationTime": 0.0,
+          "AngleChangeDecelerationTime": 0.0,
+          "AngleChangeFunction": "Linear",
+          "AngleChangeAccelerationRate": 1000.0,
+          "AngleChangeDecelerationRate": 1000.0
+        },
+        "IlluminationRecoveryRate": 20.0,
+        "EjectionPortRecoveryRate": 1000.0,
+        "RateOfFireAccelerationTime": 1000.0,
+        "RateOfFireDecelerationTime": 1000.0,
+        "ErrorAccelerationRate": 2.0,
+        "ErrorDecelerationRate": 2.0,
+        "FiringEffects": [
+          {
+            "ShotCount": "Lower: 1, Upper: 1",
+            "FiringEffect": {
+              "Type": "effect",
+              "Name": "objects\\weapons\\rifle\\assault_rifle\\assault_rifle_power\\fx\\assault_rifle_power_firing",
+              "Generate": false
+            },
+            "MisfireEffect": null,
+            "EmptyEffect": {
+              "Type": "effect",
+              "Name": "objects\\weapons\\rifle\\battle_rifle\\fx\\empty",
+              "Generate": false
+            },
+            "SecondaryFiringEffect": null,
+            "FiringDamage": {
+              "Type": "damage_response_definition",
+              "Name": "globals\\damage_responses\\trigger_fullauto",
+              "Generate": false
+            },
+            "MisfireDamage": null,
+            "EmptyDamage": null,
+            "OptionalSecondaryFiringDamage": null,
+            "FiringRiderDamage": null,
+            "MisfireRiderDamage": null,
+            "EmptyRiderDamage": null,
+            "OptionalSecondaryFiringRiderDamage": null
+          }
+        ]
+      }
+    ],
+    "WeaponPowerOnVelocity": 1.0,
+    "WeaponPowerOffVelocity": 1.0,
+    "MaxMovementAcceleration": 0.0,
+    "MaximumMovementVelocity": 0.0,
+    "MaximumTurningAcceleration": 0.0,
+    "MaximumTurningVelocity": 0.0,
+    "DeployedVehicle": null,
+    "DeployedWeapon": null,
+    "AgeEffect": null,
+    "AgedWeapon": null,
+    "AgedMaterialEffects": null,
+    "ExternalAgingAmount": 0.0,
+    "CampaignExternalAgingAmount": 0,
+    "FirstPersonWeaponOffset": "I: 0, J: 0, K: 0",
+    "FirstPersonScopeSize": "I: 0, J: 0",
+    "SupportThirdPersonCameraRange": "Lower: 0, Upper: 0",
+    "WeaponZoomTime": 0.0,
+    "WeaponReadyForUseTime": 0.0,
+    "WeaponReadyFirstPersonAnimationPlaybackScale": 0.0,
+    "UnitStowAnchorName": "weapon_back",
+    "CenteredFirstPersonWeaponOffset": "X: 0, Y: 0, Z: 0",
+    "WeaponTypeName": "invalid"
+  }
+}

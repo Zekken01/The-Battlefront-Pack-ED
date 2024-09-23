@@ -1,0 +1,501 @@
+{
+  "TagName": "objects\\weapons\\melee\\energy_blade\\energy_blade",
+  "TagType": "weapon",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "ObjectType": {
+      "Halo3ODST": "Weapon"
+    },
+    "ObjectFlags": {
+      "Flags": "None"
+    },
+    "BoundingRadius": 0.25,
+    "BoundingOffset": "X: 0.15, Y: 0, Z: 0",
+    "AccelerationScale": 1.0,
+    "LightmapShadowMode": "Default",
+    "SweetenerSize": "Default",
+    "WaterDensity": "Neutral",
+    "RuntimeFlags": 0,
+    "DynamicLightSphereRadius": 0.0,
+    "DynamicLightSphereOffset": "X: 0, Y: 0, Z: 0",
+    "DefaultModelVariant": "invalid",
+    "Model": {
+      "Type": "model",
+      "Name": "objects\\weapons\\melee\\energy_blade\\energy_blade",
+      "Generate": false
+    },
+    "CrateObject": null,
+    "CollisionDamage": null,
+    "EarlyMoverProperties": [],
+    "CreationEffect": null,
+    "MaterialEffects": {
+      "Type": "material_effects",
+      "Name": "fx\\material_effects\\objects\\weapons\\energy_sword",
+      "Generate": false
+    },
+    "ArmorSounds": null,
+    "MeleeImpactSound": null,
+    "AiProperties": [
+      {
+        "AiFlags": "None",
+        "AiTypeName": "sword",
+        "AiSize": "Default",
+        "LeapJumpSpeed": "None"
+      }
+    ],
+    "Functions": [
+      {
+        "Flags": "None",
+        "ImportName": "alive",
+        "ExportName": "blade_on",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "AjQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPwwAAAAEzc3NAAAAAAAAgD8="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "age",
+        "ExportName": "batter_empty",
+        "TurnOffWith": "electrical_power",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAABQAAAABAAAABAAAzf//f38AAIC/AACAPw=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "turned_on",
+        "ExportName": "blade_activate",
+        "TurnOffWith": "electrical_power",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPyQAAAACAAAABAAAAKRwTT8AAAAAAAAAAAQAAAD//39/fAaiQHwGgsA="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "stowed",
+        "ExportName": "holstered",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAABQAAAABAAAABAAAAP//f38AAIC/AACAPw=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "ready",
+        "ExportName": "audio_loop",
+        "TurnOffWith": "turned_on",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "AjQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPwwAAAAEzc3NAAAAAAAAgD8="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "active_camouflage",
+        "ExportName": "camo",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAABQAAAABAAAABAAAzf//f38AAIC/AACAPw=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "age",
+        "ExportName": "flare_off",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAABQAAAABAAAABAAAzf//f38AAIC/AACAPw=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "turned_on",
+        "ExportName": "blade_effects",
+        "TurnOffWith": "electrical_power",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPxQAAAABAAAABAAAAP//f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "camo"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "turning_on",
+        "ExportName": "turning_on_effects",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPxQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "camo"
+      }
+    ],
+    "HudTextMessageIndex": 0,
+    "SecondaryFlags": "None",
+    "Attachments": [
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\weapons\\energy_sword\\sword_loop\\sword_loop",
+          "Generate": false
+        },
+        "Marker": "fx_bladetip",
+        "ChangeColor": "None",
+        "PrimaryScale": "blade_effects",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "effect",
+          "Name": "objects\\weapons\\melee\\energy_blade\\fx\\blade_activate",
+          "Generate": false
+        },
+        "Marker": "fx_handle",
+        "ChangeColor": "None",
+        "PrimaryScale": "turning_on_effects",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "effect",
+          "Name": "objects\\weapons\\melee\\energy_blade\\fx\\blade_on",
+          "Generate": false
+        },
+        "Marker": "fx_bladebase",
+        "ChangeColor": "None",
+        "PrimaryScale": "blade_effects",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "light",
+          "Name": "objects\\weapons\\melee\\energy_blade\\fx\\blade_on",
+          "Generate": false
+        },
+        "Marker": "fx_bladebase",
+        "ChangeColor": "None",
+        "PrimaryScale": "blade_effects",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "lens_flare",
+          "Name": "objects\\weapons\\melee\\energy_blade\\fx\\blade_on",
+          "Generate": false
+        },
+        "Marker": "fx_handleflare",
+        "ChangeColor": "None",
+        "PrimaryScale": "camo",
+        "SecondaryScale": "flare_off"
+      }
+    ],
+    "Widgets": [],
+    "ChangeColors": [],
+    "NodeMaps": [],
+    "MultiplayerObject": [
+      {
+        "EngineFlags": "None",
+        "Type": "Weapon",
+        "TeleporterPassability": "None",
+        "Flags": "None",
+        "BoundaryShape": "None",
+        "SpawnTimerType": "StartsOnDisturbance",
+        "DefaultSpawnTime": 30,
+        "DefaultAbandonTime": 60,
+        "BoundaryWidthRadius": 0.0,
+        "BoundaryBoxLength": 0.0,
+        "BoundaryPositiveHeight": 0.0,
+        "BoundaryNegativeHeight": 0.0,
+        "StandardRespawnZoneWeight": 0.0,
+        "FlagAwayRespawnZoneWeight": 0.0,
+        "FlagAtHomeRespawnZoneWeight": 0.0,
+        "BoundaryCenterMarker": "invalid",
+        "SpawnedObjectMarkerName": "invalid",
+        "SpawnedObject": null,
+        "NyiBoundaryMaterial": "invalid",
+        "BoundaryShaders": [
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          }
+        ]
+      }
+    ],
+    "RevivingEquipment": [],
+    "PathfindingSpheres": [],
+    "ItemFlags": {
+      "Flags": "None"
+    },
+    "ObsoleteItemFields": {
+      "OldMessageIndex": 8,
+      "SortOrder": 0,
+      "OldMultiplayerOnGroundScale": 0.0,
+      "OldCampaignOnGroundScale": 0.0
+    },
+    "PickupMessage": "ps_pickup",
+    "SwapMessage": "ps_swap",
+    "PickupOrDualWieldMessage": "invalid",
+    "SwapOrDualWieldMessage": "invalid",
+    "PickedUpMessage": "ps_picked_up",
+    "SwitchToMessage": "ps_switch_to",
+    "SwitchToFromAiMessage": "ps_swap_ai",
+    "AllWeaponsEmptyMessage": "invalid",
+    "CollisionSound": null,
+    "PredictedBitmaps": [],
+    "DetonationDamageEffect": null,
+    "DetonationDelay": "Lower: 0, Upper: 0",
+    "DetonatingEffect": null,
+    "DetonationEffect": null,
+    "CampaignOnGroundScale": 1.3,
+    "MultiplayerOnGroundScale": 1.3,
+    "ItemUnitScales": {
+      "SmallUnit": {
+        "Armed": 0.9,
+        "Stowed": 0.9
+      },
+      "MediumUnit": {
+        "Armed": 1.1,
+        "Stowed": 1.1
+      },
+      "LargeUnit": {
+        "Armed": 0.0,
+        "Stowed": 0.0
+      },
+      "HugeUnit": {
+        "Armed": 1.3,
+        "Stowed": 1.3
+      }
+    },
+    "GroundedDamping": {
+      "Angular": 5.0,
+      "Linear": 2.0
+    },
+    "WeaponFlags": {
+      "NewFlags": "CannotFireAtMaximumAge, UsesEmptyMeleeOnEmpty, MeleeOnly, WeaponAgesWithEachKill, AllowsUnaimedLunge"
+    },
+    "SecondaryWeaponFlags": "None",
+    "SecondaryTriggerMode": "Normal",
+    "MaximumAlternateShotsLoaded": 0,
+    "TurnOnTime": 0.7,
+    "ReadyTime": 1.0,
+    "ReadyEffect": null,
+    "ReadyDamageEffect": null,
+    "HeatRecoveryThreshold": 0.0,
+    "OverheatedThreshold": 0.0,
+    "HeatDetonationThreshold": 0.0,
+    "HeatDetonationFraction": 0.0,
+    "HeatLossPerSecond": 0.0,
+    "HeatIllumination": 0.0,
+    "OverheatedHeatLossPerSecond": 0.0,
+    "Overheated": null,
+    "OverheatedDamageEffect": null,
+    "Detonation": null,
+    "DetonationDamageEffect": null,
+    "PlayerMeleeDamage": null,
+    "PlayerMeleeResponse": null,
+    "MeleeDamageParameters": {
+      "DamagePyramidAngles": "Yaw: 24.045715, Pitch: 13.8171215",
+      "DamagePyramidDepth": 0.9,
+      "FirstHitMeleeDamage": {
+        "Type": "damage_effect",
+        "Name": "objects\\weapons\\damage_effects\\dash_melee",
+        "Generate": false
+      },
+      "FirstHitMeleeResponse": {
+        "Type": "damage_effect",
+        "Name": "globals\\trigger_melee",
+        "Generate": false
+      },
+      "SecondHitMeleeDamage": null,
+      "SecondHitMeleeResponse": null,
+      "ThirdHitMeleeDamage": null,
+      "ThirdHitMeleeResponse": null,
+      "LungeMeleeDamage": {
+        "Type": "damage_effect",
+        "Name": "objects\\weapons\\damage_effects\\dash_melee",
+        "Generate": false
+      },
+      "LungeMeleeResponse": {
+        "Type": "damage_effect",
+        "Name": "globals\\trigger_lunge",
+        "Generate": false
+      },
+      "EmptyMeleeDamage": {
+        "Type": "damage_effect",
+        "Name": "objects\\weapons\\damage_effects\\strike_melee",
+        "Generate": false
+      },
+      "EmptyMeleeResponse": {
+        "Type": "damage_effect",
+        "Name": "globals\\trigger_melee",
+        "Generate": false
+      },
+      "ClangMeleeDamage": {
+        "Type": "damage_effect",
+        "Name": "objects\\weapons\\damage_effects\\clang_melee",
+        "Generate": false
+      },
+      "ClangMeleeResponse": {
+        "Type": "damage_effect",
+        "Name": "globals\\trigger_melee",
+        "Generate": false
+      }
+    },
+    "ClangEffect": {
+      "Type": "effect",
+      "Name": "objects\\weapons\\melee\\energy_blade\\fx\\sword_clash",
+      "Generate": false
+    },
+    "MeleeDamageReportingType": {
+      "HaloOnline": "EnergySword"
+    },
+    "MagnificationLevels": 0,
+    "MagnificationRange": "Lower: 0, Upper: 0",
+    "MagnificationFlags": "None",
+    "WeaponSwitchReadySpeed": 0.0,
+    "WeaponAimAssist": {
+      "AutoaimAngle": "Degrees: 10",
+      "AutoaimRange": 2.5,
+      "AutoaimFalloffRange": 2.5,
+      "AutoaimNearFalloffRange": 0.0,
+      "MagnetismAngle": "Degrees: 10",
+      "MagnetismRange": 6.0,
+      "MagnetismFalloffRange": 3.0,
+      "MagnetismNearFalloffRange": 0.0,
+      "DeviationAngle": "Degrees: 0"
+    },
+    "Unknown15": 0,
+    "TargetTracking": [],
+    "Unknown16": 0,
+    "Unknown17": 0,
+    "Unknown18": 0,
+    "Unknown19": 0,
+    "MovementPenalized": "Always",
+    "ForwardsMovementPenalty": 0.0,
+    "SidewaysMovementPenalty": 0.0,
+    "AiScariness": 16.0,
+    "WeaponPowerOnTime": 0.0,
+    "WeaponPowerOffTime": 0.0,
+    "WeaponPowerOnEffect": null,
+    "WeaponPowerOffEffect": null,
+    "AgeHeatRecoveryPenalty": 0.0,
+    "AgeRateOfFirePenalty": 0.0,
+    "AgeMisfireStart": 0.0,
+    "AgeMisfireChance": 0.0,
+    "PickupSound": null,
+    "ZoomInSound": null,
+    "ZoomOutSound": null,
+    "ActiveCamoDing": 0.1,
+    "ActiveCamoRegrowthRate": 0.0,
+    "Unknown22": 0,
+    "Unknown23": 0.0,
+    "WeaponClass": "sword",
+    "WeaponName": "eb",
+    "MultiplayerWeaponType": "None",
+    "WeaponType": "EnergySword",
+    "Tracking": "NoTracking",
+    "SpecialHudVersion": "Default30",
+    "SpecialHudIcon": 0,
+    "FirstPerson": [
+      {
+        "FirstPersonModel": {
+          "Type": "render_model",
+          "Name": "objects\\weapons\\melee\\energy_blade\\fp_energy_blade\\fp_energy_blade",
+          "Generate": false
+        },
+        "FirstPersonAnimations": {
+          "Type": "model_animation_graph",
+          "Name": "objects\\characters\\masterchief\\fp\\weapons\\melee\\fp_energy_blade\\fp_energy_blade",
+          "Generate": false
+        }
+      },
+      {
+        "FirstPersonModel": {
+          "Type": "render_model",
+          "Name": "objects\\weapons\\melee\\energy_blade\\fp_energy_blade\\fp_energy_blade",
+          "Generate": false
+        },
+        "FirstPersonAnimations": {
+          "Type": "model_animation_graph",
+          "Name": "objects\\characters\\dervish\\fp\\weapons\\melee\\fp_energy_blade\\fp_energy_blade",
+          "Generate": false
+        }
+      }
+    ],
+    "HudInterface": {
+      "Type": "chud_definition",
+      "Name": "ui\\chud\\sword",
+      "Generate": false
+    },
+    "PredictedWeaponResources": [],
+    "Magazines": [],
+    "Triggers": [],
+    "Barrels": [],
+    "WeaponPowerOnVelocity": 1.0,
+    "WeaponPowerOffVelocity": 1.0,
+    "MaxMovementAcceleration": 0.0,
+    "MaximumMovementVelocity": 0.0,
+    "MaximumTurningAcceleration": 0.0,
+    "MaximumTurningVelocity": 0.0,
+    "DeployedVehicle": null,
+    "DeployedWeapon": null,
+    "AgeEffect": null,
+    "AgedWeapon": {
+      "Type": "weapon",
+      "Name": "objects\\weapons\\melee\\energy_blade\\energy_blade_useless",
+      "Generate": false
+    },
+    "AgedMaterialEffects": {
+      "Type": "material_effects",
+      "Name": "fx\\material_effects\\objects\\weapons\\energy_sword_depleted",
+      "Generate": false
+    },
+    "ExternalAgingAmount": 0.0,
+    "CampaignExternalAgingAmount": 0,
+    "FirstPersonWeaponOffset": "I: 0, J: 0, K: 0",
+    "FirstPersonScopeSize": "I: 0, J: 0",
+    "SupportThirdPersonCameraRange": "Lower: 0, Upper: 0",
+    "WeaponZoomTime": 0.0,
+    "WeaponReadyForUseTime": 1.0,
+    "WeaponReadyFirstPersonAnimationPlaybackScale": 0.0,
+    "UnitStowAnchorName": "weapon_thigh",
+    "CenteredFirstPersonWeaponOffset": "X: 0, Y: 0, Z: 0",
+    "WeaponTypeName": "invalid"
+  }
+}

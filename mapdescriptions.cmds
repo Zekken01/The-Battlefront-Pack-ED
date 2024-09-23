@@ -1,0 +1,152 @@
+EditMap coruscant.map
+SetField Blf.Scenario.Names[0].Name "Coruscant"
+SetField Blf.Scenario.Descriptions[0].Name "Temple of the Jedi. 10-16 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+exit
+
+EditMap geonosis.map
+SetField Blf.Scenario.Names[0].Name "Geonosis"
+SetField Blf.Scenario.Descriptions[0].Name "The shroud of the dark side has fallen. Begun, the Clone War has. 10-16 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+exit
+
+EditMap hoth.map
+SetField Blf.Scenario.Names[0].Name "Hoth"
+SetField Blf.Scenario.Descriptions[0].Name "And I thought they smelled bad on the outside. 10-16 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+exit
+
+EditMap imp_deathstar.map
+SetField Blf.Scenario.Names[0].Name "Death Star"
+SetField Blf.Scenario.Descriptions[0].Name "Thats no moon... 10-16 Players."
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+exit
+
+EditMap kashyyyk.map
+SetField Blf.Scenario.Names[0].Name "Kashyyyk"
+SetField Blf.Scenario.Descriptions[0].Name "Home of the Wookies, End of the Republic. 10-16 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+exit
+
+EditMap mos_eisley.map
+SetField Blf.Scenario.Names[0].Name "Mos Eisley"
+SetField Blf.Scenario.Descriptions[0].Name "You will never find a more wretched hive of scum and villainy. 10-16 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+exit
+
+EditMap mustafar.map
+SetField Blf.Scenario.Names[0].Name "Mustafar"
+SetField Blf.Scenario.Descriptions[0].Name "The Jedi Order must come to an end... 10-16 Players."
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+exit
+
+EditMap scarif.map
+SetField Blf.Scenario.Names[0].Name "Scarif"
+SetField Blf.Scenario.Descriptions[0].Name "Our mission today, Will change the galaxy forever... 10-16 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+exit
+
+EditMap utapau.map
+SetField Blf.Scenario.Names[0].Name "Utapau"
+SetField Blf.Scenario.Descriptions[0].Name "Hello there. 10-16 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+exit

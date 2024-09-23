@@ -1,0 +1,24 @@
+{
+  "TagName": "ui\\halox\\start_menu\\panes\\settings\\strings",
+  "TagType": "multilingual_unicode_string_list",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": [
+    {
+      "StringIdName": "controls_description",
+      "StringIdContent": "Customize your settings to your personal preferences."
+    },
+    {
+      "StringIdName": "controls_settings",
+      "StringIdContent": "ED SETTINGS"
+    },
+    {
+      "StringIdName": "display_description",
+      "StringIdContent": "Customize your screen settings to decide how you want subtitles to be displayed."
+    }
+  ],
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

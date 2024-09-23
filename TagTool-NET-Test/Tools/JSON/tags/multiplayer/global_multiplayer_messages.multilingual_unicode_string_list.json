@@ -1,0 +1,16 @@
+{
+  "TagName": "multiplayer\\global_multiplayer_messages",
+  "TagType": "multilingual_unicode_string_list",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": [
+    {
+      "StringIdName": "variant_name_elimination",
+      "StringIdContent": "Elimination"
+    }
+  ],
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

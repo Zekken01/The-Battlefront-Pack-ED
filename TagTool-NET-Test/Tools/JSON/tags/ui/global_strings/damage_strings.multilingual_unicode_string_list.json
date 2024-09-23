@@ -1,0 +1,16 @@
+{
+  "TagName": "ui\\global_strings\\damage_strings",
+  "TagType": "multilingual_unicode_string_list",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": [
+    {
+      "StringIdName": "shade_turret",
+      "StringIdContent": "Shade Turret"
+    }
+  ],
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

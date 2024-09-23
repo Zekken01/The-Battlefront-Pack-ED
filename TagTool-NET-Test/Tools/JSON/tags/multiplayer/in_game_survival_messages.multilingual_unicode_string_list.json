@@ -1,0 +1,20 @@
+{
+  "TagName": "multiplayer\\in_game_survival_messages",
+  "TagType": "multilingual_unicode_string_list",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": [
+    {
+      "StringIdName": "gen_kill_cause_player",
+      "StringIdContent": "You killed #effect_player"
+    },
+    {
+      "StringIdName": "gen_kill_effect_player",
+      "StringIdContent": "#cause_player killed you"
+    }
+  ],
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

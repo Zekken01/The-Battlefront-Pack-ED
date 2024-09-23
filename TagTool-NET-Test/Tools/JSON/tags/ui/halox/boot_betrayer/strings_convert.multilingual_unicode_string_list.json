@@ -1,0 +1,16 @@
+{
+  "TagName": "ui\\halox\\boot_betrayer\\strings",
+  "TagType": "multilingual_unicode_string_list",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": [
+    {
+      "StringIdName": "help",
+      "StringIdContent": "You were betrayed again by <betrayer-name\\>. Press \\UE102 if you want to boot this player from the game."
+    }
+  ],
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}
