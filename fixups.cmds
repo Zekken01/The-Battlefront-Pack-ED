@@ -57,7 +57,7 @@ importbitmap 0 "workingdir\bitmaps\dc17_lefthand.dds"
 savetagchanges
 exitto tags
 
-## attempt to give starwars sniper a hud icon
+## give starwars sniper a hud icon
 duplicatetag rasterizer\invalid.bitmap object\weapons\starwarssniper\bitmaps\shce.bitmap
 EditTag ui\chud\starwarssiper.chud_definition
 setfield HudWidgets[4].BitmapWidgets[0].Bitmap object\weapons\starwarssniper\bitmaps\shce.bitmap

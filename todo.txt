@@ -1,9 +1,11 @@
 ```
 Crashes on non battlefront maps
 
-Rocket Launcher has crazy drop on the projectile on some maps (on scarif)
+plasma turrets switch back to the halo online variant when removed from the mount
 
-Original animated battlefront loading screens???? apng
+Rocket Launcher has crazy drop on the projectile on some maps (scarif)
+
+Original animated battlefront loading screens or flythrough of map as an apng.
 
 Podium Camera for all maps
 
@@ -19,13 +21,11 @@ Elites cant use the turret on geonosis
 object\vehicles\geo_turret\geo_turret.vehicle
 https://s.zekken.rocks/2CWZnPFT.jpg
 
-DC-15x Sniper hid icon is broken
-
 Forge Pallet (Including brute plasma rifle)
 
-Star Wars Announcer Sounds (For more modes?)
+Star Wars Announcer Sounds dont play on eldewrito but are present on MCC
 
-Add Ambient Music
+Add Ambient Music from battlefront
 
 Fix Change Weapon Animation
 https://s.zekken.rocks/52gHEpdX.jpg
