@@ -223,8 +223,8 @@ SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
 SaveMapChanges
 Exit
 
-EditMap utapau.map
-SetField Blf.Scenario.Names[0].Name "s3d_turf"
+EditMap s3d_turf.map
+SetField Blf.Scenario.Names[0].Name "Icebox"
 SetField Blf.Scenario.Descriptions[0].Name "Downtown Tyumen’s frigid and cloistered Precinct 13 offers an ideal context for urban combat training. 2-10 Players"
 SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
@@ -274,8 +274,8 @@ SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
 SaveMapChanges
 Exit
 
-EditMap utapau.map
-SetField Blf.Scenario.Names[0].Name "s3d_reactor"
+EditMap s3d_reactor.map
+SetField Blf.Scenario.Names[0].Name "Reactor"
 SetField Blf.Scenario.Descriptions[0].Name "Being constructed just prior to the Invasion, its builders had to evacuate before it was completed. 6-16 Players"
 SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
