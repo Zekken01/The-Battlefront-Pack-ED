@@ -283,4 +283,4 @@ runcommands workingdir\mapdescriptions.cmds
 
 savemodpackage "modsfolder\The Battlefront Pack.pak"
 
-DumpLog
+DumpLog workingdir\logs

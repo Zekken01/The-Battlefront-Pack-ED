@@ -23,7 +23,7 @@ https://s.zekken.rocks/2CWZnPFT.jpg
 
 Forge Pallet (Including brute plasma rifle)
 
-Star Wars Announcer Sounds dont play on eldewrito but are present on MCC
+Star Wars Announcer Sounds dont play on eldewrito but are present on MCC (mtn said globals)
 
 Add Ambient Music from battlefront
 
