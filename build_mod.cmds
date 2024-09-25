@@ -28,6 +28,44 @@ utapau
 
 addmodfiles "workingdir\maps\ui"
 
+//needed for multiple tag caches
+edittag levels\multi\guardian\guardian.scenario
+savetagchanges
+exit
+edittag levels\multi\riverworld\riverworld.scenario
+savetagchanges
+exit
+edittag levels\multi\s3d_avalanche\s3d_avalanche.scenario
+savetagchanges
+exit
+edittag levels\multi\s3d_edge\s3d_edge.scenario
+savetagchanges
+exit
+edittag levels\multi\s3d_reactor\s3d_reactor.scenario
+savetagchanges
+exit
+edittag levels\multi\s3d_turf\s3d_turf.scenario
+savetagchanges
+exit
+edittag levels\multi\cyberdyne\cyberdyne.scenario
+savetagchanges
+exit
+edittag levels\multi\chill\chill.scenario
+savetagchanges
+exit
+edittag levels\dlc\bunkerworld\bunkerworld.scenario
+savetagchanges
+exit
+edittag levels\multi\zanzibar\zanzibar.scenario
+savetagchanges
+exit
+edittag levels\multi\deadlock\deadlock.scenario
+savetagchanges
+exit
+edittag levels\multi\shrine\shrine.scenario
+savetagchanges
+exit
+updatemapfiles
 
 echo ==Port Coruscant...==
 switchtagcache 1
@@ -282,5 +320,10 @@ echo ==Post Port Commands...==
 runcommands workingdir\mapdescriptions.cmds
 
 savemodpackage "modsfolder\The Battlefront Pack.pak"
+
+exitmodpackage
+
+//not ready yet
+//runcommands workingdir\fixbasemaps.cmds
 
 DumpLog workingdir\logs

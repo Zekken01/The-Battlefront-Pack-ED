@@ -1,0 +1,455 @@
+echo ==Bunkerworld...==
+editmap bunkerworld.map
+copyblockelements blf.scenario 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap bunkerworld.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario
+pasteblockelements blf.scenario 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap bunkerworld.map
+copyblockelements blf.mapvariant 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap bunkerworld.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant
+pasteblockelements blf.mapvariant 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap bunkerworld.map
+copyblockelements blf.mapvarianttagnames 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap bunkerworld.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant,MapVariantTagNames
+pasteblockelements blf.mapvarianttagnames 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+
+echo ==Chill...==
+editmap chill.map
+copyblockelements blf.scenario 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap chill.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario
+pasteblockelements blf.scenario 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap chill.map
+copyblockelements blf.mapvariant 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap chill.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant
+pasteblockelements blf.mapvariant 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap chill.map
+copyblockelements blf.mapvarianttagnames 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap chill.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant,MapVariantTagNames
+pasteblockelements blf.mapvarianttagnames 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+
+echo ==Cyberdyne...==
+editmap cyberdyne.map
+copyblockelements blf.scenario 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap cyberdyne.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario
+pasteblockelements blf.scenario 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap cyberdyne.map
+copyblockelements blf.mapvariant 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap cyberdyne.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant
+pasteblockelements blf.mapvariant 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap cyberdyne.map
+copyblockelements blf.mapvarianttagnames 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap cyberdyne.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant,MapVariantTagNames
+pasteblockelements blf.mapvarianttagnames 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+
+echo ==Cyberdyne...==
+editmap cyberdyne.map
+copyblockelements blf.scenario 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap cyberdyne.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario
+pasteblockelements blf.scenario 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap cyberdyne.map
+copyblockelements blf.mapvariant 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap cyberdyne.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant
+pasteblockelements blf.mapvariant 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap cyberdyne.map
+copyblockelements blf.mapvarianttagnames 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap cyberdyne.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant,MapVariantTagNames
+pasteblockelements blf.mapvarianttagnames 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+
+echo ==Deadlock...==
+editmap deadlock.map
+copyblockelements blf.scenario 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap deadlock.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario
+pasteblockelements blf.scenario 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap deadlock.map
+copyblockelements blf.mapvariant 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap deadlock.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant
+pasteblockelements blf.mapvariant 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap deadlock.map
+copyblockelements blf.mapvarianttagnames 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap deadlock.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant,MapVariantTagNames
+pasteblockelements blf.mapvarianttagnames 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+
+echo ==Guardian...==
+editmap guardian.map
+copyblockelements blf.scenario 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap guardian.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario
+pasteblockelements blf.scenario 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap guardian.map
+copyblockelements blf.mapvariant 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap guardian.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant
+pasteblockelements blf.mapvariant 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap guardian.map
+copyblockelements blf.mapvarianttagnames 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap guardian.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant,MapVariantTagNames
+pasteblockelements blf.mapvarianttagnames 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+
+echo ==Riverworld...==
+editmap riverworld.map
+copyblockelements blf.scenario 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap riverworld.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario
+pasteblockelements blf.scenario 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap riverworld.map
+copyblockelements blf.mapvariant 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap riverworld.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant
+pasteblockelements blf.mapvariant 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap riverworld.map
+copyblockelements blf.mapvarianttagnames 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap riverworld.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant,MapVariantTagNames
+pasteblockelements blf.mapvarianttagnames 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+
+echo ==s3d_avalanche...==
+editmap s3d_avalanche.map
+copyblockelements blf.scenario 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap s3d_avalanche.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario
+pasteblockelements blf.scenario 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap s3d_avalanche.map
+copyblockelements blf.mapvariant 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap s3d_avalanche.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant
+pasteblockelements blf.mapvariant 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap s3d_avalanche.map
+copyblockelements blf.mapvarianttagnames 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap s3d_avalanche.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant,MapVariantTagNames
+pasteblockelements blf.mapvarianttagnames 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+
+echo ==s3d_edge...==
+editmap s3d_edge.map
+copyblockelements blf.scenario 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap s3d_edge.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario
+pasteblockelements blf.scenario 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap s3d_edge.map
+copyblockelements blf.mapvariant 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap s3d_edge.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant
+pasteblockelements blf.mapvariant 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap s3d_edge.map
+copyblockelements blf.mapvarianttagnames 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap s3d_edge.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant,MapVariantTagNames
+pasteblockelements blf.mapvarianttagnames 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+
+echo ==s3d_reactor...==
+editmap s3d_reactor.map
+copyblockelements blf.scenario 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap s3d_reactor.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario
+pasteblockelements blf.scenario 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap s3d_reactor.map
+copyblockelements blf.mapvariant 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap s3d_reactor.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant
+pasteblockelements blf.mapvariant 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap s3d_reactor.map
+copyblockelements blf.mapvarianttagnames 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap s3d_reactor.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant,MapVariantTagNames
+pasteblockelements blf.mapvarianttagnames 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+
+
+echo ==s3d_turf...==
+editmap s3d_turf.map
+copyblockelements blf.scenario 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap s3d_turf.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario
+pasteblockelements blf.scenario 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap s3d_turf.map
+copyblockelements blf.mapvariant 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap s3d_turf.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant
+pasteblockelements blf.mapvariant 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap s3d_turf.map
+copyblockelements blf.mapvarianttagnames 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap s3d_turf.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant,MapVariantTagNames
+pasteblockelements blf.mapvarianttagnames 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+
+echo ==Shrine...==
+editmap shrine.map
+copyblockelements blf.scenario 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap shrine.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario
+pasteblockelements blf.scenario 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap shrine.map
+copyblockelements blf.mapvariant 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap shrine.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant
+pasteblockelements blf.mapvariant 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap shrine.map
+copyblockelements blf.mapvarianttagnames 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap shrine.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant,MapVariantTagNames
+pasteblockelements blf.mapvarianttagnames 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+
+echo ==Zanzibar...==
+editmap zanzibar.map
+copyblockelements blf.scenario 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap zanzibar.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario
+pasteblockelements blf.scenario 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap zanzibar.map
+copyblockelements blf.mapvariant 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap zanzibar.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant
+pasteblockelements blf.mapvariant 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
+editmap zanzibar.map
+copyblockelements blf.mapvarianttagnames 0 1
+exit
+openmodpackage "modsfolder\The Battlefront Pack.pak"
+editmap zanzibar.map
+SetField Blf.ContentFlags StartOfFile,EndOfFile,Scenario,MapVariant,MapVariantTagNames
+pasteblockelements blf.mapvarianttagnames 1
+savemapchanges
+exit
+savemodpackage
+exitmodpackage
