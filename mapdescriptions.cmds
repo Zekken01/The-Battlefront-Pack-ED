@@ -1,3 +1,5 @@
+echo ==Battlefront Maps...==
+
 EditMap coruscant.map
 SetField Blf.Scenario.Names[0].Name "Coruscant"
 SetField Blf.Scenario.Descriptions[0].Name "Temple of the Jedi. 10-16 Players"
@@ -137,6 +139,212 @@ Exit
 EditMap utapau.map
 SetField Blf.Scenario.Names[0].Name "Utapau"
 SetField Blf.Scenario.Descriptions[0].Name "Hello there. 10-16 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+Exit
+
+echo ==Vanilla Maps...==
+
+EditMap s3d_avalanche.map
+SetField Blf.Scenario.Names[0].Name "Diamondback"
+SetField Blf.Scenario.Descriptions[0].Name "Hot winds blow over what should be a dead moon. A reminder of the power Forerunners once wielded 6-16 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+Exit
+
+EditMap s3d_edge.map
+SetField Blf.Scenario.Names[0].Name "Edge"
+SetField Blf.Scenario.Descriptions[0].Name "The remote frontier world of Partition has provided this ancient databank with the safety of seclusion. 6-16 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+Exit
+
+EditMap guardian.map
+SetField Blf.Scenario.Names[0].Name "Guardian"
+SetField Blf.Scenario.Descriptions[0].Name "Millennia of tending has produced trees as ancient as the Forerunner structures they have grown around. 2-6 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+Exit
+
+EditMap deadlock.map
+SetField Blf.Scenario.Names[0].Name "High Ground"
+SetField Blf.Scenario.Descriptions[0].Name "A relic of older conflicts, this base was reactivated after the New Mombasa Slipspace Event. 4-12 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+Exit
+
+EditMap utapau.map
+SetField Blf.Scenario.Names[0].Name "s3d_turf"
+SetField Blf.Scenario.Descriptions[0].Name "Downtown Tyumen’s frigid and cloistered Precinct 13 offers an ideal context for urban combat training. 2-10 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+Exit
+
+EditMap zanzibar.map
+SetField Blf.Scenario.Names[0].Name "Last Resort"
+SetField Blf.Scenario.Descriptions[0].Name "Remote industrial sites like this one are routinely requisitioned and razed as part of Spartan training exercises. 4-12 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+Exit
+
+EditMap chill.map
+SetField Blf.Scenario.Names[0].Name "Narrows"
+SetField Blf.Scenario.Descriptions[0].Name "Without cooling systems such as these, excess heat from the Ark's forges would render the construct uninhabitable. 2-8 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+Exit
+
+EditMap utapau.map
+SetField Blf.Scenario.Names[0].Name "s3d_reactor"
+SetField Blf.Scenario.Descriptions[0].Name "Being constructed just prior to the Invasion, its builders had to evacuate before it was completed. 6-16 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+Exit
+
+EditMap shrine.map
+SetField Blf.Scenario.Names[0].Name "SandTrap"
+SetField Blf.Scenario.Descriptions[0].Name "Although the Brute occupiers have been driven from this ancient structure, they left plenty to remember them by. 6-16 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+Exit
+
+EditMap bunkerworld.map
+SetField Blf.Scenario.Names[0].Name "Standoff"
+SetField Blf.Scenario.Descriptions[0].Name "Once, nearby telescopes listened for a message from the stars. Now, these silos contain our prepared response. 4-12 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+Exit
+
+EditMap cyberdyne.map
+SetField Blf.Scenario.Names[0].Name "The Pit"
+SetField Blf.Scenario.Descriptions[0].Name "Software simulations are held in contempt by the veteran instructors who run these training facilities. 4-10 Players"
+SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.OddballTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.KingTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.SandboxTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.VipTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.JuggernautTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
+SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
+SaveMapChanges
+Exit
+
+EditMap riverworld.map
+SetField Blf.Scenario.Names[0].Name "Valhalla"
+SetField Blf.Scenario.Descriptions[0].Name "The crew of V-398 barely survived their unplanned landing in this gorge...this curious gorge. 6-16 Players"
 SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
