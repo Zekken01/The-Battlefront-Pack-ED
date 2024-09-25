@@ -13,6 +13,8 @@ setinheritance fp any:any:any:sprint_enter objects\characters\masterchief\fp\wea
 setinheritance fp any:any:any:sprint_loop objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle.model_animation_graph
 setinheritance fp any:any:any:sprint_loop_airborne objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle.model_animation_graph
 setinheritance fp any:any:any:sprint_exit objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle.model_animation_graph
+setinheritance fp any:any:any:put_away objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle.model_animation_graph
+removeblockelements Modes[0].WeaponClass[0].WeaponType[0].Set.Actions 5 1
 savetagchanges
 exitto tags
 
