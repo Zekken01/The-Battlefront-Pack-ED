@@ -323,7 +323,4 @@ SaveModPackage "modsfolder\The Battlefront Pack.pak"
 
 ExitModPackage
 
-//Not Ready Yet
-//RunCommands workingdir\fixbasemaps.cmds
-
 DumpLog workingdir\logs
