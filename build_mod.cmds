@@ -1,15 +1,15 @@
 "C:\Users\zekken\Desktop\ElDewrito 0.7 Official\maps\tags.dat"
 
 echo ==Set Variables...==
-setvariable workingdir "C:\Users\zekken\Desktop\The-Battlefront-Pack-ED"
-setvariable modsfolder "C:\Users\zekken\Desktop\ElDewrito 0.7 Official\mods"
+SetVariable workingdir "C:\Users\zekken\Desktop\The-Battlefront-Pack-ED"
+SetVariable modsfolder "C:\Users\zekken\Desktop\ElDewrito 0.7 Official\mods"
 
 echo ==Set Caches...==
-useaudiocache workingdir\caches\audiocache
-useshadercache workingdir\caches\shadercache
+UseAudioCache workingdir\caches\audiocache
+UseShaderCache workingdir\caches\shadercache
 
 echo ==Creating Mod Package...==
-createmodpackage 10 large
+CreateModPackage 10 large
 The Battlefront Pack
 The Battlefront Pack including Coruscant, Geonosis, Hoth, Deathstar, Mustafar, Scarif, and Utapau. Credit goes to the original mod creators abyssquick , and stevierothy. Thanks to Newbie, Mtndewit, Dirkkane, and TwistedFlog for help porting to Eldewrito.
 Zekken
@@ -26,304 +26,304 @@ mustafar
 scarif
 utapau
 
-addmodfiles "workingdir\maps\ui"
+AddModFiles "workingdir\maps\ui"
 
 //needed for multiple tag caches
-edittag levels\multi\guardian\guardian.scenario
-savetagchanges
-exit
-edittag levels\multi\riverworld\riverworld.scenario
-savetagchanges
-exit
-edittag levels\multi\s3d_avalanche\s3d_avalanche.scenario
-savetagchanges
-exit
-edittag levels\multi\s3d_edge\s3d_edge.scenario
-savetagchanges
-exit
-edittag levels\multi\s3d_reactor\s3d_reactor.scenario
-savetagchanges
-exit
-edittag levels\multi\s3d_turf\s3d_turf.scenario
-savetagchanges
-exit
-edittag levels\multi\cyberdyne\cyberdyne.scenario
-savetagchanges
-exit
-edittag levels\multi\chill\chill.scenario
-savetagchanges
-exit
-edittag levels\dlc\bunkerworld\bunkerworld.scenario
-savetagchanges
-exit
-edittag levels\multi\zanzibar\zanzibar.scenario
-savetagchanges
-exit
-edittag levels\multi\deadlock\deadlock.scenario
-savetagchanges
-exit
-edittag levels\multi\shrine\shrine.scenario
-savetagchanges
-exit
+EditTag levels\multi\guardian\guardian.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\riverworld\riverworld.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\s3d_avalanche\s3d_avalanche.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\s3d_edge\s3d_edge.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\s3d_reactor\s3d_reactor.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\s3d_turf\s3d_turf.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\cyberdyne\cyberdyne.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\chill\chill.scenario
+SaveTagChanges
+Exit
+EditTag levels\dlc\bunkerworld\bunkerworld.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\zanzibar\zanzibar.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\deadlock\deadlock.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\shrine\shrine.scenario
+SaveTagChanges
+Exit
 updatemapfiles
 
 echo ==Port Coruscant...==
-switchtagcache 1
+SwitchTagCache 1
 
-runcommands workingdir\preportcommands.cmds
+RunCommands workingdir\preportcommands.cmds
 
-opencachefile "workingdir\maps\coruscant.map"
-porttag *.scnr
-exit
+OpenCacheFile "workingdir\maps\coruscant.map"
+PortTag *.scnr
+Exit
 
-opencachefile "workingdir\maps\coruscant.map"
-porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-exit
+OpenCacheFile "workingdir\maps\coruscant.map"
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+Exit
 
-edittag levels\multi\coruscant\coruscant.scenario
-setfield CutsceneCameraPoints[0].Position 1.7622 -35.7706 9.5615
-setfield CutsceneCameraPoints[0].Orientation 89.623 -0.0379 -5.7434
-savetagchanges
-exit
+EditTag levels\multi\coruscant\coruscant.scenario
+SetField CutsceneCameraPoints[0].Position 1.7622 -35.7706 9.5615
+SetField CutsceneCameraPoints[0].Orientation 89.623 -0.0379 -5.7434
+SaveTagChanges
+Exit
 
-runcommands workingdir\commandpostimprovement.cmds
-runcommands workingdir\fixups.cmds
-runcommands workingdir\sprintfixups.cmds
-runcommands workingdir\weaponoffsets.cmds
-runcommands workingdir\odstweapons.cmds
+RunCommands workingdir\commandpostimprovement.cmds
+RunCommands workingdir\fixups.cmds
+RunCommands workingdir\sprintfixups.cmds
+RunCommands workingdir\weaponoffsets.cmds
+RunCommands workingdir\odstweapons.cmds
 
 echo ==Port Geonosis...==
-switchtagcache 2
+SwitchTagCache 2
 
-runcommands workingdir\preportcommands.cmds
+RunCommands workingdir\preportcommands.cmds
 
-opencachefile "workingdir\maps\geonosis.map"
-porttag *.scnr
-exit
+OpenCacheFile "workingdir\maps\geonosis.map"
+PortTag *.scnr
+Exit
 
-opencachefile "workingdir\maps\geonosis.map"
-porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-exit
+OpenCacheFile "workingdir\maps\geonosis.map"
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+Exit
 
-edittag levels\multi\geonosis\geonosis.scenario
-setfield CutsceneCameraPoints[0].Position -18.2027 25.2249 7.6221
-setfield CutsceneCameraPoints[0].Orientation -78.076 -0.5027 2.3793
-savetagchanges
-exit
+EditTag levels\multi\geonosis\geonosis.scenario
+SetField CutsceneCameraPoints[0].Position -18.2027 25.2249 7.6221
+SetField CutsceneCameraPoints[0].Orientation -78.076 -0.5027 2.3793
+SaveTagChanges
+Exit
 
-runcommands workingdir\commandpostimprovement.cmds
-runcommands workingdir\fixups.cmds
-runcommands workingdir\sprintfixups.cmds
-runcommands workingdir\weaponoffsets.cmds
-runcommands workingdir\odstweapons.cmds
+RunCommands workingdir\commandpostimprovement.cmds
+RunCommands workingdir\fixups.cmds
+RunCommands workingdir\sprintfixups.cmds
+RunCommands workingdir\weaponoffsets.cmds
+RunCommands workingdir\odstweapons.cmds
 
 echo ==Port Hoth...==
-switchtagcache 3
+SwitchTagCache 3
 
-runcommands workingdir\preportcommands.cmds
+RunCommands workingdir\preportcommands.cmds
 
-opencachefile "workingdir\maps\hoth.map"
-porttag *.scnr
-exit
+OpenCacheFile "workingdir\maps\hoth.map"
+PortTag *.scnr
+Exit
 
-opencachefile "workingdir\maps\hoth.map"
-porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-exit
+OpenCacheFile "workingdir\maps\hoth.map"
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+Exit
 
-edittag levels\multi\hoth\hoth.scenario
-setfield CutsceneCameraPoints[0].Position 133.3836 -56.744 191.3433
-setfield CutsceneCameraPoints[0].Orientation 54.6615 -5.5422 -7.756499
-savetagchanges
-exit
+EditTag levels\multi\hoth\hoth.scenario
+SetField CutsceneCameraPoints[0].Position 133.3836 -56.744 191.3433
+SetField CutsceneCameraPoints[0].Orientation 54.6615 -5.5422 -7.756499
+SaveTagChanges
+Exit
 
-edittag objects\vehicles\ion_cannon\ion_cannon.render_model
+EditTag objects\vehicles\ion_cannon\ion_cannon.render_model
 copyblockelements materials 0 *
 replacerendergeometry workingdir\models\ion_cannon.dae
 removeblockelements materials 0 *
 pasteblockelements materials
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
-edittag objects\vehicles\ion_cannon\ion_cannon.model
-setfield DisappearDistance -1
-setfield BeginFadeDistance -1
-savetagchanges
-exit
+EditTag objects\vehicles\ion_cannon\ion_cannon.model
+SetField DisappearDistance -1
+SetField BeginFadeDistance -1
+SaveTagChanges
+Exit
 
-edittag levels\multi\hoth\shaders\hoth_terrain.shader_terrain
+EditTag levels\multi\hoth\shaders\hoth_terrain.shader_terrain
 setargument global_albedo_tint 2.5
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
-runcommands workingdir\commandpostimprovementrebels.cmds
-runcommands workingdir\fixups.cmds
-runcommands workingdir\sprintfixups.cmds
-runcommands workingdir\weaponoffsets.cmds
-runcommands workingdir\odstweapons.cmds
+RunCommands workingdir\commandpostimprovementrebels.cmds
+RunCommands workingdir\fixups.cmds
+RunCommands workingdir\sprintfixups.cmds
+RunCommands workingdir\weaponoffsets.cmds
+RunCommands workingdir\odstweapons.cmds
 
 echo ==Port Deathstar...==
-switchtagcache 4
+SwitchTagCache 4
 
-runcommands workingdir\preportcommands.cmds
+RunCommands workingdir\preportcommands.cmds
 
-opencachefile "workingdir\maps\imp_deathstar.map"
-porttag *.scnr
-exit
+OpenCacheFile "workingdir\maps\imp_deathstar.map"
+PortTag *.scnr
+Exit
 
-opencachefile "workingdir\maps\imp_deathstar.map"
-porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-exit
+OpenCacheFile "workingdir\maps\imp_deathstar.map"
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+Exit
 
-edittag levels\multi\imp_deathstar\imp_deathstar.scenario
-setfield CutsceneCameraPoints[0].Position -30.2844 14.2575 -5.1671
-setfield CutsceneCameraPoints[0].Orientation -0.2111 -2.6294 0.0097
-savetagchanges
-exit
+EditTag levels\multi\imp_deathstar\imp_deathstar.scenario
+SetField CutsceneCameraPoints[0].Position -30.2844 14.2575 -5.1671
+SetField CutsceneCameraPoints[0].Orientation -0.2111 -2.6294 0.0097
+SaveTagChanges
+Exit
 
-runcommands workingdir\commandpostimprovementrebels.cmds
-runcommands workingdir\fixups.cmds
-runcommands workingdir\sprintfixups.cmds
-runcommands workingdir\weaponoffsets.cmds
-runcommands workingdir\odstweapons.cmds
+RunCommands workingdir\commandpostimprovementrebels.cmds
+RunCommands workingdir\fixups.cmds
+RunCommands workingdir\sprintfixups.cmds
+RunCommands workingdir\weaponoffsets.cmds
+RunCommands workingdir\odstweapons.cmds
 
 echo ==Port Kashyyyk...==
-switchtagcache 5
+SwitchTagCache 5
 
-runcommands workingdir\preportcommands.cmds
+RunCommands workingdir\preportcommands.cmds
 
-opencachefile "workingdir\maps\kashyyyk.map"
-porttag *.scnr
-exit
+OpenCacheFile "workingdir\maps\kashyyyk.map"
+PortTag *.scnr
+Exit
 
-opencachefile "workingdir\maps\kashyyyk.map"
-porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-exit
+OpenCacheFile "workingdir\maps\kashyyyk.map"
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+Exit
 
-edittag levels\multi\kashyyyk\kashyyyk.scenario
-setfield CutsceneCameraPoints[0].Position 45.8226 32.7205 12.8865
-setfield CutsceneCameraPoints[0].Orientation -151.293 4.1923 2.2926
-savetagchanges
-exit
+EditTag levels\multi\kashyyyk\kashyyyk.scenario
+SetField CutsceneCameraPoints[0].Position 45.8226 32.7205 12.8865
+SetField CutsceneCameraPoints[0].Orientation -151.293 4.1923 2.2926
+SaveTagChanges
+Exit
 
-runcommands workingdir\commandpostimprovement.cmds
-runcommands workingdir\fixups.cmds
-runcommands workingdir\sprintfixups.cmds
-runcommands workingdir\weaponoffsets.cmds
-runcommands workingdir\odstweapons.cmds
+RunCommands workingdir\commandpostimprovement.cmds
+RunCommands workingdir\fixups.cmds
+RunCommands workingdir\sprintfixups.cmds
+RunCommands workingdir\weaponoffsets.cmds
+RunCommands workingdir\odstweapons.cmds
 
 echo ==Port Mos Eisley...==
-switchtagcache 6
+SwitchTagCache 6
 
-runcommands workingdir\preportcommands.cmds
+RunCommands workingdir\preportcommands.cmds
 
-opencachefile "workingdir\maps\mos_eisley.map"
-porttag *.scnr
-exit
+OpenCacheFile "workingdir\maps\mos_eisley.map"
+PortTag *.scnr
+Exit
 
-opencachefile "workingdir\maps\mos_eisley.map"
-porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-exit
+OpenCacheFile "workingdir\maps\mos_eisley.map"
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+Exit
 
-edittag levels\multi\mos_eisley\mos_eisley.scenario
-setfield CutsceneCameraPoints[0].Position -12.8328 24.8494 1.2108
-setfield CutsceneCameraPoints[0].Orientation -36.06 -0.6029 0.439
-savetagchanges
-exit
+EditTag levels\multi\mos_eisley\mos_eisley.scenario
+SetField CutsceneCameraPoints[0].Position -12.8328 24.8494 1.2108
+SetField CutsceneCameraPoints[0].Orientation -36.06 -0.6029 0.439
+SaveTagChanges
+Exit
 
-runcommands workingdir\commandpostimprovementrebels.cmds
-runcommands workingdir\fixups.cmds
-runcommands workingdir\sprintfixups.cmds
-runcommands workingdir\weaponoffsets.cmds
-runcommands workingdir\odstweapons.cmds
+RunCommands workingdir\commandpostimprovementrebels.cmds
+RunCommands workingdir\fixups.cmds
+RunCommands workingdir\sprintfixups.cmds
+RunCommands workingdir\weaponoffsets.cmds
+RunCommands workingdir\odstweapons.cmds
 
 echo ==Port Mustafar...==
-switchtagcache 7
+SwitchTagCache 7
 
-runcommands workingdir\preportcommands.cmds
+RunCommands workingdir\preportcommands.cmds
 
-opencachefile "workingdir\maps\mustafar.map"
-porttag *.scnr
-exit
+OpenCacheFile "workingdir\maps\mustafar.map"
+PortTag *.scnr
+Exit
 
-opencachefile "workingdir\maps\mustafar.map"
-porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-exit
+OpenCacheFile "workingdir\maps\mustafar.map"
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+Exit
 
-edittag levels\multi\mustafar\mustafar.scenario
-setfield CutsceneCameraPoints[0].Position -0.1681 16.4922 3.2789
-setfield CutsceneCameraPoints[0].Orientation -119.0447 0.9556999 1.7204
-exit
+EditTag levels\multi\mustafar\mustafar.scenario
+SetField CutsceneCameraPoints[0].Position -0.1681 16.4922 3.2789
+SetField CutsceneCameraPoints[0].Orientation -119.0447 0.9556999 1.7204
+Exit
 
-runcommands workingdir\commandpostimprovement.cmds
-runcommands workingdir\fixups.cmds
-runcommands workingdir\sprintfixups.cmds
-runcommands workingdir\weaponoffsets.cmds
-runcommands workingdir\odstweapons.cmds
+RunCommands workingdir\commandpostimprovement.cmds
+RunCommands workingdir\fixups.cmds
+RunCommands workingdir\sprintfixups.cmds
+RunCommands workingdir\weaponoffsets.cmds
+RunCommands workingdir\odstweapons.cmds
 
 echo ==Port Scarif...==
-switchtagcache 8
+SwitchTagCache 8
 
-runcommands workingdir\preportcommands.cmds
+RunCommands workingdir\preportcommands.cmds
 
-opencachefile "workingdir\maps\scarif.map"
-porttag *.scnr
-exit
+OpenCacheFile "workingdir\maps\scarif.map"
+PortTag *.scnr
+Exit
 
-opencachefile "workingdir\maps\scarif.map"
-porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-exit
+OpenCacheFile "workingdir\maps\scarif.map"
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+Exit
 
-edittag levels\multi\scarif\scarif.scenario
-setfield CutsceneCameraPoints[0].Position -159.3146 228.1855 29.3568
-setfield CutsceneCameraPoints[0].Orientation 16.4431 -2.1289 -0.6281
-savetagchanges
-exit
+EditTag levels\multi\scarif\scarif.scenario
+SetField CutsceneCameraPoints[0].Position -159.3146 228.1855 29.3568
+SetField CutsceneCameraPoints[0].Orientation 16.4431 -2.1289 -0.6281
+SaveTagChanges
+Exit
 
-runcommands workingdir\commandpostimprovementrebels.cmds
-runcommands workingdir\fixups.cmds
-runcommands workingdir\sprintfixups.cmds
-runcommands workingdir\weaponoffsets.cmds
-runcommands workingdir\odstweapons.cmds
+RunCommands workingdir\commandpostimprovementrebels.cmds
+RunCommands workingdir\fixups.cmds
+RunCommands workingdir\sprintfixups.cmds
+RunCommands workingdir\weaponoffsets.cmds
+RunCommands workingdir\odstweapons.cmds
 
 echo ==Port Utapau...==
-switchtagcache 9
+SwitchTagCache 9
 
-runcommands workingdir\preportcommands.cmds
+RunCommands workingdir\preportcommands.cmds
 
-opencachefile "workingdir\maps\utapau.map"
-porttag *.scnr
-exit
+OpenCacheFile "workingdir\maps\utapau.map"
+PortTag *.scnr
+Exit
 
-opencachefile "workingdir\maps\utapau.map"
-porttag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-exit
+OpenCacheFile "workingdir\maps\utapau.map"
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+Exit
 
-edittag levels\multi\utapau\utapau.scenario
-setfield CutsceneCameraPoints[0].Position 6.5217 -11.7312 6.8666
-setfield CutsceneCameraPoints[0].Orientation 94.4683 0.4531 -5.7787
-savetagchanges
-exit
+EditTag levels\multi\utapau\utapau.scenario
+SetField CutsceneCameraPoints[0].Position 6.5217 -11.7312 6.8666
+SetField CutsceneCameraPoints[0].Orientation 94.4683 0.4531 -5.7787
+SaveTagChanges
+Exit
 
-edittag levels\multi\utapau\objects\wind_machine\wind_machine.device_machine
+EditTag levels\multi\utapau\objects\wind_machine\wind_machine.device_machine
 removeblockelements MultiplayerObject 0 *
-savetagchanges
-exitto tags
+SaveTagChanges
+Exitto tags
 
-runcommands workingdir\commandpostimprovement.cmds
-runcommands workingdir\fixups.cmds
-runcommands workingdir\sprintfixups.cmds
-runcommands workingdir\weaponoffsets.cmds
-runcommands workingdir\odstweapons.cmds
+RunCommands workingdir\commandpostimprovement.cmds
+RunCommands workingdir\fixups.cmds
+RunCommands workingdir\sprintfixups.cmds
+RunCommands workingdir\weaponoffsets.cmds
+RunCommands workingdir\odstweapons.cmds
 
 echo ==Post Port Commands...==
 
-runcommands workingdir\mapdescriptions.cmds
+RunCommands workingdir\mapdescriptions.cmds
 
-savemodpackage "modsfolder\The Battlefront Pack.pak"
+SaveModPackage "modsfolder\The Battlefront Pack.pak"
 
-exitmodpackage
+ExitModPackage
 
-//not ready yet
-//runcommands workingdir\fixbasemaps.cmds
+//Not Ready Yet
+//RunCommands workingdir\fixbasemaps.cmds
 
 DumpLog workingdir\logs

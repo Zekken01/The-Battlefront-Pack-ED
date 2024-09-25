@@ -13,7 +13,7 @@ SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
 SaveMapChanges
-exit
+Exit
 
 EditMap geonosis.map
 SetField Blf.Scenario.Names[0].Name "Geonosis"
@@ -30,7 +30,7 @@ SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
 SaveMapChanges
-exit
+Exit
 
 EditMap hoth.map
 SetField Blf.Scenario.Names[0].Name "Hoth"
@@ -47,7 +47,7 @@ SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
 SaveMapChanges
-exit
+Exit
 
 EditMap imp_deathstar.map
 SetField Blf.Scenario.Names[0].Name "Death Star"
@@ -64,7 +64,7 @@ SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
 SaveMapChanges
-exit
+Exit
 
 EditMap kashyyyk.map
 SetField Blf.Scenario.Names[0].Name "Kashyyyk"
@@ -81,7 +81,7 @@ SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
 SaveMapChanges
-exit
+Exit
 
 EditMap mos_eisley.map
 SetField Blf.Scenario.Names[0].Name "Mos Eisley"
@@ -98,7 +98,7 @@ SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
 SaveMapChanges
-exit
+Exit
 
 EditMap mustafar.map
 SetField Blf.Scenario.Names[0].Name "Mustafar"
@@ -115,7 +115,7 @@ SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
 SaveMapChanges
-exit
+Exit
 
 EditMap scarif.map
 SetField Blf.Scenario.Names[0].Name "Scarif"
@@ -132,7 +132,7 @@ SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
 SaveMapChanges
-exit
+Exit
 
 EditMap utapau.map
 SetField Blf.Scenario.Names[0].Name "Utapau"
@@ -149,4 +149,4 @@ SetField Blf.Scenario.GameEngineTeamCounts.TerritoriesTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.AssaultTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
 SaveMapChanges
-exit
+Exit

@@ -1,49 +1,49 @@
-edittag object\scenery\command_post_rebels\command_post_rebels.model_animation_graph
-addanimation "workingdir\anims\command_post_rebel\any idle.jma"
-setfield Animations[1].AnimationData.AnimationType Overlay
-setfield Animations[1].AnimationData.FrameInfoType None
-addblockelements ObjectOverlays
-setfield ObjectOverlays[0].GraphIndex -1
-setfield ObjectOverlays[0].Animation 1
-setfield ObjectOverlays[0].Function one
-savetagchanges
-exit
+EditTag object\scenery\command_post_rebels\command_post_rebels.model_animation_graph
+AddAnimation "workingdir\anims\command_post_rebel\any idle.jma"
+SetField Animations[1].AnimationData.AnimationType Overlay
+SetField Animations[1].AnimationData.FrameInfoType None
+AddBlockElements ObjectOverlays
+SetField ObjectOverlays[0].GraphIndex -1
+SetField ObjectOverlays[0].Animation 1
+SetField ObjectOverlays[0].Function one
+SaveTagChanges
+Exit
 
-duplicatetag object\scenery\command_post_rebels\command_post_rebels.render_model object\scenery\command_post_rebels\command_post_rebels_base
-edittag object\scenery\command_post_rebels\command_post_rebels_base.render_model
-setfield Materials[1].RenderMethod objects\multi\shaders\invisible.shader
-savetagchanges
-exit
+DuplicateTag object\scenery\command_post_rebels\command_post_rebels.render_model object\scenery\command_post_rebels\command_post_rebels_base
+EditTag object\scenery\command_post_rebels\command_post_rebels_base.render_model
+SetField Materials[1].RenderMethod objects\multi\shaders\invisible.shader
+SaveTagChanges
+Exit
 
-duplicatetag ms30\objects\eldewrito\reforge\shaders\glass.shader_halogram object\scenery\command_post_rebels\command_post_rebels_hologram
-edittag object\scenery\command_post_rebels\command_post_rebels_hologram.shader_halogram
-setargument self_illum_intensity 10
-savetagchanges
-exit
+DuplicateTag ms30\objects\eldewrito\reforge\shaders\glass.shader_halogram object\scenery\command_post_rebels\command_post_rebels_hologram
+EditTag object\scenery\command_post_rebels\command_post_rebels_hologram.shader_halogram
+SetArgument self_illum_intensity 10
+SaveTagChanges
+Exit
 
-nametag object\scenery\command_post_rebels\command_post_rebels.render_model object\scenery\command_post_rebels\command_post_rebels_hologram
-edittag object\scenery\command_post_rebels\command_post_rebels_hologram.render_model
-setfield Materials[1].RenderMethod object\scenery\command_post_rebels\command_post_rebels_hologram.shader_halogram
-setfield Materials[0].RenderMethod objects\multi\shaders\invisible.shader
-savetagchanges
-exit
+NameTag object\scenery\command_post_rebels\command_post_rebels.render_model object\scenery\command_post_rebels\command_post_rebels_hologram
+EditTag object\scenery\command_post_rebels\command_post_rebels_hologram.render_model
+SetField Materials[1].RenderMethod object\scenery\command_post_rebels\command_post_rebels_hologram.shader_halogram
+SetField Materials[0].RenderMethod objects\multi\shaders\invisible.shader
+SaveTagChanges
+Exit
 
-edittag object\scenery\command_post_rebels\command_post_rebels.physics_model
-setfield RigidBodies[0].MotionType Keyframed
-savetagchanges
-exit
+EditTag object\scenery\command_post_rebels\command_post_rebels.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SaveTagChanges
+Exit
 
-duplicatetag object\scenery\command_post_rebels\command_post_rebels.model object\scenery\command_post_rebels\command_post_rebels_base
-edittag object\scenery\command_post_rebels\command_post_rebels_base.model 
-setfield RenderModel object\scenery\command_post_rebels\command_post_rebels_base.render_model
-setfield Animation null
-savetagchanges
-exit
+DuplicateTag object\scenery\command_post_rebels\command_post_rebels.model object\scenery\command_post_rebels\command_post_rebels_base
+EditTag object\scenery\command_post_rebels\command_post_rebels_base.model 
+SetField RenderModel object\scenery\command_post_rebels\command_post_rebels_base.render_model
+SetField Animation null
+SaveTagChanges
+Exit
 
-nametag object\scenery\command_post_rebels\command_post_rebels.model object\scenery\command_post_rebels\command_post_rebels_hologram
+NameTag object\scenery\command_post_rebels\command_post_rebels.model object\scenery\command_post_rebels\command_post_rebels_hologram
 
-createtag effe effects\eldewrito\forge\misc\keep_object_active
-edittag effects\eldewrito\forge\misc\keep_object_active.effect
+CreateTag effe effects\eldewrito\forge\misc\keep_object_active
+EditTag effects\eldewrito\forge\misc\keep_object_active.effect
 SetField Flags 262656
 SetField LoopStartEvent -1
 AddBlockElements Locations 1
@@ -52,45 +52,45 @@ AddBlockElements Events 1
 SetField Events[0].DurationBounds 100000 100000
 AddBlockElements Events[0].Accelerations 1
 SetField BindScaleToEvent -1
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
-edittag objects\weapons\multiplayer\flag\flag.weapon
-setfield Model object\scenery\command_post_rebels\command_post_rebels_hologram.model
-addblockelements Attachments 1
-setfield Attachments[0].Type effects\eldewrito\forge\misc\keep_object_active.effect
-setfield Attachments[0].Marker spawn
+EditTag objects\weapons\multiplayer\flag\flag.weapon
+SetField Model object\scenery\command_post_rebels\command_post_rebels_hologram.model
+AddBlockElements Attachments 1
+SetField Attachments[0].Type effects\eldewrito\forge\misc\keep_object_active.effect
+SetField Attachments[0].Marker spawn
 removeblockelements Widgets 0 *
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
-edittag objects\multi\territories\territory_static.crate
-setfield Model object\scenery\command_post_rebels\command_post_rebels_base.model
-savetagchanges
-exit 
+EditTag objects\multi\territories\territory_static.crate
+SetField Model object\scenery\command_post_rebels\command_post_rebels_base.model
+SaveTagChanges
+Exit 
 
-duplicatetag object\scenery\command_post_rebels\command_post_rebels_base.render_model object\scenery\command_post_rebels\command_post_rebels_base_invis
-edittag object\scenery\command_post_rebels\command_post_rebels_base_invis.render_model
-setfield Materials[0].RenderMethod objects\multi\shaders\invisible.shader
-savetagchanges
-exit
+DuplicateTag object\scenery\command_post_rebels\command_post_rebels_base.render_model object\scenery\command_post_rebels\command_post_rebels_base_invis
+EditTag object\scenery\command_post_rebels\command_post_rebels_base_invis.render_model
+SetField Materials[0].RenderMethod objects\multi\shaders\invisible.shader
+SaveTagChanges
+Exit
 
-duplicatetag object\scenery\command_post_rebels\command_post_rebels_base.model object\scenery\command_post_rebels\command_post_rebels_invis
-edittag object\scenery\command_post_rebels\command_post_rebels_invis.model
-setfield RenderModel object\scenery\command_post_rebels\command_post_rebels_base_invis.render_model
-savetagchanges
-exit
+DuplicateTag object\scenery\command_post_rebels\command_post_rebels_base.model object\scenery\command_post_rebels\command_post_rebels_invis
+EditTag object\scenery\command_post_rebels\command_post_rebels_invis.model
+SetField RenderModel object\scenery\command_post_rebels\command_post_rebels_base_invis.render_model
+SaveTagChanges
+Exit
 
-duplicatetag objects\multi\territories\territory_static.crate objects\multi\territories\territory_static_invis
-edittag objects\multi\territories\territory_static_invis.crate
-setfield Model object\scenery\command_post_rebels\command_post_rebels_invis.model
-savetagchanges
-exit 
+DuplicateTag objects\multi\territories\territory_static.crate objects\multi\territories\territory_static_invis
+EditTag objects\multi\territories\territory_static_invis.crate
+SetField Model object\scenery\command_post_rebels\command_post_rebels_invis.model
+SaveTagChanges
+Exit 
 
-edittag multiplayer\forge_globals.forge_globals_definition
-copyblockelements Palette 333 1
-pasteblockelements Palette
-setfield Palette[*].Name "TERRITORY MARKER INVISIBLE"
-setfield Palette[*].Object objects\multi\territories\territory_static_invis.crate
-savetagchanges
-exit
+EditTag multiplayer\forge_globals.forge_globals_definition
+CopyBlockElements Palette 333 1
+PasteBlockElements Palette
+SetField Palette[*].Name "TERRITORY MARKER INVISIBLE"
+SetField Palette[*].Object objects\multi\territories\territory_static_invis.crate
+SaveTagChanges
+Exit
