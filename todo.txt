@@ -1,11 +1,9 @@
 ```
 Rocket Launcher has crazy drop on the projectile on some maps (scarif).
 
-Original animated battlefront loading screens or flythrough of map as an apng.
+Original animated battlefront loading screens as apng.
 
 Podium Camera for all maps.
-
-Dual weild strings for object\weapons\dc-17\dc-17.weapon
 
 Air Speeder has flasing reload animation (Go through all vehicles and remove).
 https://s.zekken.rocks/jG4YPtBu.jpg
@@ -24,8 +22,6 @@ Star Wars Announcer Sounds dont play on eldewrito but are present on MCC (mtn sa
 Add Ambient Music from battlefront.
 
 Clone Customization (TwistedFlog is on it).
-
-Weapon String (z) to (e).
 
 Light Sabers Mod.
 

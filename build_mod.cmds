@@ -101,10 +101,10 @@ SaveTagChanges
 Exit
 
 EditTag objects\vehicles\ion_cannon\ion_cannon.render_model
-copyblockelements materials 0 *
-replacerendergeometry workingdir\models\ion_cannon.dae
-removeblockelements materials 0 *
-pasteblockelements materials
+CopyBlockElements materials 0 *
+ReplaceRenderGeometry workingdir\models\ion_cannon.dae
+RemoveBlockElements materials 0 *
+PasteBlockElements materials
 SaveTagChanges
 Exit
 
@@ -115,7 +115,7 @@ SaveTagChanges
 Exit
 
 EditTag levels\multi\hoth\shaders\hoth_terrain.shader_terrain
-setargument global_albedo_tint 2.5
+SetArgument global_albedo_tint 2.5
 SaveTagChanges
 Exit
 
@@ -269,7 +269,7 @@ SaveTagChanges
 Exit
 
 EditTag levels\multi\utapau\objects\wind_machine\wind_machine.device_machine
-removeblockelements MultiplayerObject 0 *
+RemoveBlockElements MultiplayerObject 0 *
 SaveTagChanges
 Exitto tags
 
