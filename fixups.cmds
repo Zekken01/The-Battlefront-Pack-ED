@@ -77,13 +77,13 @@ SaveTagChanges
 Exit
 
 EditTag ui\hud\hud_messages.multilingual_unicode_string_list
-SetString english dc_17_dual_wield "\uE461 \uE45E to dual-wield DH-17 Blaster Rifle|r|n"
-SetString english dc15apistol_pickup_ "\uE461\uE45F to pick up DC-15a Pistol|n|r"
-SetString english dc15blaster_pickup "\uE461\uE45F to pick up DC-15a Blaster Rifle|n|r"
-SetString english e5_pickup "\uE461\uE45F to pick up E-5 Blaster Rifle|n|r"
-SetString english dc15xsniper_pickup "\uE461\uE45F to pick up DC-15x Sniper Rifle|n|r"
-SetString english a280_pickup "\uE461\uE45F to pick up A280 Blaster Rifle|n|r"
-SetString english blaster_pickup "\uE461\uE45F to pick up DH-17 Blaster Rifle|n|r"
+SetString english dc_17_dual_wield "\uE461 \uE45E to dual-wield DH-17 Blaster Rifle\r"
+SetString english dc15apistol_pickup_ "Hold \ue445 to pick up DC-15a Pistol\r"
+SetString english dc15blaster_pickup "Hold \ue445 to pick up DC-15a Blaster Rifle\r"
+SetString english e5_pickup "Hold \ue445 to pick up E-5 Blaster Rifle\r"
+SetString english dc15xsniper_pickup "Hold \ue445 to pick up DC-15x Sniper Rifle\r"
+SetString english a280_pickup "Hold \ue445 to pick up A280 Blaster Rifle\r"
+SetString english blaster_pickup "Hold \ue445 to pick up DH-17 Blaster Rifle\r"
 SaveTagChanges
 Exit
 
