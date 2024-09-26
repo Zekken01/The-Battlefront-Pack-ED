@@ -5,27 +5,23 @@ GenerateShader glvs shader
 EditTag objects\weapons\turret\plasma_cannon\plasma_cannon.vehicle
 SaveTagChanges
 Exit
-
-EditTag objects\vehicles\scorpion\turrets\cannon\cannon.model_animation_graph
-SaveTagChanges
-Exit
-
 NameTag objects\weapons\turret\plasma_cannon\plasma_cannon.vehicle objects\weapons\turret\plasma_cannon\plasma_cannon_reach
+
 EditTag objects\weapons\turret\plasma_cannon\plasma_cannon_vehicle\plasma_cannon_vehicle.model
 SaveTagChanges
 Exit
-
 NameTag objects\weapons\turret\plasma_cannon\plasma_cannon_vehicle\plasma_cannon_vehicle.model objects\weapons\turret\plasma_cannon\plasma_cannon_vehicle\plasma_cannon_vehicle_reach
+
 EditTag objects\weapons\turret\plasma_cannon\plasma_cannon_vehicle\plasma_cannon_vehicle.render_model
 SaveTagChanges
 Exit
-
 NameTag objects\weapons\turret\plasma_cannon\plasma_cannon_vehicle\plasma_cannon_vehicle.render_model objects\weapons\turret\plasma_cannon\plasma_cannon_vehicle\plasma_cannon_vehicle_reach
+
 EditTag objects\vehicles\scorpion\turrets\cannon\cannon.model_animation_graph
 SaveTagChanges
 Exit
-
 NameTag objects\vehicles\scorpion\turrets\cannon\cannon.model_animation_graph objects\vehicles\scorpion\turrets\reach_cannon\reach_cannon
+
 DuplicateTag objects\weapons\pistol\magnum\magnum.weapon dw3\objects\weapons\pistols\magnum\m6d\m6d_mp
 DuplicateTag sound\vehicles\wraith\w_boost_left\track1\in.sound sound\aat_sounds\boost
 DuplicateTag sound\vehicles\hornet\hornet_missile_launcher\missile_proj\missile_proj\in.sound sound\proton_torpedo
