@@ -28,44 +28,8 @@ utapau
 
 AddModFiles "workingdir\maps\ui"
 
-//needed for base maps to work with multiple tag caches.
-EditTag levels\multi\guardian\guardian.scenario
-SaveTagChanges
-Exit
-EditTag levels\multi\riverworld\riverworld.scenario
-SaveTagChanges
-Exit
-EditTag levels\multi\s3d_avalanche\s3d_avalanche.scenario
-SaveTagChanges
-Exit
-EditTag levels\multi\s3d_edge\s3d_edge.scenario
-SaveTagChanges
-Exit
-EditTag levels\multi\s3d_reactor\s3d_reactor.scenario
-SaveTagChanges
-Exit
-EditTag levels\multi\s3d_turf\s3d_turf.scenario
-SaveTagChanges
-Exit
-EditTag levels\multi\cyberdyne\cyberdyne.scenario
-SaveTagChanges
-Exit
-EditTag levels\multi\chill\chill.scenario
-SaveTagChanges
-Exit
-EditTag levels\dlc\bunkerworld\bunkerworld.scenario
-SaveTagChanges
-Exit
-EditTag levels\multi\zanzibar\zanzibar.scenario
-SaveTagChanges
-Exit
-EditTag levels\multi\deadlock\deadlock.scenario
-SaveTagChanges
-Exit
-EditTag levels\multi\shrine\shrine.scenario
-SaveTagChanges
-Exit
-updatemapfiles
+//needed for multi tag cache mods
+RunCommands workingdir\fixdefaultmaps.cmds
 
 echo ==Port Coruscant...==
 SwitchTagCache 1
@@ -322,8 +286,5 @@ RunCommands workingdir\mapdescriptions.cmds
 SaveModPackage "modsfolder\The Battlefront Pack.pak"
 
 ExitModPackage
-
-//Not Ready Yet mtn needs to fix tagtool first.
-//RunCommands workingdir\fixbasemapvariants.cmds
 
 DumpLog workingdir\logs

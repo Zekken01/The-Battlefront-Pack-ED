@@ -1,0 +1,99 @@
+EditTag levels\multi\guardian\guardian.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\riverworld\riverworld.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\s3d_avalanche\s3d_avalanche.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\s3d_edge\s3d_edge.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\s3d_reactor\s3d_reactor.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\s3d_turf\s3d_turf.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\cyberdyne\cyberdyne.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\chill\chill.scenario
+SaveTagChanges
+Exit
+EditTag levels\dlc\bunkerworld\bunkerworld.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\zanzibar\zanzibar.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\deadlock\deadlock.scenario
+SaveTagChanges
+Exit
+EditTag levels\multi\shrine\shrine.scenario
+SaveTagChanges
+Exit
+UpdateMapFiles
+
+//apply default variants
+EditTag levels\multi\s3d_avalanche\s3d_avalanche.scenario
+ImportMapVariant "workingdir\map_variants\Diamondback\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\s3d_edge\s3d_edge.scenario
+ImportMapVariant "workingdir\map_variants\Edge\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\guardian\guardian.scenario
+ImportMapVariant "workingdir\map_variants\Guardian\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\deadlock\deadlock.scenario
+ImportMapVariant "workingdir\map_variants\High Ground\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\s3d_turf\s3d_turf.scenario
+ImportMapVariant "workingdir\map_variants\Icebox\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\zanzibar\zanzibar.scenario
+ImportMapVariant "workingdir\map_variants\Last Resort\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\chill\chill.scenario
+ImportMapVariant "workingdir\map_variants\Narrows\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\s3d_reactor\s3d_reactor.scenario
+ImportMapVariant "workingdir\map_variants\Reactor\sandbox.map"
+SaveTagChanges
+Exit
+
+//rip elephants
+EditTag levels\multi\shrine\shrine.scenario
+ImportMapVariant "workingdir\map_variants\Sandtrap\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\dlc\bunkerworld\bunkerworld.scenario
+ImportMapVariant "workingdir\map_variants\Standoff\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\cyberdyne\cyberdyne.scenario
+ImportMapVariant "workingdir\map_variants\The Pit\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\riverworld\riverworld.scenario
+ImportMapVariant "workingdir\map_variants\Valhalla\sandbox.map"
+SaveTagChanges
+Exit
