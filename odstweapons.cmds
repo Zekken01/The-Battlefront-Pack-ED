@@ -1,4 +1,4 @@
-echo ==Pickup Strings==
+# echo ==Pickup Strings==
 ImportFonts workingdir\font_package.bin
 
 ImportTag ui\chud\smg_silenced.chdt workingdir\tags\smg_silenced.chud_definition
@@ -32,7 +32,7 @@ SetString english amag_dual_swap "\uE461 \uE45E to swap for|r|n\uFB06"
 SaveTagChanges
 Exit
 
-echo ==Brute Plasma Rifle==
+# echo ==Brute Plasma Rifle==
 EditTag objects\weapons\rifle\plasma_rifle_red\plasma_rifle_red.weapon
 SetField FirstPerson[0].FirstPersonAnimations objects\characters\masterchief\fp\weapons\rifle\fp_plasma_rifle\fp_plasma_rifle.model_animation_graph
 SetField FirstPerson[1].FirstPersonAnimations objects\characters\dervish\fp\weapons\rifle\fp_plasma_rifle\fp_plasma_rifle.model_animation_graph
@@ -48,7 +48,7 @@ SetField MarkerGroups[4].Markers[0].Rotation -0.6164592 0.195706 -0.4600866 0.60
 SaveTagChanges
 Exit
 
-echo ==Silenced SMG==
+# echo ==Silenced SMG==
 EditTag objects\weapons\rifle\smg_silenced\smg_silenced.weapon
 SetField FirstPerson[0].FirstPersonAnimations objects\characters\masterchief\fp\weapons\rifle\fp_smg\fp_smg.model_animation_graph
 SetField FirstPerson[1].FirstPersonAnimations objects\characters\dervish\fp\weapons\rifle\fp_smg\fp_smg.model_animation_graph
@@ -63,7 +63,6 @@ SetField SwitchToFromAiMessage ssmg_swap_ai
 SetField PickupOrDualWieldMessage ssmg_dual
 SetField SwapOrDualWieldMessage ssmg_dual_swap
 SetField WeaponFlags.NewFlags LoopFPFiringAnimation,CanBeDualWielded
-
 SaveTagChanges
 Exit
 
@@ -72,7 +71,7 @@ SetField HudWidgets[2].BitmapWidgets[0].BitmapSequenceIndex 5
 SaveTagChanges
 Exit
 
-echo ==Automag==
+# echo ==Automag==
 EditTag objects\weapons\pistol\automag\automag.weapon
 SetField CenteredFirstPersonWeaponOffset 0 0 -0.005
 SetField WeaponTypeName offset_magnum
@@ -98,21 +97,21 @@ AddBlockElements Modes[0].WeaponClass[0].WeaponIk
 SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand
 SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker left_hand
 SortModes
-echo first_person:melee_strike_1
+# echo first_person:melee_strike_1
 SetField Animations[4].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
-echo first_person:posing:var2
+# echo first_person:posing:var2
 SetField Animations[8].PlaybackFlags DisableWeaponIk
-echo first_person:ready
+# echo first_person:ready
 SetField Animations[10].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
-echo first_person:reload_empty
+# echo first_person:reload_empty
 SetField Animations[11].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
-echo first_person:reload_full
+# echo first_person:reload_full
 SetField Animations[12].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
-echo first_person:throw_equipment
+# echo first_person:throw_equipment
 AddBlockElements animations[13].animationdata.FrameEvents 1
 SetField animations[13].animationdata.Frameevents[0].Frame 12
 SetField Animations[13].PlaybackFlags DisableWeaponIk
-echo first_person:sprint_loop_airborne
+# echo first_person:sprint_loop_airborne
 SetField Animations[22].PlaybackFlags DisableWeaponIk
 SaveTagChanges
 Exit
