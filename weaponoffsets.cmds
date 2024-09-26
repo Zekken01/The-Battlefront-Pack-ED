@@ -1,6 +1,7 @@
-echo ==Viewmodel Offsets...==
+# echo ==Viewmodel Offsets...==
 
 EditTag ui\weapon_type_names.multilingual_unicode_string_list
+
 StringId add offset_dh-17
 SetString english offset_dh-17 "DH-17"
 
@@ -31,14 +32,12 @@ Exit
 EditTag object\weapons\dh-17\dh-17.weapon
 SetField WeaponTypeName offset_dh-17
 SetField CenteredFirstPersonWeaponOffset 0.054 -0.034 -0.032
-
 SaveTagChanges
 Exit
 
 EditTag object\weapons\a280\a280.weapon
 SetField WeaponTypeName offset_a280
 SetField CenteredFirstPersonWeaponOffset 0.000 -0.013 -0.013
-
 SaveTagChanges
 Exit
 
@@ -76,7 +75,7 @@ SetField CenteredFirstPersonWeaponOffset 0.021 0.008 -0.073
 SaveTagChanges
 Exit
 
-echo ==Backpack Icon Offsets...==
+# echo ==Backpack Icon Offsets...==
 
 EditTag objects\weapons\rifle\starwarsgun\starwarsgun_gun.chud_definition
 SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Origin 0.2 -1.2
@@ -102,7 +101,7 @@ SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Origin 0.2 -1.2
 SaveTagChanges
 Exit
 
-echo ==Low Ammo Counter Red Flashing...==
+# echo ==Low Ammo Counter Red Flashing...==
 
 EditTag ui\chud\pistol.chud_definition
 SetField HudWidgets[0].BitmapWidgets[0].AnimationData[0].Flashing.Animation null
