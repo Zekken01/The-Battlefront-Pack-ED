@@ -1,4 +1,4 @@
-echo ==Battlefront Maps...==
+# echo ==Battlefront Maps...==
 
 EditMap coruscant.map
 SetField Blf.Scenario.Names[0].Name "Coruscant"
@@ -153,7 +153,7 @@ SetField Blf.Scenario.GameEngineTeamCounts.InfectionTeamCount 8
 SaveMapChanges
 Exit
 
-echo ==Vanilla Maps...==
+# echo ==Vanilla Maps...==
 
 EditMap s3d_avalanche.map
 SetField Blf.Scenario.Names[0].Name "Diamondback"
