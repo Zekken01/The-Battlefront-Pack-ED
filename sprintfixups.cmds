@@ -1,4 +1,4 @@
-echo ==Sprint Animations...==
+# echo ==Sprint Animations...==
 
 EditTag object\weapons\pistol_st\fp\fp_pistol.model_animation_graph
 SetInheritance fp any:any:any:sprint_enter objects\characters\masterchief\fp\weapons\pistol\fp_magnum\fp_magnum.model_animation_graph
