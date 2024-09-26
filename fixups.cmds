@@ -86,29 +86,29 @@ Exit
 
 EditTag ui\hud\hud_messages.multilingual_unicode_string_list
 
-SetString english dc_17_pick_up "Hold \ue445 to pick up DC-17 Blaster Pistol\r"
-SetString english dc_17_swap "Hold \ue445 to swap for DC-17 Blaster Pistol\r"
+SetString english dc_17_pick_up "Hold \uE445 to pick up DC-17 Blaster Pistol|r"
+SetString english dc_17_swap "Hold \uE445 to swap for DC-17 Blaster Pistol|r"
 SetString english dc_17_picked_up "Picked up a DC-17 Blaster Pistol"
-SetString english dc_17_switch_to "Out of ammo \rPress \ue446 to switch to DC-17 Blaster Pistol"
+SetString english dc_17_switch_to "Out of ammo |rPress \uE446 to switch to DC-17 Blaster Pistol"
 SetString english dc_17_dual_wield "\uE461 \uE45E to dual-wield DC-17 Blaster Pistol\r"
 
-SetString english dc15apistol_pickup_ "Hold \ue445 to pick up DC-15a Pistol\r"
-SetString english dc15apistol_swap "Hold \ue445 to swap for DC-15a Pistol\r"
+SetString english dc15apistol_pickup_ "Hold \uE445 to pick up DC-15a Pistol|r"
+SetString english dc15apistol_swap "Hold \uE445 to swap for DC-15a Pistol|r"
 
-SetString english dc15blaster_pickup "Hold \ue445 to pick up DC-15 Blaster Rifle\r"
-SetString english dc15blaster_swap "Hold \ue445 to swap for DC-15 Blaster Rifle\r"
+SetString english dc15blaster_pickup "Hold \uE445 to pick up DC-15 Blaster Rifle|r"
+SetString english dc15blaster_swap "Hold \uE445 to swap for DC-15 Blaster Rifle|r"
 
-SetString english e5_pickup "Hold \ue445 to pick up E-5 Blaster Rifle\r"
-SetString english e5_swap "Hold \ue445 to swap for E-5 Blaster Rifle\r"
+SetString english e5_pickup "Hold \uE445 to pick up E-5 Blaster Rifle|r"
+SetString english e5_swap "Hold \uE445 to swap for E-5 Blaster Rifle|r"
 
-SetString english dc15xsniper_pickup "Hold \ue445 to pick up DC-15x Sniper Rifle\r"
-SetString english dc15xsniper_swap "Hold \ue445 to swap for DC-15x Sniper Rifle\r"
+SetString english dc15xsniper_pickup "Hold \uE445 to pick up DC-15x Sniper Rifle|r"
+SetString english dc15xsniper_swap "Hold \uE445 to swap for DC-15x Sniper Rifle|r"
 
-SetString english a280_pickup "Hold \ue445 to pick up A280 Blaster Rifle\r"
-SetString english a280_swap "Hold \ue445 to swap for A280 Blaster Rifle\r"
+SetString english a280_pickup "Hold \uE445 to pick up A280 Blaster Rifle|r"
+SetString english a280_swap "Hold \uE445 to swap for A280 Blaster Rifle|r"
 
-SetString english blaster_pickup "Hold \ue445 to pick up DH-17 Blaster Rifle\r"
-SetString english blaster_swap "Hold \ue445 to swap for DH-17 Blaster Rifle\r"
+SetString english blaster_pickup "Hold \uE445 to pick up DH-17 Blaster Rifle|r"
+SetString english blaster_swap "Hold \uE445 to swap for DH-17 Blaster Rifle|r"
 
 SaveTagChanges
 Exit
