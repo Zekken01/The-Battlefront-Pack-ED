@@ -4,58 +4,58 @@ SetField Triggers[0].Behavior Latch
 SetField Triggers[0].PrimaryBarrel 0
 SetField Triggers[0].SecondaryBarrel -1
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\vehicles\aat\weapons\aat.weapon
 SetField Triggers[0].Input LeftTrigger
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\vehicles\speed_bike\speed_bike.vehicle
 SetField Seats[0].MarkerName turret
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\vehicles\speed_bike_snow\speed_bike_snow.vehicle
 SetField Seats[0].MarkerName turret
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\vehicles\speed_bike_scarif\speed_bike_scarif.vehicle
 SetField Seats[0].MarkerName turret
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag objects\levels\multi\imp_deathstar\turret\turret.vehicle
 SetField Seats[0].MarkerName warthog_g_enter
 SetField Seats[0].Label ghost_d
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\weapons\e-5\bitmaps\sche.bitmap
 ImportBitmap 0 "workingdir\bitmaps\e-5.dds"
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\weapons\dh-17\bitmaps\shce.bitmap
 ImportBitmap 0 "workingdir\bitmaps\dh-17.dds"
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\weapons\a280\bitmaps\sche.bitmap
 ImportBitmap 0 "workingdir\bitmaps\a280.dds"
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\weapons\dc-17\bitmaps\shce.bitmap
 ImportBitmap 0 "workingdir\bitmaps\dc17_righthand.dds"
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\weapons\dc-17\bitmaps\shce2.bitmap
 ImportBitmap 0 "workingdir\bitmaps\dc17_lefthand.dds"
 SaveTagChanges
-ExitTo tags
+Exit
 
 ## give starwars sniper a hud icon
 DuplicateTag rasterizer\invalid.bitmap object\weapons\starwarssniper\bitmaps\shce.bitmap
@@ -64,18 +64,18 @@ SetField HudWidgets[4].BitmapWidgets[0].Bitmap object\weapons\starwarssniper\bit
 SetField HudWidgets[5].BitmapWidgets[1].Bitmap object\weapons\starwarssniper\bitmaps\shce.bitmap
 
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\weapons\starwarssniper\bitmaps\shce.bitmap
 ImportBitmap 0 "workingdir\bitmaps\dc-15x.dds"
 SaveTagChanges
-ExitTo tags
+Exit
 
 StringId add dc_17_dual_wield
 EditTag object\weapons\dc-17\dc-17.weapon
 SetField PickupOrDualWieldMessage dc_17_dual_wield
 SaveTagChanges
-ExitTo Tags
+Exit
 
 EditTag ui\hud\hud_messages.multilingual_unicode_string_list
 SetString english dc_17_dual_wield "\uE461 \uE45E to dual-wield DH-17 Blaster Rifle|r|n"
@@ -86,5 +86,5 @@ SetString english dc15xsniper_pickup "\uE461\uE45F to pick up DC-15x Sniper Rifl
 SetString english a280_pickup "\uE461\uE45F to pick up A280 Blaster Rifle|n|r"
 SetString english blaster_pickup "\uE461\uE45F to pick up DH-17 Blaster Rifle|n|r"
 SaveTagChanges
-ExitTo Tags
+Exit
 

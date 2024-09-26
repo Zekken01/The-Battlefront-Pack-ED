@@ -30,7 +30,7 @@ SetString english amag_switch_to  "Out of ammo|nPress \uE446 to switch to |r\uFB
 SetString english amag_dual "\uE461 \uE45E to dual-wield|r|n\uFB06"
 SetString english amag_dual_swap "\uE461 \uE45E to swap for|r|n\uFB06"
 SaveTagChanges
-ExitTo tags
+Exit
 
 echo ==Brute Plasma Rifle==
 EditTag objects\weapons\rifle\plasma_rifle_red\plasma_rifle_red.weapon
@@ -40,13 +40,13 @@ SetField WeaponTypeName offset_plasma_rife
 SetField CenteredFirstPersonWeaponOffset 0.075 0 -0.025
 SetField WeaponFlags.NewFlags CannotFireAtMaximumAge,LoopFPFiringAnimation,CanBeDualWielded
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag objects\weapons\rifle\plasma_rifle_red\fp_plasma_rifle_red\fp_plasma_rifle_red.render_model
 SetField MarkerGroups[4].Markers[0].Translation 0.02655599 0.004300643 -0.0528338
 SetField MarkerGroups[4].Markers[0].Rotation -0.6164592 0.195706 -0.4600866 0.6082742
 SaveTagChanges
-ExitTo tags
+Exit
 
 echo ==Silenced SMG==
 EditTag objects\weapons\rifle\smg_silenced\smg_silenced.weapon
@@ -65,12 +65,12 @@ SetField SwapOrDualWieldMessage ssmg_dual_swap
 SetField WeaponFlags.NewFlags LoopFPFiringAnimation,CanBeDualWielded
 
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag ui\chud\smg_silenced.chud_definition
 SetField HudWidgets[2].BitmapWidgets[0].BitmapSequenceIndex 5
 SaveTagChanges
-ExitTo tags
+Exit
 
 echo ==Automag==
 EditTag objects\weapons\pistol\automag\automag.weapon
@@ -84,13 +84,13 @@ SetField SwitchToFromAiMessage amag_swap_ai
 SetField PickupOrDualWieldMessage amag_dual
 SetField SwapOrDualWieldMessage amag_dual_swap
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag objects\weapons\pistol\automag\fp_automag\fp_automag.render_model
 SetField MarkerGroups[1].Markers[0].Translation 0.003 -0.00477 -0.032
 SetField MarkerGroups[1].Markers[0].Rotation -0.475 -0.028 -0.33 0.818
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag objects\characters\masterchief\fp\weapons\pistol\fp_automag\fp_automag.model_animation_graph
 AddAnimation workingdir\anims\automag
@@ -115,4 +115,4 @@ SetField Animations[13].PlaybackFlags DisableWeaponIk
 echo first_person:sprint_loop_airborne
 SetField Animations[22].PlaybackFlags DisableWeaponIk
 SaveTagChanges
-ExitTo tags
+Exit

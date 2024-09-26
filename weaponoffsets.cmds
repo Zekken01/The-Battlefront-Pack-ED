@@ -26,81 +26,81 @@ StringId add offset_dc-15x
 SetString english offset_dc-15x "DC-15x Sniper Rifle"
 
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\weapons\dh-17\dh-17.weapon
 SetField WeaponTypeName offset_dh-17
 SetField CenteredFirstPersonWeaponOffset 0.054 -0.034 -0.032
 
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\weapons\a280\a280.weapon
 SetField WeaponTypeName offset_a280
 SetField CenteredFirstPersonWeaponOffset 0.000 -0.013 -0.013
 
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\weapons\e-11\e-11.weapon
 SetField WeaponTypeName offset_e-11
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\weapons\dc15a\dc15a.weapon
 SetField WeaponTypeName offset_dc15a
 SetField CenteredFirstPersonWeaponOffset 0.02 -0.018 -0.011
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\weapons\e-5\e-5.weapon
 SetField WeaponTypeName offset_e-5
 SetField CenteredFirstPersonWeaponOffset 0.005 -0.011 0.000
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag objects\weapons\rifle\dc-15\dc-15.weapon
 SetField WeaponTypeName offset_dc-15
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\weapons\dc-17\dc-17.weapon
 SetField WeaponTypeName offset_dc-17
 SetField CenteredFirstPersonWeaponOffset -0.017 0 -0.032
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\weapons\sniper_rifle\sniper_rifle.weapon
 SetField WeaponTypeName offset_dc-15x
 SetField CenteredFirstPersonWeaponOffset 0.021 0.008 -0.073
 SaveTagChanges
-ExitTo tags
+Exit
 
 echo ==Backpack Icon Offsets...==
 
 EditTag objects\weapons\rifle\starwarsgun\starwarsgun_gun.chud_definition
 SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Origin 0.2 -1.2
 SaveTagChanges
-ExitTo tags
+Exit
 EditTag object\weapons\e-5\weapon\starwarsgun_gun.chud_definition
 SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Origin 0.2 -1.2
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\weapons\a280\weapon\a280.chud_definition
 SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Origin 0.2 -1.5
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag object\weapons\dc-17\dc17.chud_definition
 SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Origin 0.2 -4
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag ui\chud\starwarssiper.chud_definition
 SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Origin 0.2 -1.2
 SaveTagChanges
-ExitTo tags
+Exit
 
 echo ==Low Ammo Counter Red Flashing...==
 
@@ -112,7 +112,7 @@ SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Origin 200 200
 SetField HudWidgets[4].BitmapWidgets[0].AnimationData[0].Flashing.Animation null
 SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Origin 0.2 -4
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag ui\chud\dh17.chud_definition
 SetField HudWidgets[0].BitmapWidgets[0].AnimationData[0].Flashing.Animation null
@@ -122,7 +122,7 @@ SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Origin 200 200
 SetField HudWidgets[4].BitmapWidgets[0].AnimationData[0].Flashing.Animation null
 SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Origin 0.2 -4
 SaveTagChanges
-ExitTo tags
+Exit
 
 EditTag objects\weapons\rifle\starwarsgun\starwarsgun.chud_definition
 SetField HudWidgets[0].BitmapWidgets[0].AnimationData[0].Flashing.Animation null
@@ -130,4 +130,4 @@ SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Origin 200 200
 SetField HudWidgets[1].BitmapWidgets[0].AnimationData[0].Flashing.Animation null
 SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Origin 200 200
 SaveTagChanges
-ExitTo tags
+Exit
