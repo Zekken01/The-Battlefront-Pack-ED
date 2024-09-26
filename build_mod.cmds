@@ -1,14 +1,14 @@
 "C:\Users\zekken\Desktop\ElDewrito 0.7 Official\maps\tags.dat"
 
-echo ==Set Variables...==
+# echo ==Set Variables...==
 SetVariable workingdir "C:\Users\zekken\Desktop\The-Battlefront-Pack-ED"
 SetVariable modsfolder "C:\Users\zekken\Desktop\ElDewrito 0.7 Official\mods"
 
-echo ==Set Caches...==
+# echo ==Set Caches...==
 UseAudioCache workingdir\caches\audiocache
 UseShaderCache workingdir\caches\shadercache
 
-echo ==Creating Mod Package...==
+# echo ==Creating Mod Package...==
 CreateModPackage 10 large
 The Battlefront Pack
 The Battlefront Pack including Coruscant, Geonosis, Hoth, Deathstar, Mustafar, Scarif, and Utapau. Credit goes to the original mod creators abyssquick , and stevierothy. Thanks to Newbie, Mtndewit, Dirkkane, and TwistedFlog for help porting to Eldewrito.
@@ -28,10 +28,10 @@ utapau
 
 AddModFiles "workingdir\maps\ui"
 
-//needed for multi tag cache mods
+# needed for multi tag cache mods
 RunCommands workingdir\fixdefaultmaps.cmds
 
-echo ==Port Coruscant...==
+# echo ==Port Coruscant...==
 SwitchTagCache 1
 
 RunCommands workingdir\preportcommands.cmds
@@ -56,7 +56,7 @@ RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 
-echo ==Port Geonosis...==
+# echo ==Port Geonosis...==
 SwitchTagCache 2
 
 RunCommands workingdir\preportcommands.cmds
@@ -81,7 +81,7 @@ RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 
-echo ==Port Hoth...==
+# echo ==Port Hoth...==
 SwitchTagCache 3
 
 RunCommands workingdir\preportcommands.cmds
@@ -125,7 +125,7 @@ RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 
-echo ==Port Deathstar...==
+# echo ==Port Deathstar...==
 SwitchTagCache 4
 
 RunCommands workingdir\preportcommands.cmds
@@ -150,7 +150,7 @@ RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 
-echo ==Port Kashyyyk...==
+# echo ==Port Kashyyyk...==
 SwitchTagCache 5
 
 RunCommands workingdir\preportcommands.cmds
@@ -175,7 +175,7 @@ RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 
-echo ==Port Mos Eisley...==
+# echo ==Port Mos Eisley...==
 SwitchTagCache 6
 
 RunCommands workingdir\preportcommands.cmds
@@ -200,7 +200,7 @@ RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 
-echo ==Port Mustafar...==
+# echo ==Port Mustafar...==
 SwitchTagCache 7
 
 RunCommands workingdir\preportcommands.cmds
@@ -224,7 +224,7 @@ RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 
-echo ==Port Scarif...==
+# echo ==Port Scarif...==
 SwitchTagCache 8
 
 RunCommands workingdir\preportcommands.cmds
@@ -249,7 +249,7 @@ RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 
-echo ==Port Utapau...==
+# echo ==Port Utapau...==
 SwitchTagCache 9
 
 RunCommands workingdir\preportcommands.cmds
@@ -279,7 +279,7 @@ RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 
-echo ==Post Port Commands...==
+# echo ==Post Port Commands...==
 
 RunCommands workingdir\mapdescriptions.cmds
 
