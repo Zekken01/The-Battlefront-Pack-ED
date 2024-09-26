@@ -31,3 +31,18 @@ DuplicateTag sound\vehicles\wraith\w_boost_left\track1\in.sound sound\aat_sounds
 DuplicateTag sound\vehicles\hornet\hornet_missile_launcher\missile_proj\missile_proj\in.sound sound\proton_torpedo
 DuplicateTag objects\powerups\unsc_ammo_large\unsc_ammo_large.equipment objects\powerups\ammo_packs\ammo_large\ammo_large.equipment
 DuplicateTag objects\vehicles\ghost\ghost.vehicle objects\vehicles\ghost_snow\ghost_snow.vehicle
+
+EditTag objects\weapons\turret\plasma_cannon\plasma_cannon.weapon
+SaveTagChanges
+Exit
+NameTag objects\weapons\turret\plasma_cannon\plasma_cannon.weapon objects\weapons\turret\plasma_cannon\plasma_cannon_halo_online
+
+EditTag objects\weapons\turret\plasma_cannon\plasma_cannon_weapon\plasma_cannon_weapon.model
+SaveTagChanges
+Exit
+NameTag objects\weapons\turret\plasma_cannon\plasma_cannon_weapon\plasma_cannon_weapon.model objects\weapons\turret\plasma_cannon\plasma_cannon_weapon\plasma_cannon_weapon_halo_online
+
+EditTag objects\weapons\turret\plasma_cannon\plasma_cannon_weapon\plasma_cannon_weapon.render_model
+SaveTagChanges
+Exit
+NameTag objects\weapons\turret\plasma_cannon\plasma_cannon_weapon\plasma_cannon_weapon.render_model objects\weapons\turret\plasma_cannon\plasma_cannon_weapon\plasma_cannon_weapon_halo_online
