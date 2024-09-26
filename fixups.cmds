@@ -86,3 +86,29 @@ SetString english a280_pickup "\uE461\uE45F to pick up A280 Blaster Rifle|n|r"
 SetString english blaster_pickup "\uE461\uE45F to pick up DH-17 Blaster Rifle|n|r"
 SaveTagChanges
 Exit
+
+EditTag object\vehicles\venator\venator.model
+SetField DisappearDistance 1000
+SetField BeginFadeDistance 1000
+SaveTagChanges
+Exit
+
+EditTag fx\scenery_fx\smoke\smoke_thick_large\smoke_thick_large.effect
+ForEach Events ForEach ParticleSystems SetField Flags ParticlesContinueAsUsualWhenOffscreen,TurnOffNearFadeOnEnhancedGraphics
+ForEach Events ForEach ParticleSystems SetField PixelBudget 0
+ForEach Events ForEach ParticleSystems SetField NearRange 10000
+ForEach Events ForEach ParticleSystems SetField NearCutoff 0
+ForEach Events ForEach ParticleSystems SetField LodOutDistance 10000
+ForEach Events ForEach ParticleSystems ForEach Emitters SetField BoundingRadiusEstimate 20
+SaveTagChanges
+Exit
+
+EditTag fx\scenery_fx\fire\fire_large\fire_large.effect
+ForEach Events ForEach ParticleSystems SetField Flags ParticlesContinueAsUsualWhenOffscreen,TurnOffNearFadeOnEnhancedGraphics
+ForEach Events ForEach ParticleSystems SetField PixelBudget 0
+ForEach Events ForEach ParticleSystems SetField NearRange 10000
+ForEach Events ForEach ParticleSystems SetField NearCutoff 0
+ForEach Events ForEach ParticleSystems SetField LodOutDistance 10000
+ForEach Events ForEach ParticleSystems ForEach Emitters SetField BoundingRadiusEstimate 20
+SaveTagChanges
+Exit
