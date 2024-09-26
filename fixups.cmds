@@ -57,12 +57,11 @@ ImportBitmap 0 "workingdir\bitmaps\dc17_lefthand.dds"
 SaveTagChanges
 Exit
 
-## give starwars sniper a hud icon
+# give starwars sniper a hud icon
 DuplicateTag rasterizer\invalid.bitmap object\weapons\starwarssniper\bitmaps\shce.bitmap
 EditTag ui\chud\starwarssiper.chud_definition
 SetField HudWidgets[4].BitmapWidgets[0].Bitmap object\weapons\starwarssniper\bitmaps\shce.bitmap
 SetField HudWidgets[5].BitmapWidgets[1].Bitmap object\weapons\starwarssniper\bitmaps\shce.bitmap
-
 SaveTagChanges
 Exit
 
@@ -87,4 +86,3 @@ SetString english a280_pickup "\uE461\uE45F to pick up A280 Blaster Rifle|n|r"
 SetString english blaster_pickup "\uE461\uE45F to pick up DH-17 Blaster Rifle|n|r"
 SaveTagChanges
 Exit
-
