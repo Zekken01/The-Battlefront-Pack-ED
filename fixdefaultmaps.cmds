@@ -77,11 +77,11 @@ ImportMapVariant "workingdir\map_variants\Reactor\sandbox.map"
 SaveTagChanges
 Exit
 
-//rip elephants
-EditTag levels\multi\shrine\shrine.scenario
-ImportMapVariant "workingdir\map_variants\Sandtrap\sandbox.map"
-SaveTagChanges
-Exit
+//RIP Sandtrap "Attached placements are not supported currently."
+//EditTag levels\multi\shrine\shrine.scenario
+//ImportMapVariant "workingdir\map_variants\Sandtrap\sandbox.map"
+//SaveTagChanges
+//Exit
 
 EditTag levels\dlc\bunkerworld\bunkerworld.scenario
 ImportMapVariant "workingdir\map_variants\Standoff\sandbox.map"

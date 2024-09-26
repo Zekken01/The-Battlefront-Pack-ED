@@ -1,6 +1,4 @@
 ```
-Plasma turrets switch back to the halo online variant when removed from the mount.
-
 Rocket Launcher has crazy drop on the projectile on some maps (scarif).
 
 Original animated battlefront loading screens or flythrough of map as an apng.
