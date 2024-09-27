@@ -90,7 +90,7 @@ SetString english dc_17_pick_up "Hold \uE445 to pick up DC-17 Blaster Pistol|r"
 SetString english dc_17_swap "Hold \uE445 to swap for DC-17 Blaster Pistol|r"
 SetString english dc_17_picked_up "Picked up a DC-17 Blaster Pistol"
 SetString english dc_17_switch_to "Out of ammo |rPress \uE446 to switch to DC-17 Blaster Pistol"
-SetString english dc_17_dual_wield "\uE461 \uE45E to dual-wield DC-17 Blaster Pistol\r"
+SetString english dc_17_dual_wield "\uE461 \uE45E to dual-wield DC-17 Blaster Pistol|r"
 
 SetString english dc15apistol_pickup_ "Hold \uE445 to pick up DC-15a Pistol|r"
 SetString english dc15apistol_swap "Hold \uE445 to swap for DC-15a Pistol|r"
