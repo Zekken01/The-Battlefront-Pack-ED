@@ -17,17 +17,14 @@ https://s.zekken.rocks/2CWZnPFT.jpg
 
 Forge Pallet (Including brute plasma rifle).
 
-Star Wars Announcer Sounds dont play on eldewrito but are present on MCC (mtn said globals????).
+Star Wars Announcer Sounds
+
+End Game Music
 
 Add Ambient Music from battlefront.
 
 Clone Customization (TwistedFlog is on it).
 
 Light Sabers Mod.
-
-Effects on crashed pelican don't render unless really close.
-https://s.zekken.rocks/RnS0Ry1g.jpg Smoke
-https://s.zekken.rocks/6R1leDoA.jpg Smoke
-https://s.zekken.rocks/4ThMCdiF.jpg Fire
 
 ```
