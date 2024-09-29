@@ -11,7 +11,7 @@ UseShaderCache workingdir\caches\shadercache
 # echo ==Creating Mod Package...==
 CreateModPackage 10 large
 The Battlefront Pack
-The Battlefront Pack including Coruscant, Geonosis, Hoth, Deathstar, Mustafar, Scarif, and Utapau. Credit goes to the original mod creators abyssquick , and stevierothy. Thanks to Newbie, Mtndewit, Dirkkane, and TwistedFlog for help porting to Eldewrito.
+The Battlefront Pack including Coruscant, Geonosis, Hoth, Deathstar, Mustafar, Scarif, and Utapau. Credit goes to the original mod creators abyssquick , and stevierothy. Special thanks to Newbie, Mtndewit, Dirkkane, minelol, and TwistedFlog for help porting to Eldewrito.
 Zekken
 0.8
 MainMenu Multiplayer Character
@@ -30,6 +30,8 @@ AddModFiles "workingdir\maps\ui"
 
 # needed for multi tag cache mods
 RunCommands workingdir\fixdefaultmaps.cmds
+
+RunCommands workingdir\better3panimations.cmds
 
 # echo ==Port Coruscant...==
 SwitchTagCache 1
@@ -55,6 +57,7 @@ RunCommands workingdir\fixups.cmds
 RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
+RunCommands workingdir\better3panimations.cmds
 
 # echo ==Port Geonosis...==
 SwitchTagCache 2
@@ -80,6 +83,7 @@ RunCommands workingdir\fixups.cmds
 RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
+RunCommands workingdir\better3panimations.cmds
 
 # echo ==Port Hoth...==
 SwitchTagCache 3
@@ -124,6 +128,7 @@ RunCommands workingdir\fixups.cmds
 RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
+RunCommands workingdir\better3panimations.cmds
 
 # echo ==Port Deathstar...==
 SwitchTagCache 4
@@ -149,6 +154,7 @@ RunCommands workingdir\fixups.cmds
 RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
+RunCommands workingdir\better3panimations.cmds
 
 # echo ==Port Kashyyyk...==
 SwitchTagCache 5
@@ -174,6 +180,7 @@ RunCommands workingdir\fixups.cmds
 RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
+RunCommands workingdir\better3panimations.cmds
 
 # echo ==Port Mos Eisley...==
 SwitchTagCache 6
@@ -199,6 +206,7 @@ RunCommands workingdir\fixups.cmds
 RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
+RunCommands workingdir\better3panimations.cmds
 
 # echo ==Port Mustafar...==
 SwitchTagCache 7
@@ -223,6 +231,7 @@ RunCommands workingdir\fixups.cmds
 RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
+RunCommands workingdir\better3panimations.cmds
 
 # echo ==Port Scarif...==
 SwitchTagCache 8
@@ -248,6 +257,7 @@ RunCommands workingdir\fixups.cmds
 RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
+RunCommands workingdir\better3panimations.cmds
 
 # echo ==Port Utapau...==
 SwitchTagCache 9
@@ -278,6 +288,7 @@ RunCommands workingdir\fixups.cmds
 RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
+RunCommands workingdir\better3panimations.cmds
 
 # echo ==Post Port Commands...==
 
