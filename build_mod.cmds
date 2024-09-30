@@ -34,7 +34,6 @@ mapfile add chill.map
 mapfile add cyberdyne.map
 mapfile add deadlock.map
 mapfile add guardian.map
-mapfile add mainmenu.map
 mapfile add riverworld.map
 mapfile add s3d_avalanche.map
 mapfile add s3d_edge.map

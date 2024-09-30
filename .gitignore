@@ -1,4 +1,5 @@
 *.fsb
+*.fsb.info
 *.log
 maps/coruscant.map
 maps/geonosis.map
