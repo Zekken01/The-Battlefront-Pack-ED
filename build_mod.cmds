@@ -29,7 +29,19 @@ utapau
 AddModFiles "workingdir\maps\ui"
 
 # needed for multi tag cache mods
-RunCommands workingdir\fixdefaultmaps.cmds
+mapfile add bunkerworld.map
+mapfile add chill.map
+mapfile add cyberdyne.map
+mapfile add deadlock.map
+mapfile add guardian.map
+mapfile add mainmenu.map
+mapfile add riverworld.map
+mapfile add s3d_avalanche.map
+mapfile add s3d_edge.map
+mapfile add s3d_reactor.map
+mapfile add s3d_turf.map
+mapfile add shrine.map
+mapfile add zanzibar.map
 
 RunCommands workingdir\better3panimations.cmds
 
