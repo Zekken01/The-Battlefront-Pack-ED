@@ -28,5 +28,3 @@ Clone Customization (TwistedFlog is on it).
 Light Sabers Mod.
 
 ```
-#Podium Bugs#
-mustafar podium doesnt work (the commands arent running???? idk)
