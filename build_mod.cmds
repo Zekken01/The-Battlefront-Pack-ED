@@ -57,15 +57,19 @@ OpenCacheFile "workingdir\maps\coruscant.map"
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
 Exit
 
+OpenCacheFile "workingdir\maps\coruscant.map"
+PortTag merge multiplayer\multiplayer_globals.mulg
+Exit
+
 EditTag levels\multi\coruscant\coruscant.scenario
 AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[0].Position 1.7622 -35.7706 9.5615
+SetField CutsceneCameraPoints[0].Orientation 89.623 -0.0379 -5.7434
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-SetField CutsceneCameraPoints[0].Position 1.7622 -35.7706 9.5615
-SetField CutsceneCameraPoints[0].Orientation 89.623 -0.0379 -5.7434
-CompileScripts workingdir\podium.hsc
+compilepodiumscripts
 SaveTagChanges
 Exit
 
@@ -89,15 +93,19 @@ OpenCacheFile "workingdir\maps\geonosis.map"
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
 Exit
 
+OpenCacheFile "workingdir\maps\geonosis.map"
+PortTag merge multiplayer\multiplayer_globals.mulg
+Exit
+
 EditTag levels\multi\geonosis\geonosis.scenario
 AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[0].Position -18.2027 25.2249 7.6221
+SetField CutsceneCameraPoints[0].Orientation -78.076 -0.5027 2.3793
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-SetField CutsceneCameraPoints[0].Position -18.2027 25.2249 7.6221
-SetField CutsceneCameraPoints[0].Orientation -78.076 -0.5027 2.3793
-CompileScripts workingdir\podium.hsc
+compilepodiumscripts
 SaveTagChanges
 Exit
 
@@ -121,15 +129,19 @@ OpenCacheFile "workingdir\maps\hoth.map"
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
 Exit
 
+OpenCacheFile "workingdir\maps\hoth.map"
+PortTag merge multiplayer\multiplayer_globals.mulg
+Exit
+
 EditTag levels\multi\hoth\hoth.scenario
 AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[0].Position 133.3836 -56.744 191.3433
+SetField CutsceneCameraPoints[0].Orientation 54.6615 -5.5422 -7.756499
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-SetField CutsceneCameraPoints[0].Position 133.3836 -56.744 191.3433
-SetField CutsceneCameraPoints[0].Orientation 54.6615 -5.5422 -7.756499
-CompileScripts workingdir\podium.hsc
+compilepodiumscripts
 SaveTagChanges
 Exit
 
@@ -172,15 +184,19 @@ OpenCacheFile "workingdir\maps\imp_deathstar.map"
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
 Exit
 
+OpenCacheFile "workingdir\maps\imp_deathstar.map"
+PortTag merge multiplayer\multiplayer_globals.mulg
+Exit
+
 EditTag levels\multi\imp_deathstar\imp_deathstar.scenario
 AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[0].Position -30.2844 14.2575 -5.1671
+SetField CutsceneCameraPoints[0].Orientation -0.2111 -2.6294 0.0097
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-SetField CutsceneCameraPoints[0].Position -30.2844 14.2575 -5.1671
-SetField CutsceneCameraPoints[0].Orientation -0.2111 -2.6294 0.0097
-CompileScripts workingdir\podium.hsc
+compilepodiumscripts
 SaveTagChanges
 Exit
 
@@ -204,15 +220,19 @@ OpenCacheFile "workingdir\maps\kashyyyk.map"
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
 Exit
 
+OpenCacheFile "workingdir\maps\kashyyyk.map"
+PortTag merge multiplayer\multiplayer_globals.mulg
+Exit
+
 EditTag levels\multi\kashyyyk\kashyyyk.scenario
 AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[0].Position 45.8226 32.7205 12.8865
+SetField CutsceneCameraPoints[0].Orientation -151.293 4.1923 2.2926
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-SetField CutsceneCameraPoints[0].Position 45.8226 32.7205 12.8865
-SetField CutsceneCameraPoints[0].Orientation -151.293 4.1923 2.2926
-CompileScripts workingdir\podium.hsc
+compilepodiumscripts
 SaveTagChanges
 Exit
 
@@ -236,15 +256,19 @@ OpenCacheFile "workingdir\maps\mos_eisley.map"
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
 Exit
 
+OpenCacheFile "workingdir\maps\mos_eisley.map"
+PortTag merge multiplayer\multiplayer_globals.mulg
+Exit
+
 EditTag levels\multi\mos_eisley\mos_eisley.scenario
 AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[0].Position -12.8328 24.8494 1.2108
+SetField CutsceneCameraPoints[0].Orientation -36.06 -0.6029 0.439
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-SetField CutsceneCameraPoints[0].Position -12.8328 24.8494 1.2108
-SetField CutsceneCameraPoints[0].Orientation -36.06 -0.6029 0.439
-CompileScripts workingdir\podium.hsc
+compilepodiumscripts
 SaveTagChanges
 Exit
 
@@ -268,15 +292,19 @@ OpenCacheFile "workingdir\maps\mustafar.map"
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
 Exit
 
+OpenCacheFile "workingdir\maps\mustafar.map"
+PortTag merge multiplayer\multiplayer_globals.mulg
+Exit
+
 EditTag levels\multi\mustafar\mustafar.scenario
 AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[0].Position -0.1681 16.4922 3.2789
+SetField CutsceneCameraPoints[0].Orientation -119.0447 0.9556999 1.7204
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-SetField CutsceneCameraPoints[0].Position -0.1681 16.4922 3.2789
-SetField CutsceneCameraPoints[0].Orientation -119.0447 0.9556999 1.7204
-CompileScripts workingdir\podium.hsc
+compilepodiumscripts
 Exit
 
 RunCommands workingdir\commandpostimprovement.cmds
@@ -299,15 +327,19 @@ OpenCacheFile "workingdir\maps\scarif.map"
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
 Exit
 
+OpenCacheFile "workingdir\maps\scarif.map"
+PortTag merge multiplayer\multiplayer_globals.mulg
+Exit
+
 EditTag levels\multi\scarif\scarif.scenario
 AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[0].Position -159.3146 228.1855 29.3568
+SetField CutsceneCameraPoints[0].Orientation 16.4431 -2.1289 -0.6281
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-SetField CutsceneCameraPoints[0].Position -159.3146 228.1855 29.3568
-SetField CutsceneCameraPoints[0].Orientation 16.4431 -2.1289 -0.6281
-CompileScripts workingdir\podium.hsc
+compilepodiumscripts
 SaveTagChanges
 Exit
 
@@ -331,15 +363,19 @@ OpenCacheFile "workingdir\maps\utapau.map"
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
 Exit
 
+OpenCacheFile "workingdir\maps\utapau.map"
+PortTag merge multiplayer\multiplayer_globals.mulg
+Exit
+
 EditTag levels\multi\utapau\utapau.scenario
 AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[0].Position 6.5217 -11.7312 6.8666
+SetField CutsceneCameraPoints[0].Orientation 94.4683 0.4531 -5.7787
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-SetField CutsceneCameraPoints[0].Position 6.5217 -11.7312 6.8666
-SetField CutsceneCameraPoints[0].Orientation 94.4683 0.4531 -5.7787
-CompileScripts workingdir\podium.hsc
+compilepodiumscripts
 SaveTagChanges
 Exit
 
