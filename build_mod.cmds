@@ -66,10 +66,10 @@ AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position 1.7622 -35.7706 9.5615
 SetField CutsceneCameraPoints[0].Orientation 89.623 -0.0379 -5.7434
 SetField CutsceneCameraPoints[1].Name "podium_camera"
-SetField CutsceneCameraPoints[1].Position 0 0 0
-SetField CutsceneCameraPoints[1].Orientation 0 0 0
+SetField CutsceneCameraPoints[1].Position 1.8281 3.2522 6.7768
+SetField CutsceneCameraPoints[1].Orientation 90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-compilepodiumscripts
+CompilePodiumScripts
 SaveTagChanges
 Exit
 
@@ -102,10 +102,10 @@ AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position -18.2027 25.2249 7.6221
 SetField CutsceneCameraPoints[0].Orientation -78.076 -0.5027 2.3793
 SetField CutsceneCameraPoints[1].Name "podium_camera"
-SetField CutsceneCameraPoints[1].Position 0 0 0
-SetField CutsceneCameraPoints[1].Orientation 0 0 0
+SetField CutsceneCameraPoints[1].Position 13.1129 19.2211 -2.7488
+SetField CutsceneCameraPoints[1].Orientation 120 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-compilepodiumscripts
+CompilePodiumScripts
 SaveTagChanges
 Exit
 
@@ -138,10 +138,10 @@ AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position 133.3836 -56.744 191.3433
 SetField CutsceneCameraPoints[0].Orientation 54.6615 -5.5422 -7.756499
 SetField CutsceneCameraPoints[1].Name "podium_camera"
-SetField CutsceneCameraPoints[1].Position 0 0 0
-SetField CutsceneCameraPoints[1].Orientation 0 0 0
+SetField CutsceneCameraPoints[1].Position 145.3955 -22.6032 184.2577
+SetField CutsceneCameraPoints[1].Orientation -30 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-compilepodiumscripts
+CompilePodiumScripts
 SaveTagChanges
 Exit
 
@@ -193,10 +193,10 @@ AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position -30.2844 14.2575 -5.1671
 SetField CutsceneCameraPoints[0].Orientation -0.2111 -2.6294 0.0097
 SetField CutsceneCameraPoints[1].Name "podium_camera"
-SetField CutsceneCameraPoints[1].Position 0 0 0
-SetField CutsceneCameraPoints[1].Orientation 0 0 0
+SetField CutsceneCameraPoints[1].Position 20.5118 -8.5226 -10.0339
+SetField CutsceneCameraPoints[1].Orientation -153.5348 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-compilepodiumscripts
+CompilePodiumScripts
 SaveTagChanges
 Exit
 
@@ -229,10 +229,10 @@ AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position 45.8226 32.7205 12.8865
 SetField CutsceneCameraPoints[0].Orientation -151.293 4.1923 2.2926
 SetField CutsceneCameraPoints[1].Name "podium_camera"
-SetField CutsceneCameraPoints[1].Position 0 0 0
-SetField CutsceneCameraPoints[1].Orientation 0 0 0
+SetField CutsceneCameraPoints[1].Position 7.6947 -18.6738 1.6505
+SetField CutsceneCameraPoints[1].Orientation 96 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-compilepodiumscripts
+CompilePodiumScripts
 SaveTagChanges
 Exit
 
@@ -265,10 +265,10 @@ AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position -12.8328 24.8494 1.2108
 SetField CutsceneCameraPoints[0].Orientation -36.06 -0.6029 0.439
 SetField CutsceneCameraPoints[1].Name "podium_camera"
-SetField CutsceneCameraPoints[1].Position 0 0 0
-SetField CutsceneCameraPoints[1].Orientation 0 0 0
+SetField CutsceneCameraPoints[1].Position 31.3628 19.4440 0.2872
+SetField CutsceneCameraPoints[1].Orientation -121 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-compilepodiumscripts
+CompilePodiumScripts
 SaveTagChanges
 Exit
 
@@ -301,10 +301,10 @@ AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position -0.1681 16.4922 3.2789
 SetField CutsceneCameraPoints[0].Orientation -119.0447 0.9556999 1.7204
 SetField CutsceneCameraPoints[1].Name "podium_camera"
-SetField CutsceneCameraPoints[1].Position 0 0 0
-SetField CutsceneCameraPoints[1].Orientation 0 0 0
+SetField CutsceneCameraPoints[1].Position -21.7106 -14.4260 0.2098
+SetField CutsceneCameraPoints[1].Orientation -43.6097 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-compilepodiumscripts
+CompilePodiumScripts
 Exit
 
 RunCommands workingdir\commandpostimprovement.cmds
@@ -336,10 +336,10 @@ AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position -159.3146 228.1855 29.3568
 SetField CutsceneCameraPoints[0].Orientation 16.4431 -2.1289 -0.6281
 SetField CutsceneCameraPoints[1].Name "podium_camera"
-SetField CutsceneCameraPoints[1].Position 0 0 0
-SetField CutsceneCameraPoints[1].Orientation 0 0 0
+SetField CutsceneCameraPoints[1].Position -132.1896 249.467 26.2778
+SetField CutsceneCameraPoints[1].Orientation -80 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-compilepodiumscripts
+CompilePodiumScripts
 SaveTagChanges
 Exit
 
@@ -372,10 +372,10 @@ AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position 6.5217 -11.7312 6.8666
 SetField CutsceneCameraPoints[0].Orientation 94.4683 0.4531 -5.7787
 SetField CutsceneCameraPoints[1].Name "podium_camera"
-SetField CutsceneCameraPoints[1].Position 0 0 0
-SetField CutsceneCameraPoints[1].Orientation 0 0 0
+SetField CutsceneCameraPoints[1].Position 21.8923 -31.9345 6.1665
+SetField CutsceneCameraPoints[1].Orientation 51 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-compilepodiumscripts
+CompilePodiumScripts
 SaveTagChanges
 Exit
 

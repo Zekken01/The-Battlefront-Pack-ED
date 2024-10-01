@@ -5,8 +5,6 @@ Rocket Launcher has crazy drop on the projectile on some maps (scarif).
 
 Original animated battlefront loading screens as apng.
 
-Podium Camera for all maps. (WIP)
-
 Air Speeder has flasing reload animation (Go through all vehicles and remove).
 https://s.zekken.rocks/jG4YPtBu.jpg
 
@@ -30,3 +28,5 @@ Clone Customization (TwistedFlog is on it).
 Light Sabers Mod.
 
 ```
+#Podium Bugs#
+mustafar podium doesnt work (the commands arent running???? idk)
