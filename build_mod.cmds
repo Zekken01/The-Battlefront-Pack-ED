@@ -305,6 +305,7 @@ SetField CutsceneCameraPoints[1].Position -21.7106 -14.4260 0.2098
 SetField CutsceneCameraPoints[1].Orientation -43.6097 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
+SaveTagChanges
 Exit
 
 RunCommands workingdir\commandpostimprovement.cmds
