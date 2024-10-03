@@ -15,7 +15,7 @@ Elites cant use the turret on geonosis.
 object\vehicles\geo_turret\geo_turret.vehicle
 https://s.zekken.rocks/2CWZnPFT.jpg
 
-Forge Pallet (Including brute plasma rifle).
+Forge Palette (Including brute plasma rifle).
 
 End Game Music
 
