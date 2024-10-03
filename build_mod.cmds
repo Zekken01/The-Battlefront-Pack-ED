@@ -11,7 +11,7 @@ UseShaderCache workingdir\caches\shadercache
 # echo ==Creating Mod Package...==
 CreateModPackage 10 large
 The Battlefront Pack
-The Battlefront Pack including Coruscant, Geonosis, Hoth, Deathstar, Mustafar, Scarif, and Utapau. Credit goes to the original mod creators abyssquick , and stevierothy. Special thanks to Newbie, Mtndewit, Dirkkane, minelol, and TwistedFlog for help porting to Eldewrito.
+The Battlefront Pack including Coruscant, Geonosis, Hoth, Death Star, Kashyyyk, Mos Eisley, Mustafar, Scarif, and Utapau. Credit goes to the original mod creators Abyssquick and Stevieroth. Special thanks to Newbie, MtnDewIt, Dirkkane, Minelelol, and TwistedFlog for help porting to ElDewrito.
 Zekken
 0.8
 MainMenu Multiplayer Character
@@ -50,18 +50,13 @@ SwitchTagCache 1
 RunCommands workingdir\preportcommands.cmds
 
 OpenCacheFile "workingdir\maps\coruscant.map"
-PortTag *.scnr
-Exit
-
-OpenCacheFile "workingdir\maps\coruscant.map"
+PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-Exit
-
-OpenCacheFile "workingdir\maps\coruscant.map"
 PortTag merge multiplayer\multiplayer_globals.mulg
 Exit
 
 EditTag levels\multi\coruscant\coruscant.scenario
+SetField MapId 60001
 AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position 1.7622 -35.7706 9.5615
 SetField CutsceneCameraPoints[0].Orientation 89.623 -0.0379 -5.7434
@@ -80,24 +75,21 @@ RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 RunCommands workingdir\better3panimations.cmds
 
+UpdateMapFiles
+
 # echo ==Port Geonosis...==
 SwitchTagCache 2
 
 RunCommands workingdir\preportcommands.cmds
 
 OpenCacheFile "workingdir\maps\geonosis.map"
-PortTag *.scnr
-Exit
-
-OpenCacheFile "workingdir\maps\geonosis.map"
+PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-Exit
-
-OpenCacheFile "workingdir\maps\geonosis.map"
 PortTag merge multiplayer\multiplayer_globals.mulg
 Exit
 
 EditTag levels\multi\geonosis\geonosis.scenario
+SetField MapId 60002
 AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position -18.2027 25.2249 7.6221
 SetField CutsceneCameraPoints[0].Orientation -78.076 -0.5027 2.3793
@@ -116,24 +108,21 @@ RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 RunCommands workingdir\better3panimations.cmds
 
+UpdateMapFiles
+
 # echo ==Port Hoth...==
 SwitchTagCache 3
 
 RunCommands workingdir\preportcommands.cmds
 
 OpenCacheFile "workingdir\maps\hoth.map"
-PortTag *.scnr
-Exit
-
-OpenCacheFile "workingdir\maps\hoth.map"
+PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-Exit
-
-OpenCacheFile "workingdir\maps\hoth.map"
 PortTag merge multiplayer\multiplayer_globals.mulg
 Exit
 
 EditTag levels\multi\hoth\hoth.scenario
+SetField MapId 60003
 AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position 133.3836 -56.744 191.3433
 SetField CutsceneCameraPoints[0].Orientation 54.6615 -5.5422 -7.756499
@@ -181,24 +170,21 @@ RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 RunCommands workingdir\better3panimations.cmds
 
+UpdateMapFiles
+
 # echo ==Port Deathstar...==
 SwitchTagCache 4
 
 RunCommands workingdir\preportcommands.cmds
 
 OpenCacheFile "workingdir\maps\imp_deathstar.map"
-PortTag *.scnr
-Exit
-
-OpenCacheFile "workingdir\maps\imp_deathstar.map"
+PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-Exit
-
-OpenCacheFile "workingdir\maps\imp_deathstar.map"
 PortTag merge multiplayer\multiplayer_globals.mulg
 Exit
 
 EditTag levels\multi\imp_deathstar\imp_deathstar.scenario
+SetField MapId 60004
 AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position -30.2844 14.2575 -5.1671
 SetField CutsceneCameraPoints[0].Orientation -0.2111 -2.6294 0.0097
@@ -217,24 +203,21 @@ RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 RunCommands workingdir\better3panimations.cmds
 
+UpdateMapFiles
+
 # echo ==Port Kashyyyk...==
 SwitchTagCache 5
 
 RunCommands workingdir\preportcommands.cmds
 
 OpenCacheFile "workingdir\maps\kashyyyk.map"
-PortTag *.scnr
-Exit
-
-OpenCacheFile "workingdir\maps\kashyyyk.map"
+PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-Exit
-
-OpenCacheFile "workingdir\maps\kashyyyk.map"
 PortTag merge multiplayer\multiplayer_globals.mulg
 Exit
 
 EditTag levels\multi\kashyyyk\kashyyyk.scenario
+SetField MapId 60005
 AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position 45.8226 32.7205 12.8865
 SetField CutsceneCameraPoints[0].Orientation -151.293 4.1923 2.2926
@@ -253,24 +236,21 @@ RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 RunCommands workingdir\better3panimations.cmds
 
+UpdateMapFiles
+
 # echo ==Port Mos Eisley...==
 SwitchTagCache 6
 
 RunCommands workingdir\preportcommands.cmds
 
 OpenCacheFile "workingdir\maps\mos_eisley.map"
-PortTag *.scnr
-Exit
-
-OpenCacheFile "workingdir\maps\mos_eisley.map"
+PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-Exit
-
-OpenCacheFile "workingdir\maps\mos_eisley.map"
 PortTag merge multiplayer\multiplayer_globals.mulg
 Exit
 
 EditTag levels\multi\mos_eisley\mos_eisley.scenario
+SetField MapId 60006
 AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position -12.8328 24.8494 1.2108
 SetField CutsceneCameraPoints[0].Orientation -36.06 -0.6029 0.439
@@ -289,24 +269,21 @@ RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 RunCommands workingdir\better3panimations.cmds
 
+UpdateMapFiles
+
 # echo ==Port Mustafar...==
 SwitchTagCache 7
 
 RunCommands workingdir\preportcommands.cmds
 
 OpenCacheFile "workingdir\maps\mustafar.map"
-PortTag *.scnr
-Exit
-
-OpenCacheFile "workingdir\maps\mustafar.map"
+PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-Exit
-
-OpenCacheFile "workingdir\maps\mustafar.map"
 PortTag merge multiplayer\multiplayer_globals.mulg
 Exit
 
 EditTag levels\multi\mustafar\mustafar.scenario
+SetField MapId 60007
 AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position -0.1681 16.4922 3.2789
 SetField CutsceneCameraPoints[0].Orientation -119.0447 0.9556999 1.7204
@@ -325,24 +302,21 @@ RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 RunCommands workingdir\better3panimations.cmds
 
+UpdateMapFiles
+
 # echo ==Port Scarif...==
 SwitchTagCache 8
 
 RunCommands workingdir\preportcommands.cmds
 
 OpenCacheFile "workingdir\maps\scarif.map"
-PortTag *.scnr
-Exit
-
-OpenCacheFile "workingdir\maps\scarif.map"
+PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-Exit
-
-OpenCacheFile "workingdir\maps\scarif.map"
 PortTag merge multiplayer\multiplayer_globals.mulg
 Exit
 
 EditTag levels\multi\scarif\scarif.scenario
+SetField MapId 60008
 AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position -159.3146 228.1855 29.3568
 SetField CutsceneCameraPoints[0].Orientation 16.4431 -2.1289 -0.6281
@@ -361,24 +335,21 @@ RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 RunCommands workingdir\better3panimations.cmds
 
+UpdateMapFiles
+
 # echo ==Port Utapau...==
 SwitchTagCache 9
 
 RunCommands workingdir\preportcommands.cmds
 
 OpenCacheFile "workingdir\maps\utapau.map"
-PortTag *.scnr
-Exit
-
-OpenCacheFile "workingdir\maps\utapau.map"
+PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-Exit
-
-OpenCacheFile "workingdir\maps\utapau.map"
 PortTag merge multiplayer\multiplayer_globals.mulg
 Exit
 
 EditTag levels\multi\utapau\utapau.scenario
+SetField MapId 60009
 AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[0].Position 6.5217 -11.7312 6.8666
 SetField CutsceneCameraPoints[0].Orientation 94.4683 0.4531 -5.7787
@@ -401,6 +372,8 @@ RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 RunCommands workingdir\better3panimations.cmds
+
+UpdateMapFiles
 
 # echo ==Post Port Commands...==
 
