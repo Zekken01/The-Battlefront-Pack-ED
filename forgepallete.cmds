@@ -30,109 +30,365 @@ setfield PaletteCategories[87].ParentCategoryIndex 83
 # echo ==Weapons...==
 
 addblockelements Palette
-setfield Palette[499].Name "DC-15"
-setfield Palette[499].Type Weapon
-
-addblockelements PaletteCategories
-setfield Palette[499].CategoryIndex 84
-setfield Palette[499].DescriptionIndex -1
-setfield Palette[499].Object objects\weapons\rifle\dc-15\dc-15.weapon
+setfield Palette[*].Name "DC-15"
+setfield Palette[*].Type Weapon
+setfield Palette[*].CategoryIndex 84
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\weapons\rifle\dc-15\dc-15.weapon
 
 addblockelements Palette
-setfield Palette[500].Name "A280"
-setfield Palette[500].Type Weapon
-
-addblockelements PaletteCategories
-setfield Palette[500].CategoryIndex 84
-setfield Palette[500].DescriptionIndex -1
-setfield Palette[500].Object object\weapons\a280\a280.weapon
+setfield Palette[*].Name "A280"
+setfield Palette[*].Type Weapon
+setfield Palette[*].CategoryIndex 84
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\weapons\a280\a280.weapon
 
 addblockelements Palette
-setfield Palette[501].Name "DC-15A"
-setfield Palette[501].Type Weapon
-
-addblockelements PaletteCategories
-setfield Palette[501].CategoryIndex 84
-setfield Palette[501].DescriptionIndex -1
-setfield Palette[501].Object object\weapons\dc15a\dc15a.weapon
+setfield Palette[*].Name "DC-15A"
+setfield Palette[*].Type Weapon
+setfield Palette[*].CategoryIndex 84
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\weapons\dc15a\dc15a.weapon
 
 addblockelements Palette
-setfield Palette[502].Name "DC-17"
-setfield Palette[502].Type Weapon
-
-addblockelements PaletteCategories
-setfield Palette[502].CategoryIndex 84
-setfield Palette[502].DescriptionIndex -1
-setfield Palette[502].Object object\weapons\dc-17\dc-17.weapon
+setfield Palette[*].Name "DC-17"
+setfield Palette[*].Type Weapon
+setfield Palette[*].CategoryIndex 84
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\weapons\dc-17\dc-17.weapon
 
 addblockelements Palette
-setfield Palette[503].Name "DH-17"
-setfield Palette[503].Type Weapon
-
-addblockelements PaletteCategories
-setfield Palette[503].CategoryIndex 84
-setfield Palette[503].DescriptionIndex -1
-setfield Palette[503].Object object\weapons\dh-17\dh-17.weapon
+setfield Palette[*].Name "DH-17"
+setfield Palette[*].Type Weapon
+setfield Palette[*].CategoryIndex 84
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\weapons\dh-17\dh-17.weapon
 
 addblockelements Palette
-setfield Palette[504].Name "E-11"
-setfield Palette[504].Type Weapon
-
-addblockelements PaletteCategories
-setfield Palette[504].CategoryIndex 84
-setfield Palette[504].DescriptionIndex -1
-setfield Palette[504].Object object\weapons\e-11\e-11.weapon
+setfield Palette[*].Name "E-11"
+setfield Palette[*].Type Weapon
+setfield Palette[*].CategoryIndex 84
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\weapons\e-11\e-11.weapon
 
 addblockelements Palette
-setfield Palette[505].Name "E-5"
-setfield Palette[505].Type Weapon
-
-addblockelements PaletteCategories
-setfield Palette[505].CategoryIndex 84
-setfield Palette[505].DescriptionIndex -1
-setfield Palette[505].Object object\weapons\e-5\e-5.weapon
+setfield Palette[*].Name "E-5"
+setfield Palette[*].Type Weapon
+setfield Palette[*].CategoryIndex 84
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\weapons\e-5\e-5.weapon
 
 addblockelements Palette
-setfield Palette[506].Name "DC-15x Sniper Rifle"
-setfield Palette[506].Type Weapon
-
-addblockelements PaletteCategories
-setfield Palette[506].CategoryIndex 84
-setfield Palette[506].DescriptionIndex -1
-setfield Palette[506].Object object\weapons\sniper_rifle\sniper_rifle.weapon
+setfield Palette[*].Name "DC-15x Sniper Rifle"
+setfield Palette[*].Type Weapon
+setfield Palette[*].CategoryIndex 84
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\weapons\sniper_rifle\sniper_rifle.weapon
 
 addblockelements Palette
-setfield Palette[507].Name "Golf Club"
-setfield Palette[507].Type Weapon
-
-addblockelements PaletteCategories
-setfield Palette[507].CategoryIndex 84
-setfield Palette[507].DescriptionIndex -1
-setfield Palette[507].Object objects\levels\dlc\shared\golf_club\golf_club.weapon
+setfield Palette[*].Name "Golf Club"
+setfield Palette[*].Type Weapon
+setfield Palette[*].CategoryIndex 84
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\levels\dlc\shared\golf_club\golf_club.weapon
 
 addblockelements Palette
-setfield Palette[508].Name "Brute Plasma Rifle"
-setfield Palette[508].Type Weapon
-
-addblockelements PaletteCategories
-setfield Palette[508].CategoryIndex 84
-setfield Palette[508].DescriptionIndex -1
-setfield Palette[508].Object objects\weapons\rifle\plasma_rifle_red\plasma_rifle_red.weapon
+setfield Palette[*].Name "Brute Plasma Rifle"
+setfield Palette[*].Type Weapon
+setfield Palette[*].CategoryIndex 84
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\weapons\rifle\plasma_rifle_red\plasma_rifle_red.weapon
 
 addblockelements Palette
-setfield Palette[509].Name "Silenced SMG"
-setfield Palette[509].Type Weapon
+setfield Palette[*].Name "Silenced SMG"
+setfield Palette[*].Type Weapon
+setfield Palette[*].CategoryIndex 84
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\weapons\rifle\smg_silenced\smg_silenced.weapon
 
-addblockelements PaletteCategories
-setfield Palette[509].CategoryIndex 84
-setfield Palette[509].DescriptionIndex -1
-setfield Palette[509].Object objects\weapons\rifle\smg_silenced\smg_silenced.weapon
+addblockelements Palette
+setfield Palette[*].Name "Automag"
+setfield Palette[*].Type Weapon
+setfield Palette[*].CategoryIndex 84
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\weapons\pistol\automag\automag.weapon
 
 # echo ==Vehicles...==
 
+addblockelements Palette
+setfield Palette[*].Name "AAT"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\aat\aat.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Geonosis Turret"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\geo_turret\geo_turret.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Hoth Speeder New"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\hoth_speeder_new\hoth_speeder_new.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Hoth Defense Turret"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\hoth_turret\hoth_turret.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Kashyyyk Turret"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex -1
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\kash_turret\kash_turret.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Huge Kashyyyk Turret"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\kash_turret_huge\kash_turret_huge.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "MTT"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\mtt\mtt.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Persuader"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\persuader\persuader.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Skiff"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\skiff\skiff.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Hover Tank"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\speed_bike\speed_bike.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Hover Tank Scarif"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\speed_bike_scarif\speed_bike_scarif.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Hover Tank"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\speed_bike_snow\speed_bike_snow.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Speeder"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\speeder\speeder.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "STAP"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\stap\stap.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "TX-130"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\tx130\tx130.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "V-Wing"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\v-wing\v-wing.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "X-34 landspeeder"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\x34_landspeeder\x34_landspeeder.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Deathstar Turret"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\levels\multi\imp_deathstar\turret\turret.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Behemoth Snow"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\levels\multi\shrine\behemoth_snow\behemoth_snow.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Electric Cart"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\vehicles\cart_electric\cart_electric.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Normal Ghost"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\vehicles\ghost_snow\ghost_snow.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Hoth Speeder"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\vehicles\hoth_speeder\hoth_speeder.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Republic Speeder"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\speeder_repub\speeder_repub.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Snow Speeder"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object object\vehicles\speeder_snow\speeder_snow.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Snow Mongoose"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\vehicles\mongoose\mongoose_snow.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Snow Tank"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\vehicles\scorpion\scorpion_snow.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Spinwheel Spinny"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\vehicles\spinwheel\spinny.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Spinwheel"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex -1
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\vehicles\spinwheel\spinwheel.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Spinwheel Hog"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex -1
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\vehicles\spinwheel\spinwheelhog.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Tie Striker"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\vehicles\tie_striker\tie_striker.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Standalone Chaingun Turret"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\vehicles\turret_standalone\chaingun.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Standalone Gauss Turret"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\vehicles\turret_standalone\gauss.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "TX-130 New"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\vehicles\tx130\tx130_new.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "TX-130 Snow"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\vehicles\tx130_snow\tx130_snow.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "U-Wing"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\vehicles\u-wing\u-wing.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Gauss Hog Snow"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\vehicles\warthog\warthog_gauss_snow.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Warthog Wrecked Turret"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\vehicles\warthog\warthog_wrecked_turret.vehicle
+
+addblockelements Palette
+setfield Palette[*].Name "Zeta Class Shuttle"
+setfield Palette[*].Type Vehicle
+setfield Palette[*].CategoryIndex 85
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\vehicles\zeta_class_shuttle\zeta_class_shuttle.vehicle
 
 # echo ==Machines...==
 
+//addblockelements Palette
+//setfield Palette[*].Name "EXAMPLE"
+//setfield Palette[*].Type Machine
+//setfield Palette[*].CategoryIndex 86
+//setfield Palette[*].DescriptionIndex -1
+//setfield Palette[*].Object EXAMPLE\EXAMPLE.mach
 
 # echo ==Misc...==
 

@@ -25,4 +25,13 @@ Clone Customization (TwistedFlog is on it).
 
 Light Sabers Mod.
 
+
+//Forge Stuff
+
+fix stand alone turrets
+fix aat not spawning with turret when forged
+cant pickup U-Wing
+cant pickup Zeta Class Shuttle
+cant pickup scenaio placed starwars sniper?
+
 ```
