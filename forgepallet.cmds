@@ -1,0 +1,130 @@
+edittag multiplayer\forge_globals.forge_globals_definition
+
+# echo ==Categories...==
+
+addblockelements PaletteCategories
+setfield PaletteCategories[83].Name "STAR WARS"
+setfield PaletteCategories[83].DescriptionIndex -1
+setfield PaletteCategories[83].ParentCategoryIndex -1
+
+addblockelements PaletteCategories
+setfield PaletteCategories[84].Name "WEAPONS"
+setfield PaletteCategories[84].DescriptionIndex -1
+setfield PaletteCategories[84].ParentCategoryIndex 83
+
+addblockelements PaletteCategories
+setfield PaletteCategories[85].Name "VEHICLES"
+setfield PaletteCategories[85].DescriptionIndex -1
+setfield PaletteCategories[85].ParentCategoryIndex 83
+
+addblockelements PaletteCategories
+setfield PaletteCategories[86].Name "MACHINES"
+setfield PaletteCategories[86].DescriptionIndex -1
+setfield PaletteCategories[86].ParentCategoryIndex 83
+
+addblockelements PaletteCategories
+setfield PaletteCategories[87].Name "MISC"
+setfield PaletteCategories[87].DescriptionIndex -1
+setfield PaletteCategories[87].ParentCategoryIndex 83
+
+# echo ==Weapons...==
+
+addblockelements Palette
+setfield Palette[499].Name "DC-15"
+setfield Palette[499].Type Weapon
+
+addblockelements PaletteCategories
+setfield Palette[499].CategoryIndex 84
+setfield Palette[499].DescriptionIndex -1
+setfield Palette[499].Object objects\weapons\rifle\dc-15\dc-15.weapon
+
+addblockelements Palette
+setfield Palette[500].Name "A280"
+setfield Palette[500].Type Weapon
+
+addblockelements PaletteCategories
+setfield Palette[500].CategoryIndex 84
+setfield Palette[500].DescriptionIndex -1
+setfield Palette[500].Object object\weapons\a280\a280.weapon
+
+addblockelements Palette
+setfield Palette[501].Name "DC-15A"
+setfield Palette[501].Type Weapon
+
+addblockelements PaletteCategories
+setfield Palette[501].CategoryIndex 84
+setfield Palette[501].DescriptionIndex -1
+setfield Palette[501].Object object\weapons\dc15a\dc15a.weapon
+
+addblockelements Palette
+setfield Palette[502].Name "DC-17"
+setfield Palette[502].Type Weapon
+
+addblockelements PaletteCategories
+setfield Palette[502].CategoryIndex 84
+setfield Palette[502].DescriptionIndex -1
+setfield Palette[502].Object object\weapons\dc-17\dc-17.weapon
+
+addblockelements Palette
+setfield Palette[503].Name "DH-17"
+setfield Palette[503].Type Weapon
+
+addblockelements PaletteCategories
+setfield Palette[503].CategoryIndex 84
+setfield Palette[503].DescriptionIndex -1
+setfield Palette[503].Object object\weapons\dh-17\dh-17.weapon
+
+addblockelements Palette
+setfield Palette[504].Name "E-11"
+setfield Palette[504].Type Weapon
+
+addblockelements PaletteCategories
+setfield Palette[504].CategoryIndex 84
+setfield Palette[504].DescriptionIndex -1
+setfield Palette[504].Object object\weapons\e-11\e-11.weapon
+
+addblockelements Palette
+setfield Palette[505].Name "E-5"
+setfield Palette[505].Type Weapon
+
+addblockelements PaletteCategories
+setfield Palette[505].CategoryIndex 84
+setfield Palette[505].DescriptionIndex -1
+setfield Palette[505].Object object\weapons\e-5\e-5.weapon
+
+addblockelements Palette
+setfield Palette[506].Name "DC-15x Sniper Rifle"
+setfield Palette[506].Type Weapon
+
+addblockelements PaletteCategories
+setfield Palette[506].CategoryIndex 84
+setfield Palette[506].DescriptionIndex -1
+setfield Palette[506].Object object\weapons\sniper_rifle\sniper_rifle.weapon
+
+addblockelements Palette
+setfield Palette[507].Name "Golf Club"
+setfield Palette[507].Type Weapon
+
+addblockelements PaletteCategories
+setfield Palette[507].CategoryIndex 84
+setfield Palette[507].DescriptionIndex -1
+setfield Palette[507].Object objects\levels\dlc\shared\golf_club\golf_club.weapon
+
+addblockelements Palette
+setfield Palette[508].Name "Brute Plasma Rifle"
+setfield Palette[508].Type Weapon
+
+addblockelements PaletteCategories
+setfield Palette[508].CategoryIndex 84
+setfield Palette[508].DescriptionIndex -1
+setfield Palette[508].Object objects\weapons\rifle\plasma_rifle_red\plasma_rifle_red.weapon
+
+addblockelements Palette
+setfield Palette[509].Name "Silenced SMG"
+setfield Palette[509].Type Weapon
+
+addblockelements PaletteCategories
+setfield Palette[509].CategoryIndex 84
+setfield Palette[509].DescriptionIndex -1
+setfield Palette[509].Object objects\weapons\rifle\smg_silenced\smg_silenced.weapon
+savetagchanges
