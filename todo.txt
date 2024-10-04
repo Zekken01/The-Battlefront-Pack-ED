@@ -28,10 +28,21 @@ Light Sabers Mod.
 
 //Forge Stuff
 
-fix stand alone turrets
+duplicate the fix for the ion cannon
+https://s.zekken.rocks/TNAS8kgi.jpg
+
+add the large covenant AA gun to the pallette
+fix stand alone turrets not having the turret base
 fix aat not spawning with turret when forged
 cant pickup U-Wing
 cant pickup Zeta Class Shuttle
-cant pickup scenaio placed starwars sniper?
-
+cant pickup scenaio placed starwars sniper or vanilla sniper?
+cant pickup deathstar turret
+cant pickup default placed banshee on geonosis
+cant pickup Minecraft Building
+cant pickup General Kenobi Image
+cant pickup Barrier
+or the 45 sandbag wall
+or the crates
+or destroyed phantom
 ```
