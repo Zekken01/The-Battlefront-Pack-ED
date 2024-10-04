@@ -117,6 +117,7 @@ RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 RunCommands workingdir\better3panimations.cmds
+RunCommands workingdir\machinefixes.cmds
 
 EditTag levels\multi\coruscant\coruscant.scenario
 SetField MapId 60001
@@ -256,10 +257,6 @@ SetField CutsceneCameraPoints[1].Position 21.8923 -31.9345 6.1665
 SetField CutsceneCameraPoints[1].Orientation 51 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-SaveTagChanges
-Exit
-EditTag levels\multi\utapau\objects\wind_machine\wind_machine.device_machine
-RemoveBlockElements MultiplayerObject 0 *
 SaveTagChanges
 Exit
 

@@ -1,0 +1,89 @@
+EditTag levels\multi\utapau\objects\wind_machine\wind_machine.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\phantom\phantom_machine\phantom_machine.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\cov_cruiser\cov_cruiser_machine\cov_cruiser_machine.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
+
+EditTag objects\scenery\frigate\frigate.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
+
+EditTag objects\scenery\atte_spawn\atte_spawn.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
+
+EditTag objects\scenery\atat_spawning_scarif\atat_spawning_scarif.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
+
+EditTag objects\scenery\atat_spawning\atat_spawning.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
+
+EditTag object\vehicles\laat_carrier_dropoff\objects\flyatte\flyatte.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
+
+EditTag object\vehicles\laat_carrier_dropoff\laat_carrier_dropoff.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
+
+EditTag object\vehicles\ion_cannon_machine\ion_cannon_machine.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
+
+EditTag levels\multi\scarif\objects\flying_ship\flying_ship.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mustafar\objects\swirly\swirly.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mustafar\objects\ship_hologram\ship_hologram.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mustafar\objects\ship_confed_holo\ship_confed_holo.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mustafar\objects\minecraft\minecraft.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mustafar\objects\dead_anakin\dead_anakin.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mustafar\objects\abyss\abyss.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mos_eisley\objects\machine_falcon_take_off\machine_falcon_take_off.device_machine
+RemoveBlockElements MultiplayerObject 0 *
+SaveTagChanges
+Exit
