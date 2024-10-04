@@ -15,8 +15,6 @@ Elites cant use the turret on geonosis.
 object\vehicles\geo_turret\geo_turret.vehicle
 https://s.zekken.rocks/2CWZnPFT.jpg
 
-Finish Forge Palette 
-
 End Game Music
 
 Add Ambient Music from battlefront.
@@ -28,21 +26,14 @@ Light Sabers Mod.
 
 //Forge Stuff
 
-duplicate the fix for the ion cannon
+duplicate the fix for the ion cannon? or just use the scenery instead of the machine
 https://s.zekken.rocks/TNAS8kgi.jpg
 
-add the large covenant AA gun to the pallette
-fix stand alone turrets not having the turret base
-fix aat not spawning with turret when forged
-cant pickup U-Wing
-cant pickup Zeta Class Shuttle
-cant pickup scenaio placed starwars sniper or vanilla sniper?
-cant pickup deathstar turret
-cant pickup default placed banshee on geonosis
-cant pickup Minecraft Building
-cant pickup General Kenobi Image
-cant pickup Barrier
-or the 45 sandbag wall
-or the crates
-or destroyed phantom
+Wind Machine doesnt spin even after adding to forge pallette.
+AT-AT bipeds despawn after being moved by the player and also cant be picked back up after being placed.
+Add the large covenant AA gun to the pallette.
+Add the Covenant Sniper Tower to the pallette.
+Fix stand alone turrets not having the turret base.
+Fix AAT not spawning with turret when forged.
+cant pickup Zeta Class Shuttle, Barrier, deathstar turret, banshee on geonosis, Minecraft Building, General Kenobi Image, weapon crates, U-Wing, Sniper, 45 sandbag wall, destroyed phantom, Snow Scorpion.
 ```
