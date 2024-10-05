@@ -404,49 +404,49 @@ setfield Palette[*].Object objects\vehicles\zeta_class_shuttle\zeta_class_shuttl
 
 addblockelements Palette
 setfield Palette[*].Name "AT-AT Spawner"
-setfield Palette[*].Type Machine
+setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 86
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\scenery\atat_spawning_scarif\atat_spawning_scarif.device_machine
 
 addblockelements Palette
 setfield Palette[*].Name "Snow AT-AT Spawner"
-setfield Palette[*].Type Machine
+setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 86
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\scenery\atat_spawning\atat_spawning.device_machine
 
 addblockelements Palette
 setfield Palette[*].Name "Ion Cannon"
-setfield Palette[*].Type Machine
+setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 86
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object object\vehicles\ion_cannon_machine\ion_cannon_machine.device_machine
 
 addblockelements Palette
 setfield Palette[*].Name "Big Door Mustafar"
-setfield Palette[*].Type Machine
+setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 86
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object levels\multi\mustafar\objects\big_door\big_door.device_machine
 
 addblockelements Palette
 setfield Palette[*].Name "Window"
-setfield Palette[*].Type Machine
+setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 86
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object levels\multi\mustafar\objects\window\window.device_machine
 
 addblockelements Palette
 setfield Palette[*].Name "Triangle Door"
-setfield Palette[*].Type Machine
+setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 86
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object levels\multi\mustafar\objects\triangle\triangle.device_machine
 
 addblockelements Palette
 setfield Palette[*].Name "Wind Machine"
-setfield Palette[*].Type Machine
+setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 86
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object levels\multi\utapau\objects\wind_machine\wind_machine.device_machine
@@ -748,11 +748,11 @@ setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\scenery\general_kenobi\general_kenobi.scenery
 
 //addblockelements Palette
-//setfield Palette[*].Name "Moisture Vaporator"
+//setfield Palette[*].Name "Invisible Block"
 //setfield Palette[*].Type Prop
-//setfield Palette[*].CategoryIndex 87
+//setfield Palette[*].CategoryIndex -1
 //setfield Palette[*].DescriptionIndex -1
-//setfield Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
+//setfield Palette[*].Object levels\multi\080_deathstar\object\barrier.crate
 
 //addblockelements Palette
 //setfield Palette[*].Name "Moisture Vaporator"
@@ -849,10 +849,20 @@ addblockelements MultiplayerObject
 savetagchanges
 exit
 
-//edittag objects\vehicles\phantom\phantom_damaged\phantom_damaged.scenery
-//addblockelements MultiplayerObject
-//savetagchanges
-//exit
+edittag objects\scenery\random_build\random_build.scenery
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag levels\multi\mos_eisley\objects\jukebox\jukebox.scenery
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag objects\scenery\general_kenobi\general_kenobi.scenery
+addblockelements MultiplayerObject
+savetagchanges
+exit
 
 //edittag objects\vehicles\phantom\phantom_damaged\phantom_damaged.scenery
 //addblockelements MultiplayerObject
