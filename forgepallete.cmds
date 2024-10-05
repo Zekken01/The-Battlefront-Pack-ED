@@ -545,6 +545,27 @@ setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\gear\covenant\military\cov_watchtower\cov_watchtower_pod\cov_watchtower_pod_turrets.crate
 
 addblockelements Palette
+setfield Palette[*].Name "Covenant AA Gun Base"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 87
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
+
+addblockelements Palette
+setfield Palette[*].Name "Covenant AA Gun Top"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 87
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
+
+addblockelements Palette
+setfield Palette[*].Name "Covenant AA Gun Top 2"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 87
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
+
+addblockelements Palette
 setfield Palette[*].Name "Ammo Pack Large"
 setfield Palette[*].Type Equipment
 setfield Palette[*].CategoryIndex -1
@@ -751,14 +772,14 @@ setfield Palette[*].Object objects\scenery\general_kenobi\general_kenobi.scenery
 
 addblockelements Palette
 setfield Palette[*].Name "Thick Large Smoke"
-setfield Palette[*].Type Prop
+setfield Palette[*].Type Effects
 setfield Palette[*].CategoryIndex 88
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object fx\scenery_fx\smoke\smoke_thick_large\smoke_thick_large.effect_scenery
 
 //addblockelements Palette
 //setfield Palette[*].Name "Moisture Vaporator"
-//setfield Palette[*].Type Prop
+//setfield Palette[*].Type Effects
 //setfield Palette[*].CategoryIndex 88
 //setfield Palette[*].DescriptionIndex -1
 //setfield Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
@@ -797,6 +818,46 @@ edittag objects\vehicles\phantom\phantom_damaged\phantom_damaged.scenery
 addblockelements MultiplayerObject
 savetagchanges
 exit
+
+edittag objects\scenery\tahoe\tahoe.scenery
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag objects\levels\shared\bfg_stand\bfg_stand.scenery
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag objects\levels\shared\bfg_gun\bfg_gun.scenery
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag objects\levels\shared\bfg_gun\bfg_gun_2.scenery
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag objects\vehicles\u-wing\u-wing.vehicle
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag objects\levels\multi\imp_deathstar\turret\turret.vehicle
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+//edittag objects\vehicles\phantom\phantom_damaged\phantom_damaged.scenery
+//addblockelements MultiplayerObject
+//savetagchanges
+//exit
+
+//edittag objects\vehicles\phantom\phantom_damaged\phantom_damaged.scenery
+//addblockelements MultiplayerObject
+//savetagchanges
+//exit
 
 edittag multiplayer\forge_globals.forge_globals_definition
 MaximizeBudget
