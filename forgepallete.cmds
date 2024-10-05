@@ -27,6 +27,11 @@ setfield PaletteCategories[87].Name "MISC"
 setfield PaletteCategories[87].DescriptionIndex -1
 setfield PaletteCategories[87].ParentCategoryIndex 83
 
+addblockelements PaletteCategories
+setfield PaletteCategories[88].Name "EFFECTS"
+setfield PaletteCategories[88].DescriptionIndex -1
+setfield PaletteCategories[88].ParentCategoryIndex 83
+
 # echo ==Weapons...==
 
 addblockelements Palette
@@ -526,6 +531,20 @@ setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\gear\covenant\military\antennae_comm_mp\antennae_comm_mp.crate
 
 addblockelements Palette
+setfield Palette[*].Name "Covenant Watch Tower Base"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 87
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\gear\covenant\military\cov_watchtower\cov_watchtower_base\cov_watchtower_base.crate
+
+addblockelements Palette
+setfield Palette[*].Name "Covenant Watch Tower Top"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 87
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\gear\covenant\military\cov_watchtower\cov_watchtower_pod\cov_watchtower_pod_turrets.crate
+
+addblockelements Palette
 setfield Palette[*].Name "Ammo Pack Large"
 setfield Palette[*].Type Equipment
 setfield Palette[*].CategoryIndex -1
@@ -552,6 +571,13 @@ setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 87
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\vehicles\phantom\phantom_damaged\phantom_damaged.scenery
+
+addblockelements Palette
+setfield Palette[*].Name "Crashed Pelican"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 87
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\levels\shared\pelican_crashed_h3\pelican_crashed_snow\pelican_crashed_h3_snow.scenery
 
 addblockelements Palette
 setfield Palette[*].Name "Command Post Base"
@@ -720,4 +746,59 @@ setfield Palette[*].Object objects\scenery\general_kenobi\general_kenobi.scenery
 //setfield Palette[*].CategoryIndex 87
 //setfield Palette[*].DescriptionIndex -1
 //setfield Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
+
+# echo ==EFFECTS...==
+
+addblockelements Palette
+setfield Palette[*].Name "Thick Large Smoke"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 88
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object fx\scenery_fx\smoke\smoke_thick_large\smoke_thick_large.effect_scenery
+
+//addblockelements Palette
+//setfield Palette[*].Name "Moisture Vaporator"
+//setfield Palette[*].Type Prop
+//setfield Palette[*].CategoryIndex 88
+//setfield Palette[*].DescriptionIndex -1
+//setfield Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
+
 savetagchanges
+exit
+
+# echo ==Multiplayer Object Block...==
+
+edittag objects\gear\human\military\sandbag_wall_45corner\sandbag_wall_45corner.scenery
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag objects\gear\human\military\crate_h_gun_rack_0\crate_h_gun_rack_0.crate
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag objects\gear\human\military\crate_h_gun_rack_1\crate_h_gun_rack_1.crate
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag objects\gear\human\military\crate_h_gun_rack_2\crate_h_gun_rack_2.crate
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag objects\levels\shared\pelican_crashed_h3\pelican_crashed_snow\pelican_crashed_h3_snow.scenery
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag objects\vehicles\phantom\phantom_damaged\phantom_damaged.scenery
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag multiplayer\forge_globals.forge_globals_definition
+MaximizeBudget
+savetagchanges
+exit

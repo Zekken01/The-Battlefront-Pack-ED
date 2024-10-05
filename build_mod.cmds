@@ -117,7 +117,6 @@ RunCommands workingdir\sprintfixups.cmds
 RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 RunCommands workingdir\better3panimations.cmds
-RunCommands workingdir\forgepallete.cmds
 RunCommands workingdir\machinefixes.cmds
 
 EditTag levels\multi\coruscant\coruscant.scenario
@@ -264,6 +263,7 @@ Exit
 UpdateMapFiles
 
 RunCommands workingdir\mapdescriptions.cmds
+RunCommands workingdir\forgepallete.cmds
 
 SaveModPackage "modsfolder\The Battlefront Pack.pak"
 
