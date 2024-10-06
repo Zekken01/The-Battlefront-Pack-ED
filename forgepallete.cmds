@@ -417,7 +417,7 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\scenery\atat_spawning\atat_spawning.device_machine
 
 AddBlockElements Palette
-SetField Palette[*].Name "Ion Cannon"
+SetField Palette[*].Name "Ion Cannon Machine"
 SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex 86
 SetField Palette[*].DescriptionIndex -1
@@ -755,6 +755,13 @@ SetField Palette[*].CategoryIndex -1
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object levels\multi\080_deathstar\object\barrier.crate
 
+AddBlockElements Palette
+SetField Palette[*].Name "Ion Cannon"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\vehicles\ion_cannon\ion_cannon.scenery
+
 ##AddBlockElements Palette
 ##SetField Palette[*].Name "EXAMPLE"
 ##SetField Palette[*].Type Prop
@@ -859,6 +866,11 @@ SaveTagChanges
 Exit
 
 EditTag fx\scenery_fx\smoke\smoke_thick_large\smoke_thick_large.effect_scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\ion_cannon\ion_cannon.scenery
 AddBlockElements MultiplayerObject
 SaveTagChanges
 Exit

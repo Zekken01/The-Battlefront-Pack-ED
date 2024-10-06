@@ -29,9 +29,6 @@ https://s.zekken.rocks/TNAS8kgi.jpg
 
 Wind Machine doesnt spin even after adding to forge pallette.
 AT-AT bipeds despawn after being moved by the player and also cant be picked back up after being placed.
-Add the large covenant AA gun to the pallette.
-Add the Covenant Sniper Tower to the pallette.
 Fix stand alone turrets not having the turret base.
 Fix AAT not spawning with turret when forged.
-Can't pickup Zeta Class Shuttle, Barrier, deathstar turret, banshee on geonosis, Minecraft Building, General Kenobi Image, weapon crates, U-Wing, Sniper, 45 sandbag wall, destroyed phantom, Snow Scorpion, and a lot more.
 ```
