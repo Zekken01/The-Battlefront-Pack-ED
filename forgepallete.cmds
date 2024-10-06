@@ -857,10 +857,10 @@ AddBlockElements MultiplayerObject
 SaveTagChanges
 Exit
 
-##EditTag fx\scenery_fx\smoke\example.scenery
-##AddBlockElements MultiplayerObject
-##SaveTagChanges
-##Exit
+EditTag fx\scenery_fx\smoke\smoke_thick_large\smoke_thick_large.effect_scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
 
 EditTag multiplayer\forge_globals.forge_globals_definition
 MaximizeBudget

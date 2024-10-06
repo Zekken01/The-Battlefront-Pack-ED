@@ -1,8 +1,6 @@
 ```
 Automatic doors take too long to open.
 
-Fix millenium Falcon being too bright
-
 Rocket Launcher has crazy drop on the projectile on some maps (scarif).
 
 Original animated battlefront loading screens as apng.
@@ -12,10 +10,6 @@ https://s.zekken.rocks/jG4YPtBu.jpg
 
 Infantry turret (passenger) on the T-47 air speeder shows weapon icon on HUD.
 https://s.zekken.rocks/TR9tDOg0.jpg
-
-Elites cant use the turret on geonosis.
-object\vehicles\geo_turret\geo_turret.vehicle
-https://s.zekken.rocks/2CWZnPFT.jpg
 
 End Game Music
 
@@ -28,7 +22,7 @@ Light Sabers Mod.
 
 //Forge Stuff
 
-Add the skyboxes to the skybox category
+Add the skyboxes to the skybox category if they're original
 
 Fix ion cannon machine
 https://s.zekken.rocks/TNAS8kgi.jpg

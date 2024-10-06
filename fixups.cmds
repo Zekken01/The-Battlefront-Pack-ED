@@ -138,3 +138,20 @@ ForEach Events ForEach ParticleSystems SetField LodOutDistance 10000
 ForEach Events ForEach ParticleSystems ForEach Emitters SetField BoundingRadiusEstimate 20
 SaveTagChanges
 Exit
+
+EditTag objects\vehicles\millenium_falcon\shaders\falcon_main.shader
+setargument specular_coefficient 0
+setargument diffuse_coefficient 0.3
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\millenium_falcon\shaders\falcon_gear.shader
+setargument specular_coefficient 0
+setargument diffuse_coefficient 0.3
+SaveTagChanges
+Exit
+
+EditTag object\vehicles\geo_turret\geo_turret.vehicle
+setfield Seats[0].Label mauler_g
+SaveTagChanges
+Exit
