@@ -538,11 +538,18 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\gear\covenant\military\cov_watchtower\cov_watchtower_base\cov_watchtower_base.crate
 
 AddBlockElements Palette
-SetField Palette[*].Name "Covenant Watch Tower Top"
+SetField Palette[*].Name "Covenant Watch Tower Top Turrets"
 SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex 87
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\gear\covenant\military\cov_watchtower\cov_watchtower_pod\cov_watchtower_pod_turrets.crate
+
+AddBlockElements Palette
+SetField Palette[*].Name "Covenant Watch Tower Top"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\gear\covenant\military\cov_watchtower\cov_watchtower_pod\cov_watchtower_pod.crate
 
 AddBlockElements Palette
 SetField Palette[*].Name "Covenant AA Gun Base"
