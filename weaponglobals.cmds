@@ -1,10 +1,25 @@
+
+stringid add A280
+stringid add DC-15
+stringid add DC-15A
+stringid add DC-15xSniperRifle
+stringid add DC-17
+stringid add DH-17
+stringid add E-11
+stringid add E-5
+stringid add GolfClub
+stringid add BrutePlasmaRifle
+stringid add SilencedSMG
+stringid add Automag
+
+
 # echo ==A280...==
 
 EditTag multiplayer\multiplayer_globals.mulg
 AddBlockElements Universal[0].GameVariantWeapons
 SetField Universal[0].GameVariantWeapons[*].Name A280
 SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
-SetField Universal[0].GameVariantWeapons[*].Weapon object.weaps\a280\a280.weap
+SetField Universal[0].GameVariantWeapons[*].Weapon object\weapons\a280\a280.weapon
 AddBlockElements Universal[0].WeaponSets[0].Substitutions
 SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon A280
 SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon A280
@@ -16,7 +31,7 @@ SetString english A280 "A280"
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_primary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue A280
@@ -24,7 +39,7 @@ SetField TextValuePairs[*].Name A280
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_secondary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue A280
@@ -32,7 +47,7 @@ SetField TextValuePairs[*].Name A280
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_primary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue A280
@@ -40,7 +55,7 @@ SetField TextValuePairs[*].Name A280
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_secondary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue A280
@@ -54,7 +69,7 @@ EditTag multiplayer\multiplayer_globals.mulg
 AddBlockElements Universal[0].GameVariantWeapons
 SetField Universal[0].GameVariantWeapons[*].Name DC-15
 SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
-SetField Universal[0].GameVariantWeapons[*].Weapon objects.weaps\rifle\dc-15\dc-15.weap
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\dc-15\dc-15.weapon
 AddBlockElements Universal[0].WeaponSets[0].Substitutions
 SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon DC-15
 SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon DC-15
@@ -66,7 +81,7 @@ SetString english DC-15 "DC-15"
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_primary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue DC-15
@@ -74,7 +89,7 @@ SetField TextValuePairs[*].Name DC-15
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_secondary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue DC-15
@@ -82,7 +97,7 @@ SetField TextValuePairs[*].Name DC-15
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_primary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue DC-15
@@ -90,7 +105,7 @@ SetField TextValuePairs[*].Name DC-15
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_secondary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue DC-15
@@ -104,7 +119,7 @@ EditTag multiplayer\multiplayer_globals.mulg
 AddBlockElements Universal[0].GameVariantWeapons
 SetField Universal[0].GameVariantWeapons[*].Name DC-15A
 SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
-SetField Universal[0].GameVariantWeapons[*].Weapon object.weaps\dc15a\dc15a.weap
+SetField Universal[0].GameVariantWeapons[*].Weapon object\weapons\dc15a\dc15a.weapon
 AddBlockElements Universal[0].WeaponSets[0].Substitutions
 SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon DC-15A
 SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon DC-15A
@@ -116,7 +131,7 @@ SetString english DC-15A "DC-15A"
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_primary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue DC-15A
@@ -124,7 +139,7 @@ SetField TextValuePairs[*].Name DC-15A
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_secondary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue DC-15A
@@ -132,7 +147,7 @@ SetField TextValuePairs[*].Name DC-15A
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_primary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue DC-15A
@@ -140,7 +155,7 @@ SetField TextValuePairs[*].Name DC-15A
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_secondary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue DC-15A
@@ -152,49 +167,49 @@ Exit
 
 EditTag multiplayer\multiplayer_globals.mulg
 AddBlockElements Universal[0].GameVariantWeapons
-SetField Universal[0].GameVariantWeapons[*].Name "DC-15x Sniper Rifle"
+SetField Universal[0].GameVariantWeapons[*].Name DC-15xSniperRifle
 SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
-SetField Universal[0].GameVariantWeapons[*].Weapon object.weaps\sniper_rifle\sniper_rifle.weap
+SetField Universal[0].GameVariantWeapons[*].Weapon object\weapons\sniper_rifle\sniper_rifle.weapon
 AddBlockElements Universal[0].WeaponSets[0].Substitutions
-SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon "DC-15x Sniper Rifle"
-SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon "DC-15x Sniper Rifle"
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon DC-15xSniperRifle
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon DC-15xSniperRifle
 SaveTagChanges
 Exit
 
 EditTag ui\halox\game_options\strings.unic
-SetString english "DC-15x Sniper Rifle" "DC-15x SNIPER RIFLE"
+SetString english DC-15xSniperRifle "DC-15x SNIPER RIFLE"
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_primary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
-SetField TextValuePairs[*].StringidValue "DC-15x Sniper Rifle"
-SetField TextValuePairs[*].Name "DC-15x Sniper Rifle"
+SetField TextValuePairs[*].StringidValue DC-15xSniperRifle
+SetField TextValuePairs[*].Name DC-15xSniperRifle
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_secondary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
-SetField TextValuePairs[*].StringidValue "DC-15x Sniper Rifle"
-SetField TextValuePairs[*].Name "DC-15x Sniper Rifle"
+SetField TextValuePairs[*].StringidValue DC-15xSniperRifle
+SetField TextValuePairs[*].Name DC-15xSniperRifle
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_primary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
-SetField TextValuePairs[*].StringidValue "DC-15x Sniper Rifle"
-SetField TextValuePairs[*].Name "DC-15x Sniper Rifle"
+SetField TextValuePairs[*].StringidValue DC-15xSniperRifle
+SetField TextValuePairs[*].Name DC-15xSniperRifle
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_secondary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
-SetField TextValuePairs[*].StringidValue "DC-15x Sniper Rifle"
-SetField TextValuePairs[*].Name "DC-15x Sniper Rifle"
+SetField TextValuePairs[*].StringidValue DC-15xSniperRifle
+SetField TextValuePairs[*].Name DC-15xSniperRifle
 SaveTagChanges
 Exit
 
@@ -204,7 +219,7 @@ EditTag multiplayer\multiplayer_globals.mulg
 AddBlockElements Universal[0].GameVariantWeapons
 SetField Universal[0].GameVariantWeapons[*].Name DC-17
 SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
-SetField Universal[0].GameVariantWeapons[*].Weapon object.weaps\dc-17\dc-17.weap
+SetField Universal[0].GameVariantWeapons[*].Weapon object\weapons\dc-17\dc-17.weapon
 AddBlockElements Universal[0].WeaponSets[0].Substitutions
 SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon DC-17
 SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon DC-17
@@ -216,7 +231,7 @@ SetString english DC-17 "DC-17"
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_primary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue DC-17
@@ -224,7 +239,7 @@ SetField TextValuePairs[*].Name DC-17
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_secondary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue DC-17
@@ -232,7 +247,7 @@ SetField TextValuePairs[*].Name DC-17
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_primary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue DC-17
@@ -240,7 +255,7 @@ SetField TextValuePairs[*].Name DC-17
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_secondary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue DC-17
@@ -254,7 +269,7 @@ EditTag multiplayer\multiplayer_globals.mulg
 AddBlockElements Universal[0].GameVariantWeapons
 SetField Universal[0].GameVariantWeapons[*].Name DH-17
 SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
-SetField Universal[0].GameVariantWeapons[*].Weapon object.weaps\dh-17\dh-17.weap
+SetField Universal[0].GameVariantWeapons[*].Weapon object\weapons\dh-17\dh-17.weapon
 AddBlockElements Universal[0].WeaponSets[0].Substitutions
 SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon DH-17
 SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon DH-17
@@ -266,7 +281,7 @@ SetString english DH-17 "DH-17"
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_primary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue DH-17
@@ -274,7 +289,7 @@ SetField TextValuePairs[*].Name DH-17
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_secondary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue DH-17
@@ -282,7 +297,7 @@ SetField TextValuePairs[*].Name DH-17
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_primary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue DH-17
@@ -290,7 +305,7 @@ SetField TextValuePairs[*].Name DH-17
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_secondary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue DH-17
@@ -304,7 +319,7 @@ EditTag multiplayer\multiplayer_globals.mulg
 AddBlockElements Universal[0].GameVariantWeapons
 SetField Universal[0].GameVariantWeapons[*].Name E-11
 SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
-SetField Universal[0].GameVariantWeapons[*].Weapon object.weaps\e-11\e-11.weap
+SetField Universal[0].GameVariantWeapons[*].Weapon object\weapons\e-11\e-11.weapon
 AddBlockElements Universal[0].WeaponSets[0].Substitutions
 SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon E-11
 SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon E-11
@@ -316,7 +331,7 @@ SetString english E-11 "E-11"
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_primary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue E-11
@@ -324,7 +339,7 @@ SetField TextValuePairs[*].Name E-11
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_secondary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue E-11
@@ -332,7 +347,7 @@ SetField TextValuePairs[*].Name E-11
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_primary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue E-11
@@ -340,7 +355,7 @@ SetField TextValuePairs[*].Name E-11
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_secondary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue E-11
@@ -354,7 +369,7 @@ EditTag multiplayer\multiplayer_globals.mulg
 AddBlockElements Universal[0].GameVariantWeapons
 SetField Universal[0].GameVariantWeapons[*].Name E-5
 SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
-SetField Universal[0].GameVariantWeapons[*].Weapon object.weaps\e-5\e-5.weap
+SetField Universal[0].GameVariantWeapons[*].Weapon object\weapons\e-5\e-5.weapon
 AddBlockElements Universal[0].WeaponSets[0].Substitutions
 SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon E-5
 SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon E-5
@@ -366,7 +381,7 @@ SetString english E-5 "E-5"
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_primary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue E-5
@@ -374,7 +389,7 @@ SetField TextValuePairs[*].Name E-5
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_secondary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue E-5
@@ -382,7 +397,7 @@ SetField TextValuePairs[*].Name E-5
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_primary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue E-5
@@ -390,7 +405,7 @@ SetField TextValuePairs[*].Name E-5
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_secondary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue E-5
@@ -402,49 +417,49 @@ Exit
 
 EditTag multiplayer\multiplayer_globals.mulg
 AddBlockElements Universal[0].GameVariantWeapons
-SetField Universal[0].GameVariantWeapons[*].Name "Golf Club"
+SetField Universal[0].GameVariantWeapons[*].Name GolfClub
 SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
-SetField Universal[0].GameVariantWeapons[*].Weapon objects\levels\dlc\shared\golf_club\golf_club.weap
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\levels\dlc\shared\golf_club\golf_club.weapon
 AddBlockElements Universal[0].WeaponSets[0].Substitutions
-SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon "Golf Club"
-SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon "Golf Club"
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon GolfClub
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon GolfClub
 SaveTagChanges
 Exit
 
 EditTag ui\halox\game_options\strings.unic
-SetString english "Golf Club" "GOLF CLUB"
+SetString english GolfClub "GOLF CLUB"
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_primary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
-SetField TextValuePairs[*].StringidValue "Golf Club"
-SetField TextValuePairs[*].Name "Golf Club"
+SetField TextValuePairs[*].StringidValue GolfClub
+SetField TextValuePairs[*].Name GolfClub
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_secondary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
-SetField TextValuePairs[*].StringidValue "Golf Club"
-SetField TextValuePairs[*].Name "Golf Club"
+SetField TextValuePairs[*].StringidValue GolfClub
+SetField TextValuePairs[*].Name GolfClub
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_primary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
-SetField TextValuePairs[*].StringidValue "Golf Club"
-SetField TextValuePairs[*].Name "Golf Club"
+SetField TextValuePairs[*].StringidValue GolfClub
+SetField TextValuePairs[*].Name GolfClub
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_secondary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
-SetField TextValuePairs[*].StringidValue "Golf Club"
-SetField TextValuePairs[*].Name "Golf Club"
+SetField TextValuePairs[*].StringidValue GolfClub
+SetField TextValuePairs[*].Name GolfClub
 SaveTagChanges
 Exit
 
@@ -452,49 +467,49 @@ Exit
 
 EditTag multiplayer\multiplayer_globals.mulg
 AddBlockElements Universal[0].GameVariantWeapons
-SetField Universal[0].GameVariantWeapons[*].Name "Brute Plasma Rifle"
+SetField Universal[0].GameVariantWeapons[*].Name BrutePlasmaRifle
 SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
-SetField Universal[0].GameVariantWeapons[*].Weapon objects.weaps\rifle\plasma_rifle_red\plasma_rifle_red.weap
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\plasma_rifle_red\plasma_rifle_red.weapon
 AddBlockElements Universal[0].WeaponSets[0].Substitutions
-SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon "Brute Plasma Rifle"
-SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon "Brute Plasma Rifle"
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon BrutePlasmaRifle
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon BrutePlasmaRifle
 SaveTagChanges
 Exit
 
 EditTag ui\halox\game_options\strings.unic
-SetString english "Brute Plasma Rifle" "BRUTE PLASMA RIFLE"
+SetString english BrutePlasmaRifle "BRUTE PLASMA RIFLE"
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_primary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
-SetField TextValuePairs[*].StringidValue "Brute Plasma Rifle"
-SetField TextValuePairs[*].Name "Brute Plasma Rifle"
+SetField TextValuePairs[*].StringidValue BrutePlasmaRifle
+SetField TextValuePairs[*].Name BrutePlasmaRifle
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_secondary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
-SetField TextValuePairs[*].StringidValue "Brute Plasma Rifle"
-SetField TextValuePairs[*].Name "Brute Plasma Rifle"
+SetField TextValuePairs[*].StringidValue BrutePlasmaRifle
+SetField TextValuePairs[*].Name BrutePlasmaRifle
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_primary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
-SetField TextValuePairs[*].StringidValue "Brute Plasma Rifle"
-SetField TextValuePairs[*].Name "Brute Plasma Rifle"
+SetField TextValuePairs[*].StringidValue BrutePlasmaRifle
+SetField TextValuePairs[*].Name BrutePlasmaRifle
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_secondary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
-SetField TextValuePairs[*].StringidValue "Brute Plasma Rifle"
-SetField TextValuePairs[*].Name "Brute Plasma Rifle"
+SetField TextValuePairs[*].StringidValue BrutePlasmaRifle
+SetField TextValuePairs[*].Name BrutePlasmaRifle
 SaveTagChanges
 Exit
 
@@ -502,49 +517,49 @@ Exit
 
 EditTag multiplayer\multiplayer_globals.mulg
 AddBlockElements Universal[0].GameVariantWeapons
-SetField Universal[0].GameVariantWeapons[*].Name "Silenced SMG"
+SetField Universal[0].GameVariantWeapons[*].Name SilencedSMG
 SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
-SetField Universal[0].GameVariantWeapons[*].Weapon objects.weaps\rifle\smg_silenced\smg_silenced.weap
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\smg_silenced\smg_silenced.weapon
 AddBlockElements Universal[0].WeaponSets[0].Substitutions
-SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon "Silenced SMG"
-SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon "Silenced SMG"
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon SilencedSMG
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon SilencedSMG
 SaveTagChanges
 Exit
 
 EditTag ui\halox\game_options\strings.unic
-SetString english "Silenced SMG" "SILENCED SMG"
+SetString english SilencedSMG "SILENCED SMG"
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_primary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
-SetField TextValuePairs[*].StringidValue "Silenced SMG"
-SetField TextValuePairs[*].Name "Silenced SMG"
+SetField TextValuePairs[*].StringidValue SilencedSMG
+SetField TextValuePairs[*].Name SilencedSMG
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_secondary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
-SetField TextValuePairs[*].StringidValue "Silenced SMG"
-SetField TextValuePairs[*].Name "Silenced SMG"
+SetField TextValuePairs[*].StringidValue SilencedSMG
+SetField TextValuePairs[*].Name SilencedSMG
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_primary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
-SetField TextValuePairs[*].StringidValue "Silenced SMG"
-SetField TextValuePairs[*].Name "Silenced SMG"
+SetField TextValuePairs[*].StringidValue SilencedSMG
+SetField TextValuePairs[*].Name SilencedSMG
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_secondary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
-SetField TextValuePairs[*].StringidValue "Silenced SMG"
-SetField TextValuePairs[*].Name "Silenced SMG"
+SetField TextValuePairs[*].StringidValue SilencedSMG
+SetField TextValuePairs[*].Name SilencedSMG
 SaveTagChanges
 Exit
 
@@ -554,7 +569,7 @@ EditTag multiplayer\multiplayer_globals.mulg
 AddBlockElements Universal[0].GameVariantWeapons
 SetField Universal[0].GameVariantWeapons[*].Name Automag
 SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
-SetField Universal[0].GameVariantWeapons[*].Weapon objects.weaps\pistol\automag\automag.weap
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\pistol\automag\automag.weapon
 AddBlockElements Universal[0].WeaponSets[0].Substitutions
 SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon Automag
 SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon Automag
@@ -566,7 +581,7 @@ SetString english Automag "AUTOMAG"
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_primary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue Automag
@@ -574,7 +589,7 @@ SetField TextValuePairs[*].Name Automag
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\map_overrides\traits.weaps_initial_secondary_untemplated.sily
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue Automag
@@ -582,7 +597,7 @@ SetField TextValuePairs[*].Name Automag
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_primary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue Automag
@@ -590,7 +605,7 @@ SetField TextValuePairs[*].Name Automag
 SaveTagChanges
 Exit
 
-EditTag multiplayer\game_variant_settings\player_traits_template\traits.weaps_initial_secondary.sily
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
 AddBlockElements TextValuePairs
 SetField TextValuePairs[*].ExpectedValueType StringidReference
 SetField TextValuePairs[*].StringidValue Automag
