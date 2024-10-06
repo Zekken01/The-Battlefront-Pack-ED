@@ -451,302 +451,302 @@ SetField Palette[*].CategoryIndex 86
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object levels\multi\utapau\objects\wind_machine\wind_machine.device_machine
 
-# echo ==Misc...==
-
-AddBlockElements Palette
-SetField Palette[*].Name "Desctructable Wood Wall"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\kashyyyk\objects\board\board.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Small Hoth Crate"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\scenery\hoth_crate_small\hoth_crate_small.crate
-
-AddBlockElements Palette
-SetField Palette[*].Name "Gun Rack"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\gear\human\military\crate_h_gun_rack_0\crate_h_gun_rack_0.crate
-
-AddBlockElements Palette
-SetField Palette[*].Name "Gun Rack 1"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\gear\human\military\crate_h_gun_rack_1\crate_h_gun_rack_1.crate
-
-AddBlockElements Palette
-SetField Palette[*].Name "Gun Rack 2"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\gear\human\military\crate_h_gun_rack_2\crate_h_gun_rack_2.crate
-
-AddBlockElements Palette
-SetField Palette[*].Name "Barrier"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\scarif\objects\barrier\barrier.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Covenant Barrier"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\gear\covenant\military\cov_barrier\cov_barrier.crate
-
-AddBlockElements Palette
-SetField Palette[*].Name "Covenant Crate"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\gear\covenant\military\crate_space_a\crate_space_a.crate
-
-AddBlockElements Palette
-SetField Palette[*].Name "Covenant Crate 2"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\gear\covenant\military\crate_space_b\crate_space_b.crate
-
-AddBlockElements Palette
-SetField Palette[*].Name "Covenant Crate Small"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\gear\covenant\military\crate_space_small\crate_space_small.crate
-
-AddBlockElements Palette
-SetField Palette[*].Name "Covenant Antennae"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\gear\covenant\military\antennae_comm_mp\antennae_comm_mp.crate
-
-AddBlockElements Palette
-SetField Palette[*].Name "Covenant Watch Tower Base"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\gear\covenant\military\cov_watchtower\cov_watchtower_base\cov_watchtower_base.crate
-
-AddBlockElements Palette
-SetField Palette[*].Name "Covenant Watch Tower Top"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\gear\covenant\military\cov_watchtower\cov_watchtower_pod\cov_watchtower_pod_turrets.crate
-
+//# echo ==Misc...==
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Desctructable Wood Wall"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\kashyyyk\objects\board\board.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Small Hoth Crate"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\scenery\hoth_crate_small\hoth_crate_small.crate
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Gun Rack"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\gear\human\military\crate_h_gun_rack_0\crate_h_gun_rack_0.crate
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Gun Rack 1"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\gear\human\military\crate_h_gun_rack_1\crate_h_gun_rack_1.crate
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Gun Rack 2"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\gear\human\military\crate_h_gun_rack_2\crate_h_gun_rack_2.crate
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Barrier"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\scarif\objects\barrier\barrier.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Covenant Barrier"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\gear\covenant\military\cov_barrier\cov_barrier.crate
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Covenant Crate"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\gear\covenant\military\crate_space_a\crate_space_a.crate
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Covenant Crate 2"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\gear\covenant\military\crate_space_b\crate_space_b.crate
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Covenant Crate Small"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\gear\covenant\military\crate_space_small\crate_space_small.crate
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Covenant Antennae"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\gear\covenant\military\antennae_comm_mp\antennae_comm_mp.crate
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Covenant Watch Tower Base"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\gear\covenant\military\cov_watchtower\cov_watchtower_base\cov_watchtower_base.crate
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Covenant Watch Tower Top"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\gear\covenant\military\cov_watchtower\cov_watchtower_pod\cov_watchtower_pod_turrets.crate
+//
 //AddBlockElements Palette
 //SetField Palette[*].Name "Covenant AA Gun Base"
 //SetField Palette[*].Type Prop
 //SetField Palette[*].CategoryIndex 87
 //SetField Palette[*].DescriptionIndex -1
 //SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
-
+//
 //AddBlockElements Palette
 //SetField Palette[*].Name "Covenant AA Gun Top"
 //SetField Palette[*].Type Prop
 //SetField Palette[*].CategoryIndex 87
 //SetField Palette[*].DescriptionIndex -1
 //SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
-
+//
 //AddBlockElements Palette
 //SetField Palette[*].Name "Covenant AA Gun Top 2"
 //SetField Palette[*].Type Prop
 //SetField Palette[*].CategoryIndex 87
 //SetField Palette[*].DescriptionIndex -1
 //SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Ammo Pack Large"
-SetField Palette[*].Type Equipment
-SetField Palette[*].CategoryIndex -1
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\powerups\ammo_packs\ammo_large\ammo_large.equipment
-
-AddBlockElements Palette
-SetField Palette[*].Name "Large Hoth Crate"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\scenery\hoth_crate_large\hoth_crate_large.crate
-
-AddBlockElements Palette
-SetField Palette[*].Name "45 Sandbag Wall Corner"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex -1
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\gear\human\military\sandbag_wall_45corner\sandbag_wall_45corner.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Destroyed Phantom"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\vehicles\phantom\phantom_damaged\phantom_damaged.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Crashed Pelican"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\levels\shared\pelican_crashed_h3\pelican_crashed_snow\pelican_crashed_h3_snow.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Command Post Base"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object object\scenery\command_post\command_post.crate
-
-AddBlockElements Palette
-SetField Palette[*].Name "Moisture Vaporator"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Tarped Crates Stacked"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\gear\human\industrial\tarp_box_stack\tarp_box_stack.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Large Tarped Crate"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\gear\human\industrial\tarp_crate_large_b\tarp_crate_large_b.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Water Barrel Pallet"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\levels\dlc\shared\water_barrels\water_barrels.crate
-
-AddBlockElements Palette
-SetField Palette[*].Name "Industrial Pallet"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\gear\human\military\pallet\pallet.crate
-
-AddBlockElements Palette
-SetField Palette[*].Name "Hexagon Crate"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\mustafar\objects\mustard_crate\mustard_crate.crate
-
-AddBlockElements Palette
-SetField Palette[*].Name "Box Stack"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\scarif\objects\box_stack_2\box_stack_2.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Orange Crate"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\scarif\objects\crate_orange\crate_orange.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Rock 8"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\scarif\objects\rock_8\rock_8.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Rock 9"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\scarif\objects\rock_9\rock_9.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Rock 12"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\scarif\objects\rock_12\rock_12.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Rock 13"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\scarif\objects\rock_13\rock_13.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Mining Ship"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\scarif\objects\mining_ship\mining_ship.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Mining Cargo Large"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\scarif\objects\mining_cargo\mining_cargo.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Landing Platform"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\scarif\objects\platform\platform.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Barracks"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\scarif\objects\barracks\barracks.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Chevy Tahoe"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\scenery\tahoe\tahoe.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Minecraft Building"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\scenery\random_build\random_build.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "Jukebox"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\mos_eisley\objects\jukebox\jukebox.scenery
-
-AddBlockElements Palette
-SetField Palette[*].Name "General Kenobi Image"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\scenery\general_kenobi\general_kenobi.scenery
-
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Ammo Pack Large"
+//SetField Palette[*].Type Equipment
+//SetField Palette[*].CategoryIndex -1
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\powerups\ammo_packs\ammo_large\ammo_large.equipment
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Large Hoth Crate"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\scenery\hoth_crate_large\hoth_crate_large.crate
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "45 Sandbag Wall Corner"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex -1
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\gear\human\military\sandbag_wall_45corner\sandbag_wall_45corner.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Destroyed Phantom"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\vehicles\phantom\phantom_damaged\phantom_damaged.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Crashed Pelican"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\levels\shared\pelican_crashed_h3\pelican_crashed_snow\pelican_crashed_h3_snow.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Command Post Base"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object object\scenery\command_post\command_post.crate
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Moisture Vaporator"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Tarped Crates Stacked"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\gear\human\industrial\tarp_box_stack\tarp_box_stack.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Large Tarped Crate"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\gear\human\industrial\tarp_crate_large_b\tarp_crate_large_b.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Water Barrel Pallet"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\levels\dlc\shared\water_barrels\water_barrels.crate
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Industrial Pallet"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\gear\human\military\pallet\pallet.crate
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Hexagon Crate"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\mustafar\objects\mustard_crate\mustard_crate.crate
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Box Stack"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\scarif\objects\box_stack_2\box_stack_2.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Orange Crate"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\scarif\objects\crate_orange\crate_orange.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Rock 8"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\scarif\objects\rock_8\rock_8.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Rock 9"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\scarif\objects\rock_9\rock_9.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Rock 12"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\scarif\objects\rock_12\rock_12.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Rock 13"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\scarif\objects\rock_13\rock_13.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Mining Ship"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\scarif\objects\mining_ship\mining_ship.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Mining Cargo Large"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\scarif\objects\mining_cargo\mining_cargo.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Landing Platform"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\scarif\objects\platform\platform.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Barracks"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\scarif\objects\barracks\barracks.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Chevy Tahoe"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\scenery\tahoe\tahoe.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Minecraft Building"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\scenery\random_build\random_build.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "Jukebox"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\mos_eisley\objects\jukebox\jukebox.scenery
+//
+//AddBlockElements Palette
+//SetField Palette[*].Name "General Kenobi Image"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object objects\scenery\general_kenobi\general_kenobi.scenery
+//
 //AddBlockElements Palette
 //SetField Palette[*].Name "Invisible Block"
 //SetField Palette[*].Type Prop
@@ -755,18 +755,11 @@ SetField Palette[*].Object objects\scenery\general_kenobi\general_kenobi.scenery
 //SetField Palette[*].Object levels\multi\080_deathstar\object\barrier.crate
 
 //AddBlockElements Palette
-//SetField Palette[*].Name "Moisture Vaporator"
+//SetField Palette[*].Name "EXAMPLE"
 //SetField Palette[*].Type Prop
 //SetField Palette[*].CategoryIndex 87
 //SetField Palette[*].DescriptionIndex -1
-//SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
-
-//AddBlockElements Palette
-//SetField Palette[*].Name "Moisture Vaporator"
-//SetField Palette[*].Type Prop
-//SetField Palette[*].CategoryIndex 87
-//SetField Palette[*].DescriptionIndex -1
-//SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
+//SetField Palette[*].Object fx\scenery_fx\smoke\example.scenery
 
 # echo ==EFFECTS...==
 
@@ -778,11 +771,11 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object fx\scenery_fx\smoke\smoke_thick_large\smoke_thick_large.effect_scenery
 
 //AddBlockElements Palette
-//SetField Palette[*].Name "Moisture Vaporator"
+//SetField Palette[*].Name "EXAMPLE"
 //SetField Palette[*].Type Effects
 //SetField Palette[*].CategoryIndex 88
 //SetField Palette[*].DescriptionIndex -1
-//SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
+//SetField Palette[*].Object fx\scenery_fx\smoke\example.scenery
 
 SaveTagChanges
 Exit
@@ -824,20 +817,20 @@ AddBlockElements MultiplayerObject
 SaveTagChanges
 Exit
 
-//EditTag objects\levels\shared\bfg_stand\bfg_stand.scenery
-//AddBlockElements MultiplayerObject
-//SaveTagChanges
-//Exit
+EditTag objects\levels\shared\bfg_stand\bfg_stand.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
 
-//EditTag objects\levels\shared\bfg_gun\bfg_gun.scenery
-//AddBlockElements MultiplayerObject
-//SaveTagChanges
-//Exit
+EditTag objects\levels\shared\bfg_gun\bfg_gun.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
 
-//EditTag objects\levels\shared\bfg_gun\bfg_gun_2.scenery
-//AddBlockElements MultiplayerObject
-//SaveTagChanges
-//Exit
+EditTag objects\levels\shared\bfg_gun\bfg_gun_2.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
 
 EditTag objects\vehicles\u-wing\u-wing.vehicle
 AddBlockElements MultiplayerObject
@@ -864,7 +857,7 @@ AddBlockElements MultiplayerObject
 SaveTagChanges
 Exit
 
-//EditTag objects\vehicles\phantom\phantom_damaged\phantom_damaged.scenery
+//EditTag fx\scenery_fx\smoke\example.scenery
 //AddBlockElements MultiplayerObject
 //SaveTagChanges
 //Exit
