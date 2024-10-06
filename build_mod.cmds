@@ -264,7 +264,7 @@ Exit
 UpdateMapFiles
 
 RunCommands workingdir\mapdescriptions.cmds
-RunCommands workingdir\forgepallete.cmds
+//RunCommands workingdir\forgepallete.cmds
 
 SaveModPackage "modsfolder\The Battlefront Pack.pak"
 

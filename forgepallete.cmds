@@ -544,26 +544,26 @@ SetField Palette[*].CategoryIndex 87
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\gear\covenant\military\cov_watchtower\cov_watchtower_pod\cov_watchtower_pod_turrets.crate
 
-AddBlockElements Palette
-SetField Palette[*].Name "Covenant AA Gun Base"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
+//AddBlockElements Palette
+//SetField Palette[*].Name "Covenant AA Gun Base"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
 
-AddBlockElements Palette
-SetField Palette[*].Name "Covenant AA Gun Top"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
+//AddBlockElements Palette
+//SetField Palette[*].Name "Covenant AA Gun Top"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
 
-AddBlockElements Palette
-SetField Palette[*].Name "Covenant AA Gun Top 2"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
+//AddBlockElements Palette
+//SetField Palette[*].Name "Covenant AA Gun Top 2"
+//SetField Palette[*].Type Prop
+//SetField Palette[*].CategoryIndex 87
+//SetField Palette[*].DescriptionIndex -1
+//SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
 
 AddBlockElements Palette
 SetField Palette[*].Name "Ammo Pack Large"
@@ -824,20 +824,20 @@ AddBlockElements MultiplayerObject
 SaveTagChanges
 Exit
 
-EditTag objects\levels\shared\bfg_stand\bfg_stand.scenery
-AddBlockElements MultiplayerObject
-SaveTagChanges
-Exit
+//EditTag objects\levels\shared\bfg_stand\bfg_stand.scenery
+//AddBlockElements MultiplayerObject
+//SaveTagChanges
+//Exit
 
-EditTag objects\levels\shared\bfg_gun\bfg_gun.scenery
-AddBlockElements MultiplayerObject
-SaveTagChanges
-Exit
+//EditTag objects\levels\shared\bfg_gun\bfg_gun.scenery
+//AddBlockElements MultiplayerObject
+//SaveTagChanges
+//Exit
 
-EditTag objects\levels\shared\bfg_gun\bfg_gun_2.scenery
-AddBlockElements MultiplayerObject
-SaveTagChanges
-Exit
+//EditTag objects\levels\shared\bfg_gun\bfg_gun_2.scenery
+//AddBlockElements MultiplayerObject
+//SaveTagChanges
+//Exit
 
 EditTag objects\vehicles\u-wing\u-wing.vehicle
 AddBlockElements MultiplayerObject
