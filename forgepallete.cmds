@@ -549,21 +549,21 @@ SetField Palette[*].Name "Covenant AA Gun Base"
 SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex 87
 SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
+SetField Palette[*].Object objects\levels\shared\bfg_stand\bfg_stand.scenery
 
 AddBlockElements Palette
 SetField Palette[*].Name "Covenant AA Gun Top"
 SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex 87
 SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
+SetField Palette[*].Object objects\levels\shared\bfg_gun\bfg_gun.scenery
 
 AddBlockElements Palette
 SetField Palette[*].Name "Covenant AA Gun Top 2"
 SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex 87
 SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
+SetField Palette[*].Object objects\levels\shared\bfg_gun\bfg_gun_2.scenery
 
 ## This fucker crashes the god damn tagtool
 ##AddBlockElements Palette
