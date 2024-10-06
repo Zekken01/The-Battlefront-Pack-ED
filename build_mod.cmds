@@ -266,6 +266,12 @@ UpdateMapFiles
 RunCommands workingdir\mapdescriptions.cmds
 RunCommands workingdir\forgepallete.cmds
 
+## Its fucking broken
+##EditTag levels\multi\utapau\utapau.scenario
+##ImportMapVariant "workingdir\map_variants\Utapau\sandbox.map"
+##SaveTagChanges
+##Exit
+
 SaveModPackage "modsfolder\The Battlefront Pack.pak"
 
 ExitModPackage
