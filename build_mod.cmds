@@ -118,6 +118,7 @@ RunCommands workingdir\weaponoffsets.cmds
 RunCommands workingdir\odstweapons.cmds
 RunCommands workingdir\better3panimations.cmds
 RunCommands workingdir\machinefixes.cmds
+RunCommands workingdir\weaponglobals.cmds
 
 EditTag levels\multi\coruscant\coruscant.scenario
 SetField MapId 60001

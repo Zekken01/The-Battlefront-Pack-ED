@@ -30,7 +30,7 @@ Light Sabers Mod.
 
 Add the skyboxes to the skybox category
 
-duplicate the fix for the ion cannon? or just use the scenery instead of the machine
+Fix ion cannon machine
 https://s.zekken.rocks/TNAS8kgi.jpg
 
 Wind Machine doesnt spin even after adding to forge pallette.

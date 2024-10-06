@@ -76,10 +76,10 @@ StringId add dc_17_swap
 StringId add dc_17_switch_to
 StringId add dc_17_dual_wield
 EditTag object\weapons\dc-17\dc-17.weapon
-setfield PickupMessage dc_17_pick_up
-setfield SwapMessage dc_17_swap
-setfield PickedUpMessage dc_17_picked_up
-setfield SwitchToMessage dc_17_switch_to
+SetField PickupMessage dc_17_pick_up
+SetField SwapMessage dc_17_swap
+SetField PickedUpMessage dc_17_picked_up
+SetField SwitchToMessage dc_17_switch_to
 SetField PickupOrDualWieldMessage dc_17_dual_wield
 SaveTagChanges
 Exit
