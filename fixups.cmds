@@ -32,6 +32,34 @@ SetField Seats[0].Label ghost_d
 SaveTagChanges
 Exit
 
+EditTag object\vehicles\aat\aat.vehicle
+setfield DefaultModelVariant blue_sep
+SaveTagChanges
+Exit
+
+DuplicateTag object\vehicles\aat\aat.vehicle object\vehicles\aat\aat_tan
+EditTag object\vehicles\aat\aat_tan.vehicle
+setfield DefaultModelVariant tan_sep
+SaveTagChanges
+Exit
+
+EditTag object\vehicles\stap\stap.vehicle
+setfield DefaultModelVariant blue_sep
+SaveTagChanges
+Exit
+
+DuplicateTag object\vehicles\stap\stap.vehicle object\vehicles\stap\stap_tan
+EditTag object\vehicles\stap\stap_tan.vehicle
+setfield DefaultModelVariant tan_sep
+SaveTagChanges
+Exit
+
+DuplicateTag objects\vehicles\tx130\tx130_new.vehicle objects\vehicles\tx130\tx130_new_turret
+EditTag objects\vehicles\tx130\tx130_new_turret.vehicle
+setfield DefaultModelVariant turret
+SaveTagChanges
+Exit
+
 EditTag object\weapons\e-5\bitmaps\sche.bitmap
 ImportBitmap 0 "workingdir\bitmaps\e-5.dds"
 SaveTagChanges
