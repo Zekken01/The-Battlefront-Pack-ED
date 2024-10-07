@@ -34,12 +34,15 @@ EditTag objects\vehicles\scorpion\turrets\cannon\cannon.model_animation_graph
 SaveTagChanges
 Exit
 
+# H3 Plasma Turret
 NameTag objects\weapons\turret\plasma_cannon\plasma_cannon.vehicle objects\weapons\turret\plasma_cannon\plasma_cannon_reach
 NameTag objects\weapons\turret\plasma_cannon\plasma_cannon_vehicle\plasma_cannon_vehicle.model objects\weapons\turret\plasma_cannon\plasma_cannon_vehicle\plasma_cannon_vehicle_reach
 NameTag objects\weapons\turret\plasma_cannon\plasma_cannon_vehicle\plasma_cannon_vehicle.render_model objects\weapons\turret\plasma_cannon\plasma_cannon_vehicle\plasma_cannon_vehicle_reach
 NameTag objects\weapons\turret\plasma_cannon\plasma_cannon.weapon objects\weapons\turret\plasma_cannon\plasma_cannon_halo_online
 NameTag objects\weapons\turret\plasma_cannon\plasma_cannon_weapon\plasma_cannon_weapon.model objects\weapons\turret\plasma_cannon\plasma_cannon_weapon\plasma_cannon_weapon_halo_online
 NameTag objects\weapons\turret\plasma_cannon\plasma_cannon_weapon\plasma_cannon_weapon.render_model objects\weapons\turret\plasma_cannon\plasma_cannon_weapon\plasma_cannon_weapon_halo_online
+
+# H3 Scorpion Cannon
 NameTag objects\vehicles\scorpion\turrets\cannon\cannon.model_animation_graph objects\vehicles\scorpion\turrets\reach_cannon\reach_cannon
 SaveTagNames
 
