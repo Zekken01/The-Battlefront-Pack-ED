@@ -566,7 +566,7 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\levels\shared\bfg_gun\bfg_gun.scenery
 
 AddBlockElements Palette
-SetField Palette[*].Name "Covenant AA Gun Top 2"
+SetField Palette[*].Name "Covenant AA Gun Top Firing"
 SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex 87
 SetField Palette[*].DescriptionIndex -1
@@ -878,6 +878,71 @@ SaveTagChanges
 Exit
 
 EditTag objects\vehicles\ion_cannon\ion_cannon.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag levels\multi\scarif\objects\barrier\barrier.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag levels\multi\scarif\objects\barracks\barracks.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag levels\multi\scarif\objects\platform\platform.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag levels\multi\scarif\objects\mining_cargo\mining_cargo.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag levels\multi\scarif\objects\mining_ship\mining_ship.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag levels\multi\scarif\objects\rock_8\rock_8.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag levels\multi\scarif\objects\rock_8\rock_9.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag levels\multi\scarif\objects\rock_8\rock_12.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag levels\multi\scarif\objects\rock_8\rock_13.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag levels\multi\scarif\objects\crate_orange\crate_orange.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag levels\multi\scarif\objects\box_stack_2\box_stack_2.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag objects\gear\human\industrial\tarp_box_stack\tarp_box_stack.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag objects\gear\covenant\military\crate_space_small\crate_space_small.crate
 AddBlockElements MultiplayerObject
 SaveTagChanges
 Exit
