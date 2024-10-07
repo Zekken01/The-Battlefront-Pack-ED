@@ -43,7 +43,7 @@ Exit
 
 EditTag object\weapons\e-11\e-11.weapon
 SetField WeaponTypeName offset_e-11
-SetField CenteredFirstPersonWeaponOffset 0.052 0 0
+SetField CenteredFirstPersonWeaponOffset 0.052 -0.01 0.000
 SaveTagChanges
 Exit
 
