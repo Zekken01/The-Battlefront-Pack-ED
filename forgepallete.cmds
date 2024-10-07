@@ -912,17 +912,17 @@ AddBlockElements MultiplayerObject
 SaveTagChanges
 Exit
 
-EditTag levels\multi\scarif\objects\rock_8\rock_9.scenery
+EditTag levels\multi\scarif\objects\rock_9\rock_9.scenery
 AddBlockElements MultiplayerObject
 SaveTagChanges
 Exit
 
-EditTag levels\multi\scarif\objects\rock_8\rock_12.scenery
+EditTag levels\multi\scarif\objects\rock_12\rock_12.scenery
 AddBlockElements MultiplayerObject
 SaveTagChanges
 Exit
 
-EditTag levels\multi\scarif\objects\rock_8\rock_13.scenery
+EditTag levels\multi\scarif\objects\rock_13\rock_13.scenery
 AddBlockElements MultiplayerObject
 SaveTagChanges
 Exit
