@@ -1197,3 +1197,6 @@ EditTag multiplayer\forge_globals.forge_globals_definition
 MaximizeBudget
 SaveTagChanges
 Exit
+
+Foreach mode startingwith: objects\eldewrito\reforge\ addblockelements Materials 1
+Foreach mode startingwith: objects\eldewrito\reforge\ setfield Materials[*].RenderMethod levels\multi\mustafar\shaders\mus1_bldg_lavawalk.shader
