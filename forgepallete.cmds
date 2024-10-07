@@ -487,11 +487,25 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object levels\multi\mustafar\objects\triangle\triangle.device_machine
 
 AddBlockElements Palette
+SetField Palette[*].Name "Triangle Door Uppie"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 86
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object levels\multi\mustafar\objects\triangle_uppie\triangle_uppie.device_machine
+
+AddBlockElements Palette
 SetField Palette[*].Name "Wind Machine"
 SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex 86
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object levels\multi\utapau\objects\wind_machine\wind_machine.device_machine
+
+AddBlockElements Palette
+SetField Palette[*].Name "Command Post Machine"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex -1
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object object\scenery\command_post\command_post.device_machine
 
  echo ==Misc...==
 
