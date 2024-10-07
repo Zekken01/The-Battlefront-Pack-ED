@@ -33,3 +33,11 @@ SetInheritance fp any:any:any:sprint_loop_airborne objects\characters\masterchie
 SetInheritance fp any:any:any:sprint_exit objects\characters\masterchief\fp\weapons\rifle\fp_sniper_rifle\fp_sniper_rifle.model_animation_graph
 SaveTagChanges
 Exit
+
+EditTag objects\levels\dlc\shared\golf_club\fp_golf_club\fp_golf_club.model_animation_graph
+SetInheritance fp any:any:any:sprint_enter objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
+SetInheritance fp any:any:any:sprint_loop objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
+SetInheritance fp any:any:any:sprint_loop_airborne objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
+SetInheritance fp any:any:any:sprint_exit objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
+SaveTagChanges
+Exit

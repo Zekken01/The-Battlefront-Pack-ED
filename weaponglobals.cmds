@@ -701,14 +701,14 @@ setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\hoth_speede
 SaveTagChanges
 Exit
 
-# echo ==Hoth Speeder Low Poly...==
-
-EditTag multiplayer\multiplayer_globals.mulg
-addblockelements Universal[0].GameVariantVehicles
-setfield Universal[0].GameVariantVehicles[*].Name Hoth_Speeder_Low_Poly
-setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\hoth_speeder\hoth_speeder.vehicle
-SaveTagChanges
-Exit
+### echo ==Hoth Speeder Low Poly...==
+##
+##EditTag multiplayer\multiplayer_globals.mulg
+##addblockelements Universal[0].GameVariantVehicles
+##setfield Universal[0].GameVariantVehicles[*].Name Hoth_Speeder_Low_Poly
+##setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\hoth_speeder\hoth_speeder.vehicle
+##SaveTagChanges
+##Exit
 
 # echo ==Persuader...==
 
