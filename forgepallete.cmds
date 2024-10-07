@@ -118,6 +118,20 @@ SetField Palette[*].CategoryIndex 84
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\weapons\pistol\automag\automag.weapon
 
+AddBlockElements Palette
+SetField Palette[*].Name "Standalone Gauss Turret"
+SetField Palette[*].Type Vehicle
+SetField Palette[*].CategoryIndex 84
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\vehicles\turret_standalone\turret_standalone.vehicle
+
+AddBlockElements Palette
+SetField Palette[*].Name "Standalone Chaingun Turret"
+SetField Palette[*].Type Vehicle
+SetField Palette[*].CategoryIndex 84
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\vehicles\turret_standalone\turret_standalone_chaingun.vehicle
+
 # echo ==Vehicles...==
 
 AddBlockElements Palette
@@ -154,13 +168,6 @@ SetField Palette[*].Type Vehicle
 SetField Palette[*].CategoryIndex 85
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\vehicles\scorpion\scorpion_snow.vehicle
-
-AddBlockElements Palette
-SetField Palette[*].Name "Snow TX-130"
-SetField Palette[*].Type Vehicle
-SetField Palette[*].CategoryIndex 85
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\vehicles\tx130_snow\tx130_snow.vehicle
 
 AddBlockElements Palette
 SetField Palette[*].Name "Snow Gauss Hog"
@@ -296,13 +303,6 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object object\vehicles\stap\stap_tan.vehicle
 
 AddBlockElements Palette
-SetField Palette[*].Name "TX-130"
-SetField Palette[*].Type Vehicle
-SetField Palette[*].CategoryIndex 85
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object object\vehicles\tx130\tx130.vehicle
-
-AddBlockElements Palette
 SetField Palette[*].Name "U-Wing"
 SetField Palette[*].Type Vehicle
 SetField Palette[*].CategoryIndex 85
@@ -392,6 +392,20 @@ SetField Palette[*].Type Vehicle
 SetField Palette[*].CategoryIndex 85
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\vehicles\turret_standalone\gauss.vehicle
+
+AddBlockElements Palette
+SetField Palette[*].Name "TX-130"
+SetField Palette[*].Type Vehicle
+SetField Palette[*].CategoryIndex 85
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object object\vehicles\tx130\tx130.vehicle
+
+AddBlockElements Palette
+SetField Palette[*].Name "Snow TX-130"
+SetField Palette[*].Type Vehicle
+SetField Palette[*].CategoryIndex 85
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\vehicles\tx130_snow\tx130_snow.vehicle
 
 AddBlockElements Palette
 SetField Palette[*].Name "TX-130 New Turretless"
