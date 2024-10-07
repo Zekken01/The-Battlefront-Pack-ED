@@ -612,3 +612,216 @@ SetField TextValuePairs[*].StringidValue Automag
 SetField TextValuePairs[*].Name Automag
 SaveTagChanges
 Exit
+
+# echo ==Vehicles...==
+
+stringid add Snow_Speeder
+stringid add Snow_Mongoose
+stringid add Snow_Scorpion
+stringid add Snow_TX-130
+stringid add Snow_Gauss_Hog
+stringid add AAT
+stringid add Hoth_Speeder_High_Poly
+stringid add Hoth_Speeder_Low_Poly
+stringid add Persuader
+stringid add Hover_Tank
+stringid add Hover_Tank_Scarif
+stringid add Hover_Tank_Other
+stringid add Speeder
+stringid add STAP
+stringid add TX-130
+stringid add V-Wing
+stringid add X-34_landspeeder
+stringid add Electric_Cart
+stringid add Republic_Speeder
+stringid add Spinwheel
+stringid add Tie_Striker
+
+# echo ==Snow Speeder...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Snow_Speeder
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\speeder_snow\speeder_snow.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Snow Mongoose...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Snow_Mongoose
+setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\mongoose\mongoose_snow.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Snow Scorpion...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Snow_Scorpion
+setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\scorpion\scorpion_snow.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Snow TX-130...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Snow_TX-130
+setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\tx130_snow\tx130_snow.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Snow Gauss Hog...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Snow_Gauss_Hog
+setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\warthog\warthog_gauss_snow.vehicle
+SaveTagChanges
+Exit
+
+# echo ==AAT...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name AAT
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\aat\aat.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Hoth Speeder High Poly...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Hoth_Speeder_High_Poly
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\hoth_speeder_new\hoth_speeder_new.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Hoth Speeder Low Poly...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Hoth_Speeder_Low_Poly
+setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\hoth_speeder\hoth_speeder.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Persuader...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Persuader
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\persuader\persuader.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Hover Tank...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Hover_Tank
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\speed_bike\speed_bike.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Hover Tank Scarif...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Hover_Tank_Scarif
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\speed_bike_scarif\speed_bike_scarif.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Hover Tank Other...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Hover_Tank_Other
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\speed_bike_snow\speed_bike_snow.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Speeder...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Speeder
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\speeder\speeder.vehicle
+SaveTagChanges
+Exit
+
+# echo ==STAP...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name STAP
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\stap\stap.vehicle
+SaveTagChanges
+Exit
+
+# echo ==TX-130...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name TX-130
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\tx130\tx130.vehicle
+SaveTagChanges
+Exit
+
+# echo ==V-Wing...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name V-Wing
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\v-wing\v-wing.vehicle
+SaveTagChanges
+Exit
+
+# echo ==X-34 landspeeder...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name X-34_landspeeder
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\x34_landspeeder\x34_landspeeder.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Electric Cart...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Electric_Cart
+setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\cart_electric\cart_electric.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Republic Speeder...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Republic_Speeder
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\speeder_repub\speeder_repub.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Spinwheel...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Spinwheel
+setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\spinwheel\spinny.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Tie Striker...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Tie_Striker
+setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\tie_striker\tie_striker.vehicle
+SaveTagChanges
+Exit
