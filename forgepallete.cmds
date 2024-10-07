@@ -452,6 +452,13 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object levels\multi\mustafar\objects\big_door\big_door.device_machine
 
 AddBlockElements Palette
+SetField Palette[*].Name "Big Door Kashyyyk"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 86
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object levels\multi\kashyyyk\objects\bigdoor\bigdoor.device_machine
+
+AddBlockElements Palette
 SetField Palette[*].Name "Window"
 SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex 86
@@ -875,6 +882,13 @@ SetField Palette[*].CategoryIndex 87
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\vehicles\millenium_falcon_death\millenium_falconds2.scenery
 
+AddBlockElements Palette
+SetField Palette[*].Name "LAAT"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object object\vehicles\laat\laat.scenery
+
 ##AddBlockElements Palette
 ##SetField Palette[*].Name "EXAMPLE"
 ##SetField Palette[*].Type Prop
@@ -904,6 +918,13 @@ SetField Palette[*].Type Effects
 SetField Palette[*].CategoryIndex 88
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object fx\scenery_fx\fire\fire_small\fire_small.effect_scenery
+
+AddBlockElements Palette
+SetField Palette[*].Name "Large Fire"
+SetField Palette[*].Type Effects
+SetField Palette[*].CategoryIndex 88
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object fx\scenery_fx\fire\fire_large\fire_large.effect_scenery
 
 ##AddBlockElements Palette
 ##SetField Palette[*].Name "EXAMPLE"
