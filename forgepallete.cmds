@@ -540,7 +540,7 @@ SetField Palette[*].Object objects\gear\human\military\crate_h_gun_rack_2\crate_
 AddBlockElements Palette
 SetField Palette[*].Name "Catwalk"
 SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex 87
+SetField Palette[*].CategoryIndex -1
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object levels\multi\scarif\objects\catwalk\catwalk.scenery
 
