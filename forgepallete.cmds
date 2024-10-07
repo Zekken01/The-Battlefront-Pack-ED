@@ -538,6 +538,13 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\gear\human\military\crate_h_gun_rack_2\crate_h_gun_rack_2.crate
 
 AddBlockElements Palette
+SetField Palette[*].Name "Catwalk"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object levels\multi\scarif\objects\catwalk\catwalk.scenery
+
+AddBlockElements Palette
 SetField Palette[*].Name "Barrier"
 SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex 87
@@ -722,6 +729,13 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object levels\multi\mos_eisley\objects\moisture_vaporator\moisture_vaporator.scenery
 
 AddBlockElements Palette
+SetField Palette[*].Name "Large Crates Stacked"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object levels\multi\scarif\objects\box_large_stack\box_large_stack.scenery
+
+AddBlockElements Palette
 SetField Palette[*].Name "Tarped Crates Stacked"
 SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex 87
@@ -734,6 +748,13 @@ SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex 87
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\gear\human\industrial\tarp_crate_large_b\tarp_crate_large_b.scenery
+
+AddBlockElements Palette
+SetField Palette[*].Name "Large Tarped Crate 2"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\gear\human\industrial\tarp_crate_large_a\tarp_crate_large_a.scenery
 
 AddBlockElements Palette
 SetField Palette[*].Name "Water Barrel Pallet"
@@ -1153,6 +1174,21 @@ SaveTagChanges
 Exit
 
 EditTag objects\levels\shared\pelican_crashed_h3\crash_engine_lb\crash_engine_lb.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag levels\multi\scarif\objects\catwalk\catwalk.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag objects\gear\human\industrial\tarp_crate_large_a\tarp_crate_large_a.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag levels\multi\scarif\objects\box_large_stack\box_large_stack.scenery
 AddBlockElements MultiplayerObject
 SaveTagChanges
 Exit
