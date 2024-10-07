@@ -23,8 +23,6 @@ Light Sabers Mod.
 
 //Forge Stuff
 
-Add the skyboxes to the skybox category if they're original
-
 Fix ion cannon machine
 https://s.zekken.rocks/TNAS8kgi.jpg
 

@@ -920,7 +920,7 @@ SetField Palette[*].Object objects\vehicles\tx130\tx130.scenery
 AddBlockElements Palette
 SetField Palette[*].Name "Millenium Falcon"
 SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex -1
+SetField Palette[*].CategoryIndex 87
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\vehicles\millenium_falcon\millenium_falcon.scenery
 
@@ -1207,6 +1207,50 @@ AddBlockElements MultiplayerObject
 SaveTagChanges
 Exit
 
+# echo ==Skyboxes...==
+
+edittag multiplayer\forge_globals.forge_globals_definition
+addblockelements Skies
+setfield Skies[12].Name "Coruscant"
+setfield Skies[12].Object levels\multi\coruscant\sky\sky_02_space\sky_02_space.scenery
+setfield Skies[12].Parameters levels\multi\coruscant\sky\floodvoi.sky_atm_parameters
+
+addblockelements Skies
+setfield Skies[13].Name "Deathstar"
+setfield Skies[13].Object levels\multi\imp_deathstar\sky\sky_warstar.scenery
+
+addblockelements Skies
+setfield Skies[14].Name "Geonosis"
+setfield Skies[14].Object levels\multi\geonosis\sky\sky.scenery
+setfield Skies[14].Parameters levels\multi\geonosis\geonosis.sky_atm_parameters
+setfield Skies[14].BackgroundSound sound\levels\shrine\desert_wind2\desert_wind2.sound_looping
+
+addblockelements Skies
+setfield Skies[15].Name "Hoth"
+setfield Skies[15].Object levels\multi\hoth\sky\sky_hoth.scenery
+setfield Skies[15].Parameters levels\multi\hoth\sky\hoth.sky_atm_parameters
+setfield Skies[15].BackgroundSound sound\levels\snowbound\alpine_wind\alpine_wind.sound_looping
+
+addblockelements Skies
+setfield Skies[16].Name "Kashyyyk"
+setfield Skies[16].Object levels\multi\kashyyyk\sky\sky_sidewinder.scenery
+setfield Skies[16].GlobalLighting levels\dlc\sidewinder\sky\sidewinder.chocolate_mountain_new
+setfield Skies[16].Parameters levels\multi\kashyyyk\sky\sidewinder_snow.sky_atm_parameters
+setfield Skies[16].BackgroundSound sound\levels\shrine\desert_wind2\desert_wind2.sound_looping
+
+addblockelements Skies
+setfield Skies[17].Name "Mos Eisley"
+setfield Skies[17].Object levels\multi\salvation\sky\sky.scenery
+setfield Skies[17].Parameters levels\solo\070_waste\sky\waste.sky_atm_parameters
+setfield Skies[17].BackgroundSound sound\levels\shrine\desert_wind2\desert_wind2.sound_looping
+
+addblockelements Skies
+setfield Skies[18].Name "Mustafar"
+setfield Skies[18].Object levels\multi\mustafar\sky\sky.scenery
+setfield Skies[18].Parameters levels\multi\mustafar\sky\sky.sky_atm_parameters
+SaveTagChanges
+Exit
+
 EditTag multiplayer\forge_globals.forge_globals_definition
 MaximizeBudget
 SaveTagChanges
@@ -1214,3 +1258,5 @@ Exit
 
 Foreach mode startingwith: objects\eldewrito\reforge\ addblockelements Materials 1
 Foreach mode startingwith: objects\eldewrito\reforge\ setfield Materials[*].RenderMethod levels\multi\mustafar\shaders\mus1_bldg_lavawalk.shader
+
+
