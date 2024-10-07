@@ -139,6 +139,26 @@ ForEach Events ForEach ParticleSystems ForEach Emitters SetField BoundingRadiusE
 SaveTagChanges
 Exit
 
+EditTag levels\solo\030_outskirts\fx\crashed_phantom\crashed_phantom_fire.effect
+ForEach Events ForEach ParticleSystems SetField Flags ParticlesContinueAsUsualWhenOffscreen,TurnOffNearFadeOnEnhancedGraphics
+ForEach Events ForEach ParticleSystems SetField PixelBudget 0
+ForEach Events ForEach ParticleSystems SetField NearRange 10000
+ForEach Events ForEach ParticleSystems SetField NearCutoff 0
+ForEach Events ForEach ParticleSystems SetField LodOutDistance 10000
+ForEach Events ForEach ParticleSystems ForEach Emitters SetField BoundingRadiusEstimate 20
+SaveTagChanges
+Exit
+
+EditTag fx\scenery_fx\fire\fire_small\fire_small.effect
+ForEach Events ForEach ParticleSystems SetField Flags ParticlesContinueAsUsualWhenOffscreen,TurnOffNearFadeOnEnhancedGraphics
+ForEach Events ForEach ParticleSystems SetField PixelBudget 0
+ForEach Events ForEach ParticleSystems SetField NearRange 10000
+ForEach Events ForEach ParticleSystems SetField NearCutoff 0
+ForEach Events ForEach ParticleSystems SetField LodOutDistance 10000
+ForEach Events ForEach ParticleSystems ForEach Emitters SetField BoundingRadiusEstimate 20
+SaveTagChanges
+Exit
+
 EditTag objects\vehicles\millenium_falcon\shaders\falcon_main.shader
 setargument specular_coefficient 0
 setargument diffuse_coefficient 0.3

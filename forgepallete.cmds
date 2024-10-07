@@ -468,6 +468,13 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\scenery\hoth_crate_small\hoth_crate_small.crate
 
 AddBlockElements Palette
+SetField Palette[*].Name "Grenade Case"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\gear\human\military\h_grenade_crate\h_grenade_crate.crate
+
+AddBlockElements Palette
 SetField Palette[*].Name "Gun Rack"
 SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex 87
@@ -595,6 +602,13 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\gear\human\military\sandbag_wall_45corner\sandbag_wall_45corner.scenery
 
 AddBlockElements Palette
+SetField Palette[*].Name "Destroyed Tri-Fighter"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object levels\multi\kashyyyk\objects\destroyed_tri_fighter\destroyed_tri_fighter.scenery
+
+AddBlockElements Palette
 SetField Palette[*].Name "Destroyed Phantom"
 SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex 87
@@ -602,11 +616,54 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\vehicles\phantom\phantom_damaged\phantom_damaged.scenery
 
 AddBlockElements Palette
-SetField Palette[*].Name "Crashed Pelican"
+SetField Palette[*].Name "Crashed Pelican Snow"
 SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex 87
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\levels\shared\pelican_crashed_h3\pelican_crashed_snow\pelican_crashed_h3_snow.scenery
+
+AddBlockElements Palette
+SetField Palette[*].Name "Crashed Pelican"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\levels\shared\pelican_crashed_h3\pelican_crashed_h3.scenery
+
+AddBlockElements Palette
+SetField Palette[*].Name "Crashed Pelican Hull"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\levels\shared\pelican_crashed_h3\crash_hull\crash_hull.scenery
+
+AddBlockElements Palette
+SetField Palette[*].Name "Crashed Pelican Engine Front Right"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\levels\shared\pelican_crashed_h3\crash_engine_rf\crash_engine_rf.scenery
+
+AddBlockElements Palette
+SetField Palette[*].Name "Crashed Pelican Engine Front Left"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\levels\shared\pelican_crashed_h3\crash_engine_lf_broken\crash_engine_lf_broken.scenery
+
+AddBlockElements Palette
+SetField Palette[*].Name "Crashed Pelican Right Front Wing Broken"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\levels\shared\pelican_crashed_h3\crash_engine_rf_wing_broken\crash_engine_rf_wing_broken.scenery
+
+AddBlockElements Palette
+SetField Palette[*].Name "Crashed Pelican Engine Back Left"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\levels\shared\pelican_crashed_h3\crash_engine_lb\crash_engine_lb.scenery
+
 
 AddBlockElements Palette
 SetField Palette[*].Name "Command Post Base"
@@ -769,6 +826,34 @@ SetField Palette[*].CategoryIndex 87
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\vehicles\ion_cannon\ion_cannon.scenery
 
+AddBlockElements Palette
+SetField Palette[*].Name "TX130 Snow Scenery"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\vehicles\tx130_snow\tx130_snow.scenery
+
+AddBlockElements Palette
+SetField Palette[*].Name "TX130 Scenery"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\vehicles\tx130\tx130.scenery
+
+AddBlockElements Palette
+SetField Palette[*].Name "Millenium Falcon"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex -1
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\vehicles\millenium_falcon\millenium_falcon.scenery
+
+AddBlockElements Palette
+SetField Palette[*].Name "Millenium Falcon DeathStar"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\vehicles\millenium_falcon_death\millenium_falconds2.scenery
+
 ##AddBlockElements Palette
 ##SetField Palette[*].Name "EXAMPLE"
 ##SetField Palette[*].Type Prop
@@ -779,11 +864,25 @@ SetField Palette[*].Object objects\vehicles\ion_cannon\ion_cannon.scenery
 # echo ==EFFECTS...==
 
 AddBlockElements Palette
-SetField Palette[*].Name "Thick Large Smoke"
+SetField Palette[*].Name "Large Thick Smoke"
 SetField Palette[*].Type Effects
 SetField Palette[*].CategoryIndex 88
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object fx\scenery_fx\smoke\smoke_thick_large\smoke_thick_large.effect_scenery
+
+AddBlockElements Palette
+SetField Palette[*].Name "Covenant Fire"
+SetField Palette[*].Type Effects
+SetField Palette[*].CategoryIndex 88
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object levels\multi\thearkexpanded\objects\frigate_destroyed_ark\fx\crashed_phantom_fire.effect_scenery
+
+AddBlockElements Palette
+SetField Palette[*].Name "Small Fire"
+SetField Palette[*].Type Effects
+SetField Palette[*].CategoryIndex 88
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object fx\scenery_fx\fire\fire_small\fire_small.effect_scenery
 
 ##AddBlockElements Palette
 ##SetField Palette[*].Name "EXAMPLE"
@@ -823,6 +922,11 @@ SaveTagChanges
 Exit
 
 EditTag objects\vehicles\phantom\phantom_damaged\phantom_damaged.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag object\vehicles\laat\laat.scenery
 AddBlockElements MultiplayerObject
 SaveTagChanges
 Exit
@@ -876,6 +980,17 @@ EditTag fx\scenery_fx\smoke\smoke_thick_large\smoke_thick_large.effect_scenery
 AddBlockElements MultiplayerObject
 SaveTagChanges
 Exit
+
+EditTag levels\multi\thearkexpanded\objects\frigate_destroyed_ark\fx\crashed_phantom_fire.effect_scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag fx\scenery_fx\fire\fire_small\fire_small.effect_scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
 
 EditTag objects\vehicles\ion_cannon\ion_cannon.scenery
 AddBlockElements MultiplayerObject
@@ -943,6 +1058,41 @@ SaveTagChanges
 Exit
 
 EditTag objects\gear\covenant\military\crate_space_small\crate_space_small.crate
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag objects\levels\shared\pelican_crashed_h3\pelican_crashed_h3.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag objects\gear\human\military\h_grenade_crate\h_grenade_crate.crate
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag objects\levels\shared\pelican_crashed_h3\crash_hull\crash_hull.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag objects\levels\shared\pelican_crashed_h3\crash_engine_rf\crash_engine_rf.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag objects\levels\shared\pelican_crashed_h3\crash_engine_lf_broken\crash_engine_lf_broken.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag objects\levels\shared\pelican_crashed_h3\crash_engine_rf_wing_broken\crash_engine_rf_wing_broken.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag objects\levels\shared\pelican_crashed_h3\crash_engine_lb\crash_engine_lb.scenery
 AddBlockElements MultiplayerObject
 SaveTagChanges
 Exit

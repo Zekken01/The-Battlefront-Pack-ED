@@ -21,6 +21,9 @@ Light Sabers Mod.
 
 //Forge Stuff
 
+LAAT scenery gets shot onec and blows up
+object\vehicles\laat\laat.scenery 
+
 Add the skyboxes to the skybox category if they're original
 
 Fix ion cannon machine
