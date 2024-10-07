@@ -60,6 +60,17 @@ setfield DefaultModelVariant turret
 SaveTagChanges
 Exit
 
+EditTag objects\vehicles\turret_standalone\turret_standalone.vehicle
+setfield DefaultModelVariant default
+SaveTagChanges
+Exit
+
+DuplicateTag objects\vehicles\turret_standalone\turret_standalone.vehicle objects\vehicles\turret_standalone\turret_standalone_chaingun
+EditTag objects\vehicles\turret_standalone\turret_standalone_chaingun.vehicle
+setfield DefaultModelVariant chaingun
+SaveTagChanges
+Exit
+
 EditTag object\weapons\e-5\bitmaps\sche.bitmap
 ImportBitmap 0 "workingdir\bitmaps\e-5.dds"
 SaveTagChanges
