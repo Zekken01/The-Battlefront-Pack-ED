@@ -1,4 +1,6 @@
 ```
+Redo Map Images
+
 Automatic doors take too long to open.
 
 Rocket Launcher has crazy drop on the projectile on some maps (scarif).
@@ -20,9 +22,6 @@ Clone Customization (TwistedFlog is on it).
 Light Sabers Mod.
 
 //Forge Stuff
-
-LAAT scenery gets shot onec and blows up
-object\vehicles\laat\laat.scenery 
 
 Add the skyboxes to the skybox category if they're original
 
