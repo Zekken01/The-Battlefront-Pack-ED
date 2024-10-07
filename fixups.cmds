@@ -366,3 +366,8 @@ edittag object\vehicles\laat\laat.model
 removeblockelements NewDamageInfo 0 1
 savetagchanges
 Exit
+
+EditTag objects\vehicles\hoth_speeder\turret\weapons\cannon.weapon
+SetField HudInterface objects\weapons\rifle\starwarsgun\starwarsgun.chud_definition
+SaveTagChanges
+Exit

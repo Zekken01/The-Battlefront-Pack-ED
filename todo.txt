@@ -10,9 +10,6 @@ Original animated battlefront loading screens as apng.
 Air Speeder has flasing reload animation (Go through all vehicles and remove).
 https://s.zekken.rocks/jG4YPtBu.jpg
 
-Infantry turret (passenger) on the T-47 air speeder shows weapon icon on HUD.
-https://s.zekken.rocks/TR9tDOg0.jpg
-
 End Game Music
 
 Add Ambient Music from battlefront.
@@ -28,3 +25,4 @@ https://s.zekken.rocks/TNAS8kgi.jpg
 
 AT-AT bipeds despawn after being drove by the player and also cant be picked back up after being placed.
 ```
+
