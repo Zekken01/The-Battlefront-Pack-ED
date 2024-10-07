@@ -2,39 +2,25 @@ UpdateShaderData
 GenerateShader glps shader 
 GenerateShader glvs shader
 
+# H3 Plasma Turret
 EditTag objects\weapons\turret\plasma_cannon\plasma_cannon.vehicle
 SaveTagChanges
 Exit
-
 EditTag objects\weapons\turret\plasma_cannon\plasma_cannon_vehicle\plasma_cannon_vehicle.model
 SaveTagChanges
 Exit
-
 EditTag objects\weapons\turret\plasma_cannon\plasma_cannon_vehicle\plasma_cannon_vehicle.render_model
 SaveTagChanges
 Exit
-
 EditTag objects\weapons\turret\plasma_cannon\plasma_cannon.weapon
 SaveTagChanges
 Exit
-
 EditTag objects\weapons\turret\plasma_cannon\plasma_cannon_weapon\plasma_cannon_weapon.model
 SaveTagChanges
 Exit
-
 EditTag objects\weapons\turret\plasma_cannon\plasma_cannon_weapon\plasma_cannon_weapon.render_model
 SaveTagChanges
 Exit
-
-EditTag objects\vehicles\scorpion\turrets\cannon\cannon.model
-SaveTagChanges
-Exit
-
-EditTag objects\vehicles\scorpion\turrets\cannon\cannon.model_animation_graph
-SaveTagChanges
-Exit
-
-# H3 Plasma Turret
 NameTag objects\weapons\turret\plasma_cannon\plasma_cannon.vehicle objects\weapons\turret\plasma_cannon\plasma_cannon_reach
 NameTag objects\weapons\turret\plasma_cannon\plasma_cannon_vehicle\plasma_cannon_vehicle.model objects\weapons\turret\plasma_cannon\plasma_cannon_vehicle\plasma_cannon_vehicle_reach
 NameTag objects\weapons\turret\plasma_cannon\plasma_cannon_vehicle\plasma_cannon_vehicle.render_model objects\weapons\turret\plasma_cannon\plasma_cannon_vehicle\plasma_cannon_vehicle_reach
@@ -42,9 +28,37 @@ NameTag objects\weapons\turret\plasma_cannon\plasma_cannon.weapon objects\weapon
 NameTag objects\weapons\turret\plasma_cannon\plasma_cannon_weapon\plasma_cannon_weapon.model objects\weapons\turret\plasma_cannon\plasma_cannon_weapon\plasma_cannon_weapon_halo_online
 NameTag objects\weapons\turret\plasma_cannon\plasma_cannon_weapon\plasma_cannon_weapon.render_model objects\weapons\turret\plasma_cannon\plasma_cannon_weapon\plasma_cannon_weapon_halo_online
 
-# H3 Scorpion Cannon
-NameTag objects\vehicles\scorpion\turrets\cannon\cannon.model_animation_graph objects\vehicles\scorpion\turrets\reach_cannon\reach_cannon
-SaveTagNames
+# H3 Scorpion
+edittag objects\vehicles\scorpion\scorpion.model
+savetagchanges
+exit
+edittag objects\vehicles\scorpion\scorpion.collision_model
+savetagchanges
+exit
+edittag objects\vehicles\scorpion\scorpion.physics_model
+savetagchanges
+exit
+edittag objects\vehicles\scorpion\scorpion.model_animation_graph
+savetagchanges
+exit
+edittag objects\vehicles\scorpion\turrets\cannon\cannon.model
+savetagchanges
+exit
+edittag objects\vehicles\scorpion\turrets\cannon\cannon.collision_model
+savetagchanges
+exit
+edittag objects\vehicles\scorpion\turrets\cannon\cannon.physics_model
+savetagchanges
+exit
+edittag objects\vehicles\scorpion\turrets\cannon\cannon.model_animation_graph
+savetagchanges
+exit
+nametag objects\vehicles\scorpion\scorpion.collision_model objects\vehicles\reach_scorpion\reach_scorpion
+nametag objects\vehicles\scorpion\scorpion.physics_model objects\vehicles\reach_scorpion\reach_scorpion
+nametag objects\vehicles\scorpion\scorpion.model_animation_graph objects\vehicles\reach_scorpion\reach_scorpion
+nametag objects\vehicles\scorpion\turrets\cannon\cannon.collision_model objects\vehicles\scorpion\turrets\reach_cannon\reach_cannon
+nametag objects\vehicles\scorpion\turrets\cannon\cannon.physics_model objects\vehicles\scorpion\turrets\reach_cannon\reach_cannon
+nametag objects\vehicles\scorpion\turrets\cannon\cannon.model_animation_graph objects\vehicles\scorpion\turrets\reach_cannon\reach_cannon
 
 DuplicateTag objects\weapons\pistol\magnum\magnum.weapon dw3\objects\weapons\pistols\magnum\m6d\m6d_mp
 DuplicateTag sound\vehicles\wraith\w_boost_left\track1\in.sound sound\aat_sounds\boost
