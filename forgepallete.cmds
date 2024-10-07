@@ -184,6 +184,13 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object object\vehicles\aat\aat.vehicle
 
 AddBlockElements Palette
+SetField Palette[*].Name "AAT TAN"
+SetField Palette[*].Type Vehicle
+SetField Palette[*].CategoryIndex 85
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object object\vehicles\aat\aat_tan.vehicle
+
+AddBlockElements Palette
 SetField Palette[*].Name "Geonosis Turret"
 SetField Palette[*].Type Vehicle
 SetField Palette[*].CategoryIndex 85
@@ -280,6 +287,13 @@ SetField Palette[*].Type Vehicle
 SetField Palette[*].CategoryIndex 85
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object object\vehicles\stap\stap.vehicle
+
+AddBlockElements Palette
+SetField Palette[*].Name "Single Trooper Aerial Platform Tan"
+SetField Palette[*].Type Vehicle
+SetField Palette[*].CategoryIndex 85
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object object\vehicles\stap\stap_tan.vehicle
 
 AddBlockElements Palette
 SetField Palette[*].Name "TX-130"
@@ -380,11 +394,18 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\vehicles\turret_standalone\gauss.vehicle
 
 AddBlockElements Palette
-SetField Palette[*].Name "TX-130 New"
+SetField Palette[*].Name "TX-130 New Turretless"
 SetField Palette[*].Type Vehicle
 SetField Palette[*].CategoryIndex 85
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\vehicles\tx130\tx130_new.vehicle
+
+AddBlockElements Palette
+SetField Palette[*].Name "TX-130 New"
+SetField Palette[*].Type Vehicle
+SetField Palette[*].CategoryIndex 85
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\vehicles\tx130\tx130_new_turret.vehicle
 
 AddBlockElements Palette
 SetField Palette[*].Name "Wrecked Warthog"
