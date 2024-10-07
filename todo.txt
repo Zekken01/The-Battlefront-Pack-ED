@@ -19,7 +19,6 @@ Clone Customization (TwistedFlog is on it).
 
 Light Sabers Mod.
 
-
 //Forge Stuff
 
 Add the skyboxes to the skybox category if they're original
@@ -27,7 +26,6 @@ Add the skyboxes to the skybox category if they're original
 Fix ion cannon machine
 https://s.zekken.rocks/TNAS8kgi.jpg
 
-Wind Machine doesnt spin even after adding to forge pallette.
 AT-AT bipeds despawn after being drove by the player and also cant be picked back up after being placed.
 Fix stand alone turrets not having the turret base.
 Fix AAT not spawning with turret.
