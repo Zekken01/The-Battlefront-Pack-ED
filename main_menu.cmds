@@ -1,0 +1,20 @@
+# Main Menu
+
+DuplicateTag sound\music\main_menu_delta\delta_menu\loop.sound sound\music\battlefront_main_menu
+EditTag sound\music\battlefront_main_menu.sound
+ImportSound "workingdir\sounds\music\mainmenu"
+SaveTagChanges
+Exit
+
+DuplicateTag sound\game_sfx\ui\main_menu_music\main_menu_music.sound_looping sound\game_sfx\ui\battlefront_main_menu_music
+EditTag sound\game_sfx\ui\battlefront_main_menu_music.sound_looping
+SetField Tracks[0].In null
+SetField Tracks[0].Loop sound\music\battlefront_main_menu.sound
+SaveTagChanges
+Exit
+
+EditTag ui\ui_shared_globals.user_interface_shared_globals_definition
+SetField MainMenuMusic sound\game_sfx\ui\battlefront_main_menu_music.sound_looping
+setfield MusicFadeTime 100
+SaveTagChanges
+Exit

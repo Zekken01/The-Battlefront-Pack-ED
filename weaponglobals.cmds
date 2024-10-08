@@ -1,0 +1,828 @@
+# echo ==Weapons...==
+
+stringid add A280
+stringid add DC-15
+stringid add DC-15A
+stringid add DC-15xSniperRifle
+stringid add DC-17
+stringid add DH-17
+stringid add E-11
+stringid add E-5
+stringid add GolfClub
+stringid add BrutePlasmaRifle
+stringid add SilencedSMG
+stringid add Automag
+
+
+# echo ==A280...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+AddBlockElements Universal[0].GameVariantWeapons
+SetField Universal[0].GameVariantWeapons[*].Name A280
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
+SetField Universal[0].GameVariantWeapons[*].Weapon object\weapons\a280\a280.weapon
+AddBlockElements Universal[0].WeaponSets[0].Substitutions
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon A280
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon A280
+SaveTagChanges
+Exit
+
+EditTag ui\halox\game_options\strings.unic
+SetString english A280 "A280"
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue A280
+SetField TextValuePairs[*].Name A280
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue A280
+SetField TextValuePairs[*].Name A280
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue A280
+SetField TextValuePairs[*].Name A280
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue A280
+SetField TextValuePairs[*].Name A280
+SaveTagChanges
+Exit
+
+# echo ==DC-15...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+AddBlockElements Universal[0].GameVariantWeapons
+SetField Universal[0].GameVariantWeapons[*].Name DC-15
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\dc-15\dc-15.weapon
+AddBlockElements Universal[0].WeaponSets[0].Substitutions
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon DC-15
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon DC-15
+SaveTagChanges
+Exit
+
+EditTag ui\halox\game_options\strings.unic
+SetString english DC-15 "DC-15"
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DC-15
+SetField TextValuePairs[*].Name DC-15
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DC-15
+SetField TextValuePairs[*].Name DC-15
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DC-15
+SetField TextValuePairs[*].Name DC-15
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DC-15
+SetField TextValuePairs[*].Name DC-15
+SaveTagChanges
+Exit
+
+# echo ==DC-15A...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+AddBlockElements Universal[0].GameVariantWeapons
+SetField Universal[0].GameVariantWeapons[*].Name DC-15A
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
+SetField Universal[0].GameVariantWeapons[*].Weapon object\weapons\dc15a\dc15a.weapon
+AddBlockElements Universal[0].WeaponSets[0].Substitutions
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon DC-15A
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon DC-15A
+SaveTagChanges
+Exit
+
+EditTag ui\halox\game_options\strings.unic
+SetString english DC-15A "DC-15A"
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DC-15A
+SetField TextValuePairs[*].Name DC-15A
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DC-15A
+SetField TextValuePairs[*].Name DC-15A
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DC-15A
+SetField TextValuePairs[*].Name DC-15A
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DC-15A
+SetField TextValuePairs[*].Name DC-15A
+SaveTagChanges
+Exit
+
+# echo ==DC-15x Sniper Rifle...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+AddBlockElements Universal[0].GameVariantWeapons
+SetField Universal[0].GameVariantWeapons[*].Name DC-15xSniperRifle
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
+SetField Universal[0].GameVariantWeapons[*].Weapon object\weapons\sniper_rifle\sniper_rifle.weapon
+AddBlockElements Universal[0].WeaponSets[0].Substitutions
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon DC-15xSniperRifle
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon DC-15xSniperRifle
+SaveTagChanges
+Exit
+
+EditTag ui\halox\game_options\strings.unic
+SetString english DC-15xSniperRifle "DC-15x SNIPER RIFLE"
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DC-15xSniperRifle
+SetField TextValuePairs[*].Name DC-15xSniperRifle
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DC-15xSniperRifle
+SetField TextValuePairs[*].Name DC-15xSniperRifle
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DC-15xSniperRifle
+SetField TextValuePairs[*].Name DC-15xSniperRifle
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DC-15xSniperRifle
+SetField TextValuePairs[*].Name DC-15xSniperRifle
+SaveTagChanges
+Exit
+
+# echo ==DC-17...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+AddBlockElements Universal[0].GameVariantWeapons
+SetField Universal[0].GameVariantWeapons[*].Name DC-17
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
+SetField Universal[0].GameVariantWeapons[*].Weapon object\weapons\dc-17\dc-17.weapon
+AddBlockElements Universal[0].WeaponSets[0].Substitutions
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon DC-17
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon DC-17
+SaveTagChanges
+Exit
+
+EditTag ui\halox\game_options\strings.unic
+SetString english DC-17 "DC-17"
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DC-17
+SetField TextValuePairs[*].Name DC-17
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DC-17
+SetField TextValuePairs[*].Name DC-17
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DC-17
+SetField TextValuePairs[*].Name DC-17
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DC-17
+SetField TextValuePairs[*].Name DC-17
+SaveTagChanges
+Exit
+
+# echo ==DH-17...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+AddBlockElements Universal[0].GameVariantWeapons
+SetField Universal[0].GameVariantWeapons[*].Name DH-17
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
+SetField Universal[0].GameVariantWeapons[*].Weapon object\weapons\dh-17\dh-17.weapon
+AddBlockElements Universal[0].WeaponSets[0].Substitutions
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon DH-17
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon DH-17
+SaveTagChanges
+Exit
+
+EditTag ui\halox\game_options\strings.unic
+SetString english DH-17 "DH-17"
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DH-17
+SetField TextValuePairs[*].Name DH-17
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DH-17
+SetField TextValuePairs[*].Name DH-17
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DH-17
+SetField TextValuePairs[*].Name DH-17
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue DH-17
+SetField TextValuePairs[*].Name DH-17
+SaveTagChanges
+Exit
+
+# echo ==E-11...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+AddBlockElements Universal[0].GameVariantWeapons
+SetField Universal[0].GameVariantWeapons[*].Name E-11
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
+SetField Universal[0].GameVariantWeapons[*].Weapon object\weapons\e-11\e-11.weapon
+AddBlockElements Universal[0].WeaponSets[0].Substitutions
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon E-11
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon E-11
+SaveTagChanges
+Exit
+
+EditTag ui\halox\game_options\strings.unic
+SetString english E-11 "E-11"
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue E-11
+SetField TextValuePairs[*].Name E-11
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue E-11
+SetField TextValuePairs[*].Name E-11
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue E-11
+SetField TextValuePairs[*].Name E-11
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue E-11
+SetField TextValuePairs[*].Name E-11
+SaveTagChanges
+Exit
+
+# echo ==E-5...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+AddBlockElements Universal[0].GameVariantWeapons
+SetField Universal[0].GameVariantWeapons[*].Name E-5
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
+SetField Universal[0].GameVariantWeapons[*].Weapon object\weapons\e-5\e-5.weapon
+AddBlockElements Universal[0].WeaponSets[0].Substitutions
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon E-5
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon E-5
+SaveTagChanges
+Exit
+
+EditTag ui\halox\game_options\strings.unic
+SetString english E-5 "E-5"
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue E-5
+SetField TextValuePairs[*].Name E-5
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue E-5
+SetField TextValuePairs[*].Name E-5
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue E-5
+SetField TextValuePairs[*].Name E-5
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue E-5
+SetField TextValuePairs[*].Name E-5
+SaveTagChanges
+Exit
+
+# echo ==Golf Club...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+AddBlockElements Universal[0].GameVariantWeapons
+SetField Universal[0].GameVariantWeapons[*].Name GolfClub
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\levels\dlc\shared\golf_club\golf_club.weapon
+AddBlockElements Universal[0].WeaponSets[0].Substitutions
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon GolfClub
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon GolfClub
+SaveTagChanges
+Exit
+
+EditTag ui\halox\game_options\strings.unic
+SetString english GolfClub "GOLF CLUB"
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue GolfClub
+SetField TextValuePairs[*].Name GolfClub
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue GolfClub
+SetField TextValuePairs[*].Name GolfClub
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue GolfClub
+SetField TextValuePairs[*].Name GolfClub
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue GolfClub
+SetField TextValuePairs[*].Name GolfClub
+SaveTagChanges
+Exit
+
+# echo ==Brute Plasma Rifle...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+AddBlockElements Universal[0].GameVariantWeapons
+SetField Universal[0].GameVariantWeapons[*].Name BrutePlasmaRifle
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\plasma_rifle_red\plasma_rifle_red.weapon
+AddBlockElements Universal[0].WeaponSets[0].Substitutions
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon BrutePlasmaRifle
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon BrutePlasmaRifle
+SaveTagChanges
+Exit
+
+EditTag ui\halox\game_options\strings.unic
+SetString english BrutePlasmaRifle "BRUTE PLASMA RIFLE"
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue BrutePlasmaRifle
+SetField TextValuePairs[*].Name BrutePlasmaRifle
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue BrutePlasmaRifle
+SetField TextValuePairs[*].Name BrutePlasmaRifle
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue BrutePlasmaRifle
+SetField TextValuePairs[*].Name BrutePlasmaRifle
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue BrutePlasmaRifle
+SetField TextValuePairs[*].Name BrutePlasmaRifle
+SaveTagChanges
+Exit
+
+# echo ==Silenced SMG...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+AddBlockElements Universal[0].GameVariantWeapons
+SetField Universal[0].GameVariantWeapons[*].Name SilencedSMG
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\smg_silenced\smg_silenced.weapon
+AddBlockElements Universal[0].WeaponSets[0].Substitutions
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon SilencedSMG
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon SilencedSMG
+SaveTagChanges
+Exit
+
+EditTag ui\halox\game_options\strings.unic
+SetString english SilencedSMG "SILENCED SMG"
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue SilencedSMG
+SetField TextValuePairs[*].Name SilencedSMG
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue SilencedSMG
+SetField TextValuePairs[*].Name SilencedSMG
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue SilencedSMG
+SetField TextValuePairs[*].Name SilencedSMG
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue SilencedSMG
+SetField TextValuePairs[*].Name SilencedSMG
+SaveTagChanges
+Exit
+
+# echo ==Automag...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+AddBlockElements Universal[0].GameVariantWeapons
+SetField Universal[0].GameVariantWeapons[*].Name Automag
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\pistol\automag\automag.weapon
+AddBlockElements Universal[0].WeaponSets[0].Substitutions
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon Automag
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon Automag
+SaveTagChanges
+Exit
+
+EditTag ui\halox\game_options\strings.unic
+SetString english Automag "AUTOMAG"
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue Automag
+SetField TextValuePairs[*].Name Automag
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue Automag
+SetField TextValuePairs[*].Name Automag
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue Automag
+SetField TextValuePairs[*].Name Automag
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue Automag
+SetField TextValuePairs[*].Name Automag
+SaveTagChanges
+Exit
+
+# echo ==Vehicles...==
+
+stringid add Snow_Speeder
+stringid add Snow_Mongoose
+stringid add Snow_Scorpion
+stringid add Snow_TX-130
+stringid add Snow_Gauss_Hog
+stringid add AAT
+stringid add Hoth_Speeder_High_Poly
+stringid add Hoth_Speeder_Low_Poly
+stringid add Persuader
+stringid add Hover_Tank
+stringid add Hover_Tank_Scarif
+stringid add Hover_Tank_Other
+stringid add Speeder
+stringid add STAP
+stringid add TX-130
+stringid add V-Wing
+stringid add X-34_landspeeder
+stringid add Electric_Cart
+stringid add Republic_Speeder
+stringid add Spinwheel
+stringid add Tie_Striker
+
+# echo ==Snow Speeder...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Snow_Speeder
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\speeder_snow\speeder_snow.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Snow Mongoose...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Snow_Mongoose
+setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\mongoose\mongoose_snow.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Snow Scorpion...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Snow_Scorpion
+setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\scorpion\scorpion_snow.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Snow TX-130...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Snow_TX-130
+setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\tx130_snow\tx130_snow.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Snow Gauss Hog...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Snow_Gauss_Hog
+setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\warthog\warthog_gauss_snow.vehicle
+SaveTagChanges
+Exit
+
+# echo ==AAT...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name AAT
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\aat\aat.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Hoth Speeder High Poly...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Hoth_Speeder_High_Poly
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\hoth_speeder_new\hoth_speeder_new.vehicle
+SaveTagChanges
+Exit
+
+### echo ==Hoth Speeder Low Poly...==
+##
+##EditTag multiplayer\multiplayer_globals.mulg
+##addblockelements Universal[0].GameVariantVehicles
+##setfield Universal[0].GameVariantVehicles[*].Name Hoth_Speeder_Low_Poly
+##setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\hoth_speeder\hoth_speeder.vehicle
+##SaveTagChanges
+##Exit
+
+# echo ==Persuader...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Persuader
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\persuader\persuader.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Hover Tank...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Hover_Tank
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\speed_bike\speed_bike.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Hover Tank Scarif...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Hover_Tank_Scarif
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\speed_bike_scarif\speed_bike_scarif.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Hover Tank Other...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Hover_Tank_Other
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\speed_bike_snow\speed_bike_snow.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Speeder...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Speeder
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\speeder\speeder.vehicle
+SaveTagChanges
+Exit
+
+# echo ==STAP...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name STAP
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\stap\stap.vehicle
+SaveTagChanges
+Exit
+
+# echo ==TX-130...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name TX-130
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\tx130\tx130.vehicle
+SaveTagChanges
+Exit
+
+# echo ==V-Wing...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name V-Wing
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\v-wing\v-wing.vehicle
+SaveTagChanges
+Exit
+
+# echo ==X-34 landspeeder...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name X-34_landspeeder
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\x34_landspeeder\x34_landspeeder.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Electric Cart...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Electric_Cart
+setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\cart_electric\cart_electric.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Republic Speeder...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Republic_Speeder
+setfield Universal[0].GameVariantVehicles[*].Vehicle object\vehicles\speeder_repub\speeder_repub.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Spinwheel...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Spinwheel
+setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\spinwheel\spinny.vehicle
+SaveTagChanges
+Exit
+
+# echo ==Tie Striker...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+addblockelements Universal[0].GameVariantVehicles
+setfield Universal[0].GameVariantVehicles[*].Name Tie_Striker
+setfield Universal[0].GameVariantVehicles[*].Vehicle objects\vehicles\tie_striker\tie_striker.vehicle
+SaveTagChanges
+Exit
