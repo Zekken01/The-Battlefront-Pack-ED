@@ -123,7 +123,7 @@ RunCommands workingdir\weaponglobals.cmds
 UpdateMapFiles
 
 RunCommands workingdir\mapdescriptions.cmds
-echo RunCommands workingdir\forgepallete.cmds
+RunCommands workingdir\forgepallete.cmds
 
 EditTag levels\multi\utapau\utapau.scenario
 ImportMapVariant mapfile "workingdir\map_variants\Utapau\sandbox.map"
