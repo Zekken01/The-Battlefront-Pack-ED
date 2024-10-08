@@ -371,3 +371,9 @@ EditTag objects\vehicles\hoth_speeder\turret\weapons\cannon.weapon
 SetField HudInterface objects\weapons\rifle\starwarsgun\starwarsgun.chud_definition
 SaveTagChanges
 Exit
+
+edittag object\weapons\dc15a\dc15a.weapon
+setfield Barrels[0].AgeGeneratedPerRoundMp 0
+savetagchanges
+Exit
+
