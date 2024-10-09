@@ -480,6 +480,13 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object levels\multi\mustafar\objects\window\window.device_machine
 
 AddBlockElements Palette
+SetField Palette[*].Name "Rectangle Door"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 86
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object levels\multi\mustafar\objects\rectangle_door\rectangle_door.device_machine
+
+AddBlockElements Palette
 SetField Palette[*].Name "Triangle Door"
 SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex 86
