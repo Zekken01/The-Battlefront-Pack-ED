@@ -431,7 +431,7 @@ SetField Palette[*].Object objects\vehicles\warthog\warthog_wrecked_turret.vehic
 AddBlockElements Palette
 SetField Palette[*].Name "Zeta-class Heavy Cargo Shuttle"
 SetField Palette[*].Type Vehicle
-SetField Palette[*].CategoryIndex -1
+SetField Palette[*].CategoryIndex 85
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\vehicles\zeta_class_shuttle\zeta_class_shuttle.vehicle
 
