@@ -130,6 +130,10 @@ ImportMapVariant mapfile "workingdir\map_variants\Utapau\sandbox.map"
 SaveTagChanges
 Exit
 
+OpenModPackage "workingdir\H5 Assault Rifle.pak"
+ApplyModPackage
+ExitModPackage
+
 SaveModPackage "modsfolder\The Battlefront Pack.pak"
 
 ExitModPackage
