@@ -362,9 +362,9 @@ CompilePodiumScripts
 SaveTagChanges
 Exit
 
-edittag object\vehicles\laat\laat.model
-removeblockelements NewDamageInfo 0 1
-savetagchanges
+EditTag object\vehicles\laat\laat.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
 Exit
 
 EditTag objects\vehicles\hoth_speeder\turret\weapons\cannon.weapon
@@ -372,8 +372,18 @@ SetField HudInterface objects\weapons\rifle\starwarsgun\starwarsgun.chud_definit
 SaveTagChanges
 Exit
 
-edittag object\weapons\dc15a\dc15a.weapon
-setfield Barrels[0].AgeGeneratedPerRoundMp 0
-savetagchanges
+EditTag object\weapons\dc15a\dc15a.weapon
+SetField Barrels[0].AgeGeneratedPerRoundMp 0
+SaveTagChanges
+Exit
+
+EditTag object\vehicles\mtt\mtt.vehicle
+SetField BoundingRadius 13
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\zeta_class_shuttle\zeta_class_shuttle.vehicle
+SetField BoundingRadius 22
+SaveTagChanges
 Exit
 
