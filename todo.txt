@@ -1,6 +1,4 @@
 ```
-Redo Small Map Images
-
 Automatic doors take too long to open.
 
 Rocket Launcher has crazy drop on the projectile on some maps (scarif).
