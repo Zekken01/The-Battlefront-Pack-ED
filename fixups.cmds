@@ -248,10 +248,10 @@ Exit
 EditTag levels\multi\coruscant\coruscant.scenario
 SetField MapId 60001
 AddBlockElements CutsceneCameraPoints
-SetField CutsceneCameraPoints[0].Position 1.7622 -35.7706 9.5615
-SetField CutsceneCameraPoints[0].Orientation 89.623 -0.0379 -5.7434
+setfield CutsceneCameraPoints[0].Position 1.7769 -19.8274 10.0368
+setfield CutsceneCameraPoints[0].Orientation 89.754 -0.0688 -15.6261
 SetField CutsceneCameraPoints[1].Name "podium_camera"
-SetField CutsceneCameraPoints[1].Position 1.8281 3.2522 6.7768
+setfield CutsceneCameraPoints[1].Position 1.8281 3.2522 6.2768
 SetField CutsceneCameraPoints[1].Orientation 90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
