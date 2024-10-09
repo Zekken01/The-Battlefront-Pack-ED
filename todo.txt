@@ -1,7 +1,5 @@
 ```
-DC15a runs out of ammo (set gamespeed to 10)
-
-Redo Map Images
+Redo Small Map Images
 
 Automatic doors take too long to open.
 
@@ -19,8 +17,6 @@ Add Ambient Music from battlefront.
 Clone Customization (TwistedFlog is on it).
 
 Light Sabers Mod.
-
-//Forge Stuff
 
 DC-15x shows too many bullets
 
