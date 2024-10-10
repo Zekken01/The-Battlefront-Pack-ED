@@ -387,3 +387,32 @@ SetField BoundingRadius 22
 SaveTagChanges
 Exit
 
+#Fix Minecraft Textures#
+EditTag objects\scenery\random_build\shaders\minecraft.shader
+SetField ShaderProperties[0].TextureConstants[0].FilterMode Point
+SetField ShaderProperties[0].TextureConstants[2].FilterMode Point 
+savetagchanges
+Exit
+
+EditTag objects\scenery\random_build\random_build.render_model
+CopyBlockElements materials
+ReplaceRenderGeometry "workingdir/models/random_minecraft_house.dae"
+RemoveBlockElements materials 0 *
+PasteBlockElements materials
+SaveTagChanges
+Exit
+
+EditTag levels\multi\minecraft\bitmaps\farlayy2-rgba.bitmap
+ImportBitmap 0 "workingdir/bitmaps/random_minecraft_house_128.dds"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mos_eisley\objects\jukebox\bitmaps\jukebox.bitmap
+ImportBitmap 0 "workingdir/bitmaps/juke_box.dds"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mos_eisley\objects\jukebox\bitmaps\jukebox_top.bitmap
+ImportBitmap 0 "workingdir/bitmaps/juke_box_top.dds"
+SaveTagChanges
+Exit
