@@ -130,6 +130,16 @@ ImportMapVariant mapfile "workingdir\map_variants\Utapau\sandbox.map"
 SaveTagChanges
 Exit
 
+EditTag levels\multi\kashyyyk\kashyyyk.scenario
+ImportMapVariant mapfile "workingdir\map_variants\Kashyyyk\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mustafar\mustafar.scenario
+ImportMapVariant mapfile "workingdir\map_variants\Mustafar\sandbox.map"
+SaveTagChanges
+Exit
+
 OpenModPackage "workingdir\H5 Assault Rifle.pak"
 ApplyModPackage
 ExitModPackage
