@@ -2,7 +2,7 @@
 
 EditMap coruscant.map
 SetField Blf.Scenario.Names[0].Name "Coruscant"
-SetField Blf.Scenario.Descriptions[0].Name "Temple of the Jedi. 10-16 Players"
+SetField Blf.Scenario.Descriptions[0].Name "Temple of the Jedi. 10-16 players"
 SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
@@ -19,7 +19,7 @@ Exit
 
 EditMap geonosis.map
 SetField Blf.Scenario.Names[0].Name "Geonosis"
-SetField Blf.Scenario.Descriptions[0].Name "The shroud of the dark side has fallen. Begun, the Clone War has. 10-16 Players"
+SetField Blf.Scenario.Descriptions[0].Name "The shroud of the dark side has fallen. Begun, the Clone War has. 10-16 players"
 SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
@@ -36,7 +36,7 @@ Exit
 
 EditMap hoth.map
 SetField Blf.Scenario.Names[0].Name "Hoth"
-SetField Blf.Scenario.Descriptions[0].Name "And I thought they smelled bad on the outside. 10-16 Players"
+SetField Blf.Scenario.Descriptions[0].Name "And I thought they smelled bad on the outside. 10-16 players"
 SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
@@ -53,7 +53,7 @@ Exit
 
 EditMap imp_deathstar.map
 SetField Blf.Scenario.Names[0].Name "Death Star"
-SetField Blf.Scenario.Descriptions[0].Name "Thats no moon... 10-16 Players."
+SetField Blf.Scenario.Descriptions[0].Name "Thats no moon... 10-16 players."
 SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
@@ -70,7 +70,7 @@ Exit
 
 EditMap kashyyyk.map
 SetField Blf.Scenario.Names[0].Name "Kashyyyk"
-SetField Blf.Scenario.Descriptions[0].Name "Home of the Wookies, End of the Republic. 10-16 Players"
+SetField Blf.Scenario.Descriptions[0].Name "Home of the Wookies, End of the Republic. 10-16 players"
 SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
@@ -87,7 +87,7 @@ Exit
 
 EditMap mos_eisley.map
 SetField Blf.Scenario.Names[0].Name "Mos Eisley"
-SetField Blf.Scenario.Descriptions[0].Name "You will never find a more wretched hive of scum and villainy. 10-16 Players"
+SetField Blf.Scenario.Descriptions[0].Name "You will never find a more wretched hive of scum and villainy. 10-16 players"
 SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
@@ -104,7 +104,7 @@ Exit
 
 EditMap mustafar.map
 SetField Blf.Scenario.Names[0].Name "Mustafar"
-SetField Blf.Scenario.Descriptions[0].Name "The Jedi Order must come to an end... 10-16 Players."
+SetField Blf.Scenario.Descriptions[0].Name "The Jedi Order must come to an end... 10-16 players."
 SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
@@ -121,7 +121,7 @@ Exit
 
 EditMap scarif.map
 SetField Blf.Scenario.Names[0].Name "Scarif"
-SetField Blf.Scenario.Descriptions[0].Name "Our mission today, Will change the galaxy forever... 10-16 Players"
+SetField Blf.Scenario.Descriptions[0].Name "Our mission today, Will change the galaxy forever... 10-16 players"
 SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
@@ -138,7 +138,7 @@ Exit
 
 EditMap utapau.map
 SetField Blf.Scenario.Names[0].Name "Utapau"
-SetField Blf.Scenario.Descriptions[0].Name "Hello there. 10-16 Players"
+SetField Blf.Scenario.Descriptions[0].Name "Hello there. 10-16 players"
 SetField Blf.Scenario.GameEngineTeamCounts.NoGametypeTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.CtfTeamCount 8
 SetField Blf.Scenario.GameEngineTeamCounts.SlayerTeamCount 8
