@@ -514,6 +514,27 @@ SetField Palette[*].CategoryIndex -1
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object object\scenery\command_post\command_post.device_machine
 
+AddBlockElements Palette
+SetField Palette[*].Name "Ship Confed Hologram"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 86
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object levels\multi\mustafar\objects\ship_confed_holo\ship_confed_holo.device_machine
+
+AddBlockElements Palette
+SetField Palette[*].Name "Ship Hologram"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 86
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object levels\multi\mustafar\objects\ship_hologram\ship_hologram.device_machine
+
+AddBlockElements Palette
+SetField Palette[*].Name "Lava Mixer"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 86
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object levels\multi\mustafar\objects\swirly\swirly.device_machine
+
  echo ==Misc...==
 
 AddBlockElements Palette
@@ -1210,6 +1231,21 @@ SaveTagChanges
 Exit
 
 EditTag levels\multi\scarif\objects\box_large_stack\box_large_stack.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mustafar\objects\ship_confed_holo\ship_confed_holo.device_machine
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mustafar\objects\ship_hologram\ship_hologram.device_machine
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mustafar\objects\swirly\swirly.device_machine
 AddBlockElements MultiplayerObject
 SaveTagChanges
 Exit
