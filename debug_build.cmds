@@ -1,0 +1,151 @@
+"C:\Users\zekken\Desktop\ElDewrito 0.7 debug 4.20.2022\maps\tags.dat"
+
+# echo ==Set Variables...==
+SetVariable workingdir "C:\Users\zekken\Desktop\The-Battlefront-Pack-ED"
+SetVariable modsfolder "C:\Users\zekken\Desktop\ElDewrito 0.7 debug 4.20.2022\mods\downloads"
+
+# echo ==Set Caches...==
+UseAudioCache workingdir\caches\audiocache
+UseShaderCache workingdir\caches\shadercache
+
+# echo ==Creating Mod Package...==
+CreateModPackage 1 large
+The Battlefront Pack
+The Battlefront Pack including Coruscant, Geonosis, Hoth, Death Star, Kashyyyk, Mos Eisley, Mustafar, Scarif, and Utapau. Credit goes to the original mod creators Abyssquick and Stevieroth. Special thanks to Newbie, MtnDewIt, Dirkkane, Minelelol, and TwistedFlog for help porting to ElDewrito.
+Zekken
+0.9
+MainMenu Multiplayer Character
+
+AddModFiles "workingdir\maps\ui"
+
+mapfile add bunkerworld.map
+mapfile add chill.map
+mapfile add cyberdyne.map
+mapfile add deadlock.map
+mapfile add guardian.map
+mapfile add riverworld.map
+mapfile add s3d_avalanche.map
+mapfile add s3d_edge.map
+mapfile add s3d_reactor.map
+mapfile add s3d_turf.map
+mapfile add shrine.map
+mapfile add zanzibar.map
+
+RunCommands workingdir\preportcommands.cmds
+
+OpenCacheFile "workingdir\maps\coruscant.map"
+PortTag !UpdateMapFiles *.scnr
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+nametag 0.scenario_lightmap_bsp_data 0_coruscant
+nametag fake_lightmap.scenario_lightmap fake_lightmap_coruscant
+savetagnames
+Exit
+
+OpenCacheFile "workingdir\maps\geonosis.map"
+PortTag !UpdateMapFiles *.scnr
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+nametag 0.scenario_lightmap_bsp_data 0_geonosis
+nametag fake_lightmap.scenario_lightmap fake_lightmap_geonosis
+savetagnames
+Exit
+
+OpenCacheFile "workingdir\maps\hoth.map"
+nametag object\scenery\command_post\command_post.device_machine object\scenery\command_post_rebels\command_post_rebels
+PortTag !UpdateMapFiles *.scnr
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+nametag object\scenery\command_post_rebels\command_post_rebels.device_machine object\scenery\command_post\command_post
+savetagnames
+Exit
+
+OpenCacheFile "workingdir\maps\imp_deathstar.map"
+nametag object\scenery\command_post\command_post.device_machine object\scenery\command_post_rebels\command_post_rebels
+PortTag !UpdateMapFiles *.scnr
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+nametag 0.scenario_lightmap_bsp_data 0_imp_deathstar
+nametag fake_lightmap.scenario_lightmap fake_lightmap_imp_deathstar
+nametag object\scenery\command_post_rebels\command_post_rebels.device_machine object\scenery\command_post\command_post
+savetagnames
+Exit
+
+OpenCacheFile "workingdir\maps\kashyyyk.map"
+PortTag !UpdateMapFiles *.scnr
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+nametag 0.scenario_lightmap_bsp_data 0_kashyyyk
+nametag fake_lightmap.scenario_lightmap fake_lightmap_kashyyyk
+savetagnames
+Exit
+
+OpenCacheFile "workingdir\maps\mos_eisley.map"
+nametag object\scenery\command_post\command_post.device_machine object\scenery\command_post_rebels\command_post_rebels
+PortTag !UpdateMapFiles *.scnr
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+nametag 0.scenario_lightmap_bsp_data 0_mos_eisley
+nametag fake_lightmap.scenario_lightmap fake_lightmap_mos_eisley
+nametag object\scenery\command_post_rebels\command_post_rebels.device_machine object\scenery\command_post\command_post
+savetagnames
+Exit
+
+OpenCacheFile "workingdir\maps\mustafar.map"
+PortTag !UpdateMapFiles *.scnr
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+nametag 0.scenario_lightmap_bsp_data 0_mustafar
+nametag fake_lightmap.scenario_lightmap fake_lightmap_mustafar
+savetagnames
+Exit
+
+OpenCacheFile "workingdir\maps\scarif.map"
+nametag object\scenery\command_post\command_post.device_machine object\scenery\command_post_rebels\command_post_rebels
+PortTag !UpdateMapFiles *.scnr
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+nametag 0.scenario_lightmap_bsp_data 0_scarif
+nametag fake_lightmap.scenario_lightmap fake_lightmap_scarif
+nametag object\scenery\command_post_rebels\command_post_rebels.device_machine object\scenery\command_post\command_post
+savetagnames
+Exit
+
+OpenCacheFile "workingdir\maps\utapau.map"
+PortTag !UpdateMapFiles *.scnr
+PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
+nametag 0.scenario_lightmap_bsp_data 0_utapau
+nametag fake_lightmap.scenario_lightmap fake_lightmap_utapau
+savetagnames
+Exit
+
+##RunCommands workingdir\commandpostimprovement.cmds
+RunCommands workingdir\debug_fixups.cmds
+RunCommands workingdir\sprintfixups.cmds
+RunCommands workingdir\weaponoffsets.cmds
+RunCommands workingdir\odstweapons.cmds
+RunCommands workingdir\better3panimations.cmds
+RunCommands workingdir\machinefixes.cmds
+RunCommands workingdir\weaponglobals.cmds
+
+UpdateMapFiles
+
+RunCommands workingdir\mapdescriptions.cmds
+##RunCommands workingdir\forgepallete.cmds
+
+##EditTag levels\multi\utapau\utapau.scenario
+##ImportMapVariant mapfile "workingdir\map_variants\Utapau\sandbox.map"
+##SaveTagChanges
+##Exit
+
+##EditTag levels\multi\kashyyyk\kashyyyk.scenario
+##ImportMapVariant mapfile "workingdir\map_variants\Kashyyyk\sandbox.map"
+##SaveTagChanges
+##Exit
+
+##EditTag levels\multi\mustafar\mustafar.scenario
+##ImportMapVariant mapfile "workingdir\map_variants\Mustafar\sandbox.map"
+##SaveTagChanges
+##Exit
+
+##OpenModPackage "workingdir\H5 Assault Rifle.pak"
+##ApplyModPackage
+##ExitModPackage
+
+SaveModPackage "modsfolder\The Battlefront Pack.pak"
+
+ExitModPackage
+
+DumpLog workingdir\logs
