@@ -1,0 +1,418 @@
+EditTag object\vehicles\aat\weapons\siege.weapon
+SetField Triggers[0].Input RightTrigger
+SetField Triggers[0].Behavior Latch
+SetField Triggers[0].PrimaryBarrel 0
+SetField Triggers[0].SecondaryBarrel -1
+SaveTagChanges
+Exit
+
+EditTag object\vehicles\aat\weapons\aat.weapon
+SetField Triggers[0].Input LeftTrigger
+SaveTagChanges
+Exit
+
+EditTag object\vehicles\speed_bike\speed_bike.vehicle
+SetField Seats[0].MarkerName turret
+SaveTagChanges
+Exit
+
+EditTag object\vehicles\speed_bike_snow\speed_bike_snow.vehicle
+SetField Seats[0].MarkerName turret
+SaveTagChanges
+Exit
+
+EditTag object\vehicles\speed_bike_scarif\speed_bike_scarif.vehicle
+SetField Seats[0].MarkerName turret
+SaveTagChanges
+Exit
+
+EditTag objects\levels\multi\imp_deathstar\turret\turret.vehicle
+SetField Seats[0].MarkerName warthog_g_enter
+SetField Seats[0].Label ghost_d
+SaveTagChanges
+Exit
+
+EditTag object\vehicles\geo_turret\geo_turret.vehicle
+setfield Seats[0].Label mauler_g
+SaveTagChanges
+Exit
+
+EditTag object\vehicles\aat\aat.vehicle
+setfield DefaultModelVariant blue_sep
+SaveTagChanges
+Exit
+
+DuplicateTag object\vehicles\aat\aat.vehicle object\vehicles\aat\aat_tan
+EditTag object\vehicles\aat\aat_tan.vehicle
+setfield DefaultModelVariant tan_sep
+SaveTagChanges
+Exit
+
+EditTag object\vehicles\stap\stap.vehicle
+setfield DefaultModelVariant blue_sep
+SaveTagChanges
+Exit
+
+DuplicateTag object\vehicles\stap\stap.vehicle object\vehicles\stap\stap_tan
+EditTag object\vehicles\stap\stap_tan.vehicle
+setfield DefaultModelVariant tan_sep
+SaveTagChanges
+Exit
+
+DuplicateTag objects\vehicles\tx130\tx130_new.vehicle objects\vehicles\tx130\tx130_new_turret
+EditTag objects\vehicles\tx130\tx130_new_turret.vehicle
+setfield DefaultModelVariant turret
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\turret_standalone\turret_standalone.vehicle
+setfield DefaultModelVariant default
+SaveTagChanges
+Exit
+
+DuplicateTag objects\vehicles\turret_standalone\turret_standalone.vehicle objects\vehicles\turret_standalone\turret_standalone_chaingun
+EditTag objects\vehicles\turret_standalone\turret_standalone_chaingun.vehicle
+setfield DefaultModelVariant chaingun
+SaveTagChanges
+Exit
+
+EditTag object\weapons\e-5\bitmaps\sche.bitmap
+ImportBitmap 0 "workingdir\bitmaps\e-5.dds"
+SaveTagChanges
+Exit
+
+EditTag object\weapons\dh-17\bitmaps\shce.bitmap
+ImportBitmap 0 "workingdir\bitmaps\dh-17.dds"
+SaveTagChanges
+Exit
+
+EditTag object\weapons\a280\bitmaps\sche.bitmap
+ImportBitmap 0 "workingdir\bitmaps\a280.dds"
+SaveTagChanges
+Exit
+
+EditTag object\weapons\dc-17\bitmaps\shce.bitmap
+ImportBitmap 0 "workingdir\bitmaps\dc17_righthand.dds"
+SaveTagChanges
+Exit
+
+EditTag object\weapons\dc-17\bitmaps\shce2.bitmap
+ImportBitmap 0 "workingdir\bitmaps\dc17_lefthand.dds"
+SaveTagChanges
+Exit
+
+# give starwars sniper a hud icon
+DuplicateTag rasterizer\invalid.bitmap object\weapons\starwarssniper\bitmaps\shce.bitmap
+EditTag ui\chud\starwarssiper.chud_definition
+SetField HudWidgets[4].BitmapWidgets[0].Bitmap object\weapons\starwarssniper\bitmaps\shce.bitmap
+SetField HudWidgets[5].BitmapWidgets[1].Bitmap object\weapons\starwarssniper\bitmaps\shce.bitmap
+SaveTagChanges
+Exit
+
+EditTag object\weapons\starwarssniper\bitmaps\shce.bitmap
+ImportBitmap 0 "workingdir\bitmaps\dc-15x.dds"
+SaveTagChanges
+Exit
+
+StringId add dc_17_pick_up
+StringId add dc_17_picked_up
+StringId add dc_17_swap
+StringId add dc_17_switch_to
+StringId add dc_17_dual_wield
+EditTag object\weapons\dc-17\dc-17.weapon
+SetField PickupMessage dc_17_pick_up
+SetField SwapMessage dc_17_swap
+SetField PickedUpMessage dc_17_picked_up
+SetField SwitchToMessage dc_17_switch_to
+SetField PickupOrDualWieldMessage dc_17_dual_wield
+SaveTagChanges
+Exit
+
+EditTag ui\hud\hud_messages.multilingual_unicode_string_list
+
+SetString english dc_17_pick_up "Hold \uE445 to pick up DC-17 Blaster Pistol|r"
+SetString english dc_17_swap "Hold \uE445 to swap for DC-17 Blaster Pistol|r"
+SetString english dc_17_picked_up "Picked up a DC-17 Blaster Pistol"
+SetString english dc_17_switch_to "Out of ammo |rPress \uE446 to switch to DC-17 Blaster Pistol"
+SetString english dc_17_dual_wield "\uE461 \uE45E to dual-wield DC-17 Blaster Pistol|r"
+
+SetString english dc15apistol_pickup_ "Hold \uE445 to pick up DC-15a Pistol|r"
+SetString english dc15apistol_swap "Hold \uE445 to swap for DC-15a Pistol|r"
+
+SetString english dc15blaster_pickup "Hold \uE445 to pick up DC-15 Blaster Rifle|r"
+SetString english dc15blaster_swap "Hold \uE445 to swap for DC-15 Blaster Rifle|r"
+
+SetString english e5_pickup "Hold \uE445 to pick up E-5 Blaster Rifle|r"
+SetString english e5_swap "Hold \uE445 to swap for E-5 Blaster Rifle|r"
+
+SetString english dc15xsniper_pickup "Hold \uE445 to pick up DC-15x Sniper Rifle|r"
+SetString english dc15xsniper_swap "Hold \uE445 to swap for DC-15x Sniper Rifle|r"
+
+SetString english a280_pickup "Hold \uE445 to pick up A280 Blaster Rifle|r"
+SetString english a280_swap "Hold \uE445 to swap for A280 Blaster Rifle|r"
+
+SetString english blaster_pickup "Hold \uE445 to pick up DH-17 Blaster Rifle|r"
+SetString english blaster_swap "Hold \uE445 to swap for DH-17 Blaster Rifle|r"
+
+SaveTagChanges
+Exit
+
+EditTag object\vehicles\venator\venator.model
+SetField DisappearDistance 1000
+SetField BeginFadeDistance 1000
+SaveTagChanges
+Exit
+
+EditTag fx\scenery_fx\smoke\smoke_thick_large\smoke_thick_large.effect
+ForEach Events ForEach ParticleSystems SetField Flags ParticlesContinueAsUsualWhenOffscreen,TurnOffNearFadeOnEnhancedGraphics
+ForEach Events ForEach ParticleSystems SetField PixelBudget 0
+ForEach Events ForEach ParticleSystems SetField NearRange 10000
+ForEach Events ForEach ParticleSystems SetField NearCutoff 0
+ForEach Events ForEach ParticleSystems SetField LodOutDistance 10000
+ForEach Events ForEach ParticleSystems ForEach Emitters SetField BoundingRadiusEstimate 20
+SaveTagChanges
+Exit
+
+EditTag fx\scenery_fx\fire\fire_large\fire_large.effect
+ForEach Events ForEach ParticleSystems SetField Flags ParticlesContinueAsUsualWhenOffscreen,TurnOffNearFadeOnEnhancedGraphics
+ForEach Events ForEach ParticleSystems SetField PixelBudget 0
+ForEach Events ForEach ParticleSystems SetField NearRange 10000
+ForEach Events ForEach ParticleSystems SetField NearCutoff 0
+ForEach Events ForEach ParticleSystems SetField LodOutDistance 10000
+ForEach Events ForEach ParticleSystems ForEach Emitters SetField BoundingRadiusEstimate 20
+SaveTagChanges
+Exit
+
+EditTag levels\solo\030_outskirts\fx\crashed_phantom\crashed_phantom_fire.effect
+ForEach Events ForEach ParticleSystems SetField Flags ParticlesContinueAsUsualWhenOffscreen,TurnOffNearFadeOnEnhancedGraphics
+ForEach Events ForEach ParticleSystems SetField PixelBudget 0
+ForEach Events ForEach ParticleSystems SetField NearRange 10000
+ForEach Events ForEach ParticleSystems SetField NearCutoff 0
+ForEach Events ForEach ParticleSystems SetField LodOutDistance 10000
+ForEach Events ForEach ParticleSystems ForEach Emitters SetField BoundingRadiusEstimate 20
+SaveTagChanges
+Exit
+
+EditTag fx\scenery_fx\fire\fire_small\fire_small.effect
+ForEach Events ForEach ParticleSystems SetField Flags ParticlesContinueAsUsualWhenOffscreen,TurnOffNearFadeOnEnhancedGraphics
+ForEach Events ForEach ParticleSystems SetField PixelBudget 0
+ForEach Events ForEach ParticleSystems SetField NearRange 10000
+ForEach Events ForEach ParticleSystems SetField NearCutoff 0
+ForEach Events ForEach ParticleSystems SetField LodOutDistance 10000
+ForEach Events ForEach ParticleSystems ForEach Emitters SetField BoundingRadiusEstimate 20
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\millenium_falcon\shaders\falcon_main.shader
+setargument specular_coefficient 0
+setargument diffuse_coefficient 0.3
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\millenium_falcon\shaders\falcon_gear.shader
+setargument specular_coefficient 0
+setargument diffuse_coefficient 0.3
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\ion_cannon\ion_cannon.render_model
+CopyBlockElements materials 0 *
+ReplaceRenderGeometry workingdir\models\ion_cannon.dae
+RemoveBlockElements materials 0 *
+PasteBlockElements materials
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\ion_cannon\ion_cannon.model
+SetField DisappearDistance -1
+SetField BeginFadeDistance -1
+SaveTagChanges
+Exit
+
+EditTag levels\multi\hoth\shaders\hoth_terrain.shader_terrain
+SetArgument global_albedo_tint 2.5
+SaveTagChanges
+Exit
+
+EditTag levels\multi\hoth\hoth_lightmap_hoth6_16f_lp_array_dxt5.bitmap
+ImportBitmap 0 "workingdir\bitmaps\hoth_lightmap_hoth6_16f_lp_array_dxt5.dds"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\hoth\hoth_lightmap_hoth6_16f_lp_array_intensity_dxt5.bitmap
+ImportBitmap 0 "workingdir\bitmaps\hoth_lightmap_hoth6_16f_lp_array_intensity_dxt5.dds"
+SaveTagChanges
+Exit
+
+# Podium and Prematch Cameras
+EditTag levels\multi\coruscant\coruscant.scenario
+SetField MapId 60001
+AddBlockElements CutsceneCameraPoints
+setfield CutsceneCameraPoints[0].Position 1.7769 -19.8274 10.0368
+setfield CutsceneCameraPoints[0].Orientation 89.754 -0.0688 -15.6261
+##SetField CutsceneCameraPoints[1].Name "podium_camera"
+##setfield CutsceneCameraPoints[1].Position 1.8281 3.2522 6.2768
+##SetField CutsceneCameraPoints[1].Orientation 90 0 0
+##SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
+##CompilePodiumScripts
+SaveTagChanges
+Exit
+
+EditTag levels\multi\geonosis\geonosis.scenario
+SetField MapId 60002
+AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[0].Position -18.2027 25.2249 7.6221
+SetField CutsceneCameraPoints[0].Orientation -78.076 -0.5027 2.3793
+##SetField CutsceneCameraPoints[1].Name "podium_camera"
+##SetField CutsceneCameraPoints[1].Position 13.1129 19.2211 -2.7488
+##SetField CutsceneCameraPoints[1].Orientation 120 0 0
+##SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
+##CompilePodiumScripts
+SaveTagChanges
+Exit
+
+EditTag levels\multi\hoth\hoth.scenario
+SetField MapId 60003
+AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[0].Position 133.3836 -56.744 191.3433
+SetField CutsceneCameraPoints[0].Orientation 54.6615 -5.5422 -7.756499
+##SetField CutsceneCameraPoints[1].Name "podium_camera"
+##SetField CutsceneCameraPoints[1].Position 145.3955 -22.6032 184.2577
+##SetField CutsceneCameraPoints[1].Orientation -30 0 0
+##SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
+##CompilePodiumScripts
+SaveTagChanges
+Exit
+
+EditTag levels\multi\imp_deathstar\imp_deathstar.scenario
+SetField MapId 60004
+AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[0].Position -30.2844 14.2575 -5.1671
+SetField CutsceneCameraPoints[0].Orientation -0.2111 -2.6294 0.0097
+##SetField CutsceneCameraPoints[1].Name "podium_camera"
+##SetField CutsceneCameraPoints[1].Position 20.5118 -8.5226 -10.0339
+##SetField CutsceneCameraPoints[1].Orientation -153.5348 0 0
+##SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
+##CompilePodiumScripts
+SaveTagChanges
+Exit
+
+EditTag levels\multi\kashyyyk\kashyyyk.scenario
+SetField MapId 60005
+AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[0].Position 45.8226 32.7205 12.8865
+SetField CutsceneCameraPoints[0].Orientation -151.293 4.1923 2.2926
+##SetField CutsceneCameraPoints[1].Name "podium_camera"
+##SetField CutsceneCameraPoints[1].Position 7.6947 -18.6738 1.6505
+##SetField CutsceneCameraPoints[1].Orientation 96 0 0
+##SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
+##CompilePodiumScripts
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mos_eisley\mos_eisley.scenario
+SetField MapId 60006
+AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[0].Position -12.8328 24.8494 1.2108
+SetField CutsceneCameraPoints[0].Orientation -36.06 -0.6029 0.439
+##SetField CutsceneCameraPoints[1].Name "podium_camera"
+##SetField CutsceneCameraPoints[1].Position 31.3628 19.4440 0.2872
+##SetField CutsceneCameraPoints[1].Orientation -121 0 0
+##SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
+##CompilePodiumScripts
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mustafar\mustafar.scenario
+SetField MapId 60007
+AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[0].Position -0.1681 16.4922 3.2789
+SetField CutsceneCameraPoints[0].Orientation -119.0447 0.9556999 1.7204
+##SetField CutsceneCameraPoints[1].Name "podium_camera"
+##SetField CutsceneCameraPoints[1].Position -21.7106 -14.4260 0.2098
+##SetField CutsceneCameraPoints[1].Orientation -43.6097 0 0
+##SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
+##CompilePodiumScripts
+SaveTagChanges
+Exit
+
+EditTag levels\multi\scarif\scarif.scenario
+SetField MapId 60008
+AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[0].Position -159.3146 228.1855 29.3568
+SetField CutsceneCameraPoints[0].Orientation 16.4431 -2.1289 -0.6281
+##SetField CutsceneCameraPoints[1].Name "podium_camera"
+##SetField CutsceneCameraPoints[1].Position -132.1896 249.467 26.2778
+##SetField CutsceneCameraPoints[1].Orientation -80 0 0
+##SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
+##CompilePodiumScripts
+SaveTagChanges
+Exit
+
+EditTag levels\multi\utapau\utapau.scenario
+SetField MapId 60009
+AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[0].Position 6.5217 -11.7312 6.8666
+SetField CutsceneCameraPoints[0].Orientation 94.4683 0.4531 -5.7787
+##SetField CutsceneCameraPoints[1].Name "podium_camera"
+##SetField CutsceneCameraPoints[1].Position 21.8923 -31.9345 6.1665
+##SetField CutsceneCameraPoints[1].Orientation 51 0 0
+##SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
+##CompilePodiumScripts
+SaveTagChanges
+Exit
+
+EditTag object\vehicles\laat\laat.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\hoth_speeder\turret\weapons\cannon.weapon
+SetField HudInterface objects\weapons\rifle\starwarsgun\starwarsgun.chud_definition
+SaveTagChanges
+Exit
+
+EditTag object\weapons\dc15a\dc15a.weapon
+SetField Barrels[0].AgeGeneratedPerRoundMp 0
+SaveTagChanges
+Exit
+
+EditTag object\vehicles\mtt\mtt.vehicle
+SetField BoundingRadius 13
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\zeta_class_shuttle\zeta_class_shuttle.vehicle
+SetField BoundingRadius 22
+SaveTagChanges
+Exit
+
+#Fix Minecraft Textures#
+EditTag objects\scenery\random_build\shaders\minecraft.shader
+SetField ShaderProperties[0].TextureConstants[0].FilterMode Point
+SetField ShaderProperties[0].TextureConstants[2].FilterMode Point 
+savetagchanges
+Exit
+
+EditTag objects\scenery\random_build\random_build.render_model
+CopyBlockElements materials
+ReplaceRenderGeometry "workingdir/models/random_minecraft_house.dae"
+RemoveBlockElements materials 0 *
+PasteBlockElements materials
+SaveTagChanges
+Exit
+
+EditTag levels\multi\minecraft\bitmaps\farlayy2-rgba.bitmap
+ImportBitmap 0 "workingdir/bitmaps/random_minecraft_house_128.dds"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mos_eisley\objects\jukebox\bitmaps\jukebox.bitmap
+ImportBitmap 0 "workingdir/bitmaps/juke_box.dds"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mos_eisley\objects\jukebox\bitmaps\jukebox_top.bitmap
+ImportBitmap 0 "workingdir/bitmaps/juke_box_top.dds"
+SaveTagChanges
+Exit
