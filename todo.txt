@@ -1,5 +1,5 @@
 ```
-The hoth crash is back
+The hoth crash is back (unless using dxvk)
 
 Weapons despawn from the crates ):
 
