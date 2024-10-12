@@ -234,16 +234,6 @@ SetArgument global_albedo_tint 2.5
 SaveTagChanges
 Exit
 
-EditTag levels\multi\hoth\hoth_lightmap_hoth6_16f_lp_array_dxt5.bitmap
-ImportBitmap 0 "workingdir\bitmaps\hoth_lightmap_hoth6_16f_lp_array_dxt5.dds"
-SaveTagChanges
-Exit
-
-EditTag levels\multi\hoth\hoth_lightmap_hoth6_16f_lp_array_intensity_dxt5.bitmap
-ImportBitmap 0 "workingdir\bitmaps\hoth_lightmap_hoth6_16f_lp_array_intensity_dxt5.dds"
-SaveTagChanges
-Exit
-
 # Podium and Prematch Cameras
 EditTag levels\multi\coruscant\coruscant.scenario
 SetField MapId 60001
