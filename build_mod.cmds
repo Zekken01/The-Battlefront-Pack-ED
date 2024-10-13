@@ -49,6 +49,10 @@ nametag fake_lightmap.scenario_lightmap fake_lightmap_geonosis
 savetagnames
 Exit
 
+OpenCacheFile "workingdir\maps\hoth_old.map"
+PortTag levels\multi\hoth\sky\sky_hoth.scenery
+Exit
+
 OpenCacheFile "workingdir\maps\hoth.map"
 nametag object\scenery\command_post\command_post.device_machine object\scenery\command_post_rebels\command_post_rebels
 PortTag !UpdateMapFiles *.scnr
