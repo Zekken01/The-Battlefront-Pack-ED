@@ -1,14 +1,9 @@
 ```
-The hoth crash is back (unless using dxvk)
-
 Weapons despawn from the crates ):
 
 Rocket Launcher has crazy drop on the projectile on some maps (scarif).
 
 Original animated battlefront loading screens as apng.
-
-Air Speeder has flasing reload animation (Go through all vehicles and remove).
-https://s.zekken.rocks/jG4YPtBu.jpg
 
 End Game Music
 
