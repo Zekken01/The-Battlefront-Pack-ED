@@ -17,6 +17,10 @@ DC-15x shows too many bullets
 
 DC-15 scope for DH-17
 
+No hitmarkers on vehicles
+
+Hoth turret has too much health and doesnt kill the player when it explodes, (they just appear on top.)
+
 Fix ion cannon machine
 https://s.zekken.rocks/TNAS8kgi.jpg
 
