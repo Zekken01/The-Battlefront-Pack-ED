@@ -36,17 +36,17 @@ RunCommands workingdir\preportcommands.cmds
 OpenCacheFile "workingdir\maps\coruscant.map"
 PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-nametag 0.scenario_lightmap_bsp_data 0_coruscant
-nametag fake_lightmap.scenario_lightmap fake_lightmap_coruscant
-savetagnames
+NameTag 0.scenario_lightmap_bsp_data 0_coruscant
+NameTag fake_lightmap.scenario_lightmap fake_lightmap_coruscant
+SaveTagNames
 Exit
 
 OpenCacheFile "workingdir\maps\geonosis.map"
 PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-nametag 0.scenario_lightmap_bsp_data 0_geonosis
-nametag fake_lightmap.scenario_lightmap fake_lightmap_geonosis
-savetagnames
+NameTag 0.scenario_lightmap_bsp_data 0_geonosis
+NameTag fake_lightmap.scenario_lightmap fake_lightmap_geonosis
+SaveTagNames
 Exit
 
 OpenCacheFile "workingdir\maps\hoth_old.map"
@@ -54,66 +54,68 @@ PortTag levels\multi\hoth\sky\sky_hoth.scenery
 Exit
 
 OpenCacheFile "workingdir\maps\hoth.map"
-nametag object\scenery\command_post\command_post.device_machine object\scenery\command_post_rebels\command_post_rebels
+NameTag object\scenery\command_post\command_post.device_machine object\scenery\command_post_rebels\command_post_rebels
 PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-nametag object\scenery\command_post_rebels\command_post_rebels.device_machine object\scenery\command_post\command_post
-savetagnames
+NameTag object\scenery\command_post_rebels\command_post_rebels.device_machine object\scenery\command_post\command_post
+SaveTagNames
 Exit
 
 OpenCacheFile "workingdir\maps\imp_deathstar.map"
-nametag object\scenery\command_post\command_post.device_machine object\scenery\command_post_rebels\command_post_rebels
+NameTag object\scenery\command_post\command_post.device_machine object\scenery\command_post_rebels\command_post_rebels
 PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-nametag 0.scenario_lightmap_bsp_data 0_imp_deathstar
-nametag fake_lightmap.scenario_lightmap fake_lightmap_imp_deathstar
-nametag object\scenery\command_post_rebels\command_post_rebels.device_machine object\scenery\command_post\command_post
-savetagnames
+NameTag 0.scenario_lightmap_bsp_data 0_imp_deathstar
+NameTag fake_lightmap.scenario_lightmap fake_lightmap_imp_deathstar
+NameTag object\scenery\command_post_rebels\command_post_rebels.device_machine object\scenery\command_post\command_post
+SaveTagNames
 Exit
 
 OpenCacheFile "workingdir\maps\kashyyyk.map"
 PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-nametag 0.scenario_lightmap_bsp_data 0_kashyyyk
-nametag fake_lightmap.scenario_lightmap fake_lightmap_kashyyyk
-savetagnames
+NameTag 0.scenario_lightmap_bsp_data 0_kashyyyk
+NameTag fake_lightmap.scenario_lightmap fake_lightmap_kashyyyk
+SaveTagNames
 Exit
 
 OpenCacheFile "workingdir\maps\mos_eisley.map"
-nametag object\scenery\command_post\command_post.device_machine object\scenery\command_post_rebels\command_post_rebels
+NameTag object\scenery\command_post\command_post.device_machine object\scenery\command_post_rebels\command_post_rebels
 PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-nametag 0.scenario_lightmap_bsp_data 0_mos_eisley
-nametag fake_lightmap.scenario_lightmap fake_lightmap_mos_eisley
-nametag object\scenery\command_post_rebels\command_post_rebels.device_machine object\scenery\command_post\command_post
-savetagnames
+NameTag 0.scenario_lightmap_bsp_data 0_mos_eisley
+NameTag fake_lightmap.scenario_lightmap fake_lightmap_mos_eisley
+NameTag object\scenery\command_post_rebels\command_post_rebels.device_machine object\scenery\command_post\command_post
+SaveTagNames
 Exit
 
 OpenCacheFile "workingdir\maps\mustafar.map"
 PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-nametag 0.scenario_lightmap_bsp_data 0_mustafar
-nametag fake_lightmap.scenario_lightmap fake_lightmap_mustafar
-savetagnames
+NameTag 0.scenario_lightmap_bsp_data 0_mustafar
+NameTag fake_lightmap.scenario_lightmap fake_lightmap_mustafar
+SaveTagNames
 Exit
 
 OpenCacheFile "workingdir\maps\scarif.map"
-nametag object\scenery\command_post\command_post.device_machine object\scenery\command_post_rebels\command_post_rebels
+NameTag object\scenery\command_post\command_post.device_machine object\scenery\command_post_rebels\command_post_rebels
 PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-nametag 0.scenario_lightmap_bsp_data 0_scarif
-nametag fake_lightmap.scenario_lightmap fake_lightmap_scarif
-nametag object\scenery\command_post_rebels\command_post_rebels.device_machine object\scenery\command_post\command_post
-savetagnames
+NameTag 0.scenario_lightmap_bsp_data 0_scarif
+NameTag fake_lightmap.scenario_lightmap fake_lightmap_scarif
+NameTag object\scenery\command_post_rebels\command_post_rebels.device_machine object\scenery\command_post\command_post
+SaveTagNames
 Exit
 
 OpenCacheFile "workingdir\maps\utapau.map"
 PortTag !UpdateMapFiles *.scnr
 PortTag merge ui\hud\hud_messages.multilingual_unicode_string_list 
-nametag 0.scenario_lightmap_bsp_data 0_utapau
-nametag fake_lightmap.scenario_lightmap fake_lightmap_utapau
-savetagnames
+NameTag 0.scenario_lightmap_bsp_data 0_utapau
+NameTag fake_lightmap.scenario_lightmap fake_lightmap_utapau
+SaveTagNames
 Exit
+
+
 
 RunCommands workingdir\commandpostimprovement.cmds
 RunCommands workingdir\fixups.cmds
@@ -145,6 +147,10 @@ SaveTagChanges
 Exit
 
 OpenModPackage "workingdir\H5 Assault Rifle.pak"
+ApplyModPackage
+ExitModPackage
+
+OpenModPackage "workingdir\lasersword.pak"
 ApplyModPackage
 ExitModPackage
 

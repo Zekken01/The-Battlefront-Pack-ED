@@ -35,6 +35,20 @@ SetField PaletteCategories[88].ParentCategoryIndex 83
 # echo ==Weapons...==
 
 AddBlockElements Palette
+SetField Palette[*].Name "Blue Lightsaber"
+SetField Palette[*].Type Weapon
+SetField Palette[*].CategoryIndex 84
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object mythicjaqui\weapons\melee\lightsaber\lightsaber.weapon
+
+AddBlockElements Palette
+SetField Palette[*].Name "Red Lightsaber"
+SetField Palette[*].Type Weapon
+SetField Palette[*].CategoryIndex 84
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object mythicjaqui\weapons\melee\lightsaber\lightsaber_red.weapon
+
+AddBlockElements Palette
 SetField Palette[*].Name "A280"
 SetField Palette[*].Type Weapon
 SetField Palette[*].CategoryIndex 84
@@ -904,6 +918,13 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\scenery\random_build\random_build.scenery
 
 AddBlockElements Palette
+SetField Palette[*].Name "Cantina Sign"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex 87
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object levels\multi\mos_eisley\objects\cantina_mc_sign\cantina.scenery
+
+AddBlockElements Palette
 SetField Palette[*].Name "Jukebox"
 SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex 87
@@ -1250,6 +1271,11 @@ AddBlockElements MultiplayerObject
 SaveTagChanges
 Exit
 
+EditTag levels\multi\mos_eisley\objects\cantina_mc_sign\cantina.scenery
+AddBlockElements MultiplayerObject
+SaveTagChanges
+Exit
+
 # echo ==Skyboxes...==
 
 edittag multiplayer\forge_globals.forge_globals_definition
@@ -1301,5 +1327,3 @@ Exit
 
 Foreach mode startingwith: objects\eldewrito\reforge\ addblockelements Materials 1
 Foreach mode startingwith: objects\eldewrito\reforge\ setfield Materials[*].RenderMethod levels\multi\mustafar\shaders\mus1_bldg_lavawalk.shader
-
-
