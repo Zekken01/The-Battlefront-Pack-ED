@@ -1,4 +1,6 @@
 ```
+Make Lightsaber mele sound the same as the primary attack sound.
+
 Weapons despawn from the crates ):
 
 Rocket Launcher has crazy drop on the projectile on some maps (scarif).
@@ -10,8 +12,6 @@ End Game Music
 Add Ambient Music from battlefront.
 
 Clone Customization (TwistedFlog is on it).
-
-Light Sabers Mod. (Still Kinda WIP)
 
 DC-15x shows too many bullets
 
