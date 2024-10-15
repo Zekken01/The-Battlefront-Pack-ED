@@ -14,6 +14,109 @@ stringid add SilencedSMG
 stringid add Automag
 stringid add LightsaberBlue
 stringid add LightsaberRed
+stringid add LightsaberGreen
+stringid add LightsaberPurple
+
+# echo ==Purple Lightsaber...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+AddBlockElements Universal[0].GameVariantWeapons
+SetField Universal[0].GameVariantWeapons[*].Name LightsaberPurple
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
+SetField Universal[0].GameVariantWeapons[*].Weapon mythicjaqui\weapons\melee\lightsaber\lightsaber_purple.weapon
+AddBlockElements Universal[0].WeaponSets[0].Substitutions
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon LightsaberPurple
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon LightsaberPurple
+SaveTagChanges
+Exit
+
+EditTag ui\halox\game_options\strings.unic
+SetString english LightsaberPurple "Purple Lightsaber"
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue LightsaberPurple
+SetField TextValuePairs[*].Name LightsaberPurple
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue LightsaberPurple
+SetField TextValuePairs[*].Name LightsaberPurple
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue LightsaberPurple
+SetField TextValuePairs[*].Name LightsaberPurple
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue LightsaberPurple
+SetField TextValuePairs[*].Name LightsaberPurple
+SaveTagChanges
+Exit
+
+
+# echo ==Green Lightsaber...==
+
+EditTag multiplayer\multiplayer_globals.mulg
+AddBlockElements Universal[0].GameVariantWeapons
+SetField Universal[0].GameVariantWeapons[*].Name LightsaberGreen
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.5
+SetField Universal[0].GameVariantWeapons[*].Weapon mythicjaqui\weapons\melee\lightsaber\lightsaber_green.weapon
+AddBlockElements Universal[0].WeaponSets[0].Substitutions
+SetField Universal[0].WeaponSets[0].Substitutions[*].OriginalWeapon LightsaberGreen
+SetField Universal[0].WeaponSets[0].Substitutions[*].SubstitutedWeapon LightsaberGreen
+SaveTagChanges
+Exit
+
+EditTag ui\halox\game_options\strings.unic
+SetString english LightsaberGreen "Green Lightsaber"
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_primary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue LightsaberGreen
+SetField TextValuePairs[*].Name LightsaberGreen
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\map_overrides\traits_weapons_initial_secondary_untemplated.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue LightsaberGreen
+SetField TextValuePairs[*].Name LightsaberGreen
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_primary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue LightsaberGreen
+SetField TextValuePairs[*].Name LightsaberGreen
+SaveTagChanges
+Exit
+
+EditTag multiplayer\game_variant_settings\player_traits_template\traits_weapons_initial_secondary.sily
+AddBlockElements TextValuePairs
+SetField TextValuePairs[*].ExpectedValueType StringidReference
+SetField TextValuePairs[*].StringidValue LightsaberGreen
+SetField TextValuePairs[*].Name LightsaberGreen
+SaveTagChanges
+Exit
 
 # echo ==Red Lightsaber...==
 

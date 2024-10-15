@@ -11,7 +11,7 @@ UseShaderCache workingdir\caches\shadercache
 # echo ==Creating Mod Package...==
 CreateModPackage 1 large
 The Battlefront Pack
-The Battlefront Pack including Coruscant, Geonosis, Hoth, Death Star, Kashyyyk, Mos Eisley, Mustafar, Scarif, and Utapau. Credit goes to the original mod creators Abyssquick and Stevieroth. Special thanks to Newbie, MtnDewIt, Dirkkane, Minelelol, and TwistedFlog for help porting to ElDewrito.
+The Battlefront Pack including Coruscant, Geonosis, Hoth, Death Star, Kashyyyk, Mos Eisley, Mustafar, Scarif, and Utapau. Credit goes to the original mod creators Abyssquick and Stevieroth. Special thanks to Newbie, MtnDewIt, Dirkkane, Minelelol, Furstaku, and TwistedFlog for help porting to ElDewrito.
 Zekken
 0.9
 MainMenu Multiplayer Character
@@ -115,7 +115,14 @@ NameTag fake_lightmap.scenario_lightmap fake_lightmap_utapau
 SaveTagNames
 Exit
 
+# echo ==Port Lightsabers...==
 
+OpenCacheFile "workingdir\maps\lightsabers.map"
+PortTag mythicjaqui\weapons\melee\lightsaber\lightsaber.weapon
+PortTag mythicjaqui\weapons\melee\lightsaber\lightsaber_green.weapon
+PortTag mythicjaqui\weapons\melee\lightsaber\lightsaber_purple.weapon
+PortTag mythicjaqui\weapons\melee\lightsaber\lightsaber_red.weapon
+Exit
 
 RunCommands workingdir\commandpostimprovement.cmds
 RunCommands workingdir\fixups.cmds
@@ -147,10 +154,6 @@ SaveTagChanges
 Exit
 
 OpenModPackage "workingdir\H5 Assault Rifle.pak"
-ApplyModPackage
-ExitModPackage
-
-OpenModPackage "workingdir\lasersword.pak"
 ApplyModPackage
 ExitModPackage
 

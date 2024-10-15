@@ -35,6 +35,20 @@ SetField PaletteCategories[88].ParentCategoryIndex 83
 # echo ==Weapons...==
 
 AddBlockElements Palette
+SetField Palette[*].Name "Green Lightsaber"
+SetField Palette[*].Type Weapon
+SetField Palette[*].CategoryIndex 84
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object mythicjaqui\weapons\melee\lightsaber\lightsaber_green.weapon
+
+AddBlockElements Palette
+SetField Palette[*].Name "Purple Lightsaber"
+SetField Palette[*].Type Weapon
+SetField Palette[*].CategoryIndex 84
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object mythicjaqui\weapons\melee\lightsaber\lightsaber_purple.weapon
+
+AddBlockElements Palette
 SetField Palette[*].Name "Blue Lightsaber"
 SetField Palette[*].Type Weapon
 SetField Palette[*].CategoryIndex 84

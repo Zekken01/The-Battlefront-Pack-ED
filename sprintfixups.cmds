@@ -94,3 +94,11 @@ SetInheritance fp any:any:any:sprint_loop_airborne objects\characters\masterchie
 SetInheritance fp any:any:any:sprint_exit objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
 SaveTagChanges
 Exit
+
+EditTag objects\masterchief\fp\weapons\melee\fp_gravity_hammer\lightsaber.model_animation_graph
+SetInheritance fp any:any:any:sprint_enter objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
+SetInheritance fp any:any:any:sprint_loop objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
+SetInheritance fp any:any:any:sprint_loop_airborne objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
+SetInheritance fp any:any:any:sprint_exit objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
+SaveTagChanges
+Exit
