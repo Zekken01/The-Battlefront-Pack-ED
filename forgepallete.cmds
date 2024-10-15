@@ -119,6 +119,13 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object object\weapons\e-5\e-5.weapon
 
 AddBlockElements Palette
+SetField Palette[*].Name "Pisbol"
+SetField Palette[*].Type Weapon
+SetField Palette[*].CategoryIndex 84
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\weapons\pistol\pisbol\pisbol.weapon
+
+AddBlockElements Palette
 SetField Palette[*].Name "Golf Club"
 SetField Palette[*].Type Weapon
 SetField Palette[*].CategoryIndex 84

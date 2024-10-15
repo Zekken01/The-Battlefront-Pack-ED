@@ -26,6 +26,14 @@ SetString english offset_dc-17 "DC-17"
 StringId add offset_dc-15x
 SetString english offset_dc-15x "DC-15x Sniper Rifle"
 
+StringId add offset_pisbol
+SetString english offset_pisbol "Pisbol"
+
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\pistol\pisbol\pisbol.weapon
+SetField WeaponTypeName offset_pisbol
 SaveTagChanges
 Exit
 
