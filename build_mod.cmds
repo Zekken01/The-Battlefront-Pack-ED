@@ -132,6 +132,7 @@ RunCommands workingdir\odstweapons.cmds
 RunCommands workingdir\better3panimations.cmds
 RunCommands workingdir\machinefixes.cmds
 RunCommands workingdir\weaponglobals.cmds
+RunCommands workingdir\main_menu.cmds
 
 UpdateMapFiles
 
