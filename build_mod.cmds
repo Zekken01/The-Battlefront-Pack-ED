@@ -154,6 +154,11 @@ ImportMapVariant mapfile "workingdir\map_variants\Mustafar\sandbox.map"
 SaveTagChanges
 Exit
 
+EditTag levels\multi\hoth\hoth.scenario
+ImportMapVariant mapfile "workingdir\map_variants\Hoth\sandbox.map"
+SaveTagChanges
+Exit
+
 OpenModPackage "workingdir\H5 Assault Rifle.pak"
 ApplyModPackage
 ExitModPackage

@@ -1,5 +1,5 @@
 ```
-Make Lightsaber mele sound the same as the primary attack sound.
+Make Lightsaber melee sound the same as the primary attack sound.
 
 Weapons despawn from the crates ):
 
@@ -17,13 +17,13 @@ DC-15x shows too many bullets
 
 DC-15 scope for DH-17
 
-No hitmarkers on vehicles
+Vehicles dont transfer damage to player.
 
 Hoth turret has too much health and doesnt kill the player when it explodes, (they just appear on top.)
 
 Fix ion cannon machine
 https://s.zekken.rocks/TNAS8kgi.jpg
 
-AT-AT bipeds despawn after being drove by the player.
+AT-AT bipeds despawn after being drove by the player when spawned with forge.
 ```
 
