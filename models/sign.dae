@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.1.1 commit date:2024-04-15, commit time:15:11, hash:e1743a0317bc</authoring_tool>
+    </contributor>
+    <created>2024-10-30T19:44:12</created>
+    <modified>2024-10-30T19:44:12</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="minecraft-effect">
+      <profile_COMMON>
+        <newparam sid="random_minecraft_house_128_dds-surface">
+          <surface type="2D">
+            <init_from>random_minecraft_house_128_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="random_minecraft_house_128_dds-sampler">
+          <sampler2D>
+            <source>random_minecraft_house_128_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="random_minecraft_house_128_dds-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="words-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="random_minecraft_house_128_dds" name="random_minecraft_house_128_dds">
+      <init_from>random_minecraft_house_128.dds</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="minecraft-material" name="minecraft">
+      <instance_effect url="#minecraft-effect"/>
+    </material>
+    <material id="words-material" name="words">
+      <instance_effect url="#words-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="default_default-mesh" name="default:default">
+      <mesh>
+        <source id="default_default-mesh-positions">
+          <float_array id="default_default-mesh-positions-array" count="252">-2.33433 2.125429 23.2111 -2.33433 2.12548 0.394554 -2.33433 -1.136913 23.2111 -2.33433 -1.136913 0.394554 -2.33433 2.125429 23.2111 -2.33433 -1.136913 23.2111 -2.33433 2.12548 0.394554 -2.33433 -1.136913 0.394554 0.9282321 2.125429 23.2111 0.9282321 2.12548 0.394554 -2.33433 2.125429 23.2111 -2.33433 2.12548 0.394554 0.9282321 2.125429 23.2111 -2.33433 2.125429 23.2111 0.9282321 2.12548 0.394554 -2.33433 2.12548 0.394554 0.9282321 2.125429 23.2111 0.9282321 -1.136913 23.2111 0.9282321 2.12548 0.394554 0.9282321 -1.136913 0.394554 0.9282321 2.125429 23.2111 0.9282321 2.12548 0.394554 0.9282321 -1.136913 23.2111 0.9282321 -1.136913 0.394554 0.9282321 -1.136913 23.2111 -2.33433 -1.136913 23.2111 0.9282321 -1.136913 0.394554 -2.33433 -1.136913 0.394554 0.9282321 -1.136913 23.2111 0.9282321 -1.136913 0.394554 -2.33433 -1.136913 23.2111 -2.33433 -1.136913 0.394554 -20.2611 2.125429 42.76937 -20.2611 2.125429 23.2111 -20.2611 -1.136913 42.76937 -20.2611 -1.136913 23.2111 -20.2611 2.125429 42.76937 -20.2611 -1.136913 42.76937 -20.2611 2.125429 23.2111 -20.2611 -1.136913 23.2111 -20.2611 -1.136913 23.2111 -20.2611 2.125429 23.2111 18.8556 -1.136913 23.2111 18.8556 2.125429 23.2111 -20.2611 -1.136913 23.2111 18.8556 -1.136913 23.2111 -20.2611 2.125429 23.2111 18.8556 2.125429 23.2111 18.8556 2.125429 42.76937 18.8556 2.125429 23.2111 -20.2611 2.125429 42.76937 -20.2611 2.125429 23.2111 18.8556 2.125429 42.76937 -20.2611 2.125429 42.76937 18.8556 2.125429 23.2111 -20.2611 2.125429 23.2111 18.8556 2.125429 42.76937 18.8556 -1.136913 42.76937 18.8556 2.125429 23.2111 18.8556 -1.136913 23.2111 18.8556 2.125429 42.76937 18.8556 2.125429 23.2111 18.8556 -1.136913 42.76937 18.8556 -1.136913 23.2111 18.8556 2.125429 42.76937 -20.2611 2.125429 42.76937 18.8556 -1.136913 42.76937 -20.2611 -1.136913 42.76937 18.8556 2.125429 42.76937 18.8556 -1.136913 42.76937 -20.2611 2.125429 42.76937 -20.2611 -1.136913 42.76937 18.8556 -1.136913 42.76937 -20.2611 -1.136913 42.76937 18.8556 -1.136913 23.2111 -20.2611 -1.136913 23.2111 18.8556 -1.136913 42.76937 18.8556 -1.136913 23.2111 -20.2611 -1.136913 42.76937 -20.2611 -1.136913 23.2111 -20.2611 -1.21276 24.39557 18.8556 -1.21276 24.39557 -20.2611 -1.21276 43.9545 18.8556 -1.21276 43.9545</float_array>
+          <technique_common>
+            <accessor source="#default_default-mesh-positions-array" count="84" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="default_default-mesh-normals">
+          <float_array id="default_default-mesh-normals-array" count="42">-1 0 0 1 0 0 0 1 2.22916e-6 0 1 2.24081e-6 0 1 2.23032e-6 0 1 2.24197e-6 0 -1 -2.22916e-6 0 -1 -2.23032e-6 0 -1 -2.24081e-6 0 -1 -2.24197e-6 0 -1 0 0 1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#default_default-mesh-normals-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="default_default-mesh-map-0">
+          <float_array id="default_default-mesh-map-0-array" count="252">1 0.1886881 0.875 0.1886881 1 0.06101691 1 0.06101691 0.875 0.1886881 0.875 0.06101691 1 0.1886881 1 0.06101691 0.875 0.1886881 0.875 0.1886881 1 0.06101691 0.875 0.06101691 1 0.1886881 0.875 0.1886881 1 0.06101691 1 0.06101691 0.875 0.1886881 0.875 0.06101691 1 0.1886881 1 0.06101691 0.875 0.1886881 0.875 0.1886881 1 0.06101691 0.875 0.06101691 1 0.06101691 1 0.1886881 0.875 0.06101691 0.875 0.06101691 1 0.1886881 0.875 0.1886881 1 0.06101691 0.875 0.06101691 1 0.1886881 1 0.1886881 0.875 0.06101691 0.875 0.1886881 1 0.06101691 1 0.1886881 0.875 0.06101691 0.875 0.06101691 1 0.1886881 0.875 0.1886881 1 0.06101691 0.875 0.06101691 1 0.1886881 1 0.1886881 0.875 0.06101691 0.875 0.1886881 0.9840855 0.6902793 0.9840854 0 1 0.6902793 1 0.6902793 0.9840854 0 1 0 0.9840855 0.625171 1 0.625171 0.9840854 0 0.9840854 0 1 0.625171 1 0 0.8749008 0.5827371 0.8749008 0.6381062 1 0.5827371 1 0.5827371 0.8749008 0.6381062 1 0.6381062 0.8749008 0.5827371 1 0.5827371 0.8749008 0.6381062 0.8749008 0.6381062 1 0.5827371 1 0.6381062 0.8749008 0.7217913 0.8749008 0.3876814 1 0.7217913 1 0.7217913 0.8749008 0.3876814 1 0.3876814 0.8749008 0.6286473 1 0.6286473 0.8749008 0 0.8749008 0 1 0.6286473 1 0 1 0.6902793 0.9840855 0.6902793 1 0 1 0 0.9840855 0.6902793 0.9840854 0 1 0.625171 1 0 0.9840855 0.625171 0.9840855 0.625171 1 0 0.9840854 0 1 0.6381062 0.8749008 0.6381062 1 0.5827371 1 0.5827371 0.8749008 0.6381062 0.8749008 0.5827371 1 0.6381062 1 0.5827371 0.8749008 0.6381062 0.8749008 0.6381062 1 0.5827371 0.8749008 0.5827371 1 0.7217913 0.8749008 0.7217913 1 0.3876814 1 0.3876814 0.8749008 0.7217913 0.8749008 0.3876814 1 0.6255469 1 0 0.8749008 0.6255469 0.8749008 0.6255469 1 0 0.8749008 0 0.0900135 -0.22282 0.992441 -0.2227979 0.0900135 1.222818 0.0900135 1.222818 0.992441 -0.2227979 0.9924272 1.222818</float_array>
+          <technique_common>
+            <accessor source="#default_default-mesh-map-0-array" count="126" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="default_default-mesh-vertices">
+          <input semantic="POSITION" source="#default_default-mesh-positions"/>
+        </vertices>
+        <triangles material="minecraft-material" count="40">
+          <input semantic="VERTEX" source="#default_default-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#default_default-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#default_default-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 0 1 2 0 2 2 0 3 1 0 4 3 0 5 4 1 6 5 1 7 6 1 8 6 1 9 5 1 10 7 1 11 8 2 12 9 3 13 10 4 14 10 4 15 9 3 16 11 5 17 12 6 18 13 7 19 14 8 20 14 8 21 13 7 22 15 9 23 16 1 24 17 1 25 18 1 26 18 1 27 17 1 28 19 1 29 20 0 30 21 0 31 22 0 32 22 0 33 21 0 34 23 0 35 24 10 36 25 10 37 26 10 38 26 10 39 25 10 40 27 10 41 28 11 42 29 11 43 30 11 44 30 11 45 29 11 46 31 11 47 32 0 48 33 0 49 34 0 50 34 0 51 33 0 52 35 0 53 36 1 54 37 1 55 38 1 56 38 1 57 37 1 58 39 1 59 40 12 60 41 12 61 42 12 62 42 12 63 41 12 64 43 12 65 44 13 66 45 13 67 46 13 68 46 13 69 45 13 70 47 13 71 48 11 72 49 11 73 50 11 74 50 11 75 49 11 76 51 11 77 52 10 78 53 10 79 54 10 80 54 10 81 53 10 82 55 10 83 56 1 84 57 1 85 58 1 86 58 1 87 57 1 88 59 1 89 60 0 90 61 0 91 62 0 92 62 0 93 61 0 94 63 0 95 64 13 96 65 13 97 66 13 98 66 13 99 65 13 100 67 13 101 68 12 102 69 12 103 70 12 104 70 12 105 69 12 106 71 12 107 72 10 108 73 10 109 74 10 110 74 10 111 73 10 112 75 10 113 76 11 114 77 11 115 78 11 116 78 11 117 77 11 118 79 11 119</p>
+        </triangles>
+        <triangles material="words-material" count="2">
+          <input semantic="VERTEX" source="#default_default-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#default_default-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#default_default-mesh-map-0" offset="2" set="0"/>
+          <p>80 10 120 81 10 121 82 10 122 82 10 123 81 10 124 83 10 125</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_default_default-skin" name="Armature">
+      <skin source="#default_default-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature_default_default-skin-joints">
+          <Name_array id="Armature_default_default-skin-joints-array" count="1">bone</Name_array>
+          <technique_common>
+            <accessor source="#Armature_default_default-skin-joints-array" count="1" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_default_default-skin-bind_poses">
+          <float_array id="Armature_default_default-skin-bind_poses-array" count="16">1 0 0 0 0 -7.15256e-7 1 0 0 -1 -6.40121e-7 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_default_default-skin-bind_poses-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_default_default-skin-weights">
+          <float_array id="Armature_default_default-skin-weights-array" count="84">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_default_default-skin-weights-array" count="84" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature_default_default-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature_default_default-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="84">
+          <input semantic="JOINT" source="#Armature_default_default-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature_default_default-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 10 0 11 0 12 0 13 0 14 0 15 0 16 0 17 0 18 0 19 0 20 0 21 0 22 0 23 0 24 0 25 0 26 0 27 0 28 0 29 0 30 0 31 0 32 0 33 0 34 0 35 0 36 0 37 0 38 0 39 0 40 0 41 0 42 0 43 0 44 0 45 0 46 0 47 0 48 0 49 0 50 0 51 0 52 0 53 0 54 0 55 0 56 0 57 0 58 0 59 0 60 0 61 0 62 0 63 0 64 0 65 0 66 0 67 0 68 0 69 0 70 0 71 0 72 0 73 0 74 0 75 0 76 0 77 0 78 0 79 0 80 0 81 0 82 0 83</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_bone" name="bone" sid="bone" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 -6.40121e-7 -1 0 0 1 -7.15256e-7 0 0 0 0 1</matrix>
+          <extra>
+            <technique profile="blender">
+              <tip_x sid="tip_x" type="float">0</tip_x>
+              <tip_y sid="tip_y" type="float">-3.20061e-6</tip_y>
+              <tip_z sid="tip_z" type="float">5.000003</tip_z>
+            </technique>
+          </extra>
+        </node>
+        <node id="default_default" name="default:default" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_controller url="#Armature_default_default-skin">
+            <skeleton>#Armature_bone</skeleton>
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="minecraft-material" target="#minecraft-material">
+                  <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+                <instance_material symbol="words-material" target="#words-material">
+                  <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_controller>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

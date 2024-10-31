@@ -392,6 +392,14 @@ PasteBlockElements materials
 SaveTagChanges
 Exit
 
+EditTag levels\multi\mos_eisley\objects\cantina_mc_sign\cantina.render_model
+CopyBlockElements materials
+ReplaceRenderGeometry "workingdir/models/sign.dae"
+RemoveBlockElements materials 0 *
+PasteBlockElements materials
+SaveTagChanges
+Exit
+
 EditTag levels\multi\minecraft\bitmaps\farlayy2-rgba.bitmap
 ImportBitmap 0 "workingdir/bitmaps/random_minecraft_house_128.dds"
 SaveTagChanges
