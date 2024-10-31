@@ -169,6 +169,22 @@ ImportMapVariant mapfile "workingdir\map_variants\Deathstar\sandbox.map"
 SaveTagChanges
 Exit
 
+EditTag levels\multi\geonosis\geonosis.scenario
+ImportMapVariant mapfile "workingdir\map_variants\Geonosis\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\mos_eisley\mos_eisley.scenario
+ImportMapVariant mapfile "workingdir\map_variants\Mos Eisley\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\scarif\scarif.scenario
+ImportMapVariant mapfile "workingdir\map_variants\Scarif\sandbox.map"
+SaveTagChanges
+Exit
+
+
 OpenModPackage "workingdir\H5 Assault Rifle.pak"
 ApplyModPackage
 ExitModPackage

@@ -1,8 +1,6 @@
 ```
 Make Lightsaber melee sound the same as the primary attack sound.
 
-Weapons despawn from the crates ):
-
 Rocket Launcher has crazy drop on the projectile on some maps (scarif).
 
 Original animated battlefront loading screens as apng.
