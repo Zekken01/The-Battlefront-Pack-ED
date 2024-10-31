@@ -159,6 +159,16 @@ ImportMapVariant mapfile "workingdir\map_variants\Hoth\sandbox.map"
 SaveTagChanges
 Exit
 
+EditTag levels\multi\coruscant\coruscant.scenario
+ImportMapVariant mapfile "workingdir\map_variants\Coruscant\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\imp_deathstar\imp_deathstar.scenario
+ImportMapVariant mapfile "workingdir\map_variants\Deathstar\sandbox.map"
+SaveTagChanges
+Exit
+
 OpenModPackage "workingdir\H5 Assault Rifle.pak"
 ApplyModPackage
 ExitModPackage
