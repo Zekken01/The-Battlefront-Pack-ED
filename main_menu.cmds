@@ -14,7 +14,26 @@ Exit
 
 EditTag ui\ui_shared_globals.user_interface_shared_globals_definition
 SetField MainMenuMusic sound\game_sfx\ui\battlefront_main_menu_music.sound_looping
-setfield MusicFadeTime 100
+SetField MusicFadeTime 100
+SaveTagChanges
+Exit
+
+GenerateBitmap ui\halox\battlefront_main_menu\bf_logo "workingdir\bitmaps\bf_logo.dds"
+# GenerateBitmap ui\halox\battlefront_main_menu\bf_mainmenu "workingdir\bitmaps\bf_mainmenu.dds"
+
+EditTag ui\halox\main_menu\main_menu.gui_screen_widget_definition
+RemoveBlockElements GroupWidgets[1].Definition.BitmapWidgets 1 1
+RemoveBlockElements GroupWidgets[0].Definition.TextWidgets 1 1
+# RemoveBlockElements GroupWidgets[0].Definition.BitmapWidgets 1 3
+RemoveBlockElements GroupWidgets[0].Definition.BitmapWidgets 0 *
+SetField GroupWidgets[1].Definition.BitmapWidgets[0].Definition.Bitmap ui\halox\battlefront_main_menu\bf_logo.bitmap
+# SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.Bitmap ui\halox\battlefront_main_menu\bf_mainmenu.bitmap
+SetField GroupWidgets[1].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Bounds720p 100 400 325 1150
+SetField GroupWidgets[1].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Bounds480i 100 475 275 1075
+# SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Bounds720p 355 545 649 950
+# SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Bounds480i 355 545 649 950
+SetField GroupWidgets[0].Definition.ListWidgets[0].Definition.GuiRenderBlock.Bounds720p 400 555 0 0
+SetField GroupWidgets[0].Definition.ListWidgets[0].Definition.GuiRenderBlock.Bounds480i 400 555 0 0
 SaveTagChanges
 Exit
 
