@@ -1,5 +1,4 @@
 # Main Menu
-
 DuplicateTag sound\music\main_menu_delta\delta_menu\loop.sound sound\music\battlefront_main_menu
 EditTag sound\music\battlefront_main_menu.sound
 ImportSound "workingdir\sounds\music\mainmenu"
@@ -16,5 +15,143 @@ Exit
 EditTag ui\ui_shared_globals.user_interface_shared_globals_definition
 SetField MainMenuMusic sound\game_sfx\ui\battlefront_main_menu_music.sound_looping
 setfield MusicFadeTime 100
+SaveTagChanges
+Exit
+
+# BSPS
+EditTag levels\multi\imp_deathstar\imp_deathstar.scenario
+CopyBlockElements StructureBsps 0 *
+Exit
+EditTag levels\ui\mainmenu\mainmenu.scenario
+RemoveBlockElements StructureBsps 0 *
+PasteBlockElements StructureBsps
+SaveTagChanges
+Exit
+
+# SKYS
+EditTag levels\multi\imp_deathstar\imp_deathstar.scenario
+CopyBlockElements SkyReferences 0 *
+Exit
+EditTag levels\ui\mainmenu\mainmenu.scenario
+RemoveBlockElements SkyReferences 0 *
+PasteBlockElements SkyReferences
+SaveTagChanges
+Exit
+
+# ZONE PVS
+EditTag levels\multi\imp_deathstar\imp_deathstar.scenario
+CopyBlockElements ZoneSetPvs 0 *
+Exit
+EditTag levels\ui\mainmenu\mainmenu.scenario
+RemoveBlockElements ZoneSetPvs 0 *
+PasteBlockElements ZoneSetPvs
+SaveTagChanges
+Exit
+
+# ZONE AUDIBILITY
+EditTag levels\multi\imp_deathstar\imp_deathstar.scenario
+CopyBlockElements ZoneSetAudibility 0 *
+Exit
+EditTag levels\ui\mainmenu\mainmenu.scenario
+RemoveBlockElements ZoneSetAudibility 0 *
+PasteBlockElements ZoneSetAudibility
+SaveTagChanges
+Exit
+
+# ZONE SETS
+EditTag levels\multi\imp_deathstar\imp_deathstar.scenario
+CopyBlockElements ZoneSets 0 *
+Exit
+EditTag levels\ui\mainmenu\mainmenu.scenario
+RemoveBlockElements ZoneSets 0 *
+PasteBlockElements ZoneSets
+SaveTagChanges
+Exit
+
+# ACOUSTICS 
+EditTag levels\multi\imp_deathstar\imp_deathstar.scenario
+CopyBlockElements AcousticsPalette 0 *
+Exit
+EditTag levels\ui\mainmenu\mainmenu.scenario
+RemoveBlockElements AcousticsPalette 0 *
+PasteBlockElements AcousticsPalette
+SaveTagChanges
+Exit
+
+# CLUSTER DATA
+EditTag levels\multi\imp_deathstar\imp_deathstar.scenario
+CopyBlockElements ScenarioClusterData 0 *
+Exit
+EditTag levels\ui\mainmenu\mainmenu.scenario
+RemoveBlockElements ScenarioClusterData 0 *
+PasteBlockElements ScenarioClusterData
+SaveTagChanges
+Exit
+
+# MAP PARAMS
+EditTag levels\ui\mainmenu\mainmenu.scenario
+SetField DefaultCameraFx null
+SetField DefaultScreenFx null
+SetField SkyParameters null
+SetField GlobalLighting null
+SetField Lightmap fake_lightmap_imp_deathstar.scenario_lightmap
+SetField PerformanceThrottles null
+
+# REMOVE DECALS
+RemoveBlockElements Decals 0 *
+RemoveBlockElements DecalPalette 0 *
+
+# REMOVE CUBEMAPS
+RemoveBlockElements Cubemaps 0 *
+
+# REMOVE FLOCKS
+RemoveBlockElements FlockPalette 0 *
+RemoveBlockElements Flocks
+
+# REMOVE CREATURES
+RemoveBlockElements Creatures 0 *
+RemoveBlockElements CreaturePalette 0 *
+
+# REMOVE CRATES
+RemoveBlockElements Crates 0 *
+RemoveBlockElements CratePalette 0 *
+
+# REMOVE SOUND SCENERY
+RemoveBlockElements SoundScenery 0 *
+RemoveBlockElements SoundSceneryPalette 0 *
+
+# REMOVE TRIGGER VOLUMES
+RemoveBlockElements TriggerVolumes 0 *
+
+# REMOVE UNUSED SCENERY
+Setfield Scenery[7].PaletteIndex 0
+Setfield Scenery[8].PaletteIndex 1
+Setfield Scenery[9].PaletteIndex 2
+Setfield Scenery[10].PaletteIndex 3
+Setfield Scenery[11].PaletteIndex 4
+Setfield Scenery[12].PaletteIndex 4
+Setfield Scenery[13].PaletteIndex 5
+SetField ObjectNames[0].PlacementIndex 0
+SetField ObjectNames[14].PlacementIndex 0
+SetField ObjectNames[15].PlacementIndex 1
+SetField ObjectNames[17].PlacementIndex 2
+SetField ObjectNames[21].PlacementIndex 3
+SetField ObjectNames[22].PlacementIndex 4
+SetField ObjectNames[23].PlacementIndex 5
+SetField ObjectNames[24].PlacementIndex 6
+RemoveBlockElements SceneryPalette 0 4
+RemoveBlockElements Scenery 0 7
+
+ForEach Scenery SetField Position -20 -20 -5
+ForEach Bipeds SetField Position -20 -20 -5
+ForEach Weapons SetField Position -20 -20 -5
+ForEach LightVolumes SetField Position -20 -20 -5
+
+# (this was crashing it?) points out of bounds I guess
+ForEach CutsceneFlags SetField Position -20 -20 -5
+ForEach CutsceneCameraPoints SetField Position -20 -20 -5
+
+CompileScripts "workingdir\main_menu.hsc"
+
 SaveTagChanges
 Exit
