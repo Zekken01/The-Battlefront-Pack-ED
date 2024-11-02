@@ -37,6 +37,16 @@ SetField GroupWidgets[0].Definition.ListWidgets[0].Definition.GuiRenderBlock.Bou
 SaveTagChanges
 Exit
 
+EditTag levels\ui\mainmenu\objects\server_browser_earth\server_browser_earth.scenery
+RemoveBlockElements Attachments 0 1
+SaveTagChanges
+Exit
+
+EditTag levels\ui\mainmenu\objects\matchmaking_earth\shaders\earth_holo.shader_halogram
+SetArgument self_illum_color 1 1 5 1
+SaveTagChanges
+Exit
+
 # BSPS
 EditTag levels\multi\imp_deathstar\imp_deathstar.scenario
 CopyBlockElements StructureBsps 0 *
@@ -142,6 +152,10 @@ RemoveBlockElements SoundSceneryPalette 0 *
 # REMOVE TRIGGER VOLUMES
 RemoveBlockElements TriggerVolumes 0 *
 
+# REMOVE LIGHT VOLUMES
+RemoveBlockElements LightVolumes 0 *
+RemoveBlockElements LightVolumePalette 0 *
+
 # REMOVE UNUSED SCENERY
 Setfield Scenery[7].PaletteIndex 0
 Setfield Scenery[8].PaletteIndex 1
@@ -161,16 +175,29 @@ SetField ObjectNames[24].PlacementIndex 6
 RemoveBlockElements SceneryPalette 0 4
 RemoveBlockElements Scenery 0 7
 
-ForEach Scenery SetField Position -20 -20 -5
-ForEach Bipeds SetField Position -20 -20 -5
-ForEach Weapons SetField Position -20 -20 -5
-ForEach LightVolumes SetField Position -20 -20 -5
+# ALTER CAMERA POSITIONS
+ForEach CutsceneCameraPoints From: 0 To: 9 SetField Position -21 -5 -5.6
+ForEach CutsceneCameraPoints From: 0 To: 9 SetField Orientation 107 4.2 -13.7
+ForEach CutsceneCameraPoints From: 10 To: 14 SetField Position -31 -5.8 -5.2
+ForEach CutsceneCameraPoints From: 10 To: 14 SetField Orientation 127 13 -16.7
+ForEach CutsceneCameraPoints From: 15 To: 15 SetField Position -11.59 -7.2 -5.8
+ForEach CutsceneCameraPoints From: 15 To: 15 SetField Orientation -128 3.1 4
+ForEach CutsceneCameraPoints From: 16 To: 20 SetField Position -21 -5 -5.6
+ForEach CutsceneCameraPoints From: 16 To: 20 SetField Orientation 107 4.2 -13.7
+ForEach CutsceneCameraPoints From: 21 To: 24 SetField Position -22.6 7 -3
+ForEach CutsceneCameraPoints From: 21 To: 24 SetField Orientation 71.7 0.3 1
+ForEach CutsceneCameraPoints From: 25 To: 41 SetField Position -11.59 -7.2 -5.8
+ForEach CutsceneCameraPoints From: 25 To: 41 SetField Orientation -128 3.1 4
+AddBlockElements CutsceneCameraPoints
+SetField CutsceneCameraPoints[*].Position -19 -31.7 -3
+SetField CutsceneCameraPoints[*].Orientation 121.84 6.15 -9.79
+SetField CutsceneCameraPoints[*].Name "main_cam"
 
-# (this was crashing it?) points out of bounds I guess
-ForEach CutsceneFlags SetField Position -20 -20 -5
-ForEach CutsceneCameraPoints SetField Position -20 -20 -5
-
+# COMPILE SCRIPTS
 CompileScripts "workingdir\main_menu.hsc"
+
+# IMPORT FORGE VARIANT
+ImportMapVariant !verify "workingdir\maps\mainmenu\sandbox.map"
 
 SaveTagChanges
 Exit
