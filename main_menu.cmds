@@ -193,6 +193,15 @@ SetField CutsceneCameraPoints[*].Position -19 -31.7 -3
 SetField CutsceneCameraPoints[*].Orientation 121.84 6.15 -9.79
 SetField CutsceneCameraPoints[*].Name "main_cam"
 
+# CHANGE BIPED POSITIONS
+SetField Bipeds[0].Position -13 -0.5 -6 
+SetField Bipeds[7].Position -13 -0.5 -6 
+SetField Bipeds[8].Position -13 -0.5 -6 
+
+# CHANGE SCENERY POSITIONS
+SetField Scenery[0].Position -32.4 -4 -5.47
+SetField Scenery[0].Rotation 4.11 -27.5 -1.9
+
 # COMPILE SCRIPTS
 CompileScripts "workingdir\main_menu.hsc"
 

@@ -75,6 +75,7 @@
 	(custom_animation_loop "elite_appearance" "objects\characters\dervish\dervish" "ui:pistol:idle:var1" false)
 	(object_hide "spartan_appearance" true)
 	(object_hide "elite_appearance" true)
+	(object_hide "trooper" true)
 )
 
 (script static void campaign_characters
@@ -321,6 +322,7 @@
 	(object_destroy_containing "server_browser_")
 	(object_hide "elite_appearance" false)
 	(object_hide "spartan_appearance" false)
+	(object_hide "trooper" false)
 	(camera_set "settings_cam" -1)
 )
 
@@ -328,6 +330,7 @@
 	(print "leave settings")
 	(object_hide "spartan_appearance" true)
 	(object_hide "elite_appearance" true)
+	(object_hide "trooper" true)
 	(mainmenu_cam)
 )
 
