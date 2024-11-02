@@ -1,8 +1,8 @@
-"D:\10_clean_07\ElDewrito_unclean\maps\tags.dat"
+"C:\Users\zekken\Desktop\ElDewrito 0.7 Official\maps\tags.dat"
 
 # echo ==Set Variables...==
-SetVariable workingdir "D:\10_clean_07\zekken\bf\bf"
-SetVariable modsfolder "D:\10_clean_07\zekken\bf\bf\mods"
+SetVariable workingdir "C:\Users\zekken\Desktop\The-Battlefront-Pack-ED"
+SetVariable modsfolder "C:\Users\zekken\Desktop\ElDewrito 0.7 Official\mods"
 
 # echo ==Set Caches...==
 UseAudioCache workingdir\caches\audiocache
