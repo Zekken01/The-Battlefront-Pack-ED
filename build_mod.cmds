@@ -115,6 +115,12 @@ NameTag fake_lightmap.scenario_lightmap fake_lightmap_utapau
 SaveTagNames
 Exit
 
+# echo ==Customization...==
+
+OpenModPackage "workingdir\Battlefront Customization Secret Goku.pak"
+ApplyModPackage
+ExitModPackage
+
 # echo ==Port Lightsabers...==
 
 OpenCacheFile "workingdir\maps\lightsabers.map"
