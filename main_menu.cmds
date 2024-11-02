@@ -197,7 +197,7 @@ SetField CutsceneCameraPoints[*].Name "main_cam"
 CompileScripts "workingdir\main_menu.hsc"
 
 # IMPORT FORGE VARIANT
-ImportMapVariant !verify "workingdir\maps\mainmenu\sandbox.map"
+ImportMapVariant !verify "workingdir\map_variants\mainmenu\sandbox.map"
 
 SaveTagChanges
 Exit
