@@ -3,8 +3,6 @@ Make Lightsaber melee sound the same as the primary attack sound.
 
 Rocket Launcher has crazy drop on the projectile on some maps (scarif).
 
-Original animated battlefront loading screens as apng.
-
 End Game Music
 
 Add Ambient Music from battlefront.
@@ -15,7 +13,7 @@ DC-15x shows too many bullets
 
 DC-15 scope for DH-17
 
-Vehicles dont transfer damage to player.
+Players dont take damage when a vehicle they're in takes damage.
 
 Hoth turret has too much health and doesnt kill the player when it explodes, (they just appear on top.)
 
