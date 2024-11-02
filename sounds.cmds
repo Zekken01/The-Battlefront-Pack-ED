@@ -1,0 +1,20 @@
+# ANNOUNCER SOUNDS
+EditTag multiplayer\multiplayer_globals.multiplayer_globals
+SetField Runtime[0].TerritoriesEvents[0].SoundFlags 0
+SetField Runtime[0].TerritoriesEvents[0].EnglishSound null
+SetField Runtime[0].TerritoriesEvents[1].SoundFlags 0
+SetField Runtime[0].TerritoriesEvents[1].EnglishSound null
+SetField Runtime[0].TerritoriesEvents[2].SoundFlags 0
+SetField Runtime[0].TerritoriesEvents[2].EnglishSound null
+SaveTagChanges
+Exit
+
+EditTag sound\dialog\multiplayer_en\territories\territory_captured.sound
+ImportSound "workingdir\sounds\announcer\captured.wav"
+SaveTagChanges
+Exit
+
+EditTag sound\dialog\multiplayer_en\territories\territory_lost.sound
+ImportSound "workingdir\sounds\announcer\lost"
+SaveTagChanges
+Exit
