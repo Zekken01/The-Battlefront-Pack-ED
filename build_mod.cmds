@@ -200,4 +200,14 @@ SaveModPackage "modsfolder\The Battlefront Pack.pak"
 
 ExitModPackage
 
+# IMPORT FORGE VARIANT
+OpenModPackage "modsfolder\The Battlefront Pack.pak"
+EditTag levels\ui\mainmenu\mainmenu.scenario
+ImportMapVariant !verify "workingdir\map_variants\mainmenu\sandbox.map"
+
+SaveTagChanges
+Exit
+SaveModPackage
+ExitModPackage
+
 DumpLog workingdir\logs

@@ -204,9 +204,5 @@ SetField Scenery[0].Rotation 4.11 -27.5 -1.9
 
 # COMPILE SCRIPTS
 CompileScripts "workingdir\main_menu.hsc"
-
-# IMPORT FORGE VARIANT
-ImportMapVariant !verify "workingdir\map_variants\mainmenu\sandbox.map"
-
 SaveTagChanges
 Exit
