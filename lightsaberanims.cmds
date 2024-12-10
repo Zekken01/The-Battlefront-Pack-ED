@@ -1,0 +1,114 @@
+edittag mythicjaqui\weapons\melee\lightsaber\fp\fp_lightsaber.render_model
+setfield MarkerGroups[3].Markers[0].Translation -0.013 0.0234 -0.0532
+setfield MarkerGroups[3].Markers[0].Rotation 0.085 0.1152043 0.4 -0.763
+setfield MarkerGroups[5].Markers[0].Translation -0.015 0.03 -0.107
+setfield MarkerGroups[5].Markers[0].Rotation 0.05 0.08 0.38 -0.91
+savetagchanges
+exitto tags
+
+edittag mythicjaqui\weapons\melee\lightsaber\fp\fp_lightsaber_green.render_model
+setfield MarkerGroups[3].Markers[0].Translation -0.013 0.0234 -0.0532
+setfield MarkerGroups[3].Markers[0].Rotation 0.085 0.1152043 0.4 -0.763
+setfield MarkerGroups[5].Markers[0].Translation -0.015 0.03 -0.107
+setfield MarkerGroups[5].Markers[0].Rotation 0.05 0.08 0.38 -0.91
+savetagchanges
+exitto tags
+
+edittag mythicjaqui\weapons\melee\lightsaber\fp\fp_lightsaber_purple.render_model
+setfield MarkerGroups[3].Markers[0].Translation -0.013 0.0234 -0.0532
+setfield MarkerGroups[3].Markers[0].Rotation 0.085 0.1152043 0.4 -0.763
+setfield MarkerGroups[5].Markers[0].Translation -0.015 0.03 -0.107
+setfield MarkerGroups[5].Markers[0].Rotation 0.05 0.08 0.38 -0.91
+savetagchanges
+exitto tags
+
+edittag mythicjaqui\weapons\melee\lightsaber\fp\fp_lightsaber_red.render_model
+setfield MarkerGroups[3].Markers[0].Translation -0.013 0.0234 -0.0532
+setfield MarkerGroups[3].Markers[0].Rotation 0.085 0.1152043 0.4 -0.763
+setfield MarkerGroups[5].Markers[0].Translation -0.015 0.03 -0.107
+setfield MarkerGroups[5].Markers[0].Rotation 0.05 0.08 0.38 -0.91
+savetagchanges
+exitto tags
+
+
+ECHO ------------------------------------------------------------------------------------------
+ECHO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ANIMATIONS<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ECHO ------------------------------------------------------------------------------------------
+edittag objects\masterchief\fp\weapons\melee\fp_gravity_hammer\lightsaber.model_animation_graph
+addblockelements modes[0].weaponclass[0].weaponik 1
+removeblockelements modes[0].weaponclass[0].weaponik 1 *
+setfield modes[0].weaponclass[0].weaponik[0].marker left_hand
+setfield modes[0].weaponclass[0].weaponik[0].attachtomarker left_hand
+addanimation "workingdir\anims\Lightsaber"
+
+setfield animations[0].PlaybackFlags ForceWeaponIkOn
+
+addblockelements animations[1].animationdata.FrameEvents 3
+addblockelements animations[1].animationdata.SoundEvents 1
+setfield animations[1].animationdata.Soundevents[0].Sound 2
+setfield animations[1].AnimationData.SoundEvents[0].Frame 4
+setfield animations[1].AnimationData.SoundEvents[0].MarkerName fp_hammer_detonation
+setfield animations[1].animationdata.Frameevents[0].Frame 4
+setfield animations[1].animationdata.Frameevents[1].Frame 15
+setfield animations[1].animationdata.Frameevents[2].Frame 42
+
+addblockelements animations[2].animationdata.FrameEvents 3
+addblockelements animations[2].animationdata.SoundEvents 1
+setfield animations[2].animationdata.Soundevents[0].Sound 2
+setfield animations[2].AnimationData.SoundEvents[0].Frame 4
+setfield animations[2].AnimationData.SoundEvents[0].MarkerName fp_hammer_detonation
+setfield animations[2].animationdata.Frameevents[0].Frame 4
+setfield animations[2].animationdata.Frameevents[1].Frame 15
+setfield animations[2].animationdata.Frameevents[2].Frame 42
+
+addblockelements animations[3].animationdata.FrameEvents 3
+addblockelements animations[3].animationdata.SoundEvents 1
+setfield animations[3].animationdata.Soundevents[0].Sound 2
+setfield animations[3].AnimationData.SoundEvents[0].Frame 4
+setfield animations[3].AnimationData.SoundEvents[0].MarkerName fp_hammer_detonation
+setfield animations[3].animationdata.Frameevents[0].Frame 4
+setfield animations[3].animationdata.Frameevents[1].Frame 15
+setfield animations[3].animationdata.Frameevents[2].Frame 42
+
+addblockelements animations[7].animationdata.SoundEvents 1
+setfield animations[7].animationdata.Soundevents[0].Sound 1
+
+setfield animations[9].weight 0.666
+setfield animations[9].animationdata.NextAnimation 13
+setfield animations[9].PlaybackFlags ForceWeaponIkOn
+setfield animations[9].animationdata.Productionflags VerifySoundEvents
+addblockelements animations[9].animationdata.SoundEvents 1
+setfield animations[9].animationdata.Soundevents[0].Sound 0
+
+setfield animations[13].weight 1
+setfield animations[13].animationdata.ParentAnimation 9
+setfield animations[13].PlaybackFlags ForceWeaponIkOn
+setfield animations[13].animationdata.Productionflags VerifySoundEvents
+addblockelements animations[13].animationdata.SoundEvents 1
+setfield animations[13].animationdata.Soundevents[0].Sound 0
+
+addblockelements animations[10].animationdata.FrameEvents 1
+setfield animations[10].animationdata.Frameevents[0].Frame 11
+
+addblockelements animations[11].animationdata.FrameEvents 1
+setfield animations[11].animationdata.Frameevents[0].Frame 11
+
+addblockelements animations[12].animationdata.FrameEvents 3
+addblockelements animations[12].animationdata.SoundEvents 1
+setfield animations[12].animationdata.Soundevents[0].Sound 2
+setfield animations[12].animationdata.Frameevents[0].Frame 4
+setfield animations[12].animationdata.Frameevents[1].TypeED SecondaryKeyframe
+setfield animations[12].animationdata.Frameevents[1].Frame 15
+setfield animations[12].animationdata.Frameevents[2].TypeED AllowInterruption
+setfield animations[12].animationdata.Frameevents[2].Frame 15
+
+setfield Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[13].GraphIndex -1
+setfield Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[13].Animation 12
+
+SetInheritance fp any:any:any:jump objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
+SetInheritance fp any:any:any:fall objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
+SetInheritance fp any:any:any:land_hard objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
+SetInheritance fp any:any:any:land_soft objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
+
+savetagchanges
+exitto tags

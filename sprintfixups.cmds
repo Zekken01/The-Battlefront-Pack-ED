@@ -1,5 +1,10 @@
 # echo ==Sprint Animations...==
 
+EditTag object\weapons\e-5\fp\inhert.model_animation_graph
+Setfield Animations[26].PlaybackFlags DisableWeaponIk
+Savetagchanges
+Exit
+
 EditTag object\weapons\pistol_st\fp\fp_pistol.model_animation_graph
 SetInheritance fp any:any:any:jump objects\characters\masterchief\fp\weapons\pistol\fp_magnum\fp_magnum.model_animation_graph
 SetInheritance fp any:any:any:fall objects\characters\masterchief\fp\weapons\pistol\fp_magnum\fp_magnum.model_animation_graph
@@ -79,6 +84,13 @@ Setfield MarkerGroups[1].Markers[0].Scale 0
 SaveTagChanges
 Exit
 
+EditTag object\weapons\e-11\e-11.render_model
+Setfield MarkerGroups[1].Markers[0].Translation 0.1010085 -0.002260342 0.01560136
+Setfield MarkerGroups[1].Markers[0].Rotation -0.6241204 0.1670778 -0.4550391 0.6127789
+Setfield MarkerGroups[1].Markers[0].Scale 0
+SaveTagChanges
+Exit
+
 EditTag objects\weapons\starwarssniper\starwarssniper.model_animation_graph
 SetInheritance fp any:any:any:sprint_enter objects\characters\masterchief\fp\weapons\rifle\fp_sniper_rifle\fp_sniper_rifle.model_animation_graph
 SetInheritance fp any:any:any:sprint_loop objects\characters\masterchief\fp\weapons\rifle\fp_sniper_rifle\fp_sniper_rifle.model_animation_graph
@@ -88,14 +100,6 @@ SaveTagChanges
 Exit
 
 EditTag objects\levels\dlc\shared\golf_club\fp_golf_club\fp_golf_club.model_animation_graph
-SetInheritance fp any:any:any:sprint_enter objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
-SetInheritance fp any:any:any:sprint_loop objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
-SetInheritance fp any:any:any:sprint_loop_airborne objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
-SetInheritance fp any:any:any:sprint_exit objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
-SaveTagChanges
-Exit
-
-EditTag objects\masterchief\fp\weapons\melee\fp_gravity_hammer\lightsaber.model_animation_graph
 SetInheritance fp any:any:any:sprint_enter objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
 SetInheritance fp any:any:any:sprint_loop objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
 SetInheritance fp any:any:any:sprint_loop_airborne objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
