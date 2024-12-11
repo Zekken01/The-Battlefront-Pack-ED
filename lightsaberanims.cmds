@@ -4,7 +4,7 @@ setfield MarkerGroups[3].Markers[0].Rotation 0.085 0.1152043 0.4 -0.763
 setfield MarkerGroups[5].Markers[0].Translation -0.015 0.03 -0.107
 setfield MarkerGroups[5].Markers[0].Rotation 0.05 0.08 0.38 -0.91
 savetagchanges
-exitto tags
+Exit
 
 edittag mythicjaqui\weapons\melee\lightsaber\fp\fp_lightsaber_green.render_model
 setfield MarkerGroups[3].Markers[0].Translation -0.013 0.0234 -0.0532
@@ -12,7 +12,7 @@ setfield MarkerGroups[3].Markers[0].Rotation 0.085 0.1152043 0.4 -0.763
 setfield MarkerGroups[5].Markers[0].Translation -0.015 0.03 -0.107
 setfield MarkerGroups[5].Markers[0].Rotation 0.05 0.08 0.38 -0.91
 savetagchanges
-exitto tags
+Exit
 
 edittag mythicjaqui\weapons\melee\lightsaber\fp\fp_lightsaber_purple.render_model
 setfield MarkerGroups[3].Markers[0].Translation -0.013 0.0234 -0.0532
@@ -20,7 +20,7 @@ setfield MarkerGroups[3].Markers[0].Rotation 0.085 0.1152043 0.4 -0.763
 setfield MarkerGroups[5].Markers[0].Translation -0.015 0.03 -0.107
 setfield MarkerGroups[5].Markers[0].Rotation 0.05 0.08 0.38 -0.91
 savetagchanges
-exitto tags
+Exit
 
 edittag mythicjaqui\weapons\melee\lightsaber\fp\fp_lightsaber_red.render_model
 setfield MarkerGroups[3].Markers[0].Translation -0.013 0.0234 -0.0532
@@ -28,15 +28,12 @@ setfield MarkerGroups[3].Markers[0].Rotation 0.085 0.1152043 0.4 -0.763
 setfield MarkerGroups[5].Markers[0].Translation -0.015 0.03 -0.107
 setfield MarkerGroups[5].Markers[0].Rotation 0.05 0.08 0.38 -0.91
 savetagchanges
-exitto tags
+Exit
 
+# echo ==Animations...==
 
-ECHO ------------------------------------------------------------------------------------------
-ECHO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ANIMATIONS<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-ECHO ------------------------------------------------------------------------------------------
 edittag objects\masterchief\fp\weapons\melee\fp_gravity_hammer\lightsaber.model_animation_graph
 addblockelements modes[0].weaponclass[0].weaponik 1
-removeblockelements modes[0].weaponclass[0].weaponik 1 *
 setfield modes[0].weaponclass[0].weaponik[0].marker left_hand
 setfield modes[0].weaponclass[0].weaponik[0].attachtomarker left_hand
 addanimation "workingdir\anims\Lightsaber"
@@ -111,4 +108,4 @@ SetInheritance fp any:any:any:land_hard objects\characters\masterchief\fp\weapon
 SetInheritance fp any:any:any:land_soft objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
 
 savetagchanges
-exitto tags
+Exit
