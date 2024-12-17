@@ -414,3 +414,13 @@ EditTag levels\multi\mos_eisley\objects\jukebox\bitmaps\jukebox_top.bitmap
 ImportBitmap 0 "workingdir/bitmaps/juke_box_top.dds"
 SaveTagChanges
 Exit
+
+echo fixes the weird projectile drop on the rocket launcher and fuel rod
+edittag objects\weapons\support_high\rocket_launcher\projectiles\rocket.projectile
+setfield WaterGravityScale 0
+SaveTagChanges
+Exit
+edittag objects\weapons\support_high\flak_cannon\projectiles\flak_bolt\flak_bolt.projectile
+setfield WaterGravityScale 0.025
+SaveTagChanges
+Exit
