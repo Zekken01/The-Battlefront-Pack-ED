@@ -37,6 +37,13 @@ SetField GroupWidgets[0].Definition.ListWidgets[0].Definition.GuiRenderBlock.Bou
 SaveTagChanges
 Exit
 
+# CENTER JUSTIFY TEXT
+edittag ui\halox\main_menu\main_menu_list.gui_skin_definition
+setfield TextWidgets[0].Definition.Flags DoNotApplyOldContentUpscaling,StringFromExportedStringId,NoDropShadow,AllowListItemToOverrideAnimationSkin
+setfield TextWidgets[0].Definition.GuiRenderBlock.Bounds720p 2 0 45 378
+SaveTagChanges
+Exit
+
 EditTag levels\ui\mainmenu\objects\server_browser_earth\server_browser_earth.scenery
 RemoveBlockElements Attachments 0 1
 SaveTagChanges
