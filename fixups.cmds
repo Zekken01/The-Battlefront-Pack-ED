@@ -424,3 +424,21 @@ edittag objects\weapons\support_high\flak_cannon\projectiles\flak_bolt\flak_bolt
 setfield WaterGravityScale 0.025
 SaveTagChanges
 Exit
+
+edittag ui\hud\hud_messages.multilingual_unicode_string_list
+stringid add lightsaber_picked_up
+stringid add lightsaber_swap
+stringid add lightsaber_pickup
+stringid add lightsaber_switch_to
+
+setstring english lightsaber_picked_up "Picked up a Lightsaber"
+setstring english lightsaber_swap "\uE461\uE45F to swap for Lightsaber"
+setstring english lightsaber_pickup "\uE461\uE45F to pick up Lightsaber"
+setstring english lightsaber_switch_to "Out of ammo|nPress \uE446 to switch to Lightsaber"
+SaveTagChanges
+Exit
+
+foreach weap named lightsaber setfield PickupMessage lightsaber_pickup
+foreach weap named lightsaber setfield PickedUpMessage lightsaber_picked_up
+foreach weap named lightsaber setfield SwapMessage lightsaber_swap
+foreach weap named lightsaber setfield SwitchToMessage lightsaber_switch_to
