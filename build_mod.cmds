@@ -141,6 +141,7 @@ RunCommands workingdir\weaponglobals.cmds
 RunCommands workingdir\main_menu.cmds
 RunCommands workingdir\sounds.cmds
 RunCommands workingdir\lightsaberanims.cmds
+RunCommands workingdir\fixvehicles.cmds
 
 UpdateMapFiles
 

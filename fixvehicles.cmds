@@ -1,0 +1,350 @@
+# Fix vehicles only being able to be damaged by explosives
+edittag object\vehicles\aat\aat.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\at-te\at-te.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\geo_turret\geo_turret.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\hatch\hatch.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\hatch_snow\hatch_snow.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\hoth_turret\hoth_turret.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\hover_tank_gun\hover_tank_gun.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\hover_tank_gun_sand\hover_tank_gun_sand.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\hover_tank_gun_snow\hover_tank_gun_snow.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\kash_turret_huge\kash_turret_huge.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\mtt\mtt.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\skiff\objects\turret\turret.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\skiff\skiff.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\speed_bike\speed_bike.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\speed_bike_scarif\speed_bike_scarif.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\speed_bike_snow\speed_bike_snow.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\speeder\speeder.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\speeder_repub\speeder_repub.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\speeder_snow\speeder_snow.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\stap\stap.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\tx130\tx130.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\tx130_turret_snow\tx130_turret.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\tx130_turret\tx130_turret.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\vulture_droid\vulture_droid.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\x34_landspeeder\x34_landspeeder.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\at-at\at-at.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\at-at_scarif\at-at_scarif.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\at-st\at-st.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\at-te\at-te.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\hoth_speeder\hoth_speeder.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\hoth_speeder\turret\turret.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\kodiak\kodiak.model
+setfield Materials[0].GlobalMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\lod\lod_banshee\lod_banshee.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\lod_tie\lod_tie.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\lod_xwing\lod_xwing.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\millenium_falcon\millenium_falcon.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\millenium_falcon_death\millenium_falconds2.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\spinwheel\spinwheel.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\spinwheel\spinwheelhog.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\tie_striker\tie_striker.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\u-wing\u-wing.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\hoth_speeder_new\hoth_speeder_new.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield Materials[1].GlobalMaterialIndex 77
+setfield Materials[2].GlobalMaterialIndex 77
+setfield Materials[0].DamageSectionIndex 0
+setfield Materials[2].DamageSectionIndex 0
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\kash_turret\kash_turret.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield Materials[1].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+setfield Materials[1].DamageSectionIndex 0
+setfield Materials[0].DamageSectionIndex 0
+savetagchanges
+exit
+
+edittag object\vehicles\persuader\persuader.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield Materials[1].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag object\vehicles\v-wing\v-wing.model
+setfield Materials[0].DamageSectionIndex 0
+setfield Materials[0].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\tx130\tx130.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield Materials[1].GlobalMaterialIndex 77
+setfield Materials[2].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+edittag objects\vehicles\tx130_snow\tx130_snow.model
+setfield Materials[0].GlobalMaterialIndex 77
+setfield Materials[1].GlobalMaterialIndex 77
+setfield Materials[2].GlobalMaterialIndex 77
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex 77
+savetagchanges
+exit
+
+# Setup Mining ship collision model into zeta_class_shuttle vehicle, this is not the most ideal fix as the wings collision isn't accurate, but better than nothing
+edittag objects\vehicles\zeta_class_shuttle\zeta_class_shuttle.model
+setfield CollisionModel levels\multi\scarif\objects\mining_ship\mining_ship.collision_model
+setfield CollisionRegions[9].CollisionRegionIndex -1
+setfield CollisionRegions[9].Permutations[0].CollisionPermutationIndex -1
+setfield CollisionRegions[0].CollisionRegionIndex 0
+setfield CollisionRegions[0].Permutations[0].CollisionPermutationIndex 0
+setfield CollisionRegions[1].CollisionRegionIndex 1
+setfield CollisionRegions[1].Permutations[0].CollisionPermutationIndex 0
+setfield CollisionRegions[2].CollisionRegionIndex 2
+setfield CollisionRegions[2].Permutations[0].CollisionPermutationIndex 0
+setfield CollisionRegions[3].CollisionRegionIndex 3
+setfield CollisionRegions[3].Permutations[0].CollisionPermutationIndex 0
+setfield CollisionRegions[4].CollisionRegionIndex 4
+setfield CollisionRegions[4].Permutations[0].CollisionPermutationIndex 0
+setfield CollisionRegions[5].CollisionRegionIndex 5
+setfield CollisionRegions[5].Permutations[0].CollisionPermutationIndex 0
+setfield Materials[0].GlobalMaterialIndex 77
+setfield Materials[1].GlobalMaterialIndex 77
+setfield Materials[2].GlobalMaterialIndex 77
+setfield Materials[3].GlobalMaterialIndex 77
+setfield Materials[4].GlobalMaterialIndex 77
+setfield Materials[5].GlobalMaterialIndex 77
+setfield Materials[6].GlobalMaterialIndex 77
+setfield Materials[0].DamageSectionIndex 0
+setfield Materials[1].DamageSectionIndex 0
+setfield Materials[2].DamageSectionIndex 0
+setfield Materials[3].DamageSectionIndex 0
+setfield Materials[4].DamageSectionIndex 0
+setfield Materials[5].DamageSectionIndex 0
+setfield Materials[6].DamageSectionIndex 0
+setfield Materials[6].RuntimeDamagerMaterialIndex -1
+setfield Materials[0].RuntimeDamagerMaterialIndex -1
+setfield Materials[1].RuntimeDamagerMaterialIndex -1
+setfield Materials[2].RuntimeDamagerMaterialIndex -1
+setfield Materials[3].RuntimeDamagerMaterialIndex -1
+setfield Materials[4].RuntimeDamagerMaterialIndex -1
+setfield Materials[5].RuntimeDamagerMaterialIndex -1
+setfield Materials[1].RuntimeCollisionMaterialIndex 1
+setfield Materials[2].RuntimeCollisionMaterialIndex 2
+setfield Materials[3].RuntimeCollisionMaterialIndex 3
+setfield Materials[4].RuntimeCollisionMaterialIndex 4
+setfield Materials[5].RuntimeCollisionMaterialIndex 5
+setfield Materials[6].RuntimeCollisionMaterialIndex 6
+setfield NewDamageInfo[0].RuntimeHealthRechargeVelocity 0.1
+setfield NewDamageInfo[0].DamageSections[0].Flags None
+savetagchanges
+exit
+
+# Fix vehicle tags!
+edittag objects\vehicles\zeta_class_shuttle\zeta_class_shuttle.vehicle
+addblockelements MultiplayerObject
+setfield MultiplayerObject[0].DefaultAbandonTime 300
+savetagchanges
+exit

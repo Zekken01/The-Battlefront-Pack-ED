@@ -16,6 +16,6 @@ Hoth turret has too much health and doesnt kill the player when it explodes, (th
 Fix ion cannon machine
 https://s.zekken.rocks/TNAS8kgi.jpg
 
-AT-AT bipeds despawn after being drove by the player when spawned with forge.
+Fix spinwheel vehicle has no collision model
 ```
 
