@@ -1,9 +1,11 @@
 ```
-Make Lightsaber melee sound the same as the primary attack sound.
-
 End Game Music
 
-Add Ambient Music from battlefront.
+Fix Holograms
+
+Fix assassinations 
+
+Add Ambient Music from battlefront. (what songs for what maps?????)
 
 DC-15x shows too many bullets
 
